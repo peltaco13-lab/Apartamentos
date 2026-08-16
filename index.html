@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Buscador automático de apartamentos en arriendo en el sur de Cali.">
+  <meta name="description" content="Buscador multi-fuente de apartamentos en arriendo en Cali, con filtros de zona y presupuesto.">
   <meta name="theme-color" content="#0b1020">
   <title>Cali Arriendos</title>
   <link rel="stylesheet" href="assets/css/styles.css">
@@ -16,7 +16,7 @@
       <span><strong>Cali Arriendos</strong><small>Buscador automático</small></span>
     </a>
     <div class="top-actions">
-      <span class="live-dot"><i></i> actualización horaria</span>
+      <span class="live-dot"><i></i> actualización escalonada</span>
       <button id="themeBtn" class="icon-btn" type="button" aria-label="Cambiar tema">◐</button>
     </div>
   </header>
@@ -25,8 +25,8 @@
     <section class="hero">
       <div class="hero-copy">
         <span class="eyebrow">CALI · COLOMBIA</span>
-        <h1>Encuentra arriendo sin revisar diez páginas.</h1>
-        <p>Busca por sectores amplios de Cali sin pedir una dirección exacta: Sur, Norte, Este, Oeste o Centro. También puedes afinar por barrio.</p>
+        <h1>Busca arriendo en varias inmobiliarias a la vez.</h1>
+        <p>Consulta múltiples portales e inmobiliarias de Cali desde un solo panel, sin pedir una dirección exacta. Filtra por zona, barrio, habitaciones y el presupuesto que tú decidas.</p>
         <div class="hero-actions">
           <a href="#resultados" class="primary-btn">Ver apartamentos</a>
           <a href="#fuentes" class="secondary-btn">Abrir portales</a>
@@ -104,8 +104,8 @@
     </section>
 
     <section id="fuentes" class="panel sources-panel" aria-labelledby="sourcesTitle">
-      <div class="section-head"><div><span class="eyebrow">FUENTES</span><h2 id="sourcesTitle">Buscar también directamente</h2></div></div>
-      <p class="muted">Algunos portales pueden bloquear lecturas automáticas. Estos accesos permanecen disponibles aunque una actualización falle.</p>
+      <div class="section-head"><div><span class="eyebrow">FUENTES</span><h2 id="sourcesTitle">Portales e inmobiliarias</h2></div><span id="sourceSummary" class="source-summary">Cargando fuentes...</span></div>
+      <p class="muted">Las fuentes se consultan de forma escalonada para no sobrecargar GitHub Actions ni los portales. Si una fuente bloquea la lectura automática, el acceso directo sigue disponible.</p>
       <div id="sourceLinks" class="source-links"></div>
     </section>
 

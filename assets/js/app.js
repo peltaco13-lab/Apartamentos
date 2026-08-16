@@ -5,7 +5,7 @@ const els={
   area:$("#areaFilter"),zone:$("#zoneFilter"),source:$("#sourceFilter"),beds:$("#bedFilter"),sort:$("#sortFilter"),
   knownPrice:$("#knownPriceOnly"),clear:$("#clearFilters"),count:$("#resultCount"),status:$("#statusBox"),
   lastUpdated:$("#lastUpdated"),statTotal:$("#statTotal"),statMin:$("#statMin"),statZones:$("#statZones"),
-  statUpdated:$("#statUpdated"),sourceLinks:$("#sourceLinks"),themeBtn:$("#themeBtn"),
+  statUpdated:$("#statUpdated"),sourceLinks:$("#sourceLinks"),sourceSummary:$("#sourceSummary"),themeBtn:$("#themeBtn"),
   budgetInput:$("#budgetInput"),budgetRange:$("#budgetRange"),budgetUnlimited:$("#budgetUnlimited"),
   budgetDisplay:$("#budgetDisplay"),budgetRangeMax:$("#budgetRangeMax"),budgetCard:document.querySelector(".budget-card")
 };
@@ -73,24 +73,40 @@ function specsHtml(item){
   return specs.join("");
 }
 
+function listingSources(item){
+  const names=Array.isArray(item.sources)&&item.sources.length?item.sources:[item.source].filter(Boolean);
+  return [...new Set(names)];
+}
+function listingLinks(item){
+  if(Array.isArray(item.links)&&item.links.length)return item.links;
+  return item.url?[{source:item.source||"Web",url:item.url}]:[];
+}
+function sourceLinksHtml(item){
+  const links=listingLinks(item).slice(0,3);
+  if(links.length<=1)return"";
+  return `<div class="card-source-links">${links.map(link=>`<a href="${escapeHtml(safeHttpUrl(link.url))}" target="_blank" rel="noopener noreferrer">${escapeHtml(link.source)} ↗</a>`).join("")}</div>`;
+}
 function cardHtml(item){
   const url=safeHttpUrl(item.url);
   const stale=item.stale?'<span class="stale-badge">por revisar</span>':"";
   const priceClass=Number.isFinite(item.price)?"":" price-unknown";
   const seen=item.last_seen?`Visto ${shortDate(item.last_seen)}`:"Visto recientemente";
+  const sources=listingSources(item),sourceLabel=sources.length>1?`${sources[0]} +${sources.length-1}`:(sources[0]||"Web");
+  const multi=sources.length>1?`<span class="multi-source">${sources.length} fuentes</span>`:"";
   return `<article class="listing-card">
-    <div class="card-top"><span class="source-name">${escapeHtml(item.source||"Web")}</span>${stale}</div>
+    <div class="card-top"><span class="source-name">${escapeHtml(sourceLabel)}</span>${stale}</div>
     <strong class="card-price${priceClass}">${escapeHtml(formatPrice(item.price))}</strong>
     <h3 class="card-title">${escapeHtml(item.title||"Apartamento en arriendo")}</h3>
-    <div class="card-tags"><span class="zone-badge">${escapeHtml(item.zone||"Sur de Cali")}</span></div>
+    <div class="card-tags"><span class="zone-badge">${escapeHtml(item.zone||"Cali")}</span>${multi}</div>
     <div class="card-specs">${specsHtml(item)}</div>
+    ${sourceLinksHtml(item)}
     <div class="card-footer"><span class="card-date">${escapeHtml(seen)}</span>
       <a class="open-link" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">Abrir aviso ↗</a>
     </div>
   </article>`;
 }
 
-function normalizedSearch(item){return[item.title,item.zone,item.source,item.description].filter(Boolean).join(" ").toLocaleLowerCase("es")}
+function normalizedSearch(item){return[item.title,item.zone,item.description,...listingSources(item)].filter(Boolean).join(" ").toLocaleLowerCase("es")}
 function updateZoneOptions(){
   const area=els.area.value;
   const zones=state.listings
@@ -107,7 +123,7 @@ function matchesCommonFilters(item,{ignoreArea=false,ignoreZone=false}={}){
   if(q&&!normalizedSearch(item).includes(q))return false;
   if(!ignoreArea&&area&&item.macro_zone!==area)return false;
   if(!ignoreZone&&zone&&item.zone!==zone)return false;
-  if(source&&item.source!==source)return false;
+  if(source&&!listingSources(item).includes(source))return false;
   if(minBeds&&Number(item.bedrooms||0)<minBeds)return false;
   if(budget&&Number.isFinite(item.price)&&item.price>budget)return false;
   if(knownOnly&&!Number.isFinite(item.price))return false;
@@ -170,14 +186,13 @@ function renderSourceStatus(){
 }
 
 function renderSources(){
-  const sources=state.data?.meta?.sources||[],area=els.area.value;
+  const sources=state.data?.meta?.sources||[];
+  const automatic=sources.filter(s=>s.automated),manual=sources.filter(s=>!s.automated);
+  if(els.sourceSummary)els.sourceSummary.textContent=`${automatic.length} fuentes automáticas${manual.length?` + ${manual.length} manual`:""}`;
   els.sourceLinks.innerHTML=sources.flatMap(source=>{
-    const byArea=source.manual_urls_by_area||{};
-    const urls=area&&Array.isArray(byArea[area])&&byArea[area].length?byArea[area]:(Array.isArray(source.manual_urls)?source.manual_urls:[]);
-    return urls.slice(0,3).map((url,i)=>{
-      const suffix=area?` · ${area}`:(urls.length>1?` ${i+1}`:"");
-      return `<a class="source-link" href="${escapeHtml(safeHttpUrl(url))}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.name+suffix)} ↗</a>`;
-    });
+    const urls=Array.isArray(source.manual_urls)?source.manual_urls:[];
+    const stateLabel=source.automated?(source.ok===false?" · revisar":source.skipped?" · en espera":" · activa"):" · manual";
+    return urls.slice(0,2).map(url=>`<a class="source-link" href="${escapeHtml(safeHttpUrl(url))}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.name+stateLabel)} ↗</a>`);
   }).join("");
 }
 
@@ -196,7 +211,7 @@ async function loadData(){
   try{
     const response=await fetch(`data/listings.json?v=${Date.now()}`,{cache:"no-store"});if(!response.ok)throw new Error(`HTTP ${response.status}`);
     const payload=await response.json();state.data=payload;state.listings=Array.isArray(payload.listings)?payload.listings:[];
-    fillSelect(els.source,state.listings.map(x=>x.source));updateZoneOptions();renderStats();renderBudget();renderSources();applyFilters();
+    fillSelect(els.source,state.listings.flatMap(x=>listingSources(x)));updateZoneOptions();renderStats();renderBudget();renderSources();applyFilters();
   }catch(error){console.error(error);els.status.hidden=false;els.status.textContent="No se pudo cargar data/listings.json. Ejecuta el workflow de GitHub Actions o revisa la consola.";state.listings=[];applyFilters()}
 }
 document.addEventListener("DOMContentLoaded",()=>{initTheme();bindEvents();$("#footerYear").textContent=new Date().getFullYear();loadData()});

@@ -4,128 +4,184 @@
     "city": "Cali",
     "country": "Colombia",
     "stale_ttl_days": 14,
-    "price_policy": "no_fixed_cap"
+    "price_policy": "no_fixed_cap",
+    "max_total_listings": 1200,
+    "request_timeout_seconds": 24
   },
   "sources": [
     {
       "name": "FincaRaíz",
+      "tier": "core",
+      "cadence_hours": 4,
       "automated": true,
+      "max_items": 100,
       "allowed_domains": [
         "fincaraiz.com.co",
         "www.fincaraiz.com.co"
       ],
       "listing_regex": "/(?:apartamento|inmueble)-en-arriendo",
       "urls": [
-        "https://www.fincaraiz.com.co/arriendo/apartamentos/cali/valle-del-cauca",
-        "https://www.fincaraiz.com.co/arriendo/apartamentos/cali/valle-del-cauca/baratos",
-        "https://www.fincaraiz.com.co/arriendo/apartamentos/bochalema/sur/cali",
-        "https://www.fincaraiz.com.co/arriendo/chipichape/zona-norte/cali",
-        "https://www.fincaraiz.com.co/arriendo/apartamentos/zona-oeste/cali",
-        "https://www.fincaraiz.com.co/arriendo/apartamentos/centro/cali"
+        "https://www.fincaraiz.com.co/arriendo/apartamentos/cali/valle-del-cauca"
       ],
-      "manual_urls_by_area": {
-        "Sur": [
-          "https://www.fincaraiz.com.co/arriendo/apartamentos/bochalema/sur/cali"
-        ],
-        "Norte": [
-          "https://www.fincaraiz.com.co/arriendo/chipichape/zona-norte/cali"
-        ],
-        "Este": [
-          "https://www.fincaraiz.com.co/arriendo/apartamentos/cali/valle-del-cauca/baratos"
-        ],
-        "Oeste": [
-          "https://www.fincaraiz.com.co/arriendo/apartamentos/zona-oeste/cali"
-        ],
-        "Centro": [
-          "https://www.fincaraiz.com.co/arriendo/apartamentos/centro/cali"
-        ]
-      }
-    },
-    {
-      "name": "Metrocuadrado",
-      "automated": true,
-      "allowed_domains": [
-        "metrocuadrado.com",
-        "www.metrocuadrado.com"
-      ],
-      "listing_regex": "/(?:apartamento|apartamentos)/",
-      "urls": [
-        "https://www.metrocuadrado.com/apartamentos/arriendo/cali/",
-        "https://www.metrocuadrado.com/apartamentos/arriendo/cali-sur/",
-        "https://www.metrocuadrado.com/apartamentos/arriendo/cali-oeste/",
-        "https://www.metrocuadrado.com/apartamentos/arriendo/cali/centro/"
-      ],
-      "manual_urls_by_area": {
-        "Sur": [
-          "https://www.metrocuadrado.com/apartamentos/arriendo/cali-sur/"
-        ],
-        "Norte": [
-          "https://www.metrocuadrado.com/apartamentos/arriendo/cali/"
-        ],
-        "Este": [
-          "https://www.metrocuadrado.com/apartamentos/arriendo/cali/"
-        ],
-        "Oeste": [
-          "https://www.metrocuadrado.com/apartamentos/arriendo/cali-oeste/"
-        ],
-        "Centro": [
-          "https://www.metrocuadrado.com/apartamentos/arriendo/cali/centro/"
-        ]
-      }
+      "manual_urls": [
+        "https://www.fincaraiz.com.co/arriendo/apartamentos/cali/valle-del-cauca"
+      ]
     },
     {
       "name": "Ciencuadras",
+      "tier": "core",
+      "cadence_hours": 4,
       "automated": true,
+      "max_items": 100,
       "allowed_domains": [
         "ciencuadras.com",
         "www.ciencuadras.com"
       ],
-      "listing_regex": "/inmueble/|/arriendo/",
+      "listing_regex": "/inmueble/",
       "urls": [
-        "https://www.ciencuadras.com/arriendo/cali/apartamento",
-        "https://www.ciencuadras.com/arriendo/cali"
+        "https://www.ciencuadras.com/arriendo/cali/cali/apartamento"
       ],
-      "manual_urls_by_area": {
-        "Sur": [
-          "https://www.ciencuadras.com/arriendo/cali/apartamento"
-        ],
-        "Norte": [
-          "https://www.ciencuadras.com/arriendo/cali/apartamento"
-        ],
-        "Este": [
-          "https://www.ciencuadras.com/arriendo/cali/apartamento"
-        ],
-        "Oeste": [
-          "https://www.ciencuadras.com/arriendo/cali/apartamento"
-        ],
-        "Centro": [
-          "https://www.ciencuadras.com/arriendo/cali/apartamento"
-        ]
-      }
+      "manual_urls": [
+        "https://www.ciencuadras.com/arriendo/cali/cali/apartamento"
+      ]
+    },
+    {
+      "name": "Mercado Libre",
+      "tier": "core",
+      "cadence_hours": 4,
+      "automated": true,
+      "max_items": 100,
+      "allowed_domains": [
+        "listado.mercadolibre.com.co",
+        "inmueble.mercadolibre.com.co",
+        "www.mercadolibre.com.co",
+        "mercadolibre.com.co"
+      ],
+      "listing_regex": "/MCO-\\d+|/[^/]*apartamento[^/]*",
+      "urls": [
+        "https://listado.mercadolibre.com.co/apartamentos-en-arriendo-cali"
+      ],
+      "manual_urls": [
+        "https://listado.mercadolibre.com.co/apartamentos-en-arriendo-cali"
+      ]
+    },
+    {
+      "name": "Metrocuadrado",
+      "tier": "core",
+      "cadence_hours": 4,
+      "automated": true,
+      "max_items": 80,
+      "allowed_domains": [
+        "metrocuadrado.com",
+        "www.metrocuadrado.com"
+      ],
+      "listing_regex": "/inmueble/|/apartamento[^/]*",
+      "urls": [
+        "https://www.metrocuadrado.com/apartamentos/arriendo/cali/"
+      ],
+      "manual_urls": [
+        "https://www.metrocuadrado.com/apartamentos/arriendo/cali/"
+      ]
+    },
+    {
+      "name": "Arriendo.com",
+      "tier": "secondary",
+      "cadence_hours": 8,
+      "automated": true,
+      "max_items": 80,
+      "allowed_domains": [
+        "arriendo.com",
+        "www.arriendo.com"
+      ],
+      "listing_regex": "/co/apartamentos/cali/",
+      "urls": [
+        "https://arriendo.com/co/apartamentos/cali/"
+      ],
+      "manual_urls": [
+        "https://arriendo.com/co/apartamentos/cali/"
+      ]
+    },
+    {
+      "name": "Unisa",
+      "tier": "secondary",
+      "cadence_hours": 8,
+      "automated": true,
+      "max_items": 80,
+      "allowed_domains": [
+        "unisa.com.co",
+        "www.unisa.com.co"
+      ],
+      "listing_regex": "/inmuebles/(?:apartamento[^/]*arriendo|[^/]*\\d{6,})",
+      "urls": [
+        "https://www.unisa.com.co/inmuebles/g/arriendo/t/apartamentos/c/cali/"
+      ],
+      "manual_urls": [
+        "https://www.unisa.com.co/inmuebles/g/arriendo/t/apartamentos/c/cali/"
+      ]
+    },
+    {
+      "name": "Bienco",
+      "tier": "secondary",
+      "cadence_hours": 8,
+      "automated": true,
+      "max_items": 70,
+      "allowed_domains": [
+        "bienco.com.co",
+        "www.bienco.com.co"
+      ],
+      "listing_regex": "/inmuebles/\\d+",
+      "urls": [
+        "https://bienco.com.co/inmuebles/arriendo"
+      ],
+      "manual_urls": [
+        "https://bienco.com.co/inmuebles/arriendo"
+      ]
+    },
+    {
+      "name": "A&C Inmobiliarios",
+      "tier": "local",
+      "cadence_hours": 12,
+      "automated": true,
+      "max_items": 60,
+      "allowed_domains": [
+        "aycinmobiliarios.com",
+        "www.aycinmobiliarios.com"
+      ],
+      "listing_regex": "/inmueble/|/propiedad/|/detalle/",
+      "urls": [
+        "https://www.aycinmobiliarios.com/busqueda/pagina/1/gestion/arriendo"
+      ],
+      "manual_urls": [
+        "https://www.aycinmobiliarios.com/busqueda/pagina/1/gestion/arriendo"
+      ]
+    },
+    {
+      "name": "Metro Red",
+      "tier": "local",
+      "cadence_hours": 12,
+      "automated": true,
+      "max_items": 60,
+      "allowed_domains": [
+        "metroredinmobiliariacali.com.co",
+        "www.metroredinmobiliariacali.com.co"
+      ],
+      "listing_regex": "/inmueble/|/propiedad/|/detalle/|/apartamento",
+      "urls": [
+        "https://www.metroredinmobiliariacali.com.co/"
+      ],
+      "manual_urls": [
+        "https://www.metroredinmobiliariacali.com.co/"
+      ]
     },
     {
       "name": "Facebook Marketplace",
+      "tier": "manual",
+      "cadence_hours": 0,
       "automated": false,
+      "max_items": 0,
       "manual_urls": [
         "https://www.facebook.com/marketplace/cali/propertyrentals/"
-      ],
-      "manual_urls_by_area": {
-        "Sur": [
-          "https://www.facebook.com/marketplace/cali/propertyrentals/"
-        ],
-        "Norte": [
-          "https://www.facebook.com/marketplace/cali/propertyrentals/"
-        ],
-        "Este": [
-          "https://www.facebook.com/marketplace/cali/propertyrentals/"
-        ],
-        "Oeste": [
-          "https://www.facebook.com/marketplace/cali/propertyrentals/"
-        ],
-        "Centro": [
-          "https://www.facebook.com/marketplace/cali/propertyrentals/"
-        ]
-      }
+      ]
     }
   ]
 }

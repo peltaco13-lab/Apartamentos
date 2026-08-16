@@ -1,132 +1,176 @@
-# Cali Arriendos
+# Cali Arriendos V4
 
-Dashboard estático para reunir apartamentos en arriendo del sur de Cali y publicarlos con GitHub Pages.
+Agregador estático de apartamentos en arriendo en Cali. El sitio vive en GitHub Pages y GitHub Actions actualiza los datos de varias fuentes públicas de manera escalonada.
 
-## Configuración inicial
+## Qué cambia en V4
 
-- Precio: **sin tope fijo en el recolector**
-- Cada usuario puede indicar su presupuesto máximo o dejar **Sin límite**
-- Búsqueda principal por **Zona Sur, Norte, Este, Oeste o Centro**, sin pedir dirección exacta
-- Barrios prioritarios del sur: **Bochalema, Cachipay/Kachipay, Ciudad Meléndez y Valle del Lili**
-- Actualización: **cada hora**
-- Frontend: **HTML + CSS + JavaScript vanilla**
-- Automatización: **GitHub Actions**
-- Hosting: **GitHub Pages**
+- **Sin precio máximo fijo.** El recolector guarda cualquier precio que detecte y cada visitante elige su presupuesto.
+- **9 fuentes automáticas + Facebook Marketplace manual.**
+- **Actualización escalonada** para reducir carga:
+  - fuentes principales: cada 4 horas;
+  - fuentes secundarias: cada 8 horas;
+  - inmobiliarias locales: cada 12 horas.
+- **Deduplicación conservadora:** si el mismo apartamento aparece en más de un portal, intenta agruparlo y mostrar varias fuentes.
+- Conserva temporalmente avisos anteriores si una fuente falla o bloquea el runner.
+- No inicia sesión, no resuelve CAPTCHA y no intenta evadir protecciones anti-bot.
+
+## Fuentes configuradas
+
+### Principales · cada 4 h
+1. FincaRaíz
+2. Ciencuadras
+3. Mercado Libre Inmuebles
+4. Metrocuadrado
+
+### Secundarias · cada 8 h
+5. Arriendo.com
+6. Unisa Inmobiliaria
+7. Bienco
+
+### Locales · cada 12 h
+8. A&C Inmobiliarios
+9. Metro Red Inmobiliaria
+
+### Manual
+10. Facebook Marketplace
+
+Facebook queda como acceso directo porque normalmente exige sesión y aplica protecciones que no corresponden a un scraper estático.
+
+## GitHub Actions
+
+El workflow está en:
+
+```text
+.github/workflows/update-and-deploy.yml
+```
+
+GitHub lo intenta ejecutar cada 4 horas, al minuto 37:
+
+```yaml
+schedule:
+  - cron: "37 */4 * * *"
+```
+
+La cadencia interna decide qué fuentes deben revisarse en esa ejecución. Por ejemplo, aunque el workflow corra, una fuente configurada cada 12 horas se omite hasta que corresponda.
+
+También puedes ejecutarlo manualmente desde **Actions**.
 
 ## Estructura
 
 ```text
 CaliArriendos/
-├── .github/workflows/update-and-deploy.yml
-├── assets/css/styles.css
-├── assets/css/responsive.css
-├── assets/js/app.js
-├── config/sources.json
-├── data/listings.json
-├── scripts/collect.py
+├── .github/
+│   └── workflows/
+│       └── update-and-deploy.yml
+├── assets/
+│   ├── css/
+│   │   ├── responsive.css
+│   │   └── styles.css
+│   └── js/
+│       └── app.js
+├── config/
+│   ├── areas.json
+│   └── sources.json
+├── data/
+│   └── listings.json
+├── scripts/
+│   ├── collect.py
+│   ├── dedupe.py
+│   └── scrape.py
 ├── index.html
 ├── requirements.txt
 └── README.md
 ```
 
-## Subirlo a GitHub
+## Subir/reemplazar en GitHub
 
-1. Crea un repo nuevo, por ejemplo `CaliArriendos`.
-2. Sube **el contenido interno de esta carpeta** a la rama `main`.
-3. Ve a `Settings → Pages`.
-4. En `Build and deployment → Source`, selecciona **GitHub Actions**.
-5. Abre `Actions`.
-6. Ejecuta `Actualizar arriendos y publicar Pages` manualmente si el primer push no lo arrancó.
-7. Al terminar, GitHub mostrará la URL pública.
+Si ya tienes el repositorio `Apartamentos`:
 
-El workflow también se ejecuta automáticamente al minuto 17 de cada hora.
+1. Descomprime el ZIP.
+2. Entra en la carpeta `CaliArriendos`.
+3. En GitHub abre **Code → Add file → Upload files**.
+4. Arrastra **todo el contenido interno**, incluida la carpeta `.github` si el navegador la permite.
+5. Los archivos con la misma ruta se reemplazan al confirmar el commit.
+6. Confirma con un mensaje como `Actualizar Cali Arriendos V4`.
 
-## Cómo trabaja el recolector
+Si el navegador no permite arrastrar la carpeta oculta `.github`, conserva la que ya tienes en el repo y comprueba que contenga `workflows/update-and-deploy.yml`.
 
-`scripts/collect.py` lee `config/sources.json`, consulta solo páginas públicas configuradas y busca:
+## Precio
 
-- JSON-LD público.
-- Enlaces visibles a anuncios.
-- Precio, zona, habitaciones, baños, área y parqueadero cuando aparecen en el HTML.
+El precio no se limita en `collect.py`.
 
-Después:
+En la interfaz el visitante puede:
 
-- conserva los precios detectados sin aplicar un tope global;
-- fusiona nuevos avisos con resultados anteriores;
-- conserva temporalmente resultados previos cuando una fuente falla;
-- genera `data/listings.json`;
-- el frontend lo filtra sin backend.
+- dejar **Sin límite**;
+- mover la barra;
+- escribir un valor manual como `15000000`;
+- ampliar automáticamente el rango de la barra si escribe una cifra mayor.
 
-## Presupuesto
+## Zonas sin dirección exacta
 
-Ya no existe un límite global de $2.000.000. El recolector intenta conservar todos los avisos de arriendo que detecte.
+El visitante puede buscar por:
 
-En la web, cada usuario puede:
+- Toda Cali
+- Sur
+- Norte
+- Este
+- Oeste
+- Centro
 
-- escribir un presupuesto máximo, por ejemplo `15000000`;
-- mover la barra de presupuesto;
-- marcar **Sin límite** para ver todos los precios disponibles.
+y luego afinar por barrio/sector cuando los avisos permiten detectarlo.
 
-El número escrito puede superar el máximo visible inicial de la barra: la barra se amplía automáticamente, así que no existe un tope de precio configurado para el usuario.
+## Cómo se agrupan duplicados
 
-## Agregar una zona
+V4 compara de forma conservadora:
 
-En `site.zones` agrega, por ejemplo:
+- barrio/sector;
+- precio;
+- habitaciones;
+- baños;
+- área;
+- similitud del título.
+
+Solo agrupa cuando hay suficientes coincidencias. La tarjeta conserva enlaces a varias fuentes para poder comprobar el aviso original.
+
+## Tolerancia a fallos
+
+Los portales pueden cambiar HTML, cargar contenido con JavaScript o bloquear automatizaciones. Por eso el sistema:
+
+- no borra inmediatamente resultados antiguos;
+- marca como `por revisar` avisos que dejan de aparecer tras una revisión válida;
+- conserva avisos cuando una fuente completa falla;
+- siempre ofrece el enlace directo a cada portal.
+
+## Agregar otra fuente
+
+Edita `config/sources.json`. Ejemplo:
 
 ```json
 {
-  "name": "Caney",
-  "aliases": ["caney"]
+  "name": "Nueva inmobiliaria",
+  "tier": "local",
+  "cadence_hours": 12,
+  "automated": true,
+  "max_items": 60,
+  "allowed_domains": ["ejemplo.com"],
+  "listing_regex": "/inmueble/",
+  "urls": ["https://ejemplo.com/arriendos/cali"],
+  "manual_urls": ["https://ejemplo.com/arriendos/cali"]
 }
 ```
 
-Luego agrega una página pública de búsqueda de esa zona en alguna fuente.
+No conviene agregar decenas de páginas del mismo portal. Una página de resultados amplia por fuente suele ser mejor que muchas búsquedas pequeñas.
 
-## Facebook Marketplace
+## Ejecutar localmente
 
-Está como acceso manual. El sistema no inicia sesión, no resuelve CAPTCHA y no intenta evadir protecciones anti-bot.
+```bash
+pip install -r requirements.txt
+python scripts/collect.py --no-network
+python scripts/collect.py --all
+```
 
-## Limitaciones
+`--all` fuerza todas las fuentes y está pensado para pruebas, no para usarlo continuamente.
 
-Los portales pueden cambiar HTML o bloquear runners automatizados. Si pasa:
+## Seguridad al arrendar
 
-- el panel conserva resultados anteriores por un tiempo;
-- los marca como `por revisar`;
-- los enlaces directos de cada portal siguen disponibles.
-
-Los workflows programados de GitHub pueden sufrir retrasos ocasionales; no deben tratarse como un reloj exacto.
-
-## Seguridad
-
-Antes de pagar o separar un apartamento, verifica inmueble, propietario o inmobiliaria y contrato.
-
-
-## Búsqueda sin dirección exacta
-
-El usuario no necesita escribir una dirección real.
-
-Puede elegir:
-
-- Zona Sur
-- Zona Norte
-- Zona Este
-- Zona Oeste
-- Zona Centro
-- Toda Cali
-
-El sistema clasifica los avisos por macrozona cuando el barrio o el propio portal permiten identificarla.
-
-### Respaldo inteligente
-
-Si una macrozona seleccionada queda sin coincidencias bajo los filtros:
-
-1. el panel intenta mostrar hasta 6 alternativas disponibles de otras zonas de Cali;
-2. avisa claramente que son alternativas y no coincidencias exactas;
-3. mantiene botones de búsqueda directa en los portales para la macrozona elegida.
-
-Esto evita una pantalla muerta, pero no inventa propiedades ni garantiza que exista un apartamento disponible en una zona determinada.
-
-
-## Cambio V3 — precio libre
-
-Se eliminó el filtro fijo de $2.000.000 tanto del recolector como del JSON. El presupuesto ahora es únicamente un filtro personal en el navegador y no limita lo que GitHub Actions puede recopilar.
+Nunca transfieras dinero únicamente para “separar” un inmueble. Verifica el apartamento, la identidad del propietario o inmobiliaria y el contrato antes de pagar.

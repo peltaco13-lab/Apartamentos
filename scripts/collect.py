@@ -1,221 +1,261 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
-import argparse, hashlib, json, re, sys
+import argparse
+import json
+import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
-from urllib.parse import urljoin, urlparse, urlunparse
+
 import requests
-from bs4 import BeautifulSoup
 
-ROOT=Path(__file__).resolve().parents[1]
-CONFIG_PATH=ROOT/"config"/"sources.json"
-AREAS_PATH=ROOT/"config"/"areas.json"
-OUTPUT_PATH=ROOT/"data"/"listings.json"
-USER_AGENT="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0 Safari/537.36 CaliArriendos/1.0"
+from dedupe import merge_duplicates
+from scrape import scrape_source
 
-PRICE_PATTERNS=[
-    re.compile(r"\$\s*([0-9]{1,3}(?:[.,\s][0-9]{3}){1,4}|[0-9]{6,12})",re.I),
-    re.compile(r"(?:canon|arriendo|alquiler)\D{0,22}([0-9]{6,12})",re.I),
-]
-BED_PATTERNS=[re.compile(r"(\d+)\s*(?:hab(?:itaciones?)?|alcobas?)\b",re.I)]
-BATH_PATTERNS=[re.compile(r"(\d+)\s*(?:bañ(?:o|os)|banos?)\b",re.I)]
-AREA_PATTERNS=[re.compile(r"(\d+(?:[.,]\d+)?)\s*m(?:²|2)\b",re.I)]
-PARKING_PATTERNS=[re.compile(r"(\d+)\s*(?:parq(?:ueaderos?)?|garajes?)\b",re.I)]
+ROOT = Path(__file__).resolve().parents[1]
+CONFIG_PATH = ROOT / "config" / "sources.json"
+AREAS_PATH = ROOT / "config" / "areas.json"
+OUTPUT_PATH = ROOT / "data" / "listings.json"
+USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/151 Safari/537.36 CaliArriendos/4.0"
 
-def now_utc(): return datetime.now(timezone.utc).replace(microsecond=0).isoformat()
 
-def load_json(path:Path,fallback:Any):
-    try:return json.loads(path.read_text(encoding="utf-8"))
-    except (OSError,json.JSONDecodeError):return fallback
+def now_dt() -> datetime:
+    return datetime.now(timezone.utc)
 
-def clean_text(value:Any)->str:
-    if value is None:return""
-    return re.sub(r"\s+"," ",str(value)).strip()
 
-def normalize_url(base:str,href:str):
-    if not href:return None
-    parsed=urlparse(urljoin(base,href))
-    if parsed.scheme not in {"http","https"}:return None
-    return urlunparse(parsed._replace(fragment="",query=""))
+def now_iso() -> str:
+    return now_dt().replace(microsecond=0).isoformat()
 
-def allowed_url(url:str,source:dict[str,Any])->bool:
-    parsed=urlparse(url)
-    if parsed.netloc.lower() not in {d.lower() for d in source.get("allowed_domains",[])}:return False
-    pattern=source.get("listing_regex")
-    return bool(pattern and re.search(pattern,parsed.path,re.I))
 
-def parse_price(text:str):
-    for pattern in PRICE_PATTERNS:
-        for match in pattern.finditer(text):
-            digits=re.sub(r"\D","",match.group(1))
-            if 6<=len(digits)<=12:
-                value=int(digits)
-                if value>=300_000:return value
-    return None
+def load_json(path: Path, fallback: Any) -> Any:
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return fallback
 
-def first_number(text:str,patterns):
-    for pattern in patterns:
-        match=pattern.search(text)
-        if not match:continue
-        try:
-            value=float(match.group(1).replace(",","."))
-            return int(value) if value.is_integer() else value
-        except ValueError:continue
-    return None
 
-def detect_location(text:str,zones,macro_areas):
-    lower=text.casefold()
-    for zone in zones:
-        for alias in zone.get("aliases",[]):
-            if alias.casefold() in lower:
-                return zone["name"],zone.get("macro","Otra zona de Cali")
-    for macro in macro_areas:
-        for alias in macro.get("aliases",[]):
-            if alias.casefold() in lower:
-                return f"{macro['name']} (barrio por confirmar)",macro["name"]
-    return"Cali (zona por confirmar)","Otra zona de Cali"
+def parse_iso(value: str | None) -> datetime | None:
+    if not value:
+        return None
+    try:
+        return datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        return None
 
-def canonical_key(url:str)->str:return hashlib.sha1(url.encode()).hexdigest()[:16]
 
-def walk_json(value):
-    if isinstance(value,dict):
-        yield value
-        for child in value.values():yield from walk_json(child)
-    elif isinstance(value,list):
-        for child in value:yield from walk_json(child)
+def source_due(source: dict[str, Any], previous_status: dict[str, Any] | None, force_all: bool) -> bool:
+    if force_all:
+        return True
+    cadence = int(source.get("cadence_hours", 4))
+    if cadence <= 0:
+        return False
+    if not previous_status:
+        return True
+    last_checked = parse_iso(previous_status.get("last_checked"))
+    if not last_checked:
+        return True
+    return now_dt() - last_checked.astimezone(timezone.utc) >= timedelta(hours=cadence)
 
-def ld_price(obj):
-    offers=obj.get("offers")
-    for offer in offers if isinstance(offers,list) else [offers]:
-        if not isinstance(offer,dict):continue
-        raw=offer.get("price") or offer.get("lowPrice")
-        if raw is None:continue
-        digits=re.sub(r"\D","",str(raw))
-        if digits:
-            value=int(digits)
-            if value>=300_000:return value
-    return None
 
-def listing_from_text(source_name,url,text,title,zones,macro_areas,explicit_price=None):
-    text,title=clean_text(text),clean_text(title) or"Apartamento en arriendo"
-    combined=f"{title} {text}"
-    if not re.search(r"\b(apartamento|apto|arriendo|alquiler)\b",combined,re.I):return None
-    zone,macro_zone=detect_location(combined,zones,macro_areas)
-    if "cali" not in combined.casefold() and macro_zone=="Otra zona de Cali":return None
-    price=explicit_price if explicit_price is not None else parse_price(combined)
-    timestamp=now_utc()
-    return{
-        "id":canonical_key(url),"source":source_name,"url":url,"title":title[:180],"description":text[:420],
-        "zone":zone,"macro_zone":macro_zone,"price":price,"bedrooms":first_number(combined,BED_PATTERNS),
-        "bathrooms":first_number(combined,BATH_PATTERNS),"area_m2":first_number(combined,AREA_PATTERNS),
-        "parking":first_number(combined,PARKING_PATTERNS),"first_seen":timestamp,"last_seen":timestamp,"stale":False
-    }
-
-def extract_json_ld(soup,source,page_url,zones,macro_areas):
-    found=[]
-    for script in soup.find_all("script",attrs={"type":"application/ld+json"}):
-        raw=script.string or script.get_text()
-        if not raw.strip():continue
-        try:payload=json.loads(raw)
-        except json.JSONDecodeError:continue
-        for obj in walk_json(payload):
-            raw_url=obj.get("url")
-            if isinstance(raw_url,dict):raw_url=raw_url.get("@id")
-            if not isinstance(raw_url,str):continue
-            url=normalize_url(page_url,raw_url)
-            if not url or not allowed_url(url,source):continue
-            title=clean_text(obj.get("name") or obj.get("headline"))
-            description=clean_text(obj.get("description"))
-            item=listing_from_text(source["name"],url,f"{title} {description}",title,zones,macro_areas,ld_price(obj))
-            if item:found.append(item)
-    return found
-
-def extract_anchors(soup,source,page_url,zones,macro_areas):
-    found=[]
-    for anchor in soup.find_all("a",href=True):
-        url=normalize_url(page_url,anchor.get("href",""))
-        if not url or not allowed_url(url,source):continue
-        title=clean_text(anchor.get("aria-label") or anchor.get_text(" ",strip=True))
-        container=anchor
-        for _ in range(4):
-            if container.parent is None:break
-            parent=container.parent
-            if len(clean_text(parent.get_text(" ",strip=True)))>=65:
-                container=parent;break
-            container=parent
-        text=clean_text(container.get_text(" ",strip=True)) or title
-        item=listing_from_text(source["name"],url,text,title or text[:120],zones,macro_areas)
-        if item:found.append(item)
-    return found
-
-def dedupe(items):
-    best={}
+def expand_previous(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    expanded = []
     for item in items:
-        current=best.get(item["url"])
-        if current is None:best[item["url"]]=item;continue
-        score=lambda x:sum(x.get(k) is not None for k in ("price","bedrooms","bathrooms","area_m2"))
-        if score(item)>score(current):
-            item["first_seen"]=current.get("first_seen",item["first_seen"])
-            best[item["url"]]=item
-    return list(best.values())
+        links = item.get("links")
+        if not isinstance(links, list) or not links:
+            clone = dict(item)
+            clone.pop("links", None)
+            clone.pop("sources", None)
+            clone.pop("source_count", None)
+            expanded.append(clone)
+            continue
 
-def fetch_source(session,source,zones,macro_areas):
-    items,errors=[],[]
-    for page_url in source.get("urls",[]):
-        try:
-            response=session.get(page_url,timeout=24,allow_redirects=True);response.raise_for_status()
-            soup=BeautifulSoup(response.text,"html.parser")
-            items+=extract_json_ld(soup,source,response.url,zones,macro_areas)
-            items+=extract_anchors(soup,source,response.url,zones,macro_areas)
-        except requests.RequestException as exc:errors.append(f"{page_url}: {type(exc).__name__}")
-    return dedupe(items),errors
+        for link in links:
+            url, source = link.get("url"), link.get("source")
+            if not url or not source:
+                continue
+            clone = dict(item)
+            clone["url"] = url
+            clone["source"] = source
+            clone.pop("links", None)
+            clone.pop("sources", None)
+            clone.pop("source_count", None)
+            expanded.append(clone)
+    return expanded
 
-def parse_iso(value):
-    if not value:return None
-    try:return datetime.fromisoformat(value.replace("Z","+00:00"))
-    except ValueError:return None
 
-def merge_previous(fresh,previous,source_status,ttl_days):
-    now=datetime.now(timezone.utc);fresh_by={x["url"]:x for x in fresh};old_by={x.get("url"):x for x in previous if x.get("url")};merged={}
-    for url,item in fresh_by.items():
-        old=old_by.get(url)
-        if old:item["first_seen"]=old.get("first_seen") or item["first_seen"]
-        item["stale"]=False;merged[url]=item
-    for url,old in old_by.items():
-        if url in merged:continue
-        last_seen=parse_iso(old.get("last_seen"))
-        if not last_seen or now-last_seen.astimezone(timezone.utc)>timedelta(days=ttl_days):continue
-        kept=dict(old);source=old.get("source","")
-        kept["stale"]=True if source_status.get(source,False) else old.get("stale",False)
-        merged[url]=kept
+def merge_history(
+    fresh: list[dict[str, Any]],
+    previous: list[dict[str, Any]],
+    checked: dict[str, bool],
+    ttl_days: int,
+) -> list[dict[str, Any]]:
+    fresh_by_url = {item["url"]: item for item in fresh if item.get("url")}
+    old_by_url = {item["url"]: item for item in expand_previous(previous) if item.get("url")}
+    merged: dict[str, dict[str, Any]] = {}
+    now = now_dt()
+
+    for url, item in fresh_by_url.items():
+        old = old_by_url.get(url)
+        if old:
+            item["first_seen"] = old.get("first_seen") or item.get("first_seen")
+        item["stale"] = False
+        merged[url] = item
+
+    for url, old in old_by_url.items():
+        if url in merged:
+            continue
+        last_seen = parse_iso(old.get("last_seen"))
+        if not last_seen:
+            continue
+        if now - last_seen.astimezone(timezone.utc) > timedelta(days=ttl_days):
+            continue
+
+        kept = dict(old)
+        source = str(old.get("source") or "")
+        if source in checked and checked[source]:
+            kept["stale"] = True
+        merged[url] = kept
+
     return list(merged.values())
 
-def sort_key(item):
-    price=item.get("price")
-    return(price is None,price if isinstance(price,int) else 10**12,str(item.get("zone","")),str(item.get("source","")))
 
-def main():
-    parser=argparse.ArgumentParser();parser.add_argument("--no-network",action="store_true");args=parser.parse_args()
-    config=load_json(CONFIG_PATH,{});areas=load_json(AREAS_PATH,{"zones":[],"macro_areas":[]});previous=load_json(OUTPUT_PATH,{"listings":[]});site=config.get("site",{})
-    zones,macro_areas,sources=areas.get("zones",[]),areas.get("macro_areas",[]),config.get("sources",[]);ttl=int(site.get("stale_ttl_days",14))
-    session=requests.Session();session.headers.update({"User-Agent":USER_AGENT,"Accept-Language":"es-CO,es;q=0.9,en;q=0.6"})
-    fresh,statuses,source_ok=[],[],{}
+def listing_sort(item: dict[str, Any]):
+    price = item.get("price")
+    return (
+        bool(item.get("stale")),
+        price is None,
+        price if isinstance(price, int) else 10**15,
+        str(item.get("zone") or ""),
+    )
+
+
+def previous_status_map(payload: dict[str, Any]) -> dict[str, dict[str, Any]]:
+    statuses = payload.get("meta", {}).get("sources", [])
+    return {str(status.get("name")): status for status in statuses if status.get("name")}
+
+
+def status_base(source: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "name": source["name"],
+        "tier": source.get("tier", "secondary"),
+        "cadence_hours": int(source.get("cadence_hours", 0)),
+        "automated": bool(source.get("automated", False)),
+        "ok": None,
+        "found": 0,
+        "errors": [],
+        "last_checked": None,
+        "skipped": False,
+        "manual_urls": source.get("manual_urls", source.get("urls", [])),
+    }
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description="Recolector multi-fuente de Cali Arriendos.")
+    parser.add_argument("--no-network", action="store_true", help="Valida configuración sin consultar portales.")
+    parser.add_argument("--all", action="store_true", help="Fuerza la revisión de todas las fuentes automáticas.")
+    args = parser.parse_args()
+
+    config = load_json(CONFIG_PATH, {})
+    areas = load_json(AREAS_PATH, {})
+    previous = load_json(OUTPUT_PATH, {"meta": {}, "listings": []})
+
+    site = config.get("site", {})
+    sources = config.get("sources", [])
+    zones = areas.get("zones", [])
+    macro_areas = areas.get("macro_areas", [])
+    ttl_days = int(site.get("stale_ttl_days", 14))
+    timeout = int(site.get("request_timeout_seconds", 24))
+    max_total = int(site.get("max_total_listings", 1200))
+    previous_statuses = previous_status_map(previous)
+
+    if args.no_network:
+        assert sources and zones and macro_areas
+        print(f"Configuración válida: {len(sources)} fuentes, {len(zones)} barrios/sectores.")
+        return 0
+
+    session = requests.Session()
+    session.headers.update({
+        "User-Agent": USER_AGENT,
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "es-CO,es;q=0.9,en;q=0.5",
+        "Cache-Control": "no-cache",
+    })
+
+    fresh: list[dict[str, Any]] = []
+    statuses: list[dict[str, Any]] = []
+    checked_success: dict[str, bool] = {}
+    timestamp = now_iso()
+
     for source in sources:
-        automated=bool(source.get("automated",False))
-        status={"name":source["name"],"automated":automated,"ok":None,"found":0,"errors":[],"manual_urls":source.get("manual_urls",source.get("urls",[])),"manual_urls_by_area":source.get("manual_urls_by_area",{})}
-        if not automated or args.no_network:statuses.append(status);continue
-        items,errors=fetch_source(session,source,zones,macro_areas)
-        status["ok"]=len(errors)<len(source.get("urls",[]));status["found"]=len(items);status["errors"]=errors[:5]
-        source_ok[source["name"]]=bool(status["ok"]);fresh+=items;statuses.append(status)
-    if args.no_network:print("Configuración válida.");return 0
-    merged=merge_previous(dedupe(fresh),previous.get("listings",[]),source_ok,ttl)
-    merged.sort(key=sort_key)
-    payload={"meta":{"updated_at":now_utc(),"price_filter":"user-controlled","total":len(merged),"sources":statuses},"listings":merged}
-    OUTPUT_PATH.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    print(f"Actualización terminada: {len(merged)} avisos visibles.")
-    for s in statuses:print(f"- {s['name']}: ok={s['ok']} encontrados={s['found']}")
+        status = status_base(source)
+        previous_status = previous_statuses.get(source["name"])
+
+        if not source.get("automated", False):
+            status["skipped"] = True
+            status["last_checked"] = previous_status.get("last_checked") if previous_status else None
+            statuses.append(status)
+            continue
+
+        if not source_due(source, previous_status, args.all):
+            status.update({
+                "ok": previous_status.get("ok") if previous_status else None,
+                "found": previous_status.get("found", 0) if previous_status else 0,
+                "errors": previous_status.get("errors", []) if previous_status else [],
+                "last_checked": previous_status.get("last_checked") if previous_status else None,
+                "skipped": True,
+            })
+            statuses.append(status)
+            continue
+
+        items, errors = scrape_source(session, source, zones, macro_areas, timestamp, timeout)
+        total_urls = max(1, len(source.get("urls", [])))
+        ok = len(errors) < total_urls
+        checked_success[source["name"]] = ok
+
+        status.update({
+            "ok": ok,
+            "found": len(items),
+            "errors": errors[:5],
+            "last_checked": timestamp,
+            "skipped": False,
+        })
+        statuses.append(status)
+        fresh.extend(items)
+
+    historical = merge_history(
+        fresh,
+        previous.get("listings", []),
+        checked_success,
+        ttl_days,
+    )
+    grouped = merge_duplicates(historical)
+    grouped.sort(key=listing_sort)
+    grouped = grouped[:max_total]
+
+    payload = {
+        "meta": {
+            "version": 4,
+            "updated_at": timestamp,
+            "price_policy": "no_fixed_cap",
+            "total": len(grouped),
+            "source_count": len(sources),
+            "automated_source_count": sum(bool(s.get("automated")) for s in sources),
+            "sources": statuses,
+        },
+        "listings": grouped,
+    }
+    OUTPUT_PATH.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+    print(f"Actualización V4: {len(grouped)} avisos agrupados.")
+    for status in statuses:
+        state = "manual" if not status["automated"] else ("omitida" if status["skipped"] else ("ok" if status["ok"] else "falló"))
+        print(f"- {status['name']}: {state}; {status['found']} resultados")
     return 0
 
-if __name__=="__main__":sys.exit(main())
+
+if __name__ == "__main__":
+    sys.exit(main())
