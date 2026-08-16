@@ -1,0 +1,77 @@
+name: Actualizar arriendos y publicar Pages
+
+on:
+  push:
+    branches: ["main"]
+
+  schedule:
+    - cron: "17 * * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "cali-arriendos-pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: "pip"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Actualizar apartamentos
+        run: python scripts/collect.py
+
+      - name: Guardar datos actualizados
+        shell: bash
+        run: |
+          if git diff --quiet -- data/listings.json; then
+            echo "No hubo cambios en los apartamentos"
+            exit 0
+          fi
+
+          git config user.name "cali-arriendos-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/listings.json
+          git commit -m "chore: actualizar apartamentos [skip ci]"
+          git push
+
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Preparar sitio
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+      - name: Publicar sitio
+        id: deployment
+        uses: actions/deploy-pages@v4
