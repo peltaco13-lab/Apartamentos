@@ -24,7 +24,7 @@
   <main class="page-shell">
     <section class="hero">
       <div class="hero-copy">
-        <span class="eyebrow">SUR DE CALI · COLOMBIA</span>
+        <span class="eyebrow">CALI · COLOMBIA</span>
         <h1>Encuentra arriendo sin revisar diez páginas.</h1>
         <p>Busca por sectores amplios de Cali sin pedir una dirección exacta: Sur, Norte, Este, Oeste o Centro. También puedes afinar por barrio.</p>
         <div class="hero-actions">
@@ -32,12 +32,24 @@
           <a href="#fuentes" class="secondary-btn">Abrir portales</a>
         </div>
       </div>
-      <aside class="budget-card">
-        <span>Presupuesto máximo</span>
-        <strong>$2.000.000</strong>
+      <aside class="budget-card" aria-labelledby="budgetTitle">
+        <span id="budgetTitle">Tu presupuesto máximo</span>
+        <strong id="budgetDisplay">Sin límite</strong>
         <small>COP / mes</small>
-        <div class="budget-line"><span></span></div>
-        <p>Los avisos con precio detectado superior al tope no se muestran.</p>
+
+        <label class="budget-number">
+          <span>Escribe un monto</span>
+          <input id="budgetInput" type="number" min="0" step="100000" inputmode="numeric" placeholder="Ej: 15000000">
+        </label>
+
+        <input id="budgetRange" class="budget-range" type="range" min="0" max="20000000" step="100000" value="20000000" aria-label="Presupuesto máximo">
+
+        <div class="budget-options">
+          <span>$0</span>
+          <label class="check budget-unlimited"><input id="budgetUnlimited" type="checkbox" checked><span>Sin límite</span></label>
+          <span id="budgetRangeMax">$20 M+</span>
+        </div>
+        <p>El buscador recopila todos los precios que detecte. El presupuesto solo filtra lo que tú quieres ver.</p>
       </aside>
     </section>
 

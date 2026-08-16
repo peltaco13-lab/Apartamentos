@@ -5,7 +5,9 @@ const els={
   area:$("#areaFilter"),zone:$("#zoneFilter"),source:$("#sourceFilter"),beds:$("#bedFilter"),sort:$("#sortFilter"),
   knownPrice:$("#knownPriceOnly"),clear:$("#clearFilters"),count:$("#resultCount"),status:$("#statusBox"),
   lastUpdated:$("#lastUpdated"),statTotal:$("#statTotal"),statMin:$("#statMin"),statZones:$("#statZones"),
-  statUpdated:$("#statUpdated"),sourceLinks:$("#sourceLinks"),themeBtn:$("#themeBtn")
+  statUpdated:$("#statUpdated"),sourceLinks:$("#sourceLinks"),themeBtn:$("#themeBtn"),
+  budgetInput:$("#budgetInput"),budgetRange:$("#budgetRange"),budgetUnlimited:$("#budgetUnlimited"),
+  budgetDisplay:$("#budgetDisplay"),budgetRangeMax:$("#budgetRangeMax"),budgetCard:document.querySelector(".budget-card")
 };
 const money=new Intl.NumberFormat("es-CO",{style:"currency",currency:"COP",maximumFractionDigits:0});
 
@@ -15,6 +17,43 @@ function formatPrice(p){return Number.isFinite(p)?money.format(p):"Precio por re
 function parseDate(v){const d=new Date(v);return Number.isNaN(d.getTime())?null:d}
 function shortDate(v){const d=parseDate(v);if(!d)return"fecha no disponible";return new Intl.DateTimeFormat("es-CO",{day:"2-digit",month:"short",hour:"2-digit",minute:"2-digit"}).format(d)}
 function relativeHours(v){const d=parseDate(v);if(!d)return"—";const h=Math.max(0,Math.round((Date.now()-d.getTime())/36e5));if(h<1)return"<1 h";if(h<24)return`${h} h`;return`${Math.round(h/24)} d`}
+
+function compactMoney(value){
+  if(!Number.isFinite(value)||value<=0)return"Sin límite";
+  if(value>=1_000_000)return`$${new Intl.NumberFormat("es-CO",{maximumFractionDigits:1}).format(value/1_000_000)} M`;
+  return money.format(value);
+}
+function currentBudget(){
+  if(els.budgetUnlimited.checked)return null;
+  const value=Number(els.budgetInput.value||els.budgetRange.value||0);
+  return Number.isFinite(value)&&value>0?value:null;
+}
+function ensureRangeCovers(value){
+  const currentMax=Number(els.budgetRange.max);
+  if(value<=currentMax)return;
+  const block=5_000_000;
+  els.budgetRange.max=String(Math.ceil(value/block)*block);
+}
+function renderBudget(){
+  const budget=currentBudget();
+  els.budgetDisplay.textContent=budget?formatPrice(budget):"Sin límite";
+  els.budgetRangeMax.textContent=`${compactMoney(Number(els.budgetRange.max))}+`;
+  els.budgetCard.dataset.limited=budget?"true":"false";
+}
+function setBudget(value,{fromRange=false}={}){
+  const numeric=Number(value||0);
+  if(!Number.isFinite(numeric)||numeric<=0){
+    els.budgetUnlimited.checked=true;
+    els.budgetInput.value="";
+  }else{
+    els.budgetUnlimited.checked=false;
+    ensureRangeCovers(numeric);
+    if(!fromRange)els.budgetRange.value=String(numeric);
+    els.budgetInput.value=String(Math.round(numeric));
+  }
+  renderBudget();
+  applyFilters();
+}
 
 function fillSelect(select,values){
   const current=select.value;
@@ -64,12 +103,13 @@ function updateZoneOptions(){
 
 function matchesCommonFilters(item,{ignoreArea=false,ignoreZone=false}={}){
   const q=els.search.value.trim().toLocaleLowerCase("es"),area=els.area.value,zone=els.zone.value,source=els.source.value;
-  const minBeds=Number(els.beds.value||0),knownOnly=els.knownPrice.checked;
+  const minBeds=Number(els.beds.value||0),knownOnly=els.knownPrice.checked,budget=currentBudget();
   if(q&&!normalizedSearch(item).includes(q))return false;
   if(!ignoreArea&&area&&item.macro_zone!==area)return false;
   if(!ignoreZone&&zone&&item.zone!==zone)return false;
   if(source&&item.source!==source)return false;
   if(minBeds&&Number(item.bedrooms||0)<minBeds)return false;
+  if(budget&&Number.isFinite(item.price)&&item.price>budget)return false;
   if(knownOnly&&!Number.isFinite(item.price))return false;
   return true;
 }
@@ -141,10 +181,13 @@ function renderSources(){
   }).join("");
 }
 
-function resetFilters(){els.search.value="";els.area.value="";els.zone.value="";els.source.value="";els.beds.value="";els.sort.value="price";els.knownPrice.checked=false;updateZoneOptions();applyFilters()}
+function resetFilters(){els.search.value="";els.area.value="";els.zone.value="";els.source.value="";els.beds.value="";els.sort.value="price";els.knownPrice.checked=false;els.budgetUnlimited.checked=true;els.budgetInput.value="";els.budgetRange.value=els.budgetRange.max;renderBudget();updateZoneOptions();applyFilters()}
 function bindEvents(){
   [els.search,els.zone,els.source,els.beds,els.sort,els.knownPrice].forEach(el=>{el.addEventListener("input",applyFilters);el.addEventListener("change",applyFilters)});
   els.area.addEventListener("change",()=>{els.zone.value="";updateZoneOptions();applyFilters()});
+  els.budgetRange.addEventListener("input",()=>setBudget(els.budgetRange.value,{fromRange:true}));
+  els.budgetInput.addEventListener("input",()=>setBudget(els.budgetInput.value));
+  els.budgetUnlimited.addEventListener("change",()=>{if(els.budgetUnlimited.checked)els.budgetInput.value="";renderBudget();applyFilters()});
   els.clear.addEventListener("click",resetFilters);els.emptyClear.addEventListener("click",resetFilters);
   els.themeBtn.addEventListener("click",()=>{const root=document.documentElement,next=root.dataset.theme==="light"?"dark":"light";root.dataset.theme=next;localStorage.setItem("cali-arriendos-theme",next)});
 }
@@ -153,7 +196,7 @@ async function loadData(){
   try{
     const response=await fetch(`data/listings.json?v=${Date.now()}`,{cache:"no-store"});if(!response.ok)throw new Error(`HTTP ${response.status}`);
     const payload=await response.json();state.data=payload;state.listings=Array.isArray(payload.listings)?payload.listings:[];
-    fillSelect(els.source,state.listings.map(x=>x.source));updateZoneOptions();renderStats();renderSources();applyFilters();
+    fillSelect(els.source,state.listings.map(x=>x.source));updateZoneOptions();renderStats();renderBudget();renderSources();applyFilters();
   }catch(error){console.error(error);els.status.hidden=false;els.status.textContent="No se pudo cargar data/listings.json. Ejecuta el workflow de GitHub Actions o revisa la consola.";state.listings=[];applyFilters()}
 }
 document.addEventListener("DOMContentLoaded",()=>{initTheme();bindEvents();$("#footerYear").textContent=new Date().getFullYear();loadData()});

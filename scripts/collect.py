@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
-import argparse, hashlib, json, re, sys, time
+import argparse, hashlib, json, re, sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
@@ -16,8 +16,8 @@ OUTPUT_PATH=ROOT/"data"/"listings.json"
 USER_AGENT="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0 Safari/537.36 CaliArriendos/1.0"
 
 PRICE_PATTERNS=[
-    re.compile(r"\$\s*([0-9]{1,3}(?:[.,\s][0-9]{3}){1,2}|[0-9]{6,8})",re.I),
-    re.compile(r"(?:canon|arriendo|alquiler)\D{0,22}([0-9]{6,8})",re.I),
+    re.compile(r"\$\s*([0-9]{1,3}(?:[.,\s][0-9]{3}){1,4}|[0-9]{6,12})",re.I),
+    re.compile(r"(?:canon|arriendo|alquiler)\D{0,22}([0-9]{6,12})",re.I),
 ]
 BED_PATTERNS=[re.compile(r"(\d+)\s*(?:hab(?:itaciones?)?|alcobas?)\b",re.I)]
 BATH_PATTERNS=[re.compile(r"(\d+)\s*(?:bañ(?:o|os)|banos?)\b",re.I)]
@@ -50,9 +50,9 @@ def parse_price(text:str):
     for pattern in PRICE_PATTERNS:
         for match in pattern.finditer(text):
             digits=re.sub(r"\D","",match.group(1))
-            if 6<=len(digits)<=8:
+            if 6<=len(digits)<=12:
                 value=int(digits)
-                if 300_000<=value<=20_000_000:return value
+                if value>=300_000:return value
     return None
 
 def first_number(text:str,patterns):
@@ -95,17 +95,16 @@ def ld_price(obj):
         digits=re.sub(r"\D","",str(raw))
         if digits:
             value=int(digits)
-            if 300_000<=value<=20_000_000:return value
+            if value>=300_000:return value
     return None
 
-def listing_from_text(source_name,url,text,title,zones,macro_areas,max_rent,explicit_price=None):
+def listing_from_text(source_name,url,text,title,zones,macro_areas,explicit_price=None):
     text,title=clean_text(text),clean_text(title) or"Apartamento en arriendo"
     combined=f"{title} {text}"
     if not re.search(r"\b(apartamento|apto|arriendo|alquiler)\b",combined,re.I):return None
     zone,macro_zone=detect_location(combined,zones,macro_areas)
     if "cali" not in combined.casefold() and macro_zone=="Otra zona de Cali":return None
     price=explicit_price if explicit_price is not None else parse_price(combined)
-    if price is not None and price>max_rent:return None
     timestamp=now_utc()
     return{
         "id":canonical_key(url),"source":source_name,"url":url,"title":title[:180],"description":text[:420],
@@ -114,7 +113,7 @@ def listing_from_text(source_name,url,text,title,zones,macro_areas,max_rent,expl
         "parking":first_number(combined,PARKING_PATTERNS),"first_seen":timestamp,"last_seen":timestamp,"stale":False
     }
 
-def extract_json_ld(soup,source,page_url,zones,macro_areas,max_rent):
+def extract_json_ld(soup,source,page_url,zones,macro_areas):
     found=[]
     for script in soup.find_all("script",attrs={"type":"application/ld+json"}):
         raw=script.string or script.get_text()
@@ -129,11 +128,11 @@ def extract_json_ld(soup,source,page_url,zones,macro_areas,max_rent):
             if not url or not allowed_url(url,source):continue
             title=clean_text(obj.get("name") or obj.get("headline"))
             description=clean_text(obj.get("description"))
-            item=listing_from_text(source["name"],url,f"{title} {description}",title,zones,macro_areas,max_rent,ld_price(obj))
+            item=listing_from_text(source["name"],url,f"{title} {description}",title,zones,macro_areas,ld_price(obj))
             if item:found.append(item)
     return found
 
-def extract_anchors(soup,source,page_url,zones,macro_areas,max_rent):
+def extract_anchors(soup,source,page_url,zones,macro_areas):
     found=[]
     for anchor in soup.find_all("a",href=True):
         url=normalize_url(page_url,anchor.get("href",""))
@@ -147,7 +146,7 @@ def extract_anchors(soup,source,page_url,zones,macro_areas,max_rent):
                 container=parent;break
             container=parent
         text=clean_text(container.get_text(" ",strip=True)) or title
-        item=listing_from_text(source["name"],url,text,title or text[:120],zones,macro_areas,max_rent)
+        item=listing_from_text(source["name"],url,text,title or text[:120],zones,macro_areas)
         if item:found.append(item)
     return found
 
@@ -162,17 +161,15 @@ def dedupe(items):
             best[item["url"]]=item
     return list(best.values())
 
-def fetch_source(session,source,zones,macro_areas,max_rent):
+def fetch_source(session,source,zones,macro_areas):
     items,errors=[],[]
-    urls=source.get("urls",[])
-    for i,page_url in enumerate(urls):
+    for page_url in source.get("urls",[]):
         try:
             response=session.get(page_url,timeout=24,allow_redirects=True);response.raise_for_status()
             soup=BeautifulSoup(response.text,"html.parser")
-            items+=extract_json_ld(soup,source,response.url,zones,macro_areas,max_rent)
-            items+=extract_anchors(soup,source,response.url,zones,macro_areas,max_rent)
+            items+=extract_json_ld(soup,source,response.url,zones,macro_areas)
+            items+=extract_anchors(soup,source,response.url,zones,macro_areas)
         except requests.RequestException as exc:errors.append(f"{page_url}: {type(exc).__name__}")
-        if i<len(urls)-1:time.sleep(1.5)  # pausa cortés entre peticiones a la misma fuente
     return dedupe(items),errors
 
 def parse_iso(value):
@@ -202,21 +199,20 @@ def sort_key(item):
 def main():
     parser=argparse.ArgumentParser();parser.add_argument("--no-network",action="store_true");args=parser.parse_args()
     config=load_json(CONFIG_PATH,{});areas=load_json(AREAS_PATH,{"zones":[],"macro_areas":[]});previous=load_json(OUTPUT_PATH,{"listings":[]});site=config.get("site",{})
-    zones,macro_areas,sources=areas.get("zones",[]),areas.get("macro_areas",[]),config.get("sources",[]);max_rent=int(site.get("max_rent_cop",2_000_000));ttl=int(site.get("stale_ttl_days",14))
+    zones,macro_areas,sources=areas.get("zones",[]),areas.get("macro_areas",[]),config.get("sources",[]);ttl=int(site.get("stale_ttl_days",14))
     session=requests.Session();session.headers.update({"User-Agent":USER_AGENT,"Accept-Language":"es-CO,es;q=0.9,en;q=0.6"})
     fresh,statuses,source_ok=[],[],{}
     for source in sources:
         automated=bool(source.get("automated",False))
         status={"name":source["name"],"automated":automated,"ok":None,"found":0,"errors":[],"manual_urls":source.get("manual_urls",source.get("urls",[])),"manual_urls_by_area":source.get("manual_urls_by_area",{})}
         if not automated or args.no_network:statuses.append(status);continue
-        items,errors=fetch_source(session,source,zones,macro_areas,max_rent)
+        items,errors=fetch_source(session,source,zones,macro_areas)
         status["ok"]=len(errors)<len(source.get("urls",[]));status["found"]=len(items);status["errors"]=errors[:5]
         source_ok[source["name"]]=bool(status["ok"]);fresh+=items;statuses.append(status)
-        time.sleep(2)  # pausa cortés entre fuentes distintas
     if args.no_network:print("Configuración válida.");return 0
     merged=merge_previous(dedupe(fresh),previous.get("listings",[]),source_ok,ttl)
-    merged=[x for x in merged if x.get("price") is None or int(x["price"])<=max_rent];merged.sort(key=sort_key)
-    payload={"meta":{"updated_at":now_utc(),"max_rent_cop":max_rent,"total":len(merged),"sources":statuses},"listings":merged}
+    merged.sort(key=sort_key)
+    payload={"meta":{"updated_at":now_utc(),"price_filter":"user-controlled","total":len(merged),"sources":statuses},"listings":merged}
     OUTPUT_PATH.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(f"Actualización terminada: {len(merged)} avisos visibles.")
     for s in statuses:print(f"- {s['name']}: ok={s['ok']} encontrados={s['found']}")

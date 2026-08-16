@@ -1,13 +1,14 @@
 # Cali Arriendos
 
-Dashboard estático para reunir apartamentos en arriendo en Cali sin pedir una dirección exacta y publicarlos con GitHub Pages.
+Dashboard estático para reunir apartamentos en arriendo del sur de Cali y publicarlos con GitHub Pages.
 
 ## Configuración inicial
 
-- Tope: **$2.000.000 COP**
+- Precio: **sin tope fijo en el recolector**
+- Cada usuario puede indicar su presupuesto máximo o dejar **Sin límite**
 - Búsqueda principal por **Zona Sur, Norte, Este, Oeste o Centro**, sin pedir dirección exacta
 - Barrios prioritarios del sur: **Bochalema, Cachipay/Kachipay, Ciudad Meléndez y Valle del Lili**
-- Actualización: **cada 6 horas**
+- Actualización: **cada hora**
 - Frontend: **HTML + CSS + JavaScript vanilla**
 - Automatización: **GitHub Actions**
 - Hosting: **GitHub Pages**
@@ -20,7 +21,6 @@ CaliArriendos/
 ├── assets/css/styles.css
 ├── assets/css/responsive.css
 ├── assets/js/app.js
-├── config/areas.json
 ├── config/sources.json
 ├── data/listings.json
 ├── scripts/collect.py
@@ -39,11 +39,11 @@ CaliArriendos/
 6. Ejecuta `Actualizar arriendos y publicar Pages` manualmente si el primer push no lo arrancó.
 7. Al terminar, GitHub mostrará la URL pública.
 
-El workflow también se ejecuta automáticamente cada 6 horas (minuto 17).
+El workflow también se ejecuta automáticamente al minuto 17 de cada hora.
 
 ## Cómo trabaja el recolector
 
-`scripts/collect.py` lee `config/sources.json` y `config/areas.json`, consulta solo páginas públicas configuradas y busca:
+`scripts/collect.py` lee `config/sources.json`, consulta solo páginas públicas configuradas y busca:
 
 - JSON-LD público.
 - Enlaces visibles a anuncios.
@@ -51,19 +51,23 @@ El workflow también se ejecuta automáticamente cada 6 horas (minuto 17).
 
 Después:
 
-- descarta precios conocidos sobre $2.000.000 COP;
+- conserva los precios detectados sin aplicar un tope global;
 - fusiona nuevos avisos con resultados anteriores;
 - conserva temporalmente resultados previos cuando una fuente falla;
 - genera `data/listings.json`;
 - el frontend lo filtra sin backend.
 
-## Cambiar presupuesto
+## Presupuesto
 
-En `config/sources.json` cambia:
+Ya no existe un límite global de $2.000.000. El recolector intenta conservar todos los avisos de arriendo que detecte.
 
-```json
-"max_rent_cop": 2000000
-```
+En la web, cada usuario puede:
+
+- escribir un presupuesto máximo, por ejemplo `15000000`;
+- mover la barra de presupuesto;
+- marcar **Sin límite** para ver todos los precios disponibles.
+
+El número escrito puede superar el máximo visible inicial de la barra: la barra se amplía automáticamente, así que no existe un tope de precio configurado para el usuario.
 
 ## Agregar una zona
 
@@ -82,10 +86,6 @@ Luego agrega una página pública de búsqueda de esa zona en alguna fuente.
 
 Está como acceso manual. El sistema no inicia sesión, no resuelve CAPTCHA y no intenta evadir protecciones anti-bot.
 
-## Metrocuadrado
-
-También está como acceso manual: su página de resultados carga los anuncios con JavaScript en el navegador, así que una petición HTTP simple no devuelve ningún anuncio en el HTML. Intentar automatizarlo solo generaría "0 encontrados" en cada corrida sin aportar nada.
-
 ## Limitaciones
 
 Los portales pueden cambiar HTML o bloquear runners automatizados. Si pasa:
@@ -103,10 +103,30 @@ Antes de pagar o separar un apartamento, verifica inmueble, propietario o inmobi
 
 ## Búsqueda sin dirección exacta
 
-El usuario puede elegir **Zona Sur, Norte, Este, Oeste, Centro o Toda Cali** sin escribir una dirección real. El barrio es opcional.
+El usuario no necesita escribir una dirección real.
+
+Puede elegir:
+
+- Zona Sur
+- Zona Norte
+- Zona Este
+- Zona Oeste
+- Zona Centro
+- Toda Cali
+
+El sistema clasifica los avisos por macrozona cuando el barrio o el propio portal permiten identificarla.
 
 ### Respaldo inteligente
 
-Si una macrozona queda sin coincidencias bajo los filtros, el panel intenta mostrar hasta 6 alternativas disponibles de otras zonas de Cali y avisa claramente que no son coincidencias exactas. Si no hay avisos cacheados, quedan visibles los botones de búsqueda directa en los portales.
+Si una macrozona seleccionada queda sin coincidencias bajo los filtros:
 
-El sistema no inventa propiedades ni garantiza que exista un apartamento disponible en una zona determinada.
+1. el panel intenta mostrar hasta 6 alternativas disponibles de otras zonas de Cali;
+2. avisa claramente que son alternativas y no coincidencias exactas;
+3. mantiene botones de búsqueda directa en los portales para la macrozona elegida.
+
+Esto evita una pantalla muerta, pero no inventa propiedades ni garantiza que exista un apartamento disponible en una zona determinada.
+
+
+## Cambio V3 — precio libre
+
+Se eliminó el filtro fijo de $2.000.000 tanto del recolector como del JSON. El presupuesto ahora es únicamente un filtro personal en el navegador y no limita lo que GitHub Actions puede recopilar.

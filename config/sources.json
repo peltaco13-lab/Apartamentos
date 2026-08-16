@@ -3,8 +3,8 @@
     "name": "Cali Arriendos",
     "city": "Cali",
     "country": "Colombia",
-    "max_rent_cop": 2000000,
-    "stale_ttl_days": 14
+    "stale_ttl_days": 14,
+    "price_policy": "no_fixed_cap"
   },
   "sources": [
     {
@@ -43,14 +43,13 @@
     },
     {
       "name": "Metrocuadrado",
-      "automated": false,
-      "_nota": "Metrocuadrado carga los anuncios con JavaScript del lado del cliente; el HTML que devuelve un GET simple no contiene ningun anuncio, asi que scrapearlo no sirve. Se deja como enlace manual.",
+      "automated": true,
       "allowed_domains": [
         "metrocuadrado.com",
         "www.metrocuadrado.com"
       ],
       "listing_regex": "/(?:apartamento|apartamentos)/",
-      "manual_urls": [
+      "urls": [
         "https://www.metrocuadrado.com/apartamentos/arriendo/cali/",
         "https://www.metrocuadrado.com/apartamentos/arriendo/cali-sur/",
         "https://www.metrocuadrado.com/apartamentos/arriendo/cali-oeste/",
@@ -81,7 +80,7 @@
         "ciencuadras.com",
         "www.ciencuadras.com"
       ],
-      "listing_regex": "/inmueble/",
+      "listing_regex": "/inmueble/|/arriendo/",
       "urls": [
         "https://www.ciencuadras.com/arriendo/cali/apartamento",
         "https://www.ciencuadras.com/arriendo/cali"
