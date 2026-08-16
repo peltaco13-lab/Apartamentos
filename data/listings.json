@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "updated_at": null,
+    "max_rent_cop": 2000000,
+    "total": 0,
+    "sources": [
+      {
+        "name": "FincaRaíz",
+        "automated": true,
+        "ok": null,
+        "found": 0,
+        "manual_urls": [
+          "https://www.fincaraiz.com.co/arriendo/apartamentos/cali/valle-del-cauca",
+          "https://www.fincaraiz.com.co/arriendo/apartamentos/cali/valle-del-cauca/baratos",
+          "https://www.fincaraiz.com.co/arriendo/apartamentos/bochalema/sur/cali",
+          "https://www.fincaraiz.com.co/arriendo/chipichape/zona-norte/cali",
+          "https://www.fincaraiz.com.co/arriendo/apartamentos/zona-oeste/cali",
+          "https://www.fincaraiz.com.co/arriendo/apartamentos/centro/cali"
+        ],
+        "manual_urls_by_area": {
+          "Sur": [
+            "https://www.fincaraiz.com.co/arriendo/apartamentos/bochalema/sur/cali"
+          ],
+          "Norte": [
+            "https://www.fincaraiz.com.co/arriendo/chipichape/zona-norte/cali"
+          ],
+          "Este": [
+            "https://www.fincaraiz.com.co/arriendo/apartamentos/cali/valle-del-cauca/baratos"
+          ],
+          "Oeste": [
+            "https://www.fincaraiz.com.co/arriendo/apartamentos/zona-oeste/cali"
+          ],
+          "Centro": [
+            "https://www.fincaraiz.com.co/arriendo/apartamentos/centro/cali"
+          ]
+        }
+      },
+      {
+        "name": "Metrocuadrado",
+        "automated": true,
+        "ok": null,
+        "found": 0,
+        "manual_urls": [
+          "https://www.metrocuadrado.com/apartamentos/arriendo/cali/",
+          "https://www.metrocuadrado.com/apartamentos/arriendo/cali-sur/",
+          "https://www.metrocuadrado.com/apartamentos/arriendo/cali-oeste/",
+          "https://www.metrocuadrado.com/apartamentos/arriendo/cali/centro/"
+        ],
+        "manual_urls_by_area": {
+          "Sur": [
+            "https://www.metrocuadrado.com/apartamentos/arriendo/cali-sur/"
+          ],
+          "Norte": [
+            "https://www.metrocuadrado.com/apartamentos/arriendo/cali/"
+          ],
+          "Este": [
+            "https://www.metrocuadrado.com/apartamentos/arriendo/cali/"
+          ],
+          "Oeste": [
+            "https://www.metrocuadrado.com/apartamentos/arriendo/cali-oeste/"
+          ],
+          "Centro": [
+            "https://www.metrocuadrado.com/apartamentos/arriendo/cali/centro/"
+          ]
+        }
+      },
+      {
+        "name": "Ciencuadras",
+        "automated": true,
+        "ok": null,
+        "found": 0,
+        "manual_urls": [
+          "https://www.ciencuadras.com/arriendo/cali/apartamento",
+          "https://www.ciencuadras.com/arriendo/cali"
+        ],
+        "manual_urls_by_area": {
+          "Sur": [
+            "https://www.ciencuadras.com/arriendo/cali/apartamento"
+          ],
+          "Norte": [
+            "https://www.ciencuadras.com/arriendo/cali/apartamento"
+          ],
+          "Este": [
+            "https://www.ciencuadras.com/arriendo/cali/apartamento"
+          ],
+          "Oeste": [
+            "https://www.ciencuadras.com/arriendo/cali/apartamento"
+          ],
+          "Centro": [
+            "https://www.ciencuadras.com/arriendo/cali/apartamento"
+          ]
+        }
+      },
+      {
+        "name": "Facebook Marketplace",
+        "automated": false,
+        "ok": null,
+        "found": 0,
+        "manual_urls": [
+          "https://www.facebook.com/marketplace/cali/propertyrentals/"
+        ],
+        "manual_urls_by_area": {
+          "Sur": [
+            "https://www.facebook.com/marketplace/cali/propertyrentals/"
+          ],
+          "Norte": [
+            "https://www.facebook.com/marketplace/cali/propertyrentals/"
+          ],
+          "Este": [
+            "https://www.facebook.com/marketplace/cali/propertyrentals/"
+          ],
+          "Oeste": [
+            "https://www.facebook.com/marketplace/cali/propertyrentals/"
+          ],
+          "Centro": [
+            "https://www.facebook.com/marketplace/cali/propertyrentals/"
+          ]
+        }
+      }
+    ]
+  },
+  "listings": []
+}
