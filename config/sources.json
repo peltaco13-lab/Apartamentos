@@ -1,0 +1,92 @@
+{
+  "site": {
+    "name": "Cali Arriendos",
+    "city": "Cali",
+    "country": "Colombia",
+    "max_rent_cop": 2000000,
+    "stale_ttl_days": 14,
+    "zones": [
+      {
+        "name": "Bochalema",
+        "aliases": [
+          "bochalema"
+        ]
+      },
+      {
+        "name": "Cachipay / Kachipay",
+        "aliases": [
+          "cachipay",
+          "kachipay",
+          "hacienda kachipay"
+        ]
+      },
+      {
+        "name": "Ciudad Meléndez",
+        "aliases": [
+          "ciudad melendez",
+          "ciudad meléndez",
+          "melendez",
+          "meléndez"
+        ]
+      },
+      {
+        "name": "Valle del Lili",
+        "aliases": [
+          "valle del lili",
+          "valle lili",
+          "lili"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "name": "FincaRaíz",
+      "automated": true,
+      "allowed_domains": [
+        "fincaraiz.com.co",
+        "www.fincaraiz.com.co"
+      ],
+      "listing_regex": "/(?:apartamento|inmueble)-en-arriendo",
+      "urls": [
+        "https://www.fincaraiz.com.co/arriendo/apartamentos/bochalema/sur/cali",
+        "https://www.fincaraiz.com.co/arriendo/apartamentos/cachipay/cali",
+        "https://www.fincaraiz.com.co/arriendo/apartamentos/valle-del-lili/sur/cali"
+      ]
+    },
+    {
+      "name": "Metrocuadrado",
+      "automated": true,
+      "allowed_domains": [
+        "metrocuadrado.com",
+        "www.metrocuadrado.com"
+      ],
+      "listing_regex": "/(?:apartamento|apartamentos)/",
+      "urls": [
+        "https://www.metrocuadrado.com/apartamentos/arriendo/cali/bochalema/",
+        "https://www.metrocuadrado.com/apartamentos/arriendo/cali/ciudad-melendez/",
+        "https://www.metrocuadrado.com/apartamentos/arriendo/cali/valle-lili/"
+      ]
+    },
+    {
+      "name": "Ciencuadras",
+      "automated": true,
+      "allowed_domains": [
+        "ciencuadras.com",
+        "www.ciencuadras.com"
+      ],
+      "listing_regex": "/inmueble/|/arriendo/",
+      "urls": [
+        "https://www.ciencuadras.com/arriendo/cali/valle-del-lili/apartamento",
+        "https://www.ciencuadras.com/arriendo/cali/valle-del-lili/valle-del-lili"
+      ]
+    },
+    {
+      "name": "Facebook Marketplace",
+      "automated": false,
+      "manual_urls": [
+        "https://www.facebook.com/marketplace/cali/propertyrentals/"
+      ]
+    }
+  ]
+}

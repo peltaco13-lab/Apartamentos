@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Buscador automático de apartamentos en arriendo en el sur de Cali.">
+  <meta name="theme-color" content="#0b1020">
+  <title>Cali Arriendos</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="Cali Arriendos">
+      <span class="brand-mark">CA</span>
+      <span><strong>Cali Arriendos</strong><small>Buscador automático</small></span>
+    </a>
+    <div class="top-actions">
+      <span class="live-dot"><i></i> actualización horaria</span>
+      <button id="themeBtn" class="icon-btn" type="button" aria-label="Cambiar tema">◐</button>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">SUR DE CALI · COLOMBIA</span>
+        <h1>Encuentra arriendo sin revisar diez páginas.</h1>
+        <p>Reúne avisos públicos y prioriza Bochalema, Cachipay/Kachipay, Ciudad Meléndez y Valle del Lili.</p>
+        <div class="hero-actions">
+          <a href="#resultados" class="primary-btn">Ver apartamentos</a>
+          <a href="#fuentes" class="secondary-btn">Abrir portales</a>
+        </div>
+      </div>
+      <aside class="budget-card">
+        <span>Presupuesto máximo</span>
+        <strong>$2.000.000</strong>
+        <small>COP / mes</small>
+        <div class="budget-line"><span></span></div>
+        <p>Los avisos con precio detectado superior al tope no se muestran.</p>
+      </aside>
+    </section>
+
+    <section class="stats-grid" aria-label="Resumen">
+      <article class="stat-card"><span>Encontrados</span><strong id="statTotal">—</strong><small>avisos visibles</small></article>
+      <article class="stat-card"><span>Desde</span><strong id="statMin">—</strong><small>precio más bajo</small></article>
+      <article class="stat-card"><span>Zonas</span><strong id="statZones">—</strong><small>con resultados</small></article>
+      <article class="stat-card"><span>Última revisión</span><strong id="statUpdated">—</strong><small>GitHub Actions</small></article>
+    </section>
+
+    <section class="panel filters-panel" aria-labelledby="filterTitle">
+      <div class="section-head">
+        <div><span class="eyebrow">FILTROS</span><h2 id="filterTitle">Qué estás buscando</h2></div>
+        <button id="clearFilters" class="text-btn" type="button">Limpiar filtros</button>
+      </div>
+      <div class="filters-grid">
+        <label class="field field-wide"><span>Buscar</span><input id="searchInput" type="search" placeholder="Ej: piscina, balcón, Magenta..." autocomplete="off"></label>
+        <label class="field"><span>Zona</span><select id="zoneFilter"><option value="">Todas</option></select></label>
+        <label class="field"><span>Fuente</span><select id="sourceFilter"><option value="">Todas</option></select></label>
+        <label class="field"><span>Habitaciones</span><select id="bedFilter"><option value="">Cualquiera</option><option value="1">1+</option><option value="2">2+</option><option value="3">3+</option></select></label>
+        <label class="field"><span>Ordenar</span><select id="sortFilter"><option value="price">Menor precio</option><option value="recent">Más recientes</option><option value="zone">Por zona</option></select></label>
+      </div>
+      <div class="filter-footer">
+        <label class="check"><input id="knownPriceOnly" type="checkbox"><span>Solo precio confirmado</span></label>
+        <span id="resultCount" class="result-count"></span>
+      </div>
+    </section>
+
+    <section id="resultados" class="results-section" aria-labelledby="resultsTitle">
+      <div class="section-head">
+        <div><span class="eyebrow">RESULTADOS</span><h2 id="resultsTitle">Apartamentos encontrados</h2></div>
+        <span id="lastUpdated" class="updated-pill">Cargando...</span>
+      </div>
+      <div id="statusBox" class="status-box" hidden></div>
+      <div id="listingsGrid" class="listings-grid" aria-live="polite"></div>
+      <div id="emptyState" class="empty-state" hidden>
+        <div class="empty-icon">⌕</div>
+        <h3>No hay coincidencias con esos filtros</h3>
+        <p>Prueba otra zona o limpia los filtros. También puedes abrir los portales directamente.</p>
+        <button id="emptyClear" class="secondary-btn" type="button">Limpiar filtros</button>
+      </div>
+    </section>
+
+    <section id="fuentes" class="panel sources-panel" aria-labelledby="sourcesTitle">
+      <div class="section-head"><div><span class="eyebrow">FUENTES</span><h2 id="sourcesTitle">Buscar también directamente</h2></div></div>
+      <p class="muted">Algunos portales pueden bloquear lecturas automáticas. Estos accesos permanecen disponibles aunque una actualización falle.</p>
+      <div id="sourceLinks" class="source-links"></div>
+    </section>
+
+    <section class="safety-note">
+      <strong>Antes de separar un inmueble</strong>
+      <p>Verifica que exista, confirma propietario o inmobiliaria y revisa el contrato. No transfieras dinero solo por reservar una publicación.</p>
+    </section>
+  </main>
+
+  <footer class="footer"><span>Cali Arriendos</span><span>Datos públicos · GitHub Pages · <span id="footerYear"></span></span></footer>
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>
