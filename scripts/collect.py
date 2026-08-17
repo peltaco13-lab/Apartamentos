@@ -208,7 +208,11 @@ def main() -> int:
             statuses.append(status)
             continue
 
-        items, errors = scrape_source(session, source, zones, macro_areas, timestamp, timeout)
+        try:
+            items, errors = scrape_source(session, source, zones, macro_areas, timestamp, timeout)
+        except Exception as exc:  # noqa: BLE001 - blindaje final: una fuente nunca debe tumbar toda la corrida
+            items, errors = [], [f"error inesperado: {type(exc).__name__}: {exc}"]
+
         total_urls = max(1, len(source.get("urls", [])))
         ok = len(errors) < total_urls
         checked_success[source["name"]] = ok

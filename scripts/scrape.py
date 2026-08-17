@@ -257,6 +257,20 @@ def dedupe_urls(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return list(best.values())
 
 
+def fetch_with_retry(session: requests.Session, url: str, timeout: int, attempts: int = 2):
+    """Reintenta una vez ante errores transitorios (timeout, conexión) antes de darse por vencido."""
+    last_exc = None
+    for attempt in range(attempts):
+        try:
+            response = session.get(url, timeout=timeout, allow_redirects=True)
+            response.raise_for_status()
+            return response
+        except requests.RequestException as exc:
+            last_exc = exc
+            continue
+    raise last_exc
+
+
 def scrape_source(
     session: requests.Session,
     source: dict[str, Any],
@@ -270,13 +284,14 @@ def scrape_source(
 
     for page_url in source.get("urls", []):
         try:
-            response = session.get(page_url, timeout=timeout, allow_redirects=True)
-            response.raise_for_status()
+            response = fetch_with_retry(session, page_url, timeout)
             soup = BeautifulSoup(response.text, "html.parser")
             items.extend(extract_json_ld(soup, source, response.url, zones, macro_areas, timestamp))
             items.extend(extract_anchors(soup, source, response.url, zones, macro_areas, timestamp))
         except requests.RequestException as exc:
             errors.append(f"{page_url}: {type(exc).__name__}")
+        except Exception as exc:  # noqa: BLE001 - una fuente mal formada nunca debe tumbar todo el pipeline
+            errors.append(f"{page_url}: error de análisis ({type(exc).__name__})")
 
     unique = dedupe_urls(items)
     limit = int(source.get("max_items", 100))

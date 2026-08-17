@@ -57,7 +57,7 @@
         "www.mercadolibre.com.co",
         "mercadolibre.com.co"
       ],
-      "listing_regex": "/MCO-\\d+|/[^/]*apartamento[^/]*",
+      "listing_regex": "/MCO-\\d+",
       "urls": [
         "https://listado.mercadolibre.com.co/apartamentos-en-arriendo-cali"
       ],
@@ -67,17 +67,14 @@
     },
     {
       "name": "Metrocuadrado",
-      "tier": "core",
-      "cadence_hours": 4,
-      "automated": true,
-      "max_items": 80,
+      "tier": "manual",
+      "cadence_hours": 0,
+      "automated": false,
+      "max_items": 0,
+      "_nota": "Confirmado dos veces: la pagina de resultados de Metrocuadrado carga los anuncios con JavaScript en el navegador. Un GET simple (requests) solo devuelve menu y pie de pagina, cero anuncios. No tiene sentido dejarlo automatico.",
       "allowed_domains": [
         "metrocuadrado.com",
         "www.metrocuadrado.com"
-      ],
-      "listing_regex": "/inmueble/|/apartamento[^/]*",
-      "urls": [
-        "https://www.metrocuadrado.com/apartamentos/arriendo/cali/"
       ],
       "manual_urls": [
         "https://www.metrocuadrado.com/apartamentos/arriendo/cali/"
@@ -179,8 +176,45 @@
       "cadence_hours": 0,
       "automated": false,
       "max_items": 0,
+      "_nota": "Facebook bloquea el acceso automatizado y exige sesion iniciada para ver el detalle de un anuncio. No hay forma de automatizarlo sin violar sus terminos (login, CAPTCHA, anti-bot). Se deja solo como enlace manual.",
       "manual_urls": [
         "https://www.facebook.com/marketplace/cali/propertyrentals/"
+      ]
+    },
+    {
+      "name": "Nuroa",
+      "tier": "secondary",
+      "cadence_hours": 8,
+      "automated": true,
+      "max_items": 80,
+      "allowed_domains": [
+        "nuroa.com.co",
+        "www.nuroa.com.co"
+      ],
+      "listing_regex": "/[^/]+\\.html$|/inmueble/|/propiedad/",
+      "urls": [
+        "https://www.nuroa.com.co/arriendo/apartamento-cali"
+      ],
+      "manual_urls": [
+        "https://www.nuroa.com.co/arriendo/apartamento-cali"
+      ]
+    },
+    {
+      "name": "Yumblin",
+      "tier": "secondary",
+      "cadence_hours": 8,
+      "automated": true,
+      "max_items": 80,
+      "allowed_domains": [
+        "yumblin.com",
+        "www.yumblin.com"
+      ],
+      "listing_regex": "/clasificados/(?:ver|detalle)/|/\\d{5,}(?:/|$)",
+      "urls": [
+        "https://www.yumblin.com/co/clasificados/galeria/colombia/valle-del-cauca/cali/arriendo/apartamentos"
+      ],
+      "manual_urls": [
+        "https://www.yumblin.com/co/clasificados/galeria/colombia/valle-del-cauca/cali/arriendo/apartamentos"
       ]
     }
   ]
