@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": 4,
-    "updated_at": "2026-08-18T08:04:17+00:00",
+    "updated_at": "2026-08-18T09:55:06+00:00",
     "price_policy": "no_fixed_cap",
-    "total": 117,
+    "total": 120,
     "source_count": 12,
     "automated_source_count": 10,
     "sources": [
@@ -15,8 +15,8 @@
         "ok": true,
         "found": 21,
         "errors": [],
-        "last_checked": "2026-08-18T05:03:39+00:00",
-        "skipped": true,
+        "last_checked": "2026-08-18T09:55:06+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://www.fincaraiz.com.co/arriendo/apartamentos/cali/valle-del-cauca"
         ]
@@ -29,8 +29,8 @@
         "ok": true,
         "found": 27,
         "errors": [],
-        "last_checked": "2026-08-18T05:03:39+00:00",
-        "skipped": true,
+        "last_checked": "2026-08-18T09:55:06+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://www.ciencuadras.com/arriendo/cali/cali/apartamento"
         ]
@@ -43,8 +43,8 @@
         "ok": true,
         "found": 0,
         "errors": [],
-        "last_checked": "2026-08-18T05:03:39+00:00",
-        "skipped": true,
+        "last_checked": "2026-08-18T09:55:06+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://listado.mercadolibre.com.co/apartamentos-en-arriendo-cali"
         ]
@@ -72,7 +72,7 @@
         "found": 0,
         "errors": [],
         "last_checked": "2026-08-18T08:04:17+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://arriendo.com/co/apartamentos/cali/"
         ]
@@ -88,7 +88,7 @@
           "https://www.unisa.com.co/inmuebles/g/arriendo/t/apartamentos/c/cali/: HTTPError"
         ],
         "last_checked": "2026-08-18T08:04:17+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://www.unisa.com.co/inmuebles/g/arriendo/t/apartamentos/c/cali/"
         ]
@@ -102,7 +102,7 @@
         "found": 0,
         "errors": [],
         "last_checked": "2026-08-18T08:04:17+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://bienco.com.co/inmuebles/arriendo"
         ]
@@ -158,7 +158,7 @@
         "found": 0,
         "errors": [],
         "last_checked": "2026-08-18T08:04:17+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://www.nuroa.com.co/arriendo/apartamento-cali"
         ]
@@ -174,7 +174,7 @@
           "https://www.yumblin.com/co/clasificados/galeria/colombia/valle-del-cauca/cali/arriendo/apartamentos: HTTPError"
         ],
         "last_checked": "2026-08-18T08:04:17+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://www.yumblin.com/co/clasificados/galeria/colombia/valle-del-cauca/cali/arriendo/apartamentos"
         ]
@@ -729,7 +729,7 @@
       "area_m2": 45,
       "parking": null,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -757,7 +757,7 @@
       "area_m2": 50,
       "parking": null,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -813,12 +813,40 @@
       "area_m2": 52,
       "parking": 1,
       "first_seen": "2026-08-17T08:26:24+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
           "source": "Ciencuadras",
           "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-mariano-ramos-cali-3809159"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "a2ea4e8f9bbebf1f",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-ciudad-cordoba-cali-3821250",
+      "title": "Administración incluida: $850,000 Apartamento en arriendo cali, ciudad córdoba 90.0 m2 Habit. 3 Baños 2 Garaje 0",
+      "description": "Administración incluida: $850,000 Apartamento en arriendo cali, ciudad córdoba 90.0 m2 Habit. 3 Baños 2 Garaje 0",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 850000,
+      "bedrooms": null,
+      "bathrooms": 3,
+      "area_m2": 90,
+      "parking": 2,
+      "first_seen": "2026-08-16T20:39:35+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-ciudad-cordoba-cali-3821250"
         }
       ],
       "sources": [
@@ -841,7 +869,7 @@
       "area_m2": 50,
       "parking": null,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -869,7 +897,7 @@
       "area_m2": 60,
       "parking": 1,
       "first_seen": "2026-08-17T08:26:24+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -897,7 +925,7 @@
       "area_m2": 45,
       "parking": 1,
       "first_seen": "2026-08-18T05:03:39+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -925,7 +953,7 @@
       "area_m2": 40,
       "parking": null,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -953,7 +981,7 @@
       "area_m2": 55,
       "parking": null,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -981,7 +1009,7 @@
       "area_m2": 72,
       "parking": null,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -1009,12 +1037,40 @@
       "area_m2": 55,
       "parking": 1,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
           "source": "Ciencuadras",
           "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3762408"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "5e58745e99679cd7",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-sindical-cali-3808440",
+      "title": "Administración incluida: $1,250,000 Apartamento en arriendo cali, sindical 83.0 m2 Habit. 3 Baños 1 Garaje 1",
+      "description": "Administración incluida: $1,250,000 Apartamento en arriendo cali, sindical 83.0 m2 Habit. 3 Baños 1 Garaje 1",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1250000,
+      "bedrooms": null,
+      "bathrooms": 3,
+      "area_m2": 83,
+      "parking": 1,
+      "first_seen": "2026-08-18T09:55:06+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-sindical-cali-3808440"
         }
       ],
       "sources": [
@@ -1037,7 +1093,7 @@
       "area_m2": 62,
       "parking": 2,
       "first_seen": "2026-08-17T08:26:24+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -1051,26 +1107,26 @@
       "source_count": 1
     },
     {
-      "id": "928e3dab85f1c2c5",
+      "id": "f12387b9bd13af41",
       "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3821797",
-      "title": "Administración incluida: $1,300,000 Apartamento en arriendo Cali, Cali 65.0 m2 Habit. 3 Baños 2 Garaje 0",
-      "description": "Administración incluida: $1,300,000 Apartamento en arriendo Cali, Cali 65.0 m2 Habit. 3 Baños 2 Garaje 0",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-santa-elena-cali-3810705",
+      "title": "Administración incluida: $1,350,000 Apartamento en arriendo cali, santa elena 75.0 m2 Habit. 2 Baños 2 Garaje 0",
+      "description": "Administración incluida: $1,350,000 Apartamento en arriendo cali, santa elena 75.0 m2 Habit. 2 Baños 2 Garaje 0",
       "property_type": "Apartamento",
       "zone": "Cali (zona por confirmar)",
       "macro_zone": "Otra zona de Cali",
-      "price": 1300000,
+      "price": 1350000,
       "bedrooms": null,
-      "bathrooms": 3,
-      "area_m2": 65,
+      "bathrooms": 2,
+      "area_m2": 75,
       "parking": 2,
-      "first_seen": "2026-08-17T08:26:24+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "first_seen": "2026-08-18T09:55:06+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
           "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3821797"
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-santa-elena-cali-3810705"
         }
       ],
       "sources": [
@@ -1093,40 +1149,12 @@
       "area_m2": 58,
       "parking": 2,
       "first_seen": "2026-08-17T08:26:24+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
           "source": "Ciencuadras",
           "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3818490"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "3e8f312eb0d25fc2",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-n-n-cali-3722558",
-      "title": "Administración incluida: $1,450,000 Apartamento en arriendo cali, n.n. 61.0 m2 Habit. 2 Baños 2 Garaje 1",
-      "description": "Administración incluida: $1,450,000 Apartamento en arriendo cali, n.n. 61.0 m2 Habit. 2 Baños 2 Garaje 1",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 1450000,
-      "bedrooms": null,
-      "bathrooms": 2,
-      "area_m2": 61,
-      "parking": 2,
-      "first_seen": "2026-08-17T08:26:24+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-n-n-cali-3722558"
         }
       ],
       "sources": [
@@ -1149,7 +1177,7 @@
       "area_m2": 62,
       "parking": 2,
       "first_seen": "2026-08-17T08:26:24+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -1177,12 +1205,40 @@
       "area_m2": 64,
       "parking": 2,
       "first_seen": "2026-08-17T08:26:24+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
           "source": "Ciencuadras",
           "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3818444"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "3e8f312eb0d25fc2",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-n-n-cali-3722558",
+      "title": "Administración incluida: $1,450,000 Apartamento en arriendo cali, n.n. 61.0 m2 Habit. 2 Baños 2 Garaje 1",
+      "description": "Administración incluida: $1,450,000 Apartamento en arriendo cali, n.n. 61.0 m2 Habit. 2 Baños 2 Garaje 1",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1450000,
+      "bedrooms": null,
+      "bathrooms": 2,
+      "area_m2": 61,
+      "parking": 2,
+      "first_seen": "2026-08-17T08:26:24+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-n-n-cali-3722558"
         }
       ],
       "sources": [
@@ -1205,7 +1261,7 @@
       "area_m2": 65,
       "parking": 1,
       "first_seen": "2026-08-17T14:02:31+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -1233,40 +1289,12 @@
       "area_m2": 60,
       "parking": 2,
       "first_seen": "2026-08-17T08:26:24+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
           "source": "Ciencuadras",
           "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-conjunto-residencial-reserva-de-melendez-cali-3708313"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "87c56cc41c5ddc79",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-nueva-floresta-del-ict-cali-3679909",
-      "title": "Administración incluida: $1,550,000 Apartamento en arriendo cali, nueva floresta del ict 102.0 m2 Habit. 4 Baños 2 Garaje 1",
-      "description": "Administración incluida: $1,550,000 Apartamento en arriendo cali, nueva floresta del ict 102.0 m2 Habit. 4 Baños 2 Garaje 1",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 1550000,
-      "bedrooms": null,
-      "bathrooms": 4,
-      "area_m2": 102,
-      "parking": 2,
-      "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-nueva-floresta-del-ict-cali-3679909"
         }
       ],
       "sources": [
@@ -1289,7 +1317,7 @@
       "area_m2": 62,
       "parking": 2,
       "first_seen": "2026-08-17T08:26:24+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -1317,7 +1345,7 @@
       "area_m2": 55,
       "parking": 2,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -1345,40 +1373,12 @@
       "area_m2": 60,
       "parking": 2,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
           "source": "Ciencuadras",
           "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3762392"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "f06dcb0dc0ff6cb9",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-lili-cali-3708289",
-      "title": "Administración incluida: $1,800,000 Apartamento en arriendo cali, lili 60.0 m2 Habit. 2 Baños 2 Garaje 0",
-      "description": "Administración incluida: $1,800,000 Apartamento en arriendo cali, lili 60.0 m2 Habit. 2 Baños 2 Garaje 0",
-      "property_type": "Apartamento",
-      "zone": "Lili",
-      "macro_zone": "Sur",
-      "price": 1800000,
-      "bedrooms": null,
-      "bathrooms": 2,
-      "area_m2": 60,
-      "parking": 2,
-      "first_seen": "2026-08-17T08:26:24+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-lili-cali-3708289"
         }
       ],
       "sources": [
@@ -1401,40 +1401,12 @@
       "area_m2": 59,
       "parking": 2,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
           "source": "Ciencuadras",
           "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3762444"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "cba0f7063209b86b",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-camino-real-los-fundadores-cali-3655192",
-      "title": "Administración incluida: $2,100,000 Apartamento en arriendo cali, camino real - los fundadores 70.0 m2 Habit. 3 Baños 3 Garaje 1",
-      "description": "Administración incluida: $2,100,000 Apartamento en arriendo cali, camino real - los fundadores 70.0 m2 Habit. 3 Baños 3 Garaje 1",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 2100000,
-      "bedrooms": null,
-      "bathrooms": 3,
-      "area_m2": 70,
-      "parking": 3,
-      "first_seen": "2026-08-17T08:26:24+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-camino-real-los-fundadores-cali-3655192"
         }
       ],
       "sources": [
@@ -1457,7 +1429,7 @@
       "area_m2": 118,
       "parking": 3,
       "first_seen": "2026-08-17T08:26:24+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -1485,7 +1457,7 @@
       "area_m2": 100,
       "parking": 2,
       "first_seen": "2026-08-17T08:26:24+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -1513,7 +1485,7 @@
       "area_m2": 60,
       "parking": 2,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -1541,7 +1513,7 @@
       "area_m2": 100,
       "parking": null,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -1569,7 +1541,7 @@
       "area_m2": 90,
       "parking": 3,
       "first_seen": "2026-08-17T08:26:24+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -1597,7 +1569,7 @@
       "area_m2": 110,
       "parking": null,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -1625,7 +1597,7 @@
       "area_m2": 60,
       "parking": null,
       "first_seen": "2026-08-18T05:03:39+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -1653,7 +1625,7 @@
       "area_m2": 92,
       "parking": null,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -1681,7 +1653,7 @@
       "area_m2": 90,
       "parking": 2,
       "first_seen": "2026-08-18T05:03:39+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -1709,7 +1681,7 @@
       "area_m2": 300,
       "parking": 3,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -1737,7 +1709,7 @@
       "area_m2": 350,
       "parking": null,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -1765,7 +1737,7 @@
       "area_m2": 94,
       "parking": null,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -1793,7 +1765,7 @@
       "area_m2": 370,
       "parking": 3,
       "first_seen": "2026-08-17T08:26:24+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -1821,7 +1793,7 @@
       "area_m2": 117,
       "parking": null,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -1849,7 +1821,7 @@
       "area_m2": 112,
       "parking": null,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -1859,6 +1831,34 @@
       ],
       "sources": [
         "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "b7748db0413181ff",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-el-penon-cali-3808145",
+      "title": "Administración incluida: $6,800,000 Apartamento en arriendo cali, el peñón 170.0 m2 Habit. 2 Baños 4 Garaje 2",
+      "description": "Administración incluida: $6,800,000 Apartamento en arriendo cali, el peñón 170.0 m2 Habit. 2 Baños 4 Garaje 2",
+      "property_type": "Apartamento",
+      "zone": "El Peñón",
+      "macro_zone": "Oeste",
+      "price": 6800000,
+      "bedrooms": null,
+      "bathrooms": 2,
+      "area_m2": 170,
+      "parking": 4,
+      "first_seen": "2026-08-18T09:55:06+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-el-penon-cali-3808145"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
       ],
       "source_count": 1
     },
@@ -1877,7 +1877,7 @@
       "area_m2": 300,
       "parking": 4,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -1905,7 +1905,7 @@
       "area_m2": 43,
       "parking": null,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -1933,7 +1933,7 @@
       "area_m2": 430,
       "parking": 6,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -1961,7 +1961,7 @@
       "area_m2": 305,
       "parking": 4,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -1989,7 +1989,7 @@
       "area_m2": 488,
       "parking": null,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -2017,7 +2017,7 @@
       "area_m2": 300,
       "parking": 6,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -2045,7 +2045,7 @@
       "area_m2": 229,
       "parking": null,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -2073,7 +2073,7 @@
       "area_m2": 233,
       "parking": 3,
       "first_seen": "2026-08-18T05:03:39+00:00",
-      "last_seen": "2026-08-18T05:03:39+00:00",
+      "last_seen": "2026-08-18T09:55:06+00:00",
       "stale": false,
       "links": [
         {
@@ -2871,34 +2871,6 @@
       "source_count": 1
     },
     {
-      "id": "a2ea4e8f9bbebf1f",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-ciudad-cordoba-cali-3821250",
-      "title": "Apartamento en arriendo en Carrera 46 #48 -119, Ciudad Córdoba, Cali - Cód. 7185-13112",
-      "description": "Apartamento en arriendo en Carrera 46 #48 -119, Ciudad Córdoba, Cali - Cód. 7185-13112",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 850000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-17T03:30:07+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-ciudad-cordoba-cali-3821250"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
       "id": "69c453b8a69190ed",
       "source": "FincaRaíz",
       "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-sur-cali/193987530",
@@ -3039,6 +3011,34 @@
       "source_count": 1
     },
     {
+      "id": "928e3dab85f1c2c5",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3821797",
+      "title": "Administración incluida: $1,300,000 Apartamento en arriendo Cali, Cali 65.0 m2 Habit. 3 Baños 2 Garaje 0",
+      "description": "Administración incluida: $1,300,000 Apartamento en arriendo Cali, Cali 65.0 m2 Habit. 3 Baños 2 Garaje 0",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1300000,
+      "bedrooms": null,
+      "bathrooms": 3,
+      "area_m2": 65,
+      "parking": 2,
+      "first_seen": "2026-08-17T08:26:24+00:00",
+      "last_seen": "2026-08-18T05:03:39+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3821797"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "99cbee3155a2b334",
       "source": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3602485",
@@ -3087,6 +3087,34 @@
         {
           "source": "Ciencuadras",
           "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-ciudad-real-cali-3810420"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "87c56cc41c5ddc79",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-nueva-floresta-del-ict-cali-3679909",
+      "title": "Administración incluida: $1,550,000 Apartamento en arriendo cali, nueva floresta del ict 102.0 m2 Habit. 4 Baños 2 Garaje 1",
+      "description": "Administración incluida: $1,550,000 Apartamento en arriendo cali, nueva floresta del ict 102.0 m2 Habit. 4 Baños 2 Garaje 1",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1550000,
+      "bedrooms": null,
+      "bathrooms": 4,
+      "area_m2": 102,
+      "parking": 2,
+      "first_seen": "2026-08-16T20:39:35+00:00",
+      "last_seen": "2026-08-18T05:03:39+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-nueva-floresta-del-ict-cali-3679909"
         }
       ],
       "sources": [
@@ -3207,6 +3235,34 @@
       "source_count": 1
     },
     {
+      "id": "f06dcb0dc0ff6cb9",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-lili-cali-3708289",
+      "title": "Administración incluida: $1,800,000 Apartamento en arriendo cali, lili 60.0 m2 Habit. 2 Baños 2 Garaje 0",
+      "description": "Administración incluida: $1,800,000 Apartamento en arriendo cali, lili 60.0 m2 Habit. 2 Baños 2 Garaje 0",
+      "property_type": "Apartamento",
+      "zone": "Lili",
+      "macro_zone": "Sur",
+      "price": 1800000,
+      "bedrooms": null,
+      "bathrooms": 2,
+      "area_m2": 60,
+      "parking": 2,
+      "first_seen": "2026-08-17T08:26:24+00:00",
+      "last_seen": "2026-08-18T05:03:39+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-lili-cali-3708289"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "1c50e0c1e78cd3ad",
       "source": "FincaRaíz",
       "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-granada-cali/193886392",
@@ -3231,6 +3287,34 @@
       ],
       "sources": [
         "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "cba0f7063209b86b",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-camino-real-los-fundadores-cali-3655192",
+      "title": "Administración incluida: $2,100,000 Apartamento en arriendo cali, camino real - los fundadores 70.0 m2 Habit. 3 Baños 3 Garaje 1",
+      "description": "Administración incluida: $2,100,000 Apartamento en arriendo cali, camino real - los fundadores 70.0 m2 Habit. 3 Baños 3 Garaje 1",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 2100000,
+      "bedrooms": null,
+      "bathrooms": 3,
+      "area_m2": 70,
+      "parking": 3,
+      "first_seen": "2026-08-17T08:26:24+00:00",
+      "last_seen": "2026-08-18T05:03:39+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-camino-real-los-fundadores-cali-3655192"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
       ],
       "source_count": 1
     },
