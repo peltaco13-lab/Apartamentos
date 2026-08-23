@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": 4,
-    "updated_at": "2026-08-23T10:58:23+00:00",
+    "updated_at": "2026-08-23T11:55:09+00:00",
     "price_policy": "no_fixed_cap",
     "total": 314,
     "source_count": 12,
@@ -15,8 +15,8 @@
         "ok": true,
         "found": 21,
         "errors": [],
-        "last_checked": "2026-08-23T07:52:05+00:00",
-        "skipped": true,
+        "last_checked": "2026-08-23T11:55:09+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://www.fincaraiz.com.co/arriendo/apartamentos/cali/valle-del-cauca"
         ]
@@ -29,8 +29,8 @@
         "ok": true,
         "found": 28,
         "errors": [],
-        "last_checked": "2026-08-23T07:52:05+00:00",
-        "skipped": true,
+        "last_checked": "2026-08-23T11:55:09+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://www.ciencuadras.com/arriendo/cali/cali/apartamento"
         ]
@@ -43,8 +43,8 @@
         "ok": true,
         "found": 0,
         "errors": [],
-        "last_checked": "2026-08-23T07:52:05+00:00",
-        "skipped": true,
+        "last_checked": "2026-08-23T11:55:09+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://listado.mercadolibre.com.co/apartamentos-en-arriendo-cali"
         ]
@@ -116,7 +116,7 @@
         "found": 21,
         "errors": [],
         "last_checked": "2026-08-23T10:58:23+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://www.aycinmobiliarios.com/busqueda/pagina/1/gestion/arriendo"
         ]
@@ -130,7 +130,7 @@
         "found": 0,
         "errors": [],
         "last_checked": "2026-08-23T10:58:23+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://www.metroredinmobiliariacali.com.co/"
         ]
@@ -505,7 +505,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-23T07:52:05+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -687,6 +687,34 @@
       "source_count": 1
     },
     {
+      "id": "eddbfa20b5393b20",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-alfonso-barberena-a-cali-3808107",
+      "title": "Apartamento en arriendo en Transversal 30 # 17 F - 135 APTO 202, Alfonso Barberena A., Cali - Cód. 16514-15344",
+      "description": "Apartamento en arriendo en Transversal 30 # 17 F - 135 APTO 202, Alfonso Barberena A., Cali - Cód. 16514-15344",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 700000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-alfonso-barberena-a-cali-3808107"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "17a93a794c5e5a9c",
       "source": "A&C Inmobiliarios",
       "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-benjamin-herrera-cali_3477",
@@ -739,34 +767,6 @@
       ],
       "sources": [
         "A&C Inmobiliarios"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "eddbfa20b5393b20",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-alfonso-barberena-a-cali-3808107",
-      "title": "Apartamento en arriendo en Transversal 30 # 17 F - 135 APTO 202, Alfonso Barberena A., Cali - Cód. 16514-15344",
-      "description": "Apartamento en arriendo en Transversal 30 # 17 F - 135 APTO 202, Alfonso Barberena A., Cali - Cód. 16514-15344",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 700000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-08-23T07:52:05+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-alfonso-barberena-a-cali-3808107"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
       ],
       "source_count": 1
     },
@@ -841,7 +841,7 @@
       "area_m2": 50,
       "parking": null,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -878,7 +878,7 @@
       "area_m2": 63,
       "parking": null,
       "first_seen": "2026-08-19T14:09:24+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -906,7 +906,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -934,7 +934,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-19T19:35:51+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -962,7 +962,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-20T14:20:49+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -990,7 +990,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-21T23:58:37+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1018,7 +1018,7 @@
       "area_m2": 60,
       "parking": null,
       "first_seen": "2026-08-20T14:20:49+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1046,7 +1046,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-18T05:03:39+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1074,7 +1074,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-18T09:55:06+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1102,7 +1102,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-21T10:00:11+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1130,7 +1130,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-22T09:13:53+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1158,7 +1158,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-23T07:52:05+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1186,7 +1186,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-23T07:52:05+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1214,7 +1214,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-23T07:52:05+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1242,7 +1242,7 @@
       "area_m2": 55,
       "parking": null,
       "first_seen": "2026-08-22T17:56:16+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1270,7 +1270,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-22T09:13:53+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1298,7 +1298,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-23T07:52:05+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1326,7 +1326,7 @@
       "area_m2": 52,
       "parking": null,
       "first_seen": "2026-08-19T05:51:24+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1354,7 +1354,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-19T19:35:51+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1382,7 +1382,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-21T10:00:11+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1410,7 +1410,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-22T09:13:53+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1438,7 +1438,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-23T07:52:05+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1466,7 +1466,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-23T07:52:05+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1494,7 +1494,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-23T07:52:05+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1522,7 +1522,7 @@
       "area_m2": 42,
       "parking": null,
       "first_seen": "2026-08-20T23:59:38+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1550,7 +1550,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-23T07:52:05+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1578,7 +1578,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-21T10:00:11+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1606,7 +1606,7 @@
       "area_m2": 36,
       "parking": null,
       "first_seen": "2026-08-23T03:32:34+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1634,7 +1634,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-17T08:26:24+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1644,6 +1644,34 @@
       ],
       "sources": [
         "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "7be382c9bf940738",
+      "source": "FincaRaíz",
+      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-cachipay-cali/194068188",
+      "title": "Destacado Black $ 2.200.000 + $ 347.038 admin Apartamento en Cali, Valle del cauca 2 Habs. 1 Baño 73 m² Apartamento en arriendo en cachipay, cali Arri",
+      "description": "Destacado Black $ 2.200.000 + $ 347.038 admin Apartamento en Cali, Valle del cauca 2 Habs. 1 Baño 73 m² Apartamento en arriendo en cachipay, cali Arriendo Apartamento para estrenar al sur de Cali en el barrio El Vivero, es una oportunidad única para quienes buscan un hogar que combine confort y calidad de vida. Con un área de 73 m², este inmueble ha sido diseñado pensando en la funcionalidad y el bienestar familiar, ofreciendo amplios espacios que invitan a disfrutar de cada rincón. El Apartamento consta de 2 alcob",
+      "property_type": "Apartamento",
+      "zone": "Cachipay / Kachipay",
+      "macro_zone": "Sur",
+      "price": 2200000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "area_m2": 73,
+      "parking": null,
+      "first_seen": "2026-08-21T19:34:12+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "FincaRaíz",
+          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-cachipay-cali/194068188"
+        }
+      ],
+      "sources": [
+        "FincaRaíz"
       ],
       "source_count": 1
     },
@@ -1662,7 +1690,7 @@
       "area_m2": 54,
       "parking": null,
       "first_seen": "2026-08-22T22:57:28+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1690,7 +1718,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-20T09:59:51+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1718,7 +1746,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-23T07:52:05+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1746,7 +1774,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-21T19:34:12+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1774,7 +1802,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-23T07:52:05+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1802,7 +1830,7 @@
       "area_m2": 110,
       "parking": null,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1830,7 +1858,7 @@
       "area_m2": 75,
       "parking": null,
       "first_seen": "2026-08-18T19:40:21+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1858,7 +1886,7 @@
       "area_m2": 224,
       "parking": null,
       "first_seen": "2026-08-21T05:52:55+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1886,7 +1914,7 @@
       "area_m2": 173,
       "parking": null,
       "first_seen": "2026-08-19T14:09:24+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1914,7 +1942,7 @@
       "area_m2": 112,
       "parking": 2,
       "first_seen": "2026-08-21T19:34:12+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1942,7 +1970,7 @@
       "area_m2": 210,
       "parking": null,
       "first_seen": "2026-08-22T22:57:28+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1970,7 +1998,7 @@
       "area_m2": 86,
       "parking": null,
       "first_seen": "2026-08-18T19:40:21+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -1998,7 +2026,7 @@
       "area_m2": 155,
       "parking": 2,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -2026,7 +2054,7 @@
       "area_m2": 165,
       "parking": 3,
       "first_seen": "2026-08-22T22:57:28+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -2054,7 +2082,7 @@
       "area_m2": 233,
       "parking": 3,
       "first_seen": "2026-08-18T05:03:39+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -2082,40 +2110,12 @@
       "area_m2": 250,
       "parking": 2,
       "first_seen": "2026-08-22T22:57:28+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
           "source": "FincaRaíz",
           "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-arboledas-cali/193467319"
-        }
-      ],
-      "sources": [
-        "FincaRaíz"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "668f339dfed68c70",
-      "source": "FincaRaíz",
-      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-santa-monica-cali/194032583",
-      "title": "Destacado Black $ 11.000.000 Apartamento en Cali, Valle del cauca 7 Habs. 7 Baños 430 m² Apartamento en arriendo en santa monica, cali ESPECTACULAR AP",
-      "description": "Destacado Black $ 11.000.000 Apartamento en Cali, Valle del cauca 7 Habs. 7 Baños 430 m² Apartamento en arriendo en santa monica, cali ESPECTACULAR APARTAMENTO CON VISTA 360°, TIPO LOFT, DOBLE ALTURA CON 430MTS2, PISOS EN MARMOL MUY ILUMINADO, LINDOS ACABADOS, SUPER AIREADO Y FRESCO NATURALMENTE EN EL 6° PISO DEL EDIFICIO ATALAYA CONSTRUIDO POR ARQUITECTOS ESPAÑOLES AL ESTILO NEOCLASICO. 7 ALCOBAS DESCRITAS ASÍ: ALCOBA PRINCIPAL , CON BALCÓN, SALA, VESTIER, BAÑO AMPLIO CON JACUZZI Y TURCO. 2 HABITACIONES SEGUIDAS A",
-      "property_type": "Apartamento",
-      "zone": "Santa Mónica",
-      "macro_zone": "Norte",
-      "price": 11000000,
-      "bedrooms": 7,
-      "bathrooms": 7,
-      "area_m2": 430,
-      "parking": 4,
-      "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "FincaRaíz",
-          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-santa-monica-cali/194032583"
         }
       ],
       "sources": [
@@ -2138,7 +2138,7 @@
       "area_m2": 488,
       "parking": null,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-08-23T11:55:09+00:00",
       "stale": false,
       "links": [
         {
@@ -6772,34 +6772,6 @@
       "source_count": 1
     },
     {
-      "id": "7be382c9bf940738",
-      "source": "FincaRaíz",
-      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-cachipay-cali/194068188",
-      "title": "Destacado Black $ 2.200.000 + $ 347.038 admin Apartamento en Cali, Valle del cauca 2 Habs. 1 Baño 73 m² Apartamento en arriendo en cachipay, cali Arri",
-      "description": "Destacado Black $ 2.200.000 + $ 347.038 admin Apartamento en Cali, Valle del cauca 2 Habs. 1 Baño 73 m² Apartamento en arriendo en cachipay, cali Arriendo Apartamento para estrenar al sur de Cali en el barrio El Vivero, es una oportunidad única para quienes buscan un hogar que combine confort y calidad de vida. Con un área de 73 m², este inmueble ha sido diseñado pensando en la funcionalidad y el bienestar familiar, ofreciendo amplios espacios que invitan a disfrutar de cada rincón. El Apartamento consta de 2 alcob",
-      "property_type": "Apartamento",
-      "zone": "Cachipay / Kachipay",
-      "macro_zone": "Sur",
-      "price": 2200000,
-      "bedrooms": 2,
-      "bathrooms": 1,
-      "area_m2": 73,
-      "parking": null,
-      "first_seen": "2026-08-21T19:34:12+00:00",
-      "last_seen": "2026-08-22T22:57:28+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "FincaRaíz",
-          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-cachipay-cali/194068188"
-        }
-      ],
-      "sources": [
-        "FincaRaíz"
-      ],
-      "source_count": 1
-    },
-    {
       "id": "550e7180b833be52",
       "source": "FincaRaíz",
       "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-la-selva-cali/194135293",
@@ -8780,6 +8752,34 @@
         {
           "source": "FincaRaíz",
           "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-menga-cali/193955243"
+        }
+      ],
+      "sources": [
+        "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "668f339dfed68c70",
+      "source": "FincaRaíz",
+      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-santa-monica-cali/194032583",
+      "title": "Destacado Black $ 11.000.000 Apartamento en Cali, Valle del cauca 7 Habs. 7 Baños 430 m² Apartamento en arriendo en santa monica, cali ESPECTACULAR AP",
+      "description": "Destacado Black $ 11.000.000 Apartamento en Cali, Valle del cauca 7 Habs. 7 Baños 430 m² Apartamento en arriendo en santa monica, cali ESPECTACULAR APARTAMENTO CON VISTA 360°, TIPO LOFT, DOBLE ALTURA CON 430MTS2, PISOS EN MARMOL MUY ILUMINADO, LINDOS ACABADOS, SUPER AIREADO Y FRESCO NATURALMENTE EN EL 6° PISO DEL EDIFICIO ATALAYA CONSTRUIDO POR ARQUITECTOS ESPAÑOLES AL ESTILO NEOCLASICO. 7 ALCOBAS DESCRITAS ASÍ: ALCOBA PRINCIPAL , CON BALCÓN, SALA, VESTIER, BAÑO AMPLIO CON JACUZZI Y TURCO. 2 HABITACIONES SEGUIDAS A",
+      "property_type": "Apartamento",
+      "zone": "Santa Mónica",
+      "macro_zone": "Norte",
+      "price": 11000000,
+      "bedrooms": 7,
+      "bathrooms": 7,
+      "area_m2": 430,
+      "parking": 4,
+      "first_seen": "2026-08-16T20:39:35+00:00",
+      "last_seen": "2026-08-23T07:52:05+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "FincaRaíz",
+          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-santa-monica-cali/194032583"
         }
       ],
       "sources": [
