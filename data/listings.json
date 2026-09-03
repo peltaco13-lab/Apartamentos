@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": 4,
-    "updated_at": "2026-09-03T13:28:10+00:00",
+    "updated_at": "2026-09-03T14:29:02+00:00",
     "price_policy": "no_fixed_cap",
-    "total": 454,
+    "total": 449,
     "source_count": 12,
     "automated_source_count": 10,
     "sources": [
@@ -15,8 +15,8 @@
         "ok": true,
         "found": 22,
         "errors": [],
-        "last_checked": "2026-09-03T10:27:59+00:00",
-        "skipped": true,
+        "last_checked": "2026-09-03T14:29:02+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://www.fincaraiz.com.co/arriendo/apartamentos/cali/valle-del-cauca"
         ]
@@ -27,10 +27,10 @@
         "cadence_hours": 4,
         "automated": true,
         "ok": true,
-        "found": 28,
+        "found": 0,
         "errors": [],
-        "last_checked": "2026-09-03T10:27:59+00:00",
-        "skipped": true,
+        "last_checked": "2026-09-03T14:29:02+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://www.ciencuadras.com/arriendo/cali/cali/apartamento"
         ]
@@ -43,8 +43,8 @@
         "ok": true,
         "found": 0,
         "errors": [],
-        "last_checked": "2026-09-03T10:27:59+00:00",
-        "skipped": true,
+        "last_checked": "2026-09-03T14:29:02+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://listado.mercadolibre.com.co/apartamentos-en-arriendo-cali"
         ]
@@ -72,7 +72,7 @@
         "found": 0,
         "errors": [],
         "last_checked": "2026-09-03T13:28:10+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://arriendo.com/co/apartamentos/cali/"
         ]
@@ -88,7 +88,7 @@
           "https://www.unisa.com.co/inmuebles/g/arriendo/t/apartamentos/c/cali/: HTTPError"
         ],
         "last_checked": "2026-09-03T13:28:10+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://www.unisa.com.co/inmuebles/g/arriendo/t/apartamentos/c/cali/"
         ]
@@ -102,7 +102,7 @@
         "found": 0,
         "errors": [],
         "last_checked": "2026-09-03T13:28:10+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://bienco.com.co/inmuebles/arriendo"
         ]
@@ -158,7 +158,7 @@
         "found": 0,
         "errors": [],
         "last_checked": "2026-09-03T13:28:10+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://www.nuroa.com.co/arriendo/apartamento-cali"
         ]
@@ -174,7 +174,7 @@
           "https://www.yumblin.com/co/clasificados/galeria/colombia/valle-del-cauca/cali/arriendo/apartamentos: HTTPError"
         ],
         "last_checked": "2026-09-03T13:28:10+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://www.yumblin.com/co/clasificados/galeria/colombia/valle-del-cauca/cali/arriendo/apartamentos"
         ]
@@ -240,8 +240,8 @@
     },
     {
       "id": "17a93a794c5e5a9c",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-benjamin-herrera-cali-3815098",
+      "source": "A&C Inmobiliarios",
+      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-benjamin-herrera-cali_3477",
       "title": "Apartamento En Arriendo - Benjamin Herrera, Cali",
       "description": "$700.000 Apartamento en Benjamin Herrera en Arriendo 3477 Cali , Benjamin Herrera Si estás buscando un apartamento funcional, cómodo y con una excelente ubicación, esta opción en el barrio Benjamín Herrera puede ser el hogar que estabas esperando. Su distribución práctica y su cercanía a una amplia zona comercial lo convierten en una excelente alternativa para quienes desean vivir con todo al alcance de la mano. Ubicado en primer piso, el apartamento cuenta con una amplia sala comedor, baño social, cocina sencilla,",
       "property_type": "Apartamento",
@@ -270,34 +270,6 @@
         "Ciencuadras"
       ],
       "source_count": 2
-    },
-    {
-      "id": "97d620125841f496",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-otros-cali-3599498",
-      "title": "Apartamento en arriendo en Calle 72 G #3 N -34, Otros, Cali - Cód. 7183-12650",
-      "description": "Apartamento en arriendo en Calle 72 G #3 N -34, Otros, Cali - Cód. 7183-12650",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 700000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-09-03T10:27:59+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-otros-cali-3599498"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
-      ],
-      "source_count": 1
     },
     {
       "id": "fc6c2d1a71470f22",
@@ -342,7 +314,7 @@
       "area_m2": 63,
       "parking": null,
       "first_seen": "2026-08-19T14:09:24+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
+      "last_seen": "2026-09-03T14:29:02+00:00",
       "stale": false,
       "links": [
         {
@@ -446,34 +418,6 @@
       ],
       "sources": [
         "A&C Inmobiliarios"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "89520f4f5f181a12",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-calima-cali-3811040",
-      "title": "Apartamento en arriendo en Calle 66 #7 M -13 APTO 102, Calima, Cali - Cód. 7202-11606",
-      "description": "Apartamento en arriendo en Calle 66 #7 M -13 APTO 102, Calima, Cali - Cód. 7202-11606",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 900000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-09-03T10:27:59+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-calima-cali-3811040"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
       ],
       "source_count": 1
     },
@@ -586,62 +530,6 @@
       ],
       "sources": [
         "A&C Inmobiliarios"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "ba9ca7df43541b6a",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-nueva-floresta-del-ict-cali-3736607",
-      "title": "Apartamento en arriendo en CARRERA 26M # 44 - 30 APTO 101, Nueva Floresta Del Ict, Cali - Cód. 7185-13423",
-      "description": "Apartamento en arriendo en CARRERA 26M # 44 - 30 APTO 101, Nueva Floresta Del Ict, Cali - Cód. 7185-13423",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 940000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-08-20T14:20:49+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-nueva-floresta-del-ict-cali-3736607"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "3c70dac68f30b19e",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-el-jardin-cali-3784749",
-      "title": "Apartamento en arriendo en Carrera 33B # 26B - 134 tercer piso El Jardín, El Jardín, Cali - Cód. 182720-12298",
-      "description": "Apartamento en arriendo en Carrera 33B # 26B - 134 tercer piso El Jardín, El Jardín, Cali - Cód. 182720-12298",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 950000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-08-20T23:59:38+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-el-jardin-cali-3784749"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
       ],
       "source_count": 1
     },
@@ -772,7 +660,7 @@
       "area_m2": 75,
       "parking": null,
       "first_seen": "2026-08-28T01:32:20+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
+      "last_seen": "2026-09-03T14:29:02+00:00",
       "stale": false,
       "links": [
         {
@@ -856,7 +744,7 @@
       "area_m2": 45,
       "parking": null,
       "first_seen": "2026-08-24T23:55:25+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
+      "last_seen": "2026-09-03T14:29:02+00:00",
       "stale": false,
       "links": [
         {
@@ -894,62 +782,6 @@
       ],
       "sources": [
         "A&C Inmobiliarios"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "d360cb2761ce7e54",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-canaverales-los-samanes-cali-3843335",
-      "title": "Apartamento en arriendo en Carrera 61 #18 16, Cañaverales - Los Samanes, Cali - Cód. 7183-14952",
-      "description": "Apartamento en arriendo en Carrera 61 #18 16, Cañaverales - Los Samanes, Cali - Cód. 7183-14952",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 1200000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-08-29T10:21:10+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-canaverales-los-samanes-cali-3843335"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "c1c70047faf6aae3",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3851088",
-      "title": "Apartamento en arriendo en CALLE 60 A # 108 - 104 CR CANARIA APTO 504 TORRE 1, Cali, Cali - Cód. 7777-10293451",
-      "description": "Apartamento en arriendo en CALLE 60 A # 108 - 104 CR CANARIA APTO 504 TORRE 1, Cali, Cali - Cód. 7777-10293451",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 1200000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-09-02T08:28:44+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3851088"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
       ],
       "source_count": 1
     },
@@ -996,7 +828,7 @@
       "area_m2": 50,
       "parking": null,
       "first_seen": "2026-08-25T16:18:22+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
+      "last_seen": "2026-09-03T14:29:02+00:00",
       "stale": false,
       "links": [
         {
@@ -1024,7 +856,7 @@
       "area_m2": 56,
       "parking": null,
       "first_seen": "2026-09-02T02:39:26+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
+      "last_seen": "2026-09-03T14:29:02+00:00",
       "stale": false,
       "links": [
         {
@@ -1113,7 +945,7 @@
       "area_m2": 60,
       "parking": null,
       "first_seen": "2026-08-31T19:21:27+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
+      "last_seen": "2026-09-03T14:29:02+00:00",
       "stale": false,
       "links": [
         {
@@ -1183,34 +1015,6 @@
       "source_count": 1
     },
     {
-      "id": "fb59f8f420532612",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-lili-cali-3851313",
-      "title": "Apartamento en arriendo en Cl. 45 #98B-50, Comuna 17, Cali, Valle del Cauca, Colombia, Lili, Cali - Cód. 9273-73335",
-      "description": "Apartamento en arriendo en Cl. 45 #98B-50, Comuna 17, Cali, Valle del Cauca, Colombia, Lili, Cali - Cód. 9273-73335",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 1350000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-09-03T10:27:59+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-lili-cali-3851313"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
       "id": "42dd9171d13e32b5",
       "source": "Yumblin",
       "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-ciudad-2000-sur-1124350",
@@ -1239,34 +1043,6 @@
       "source_count": 1
     },
     {
-      "id": "a9b73fbe5432246d",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3861932",
-      "title": "Apartamento en arriendo en Calle 60 B #119 -62, Cali, Cali - Cód. 334819-14456",
-      "description": "Apartamento en arriendo en Calle 60 B #119 -62, Cali, Cali - Cód. 334819-14456",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 1370000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-09-03T05:44:52+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3861932"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
       "id": "b6610527bc1a0305",
       "source": "FincaRaíz",
       "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-cachipay-cali/194114956",
@@ -1281,7 +1057,7 @@
       "area_m2": 65,
       "parking": null,
       "first_seen": "2026-09-03T05:44:52+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
+      "last_seen": "2026-09-03T14:29:02+00:00",
       "stale": false,
       "links": [
         {
@@ -1291,90 +1067,6 @@
       ],
       "sources": [
         "FincaRaíz"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "017dd2a629d77708",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-alferez-real-cali-3728517",
-      "title": "Apartamento en arriendo en Cra. 75 #3c-1, Las Farallones, Cali, Valle del Cauca, Colombia, Alferez Real, Cali - Cód. 9273-62319",
-      "description": "Apartamento en arriendo en Cra. 75 #3c-1, Las Farallones, Cali, Valle del Cauca, Colombia, Alferez Real, Cali - Cód. 9273-62319",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 1400000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-08-23T07:52:05+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-alferez-real-cali-3728517"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "2f96eefa25e307bd",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-conjunto-residencial-turquesa-cali-3839239",
-      "title": "Apartamento en arriendo en Cl 59 #98c, Cali, Valle del Cauca, Colombia, Conjunto Residencial Turquesa, Cali - Cód. 445123-72047",
-      "description": "Apartamento en arriendo en Cl 59 #98c, Cali, Valle del Cauca, Colombia, Conjunto Residencial Turquesa, Cali - Cód. 445123-72047",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 1400000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-08-22T09:13:53+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-conjunto-residencial-turquesa-cali-3839239"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "161572f321d692a9",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-ciudad-real-cali-3810420",
-      "title": "Apartamento en arriendo en Cra. 83a #48 - 24, Comuna 17, Cali, Valle del Cauca, Colombia, Ciudad Real, Cali - Cód. 16860-70963",
-      "description": "Apartamento en arriendo en Cra. 83a #48 - 24, Comuna 17, Cali, Valle del Cauca, Colombia, Ciudad Real, Cali - Cód. 16860-70963",
-      "property_type": "Apartamento",
-      "zone": "Ciudad Real",
-      "macro_zone": "Sur",
-      "price": 1400000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-ciudad-real-cali-3810420"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
       ],
       "source_count": 1
     },
@@ -1393,7 +1085,7 @@
       "area_m2": 65,
       "parking": null,
       "first_seen": "2026-09-03T05:44:52+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
+      "last_seen": "2026-09-03T14:29:02+00:00",
       "stale": false,
       "links": [
         {
@@ -1421,7 +1113,7 @@
       "area_m2": 100,
       "parking": null,
       "first_seen": "2026-09-01T14:27:46+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
+      "last_seen": "2026-09-03T14:29:02+00:00",
       "stale": false,
       "links": [
         {
@@ -1431,34 +1123,6 @@
       ],
       "sources": [
         "FincaRaíz"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "302435ce4c418af0",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-conjunto-residencial-reserva-de-melendez-cali-3247775",
-      "title": "Apartamento en arriendo en Carrera 98 C #58 -72, Conjunto Residencial Reserva De Melendez, Cali - Cód. 183056-1817",
-      "description": "Apartamento en arriendo en Carrera 98 C #58 -72, Conjunto Residencial Reserva De Melendez, Cali - Cód. 183056-1817",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 1418000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-09-03T10:27:59+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-conjunto-residencial-reserva-de-melendez-cali-3247775"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
       ],
       "source_count": 1
     },
@@ -1547,62 +1211,6 @@
       "source_count": 1
     },
     {
-      "id": "804bb190da53d6a6",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-conjunto-residencial-reserva-de-melendez-cali-3708313",
-      "title": "Apartamento en arriendo en Carrera 98 No 53 - 181 apto 702 - 1 CJ Senderos de la Pradera, Conjunto Residencial Reserva De Melendez, Cali - Cód. 182720-15130",
-      "description": "Apartamento en arriendo en Carrera 98 No 53 - 181 apto 702 - 1 CJ Senderos de la Pradera, Conjunto Residencial Reserva De Melendez, Cali - Cód. 182720-15130",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 1500000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-08-17T08:26:24+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-conjunto-residencial-reserva-de-melendez-cali-3708313"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "385e81d81c9f0abe",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-n-n-cali-3773312",
-      "title": "Apartamento en arriendo en CALLE 51#123-70 apto 804-1, N.N., Cali - Cód. 8430-110053861",
-      "description": "Apartamento en arriendo en CALLE 51#123-70 apto 804-1, N.N., Cali - Cód. 8430-110053861",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 1500000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-08-20T19:18:04+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-n-n-cali-3773312"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
       "id": "8c0d4cf1ccd6d994",
       "source": "Yumblin",
       "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-carrera-119a-azalea-el-hormiguero-cali-sur-valle-del-cauca-rap-pacifico-760007-colombia-2104400",
@@ -1645,7 +1253,7 @@
       "area_m2": 70,
       "parking": null,
       "first_seen": "2026-09-01T00:37:13+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
+      "last_seen": "2026-09-03T14:29:02+00:00",
       "stale": false,
       "links": [
         {
@@ -1655,62 +1263,6 @@
       ],
       "sources": [
         "FincaRaíz"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "11c4b61d6baae4c1",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-la-alianza-cali-3819316",
-      "title": "Apartamento en arriendo en carrera 101#42-75, La Alianza, Cali - Cód. 7215-112244",
-      "description": "Apartamento en arriendo en carrera 101#42-75, La Alianza, Cali - Cód. 7215-112244",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 1600000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-08-21T10:00:11+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-la-alianza-cali-3819316"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "56783aa86b5d4a29",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3818476",
-      "title": "Apartamento en arriendo en CONJUNTO RESIDENCIAL MARGARITAS, Cali, Cali - Cód. 8705-17594",
-      "description": "Apartamento en arriendo en CONJUNTO RESIDENCIAL MARGARITAS, Cali, Cali - Cód. 8705-17594",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 1600000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-09-03T10:27:59+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3818476"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
       ],
       "source_count": 1
     },
@@ -1729,7 +1281,7 @@
       "area_m2": 65,
       "parking": null,
       "first_seen": "2026-08-25T21:14:09+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
+      "last_seen": "2026-09-03T14:29:02+00:00",
       "stale": false,
       "links": [
         {
@@ -1771,34 +1323,6 @@
       "source_count": 1
     },
     {
-      "id": "842da3a27da6fa4f",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-lili-cali-3817027",
-      "title": "Apartamento en arriendo en Calle 34 #98 B -35, Lili, Cali - Cód. 280910-1464744",
-      "description": "Apartamento en arriendo en Calle 34 #98 B -35, Lili, Cali - Cód. 280910-1464744",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 1700000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-09-01T14:27:46+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-lili-cali-3817027"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
       "id": "b149c9c95e6681c6",
       "source": "FincaRaíz",
       "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-valle-del-lili-cali/194109314",
@@ -1813,7 +1337,7 @@
       "area_m2": 65,
       "parking": null,
       "first_seen": "2026-08-25T21:14:09+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
+      "last_seen": "2026-09-03T14:29:02+00:00",
       "stale": false,
       "links": [
         {
@@ -1851,118 +1375,6 @@
       ],
       "sources": [
         "Yumblin"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "900e15641ed31f38",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-condominio-zafiro-cali-3811954",
-      "title": "Apartamento en arriendo en CALLE 59 # 98 C 114, Condominio Zafiro, Cali - Cód. 334819-14371",
-      "description": "Apartamento en arriendo en CALLE 59 # 98 C 114, Condominio Zafiro, Cali - Cód. 334819-14371",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 1720000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-08-23T07:52:05+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-condominio-zafiro-cali-3811954"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "601ef7418b1122f4",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-santa-anita-la-selva-cali-3829339",
-      "title": "Apartamento en arriendo en CALLE 12 B # 59 - 31, Santa Anita - La Selva, Cali - Cód. 334819-14389",
-      "description": "Apartamento en arriendo en CALLE 12 B # 59 - 31, Santa Anita - La Selva, Cali - Cód. 334819-14389",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 1770000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-08-20T23:59:38+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-santa-anita-la-selva-cali-3829339"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "2d78bbba595eccda",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3840405",
-      "title": "Apartamento en arriendo en CALLE 60 BIS 108 90, Cali, Cali - Cód. 1165043-10285204",
-      "description": "Apartamento en arriendo en CALLE 60 BIS 108 90, Cali, Cali - Cód. 1165043-10285204",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 1800000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-09-01T14:27:46+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3840405"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "f06dcb0dc0ff6cb9",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-lili-cali-3708289",
-      "title": "Apartamento en arriendo en Carrera 95 No 45-22 Piso 2 Calicanto - Valle del lili, Lili, Cali - Cód. 182720-15131",
-      "description": "Apartamento en arriendo en Carrera 95 No 45-22 Piso 2 Calicanto - Valle del lili, Lili, Cali - Cód. 182720-15131",
-      "property_type": "Apartamento",
-      "zone": "Valle del Lili",
-      "macro_zone": "Sur",
-      "price": 1800000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-08-17T08:26:24+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-lili-cali-3708289"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
       ],
       "source_count": 1
     },
@@ -2037,7 +1449,7 @@
       "area_m2": 65,
       "parking": null,
       "first_seen": "2026-09-01T00:37:13+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
+      "last_seen": "2026-09-03T14:29:02+00:00",
       "stale": false,
       "links": [
         {
@@ -2065,7 +1477,7 @@
       "area_m2": 132,
       "parking": null,
       "first_seen": "2026-09-03T10:27:59+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
+      "last_seen": "2026-09-03T14:29:02+00:00",
       "stale": false,
       "links": [
         {
@@ -2075,34 +1487,6 @@
       ],
       "sources": [
         "FincaRaíz"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "216cfc700ee7f41c",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-ciudadela-campestre-cali-3527427",
-      "title": "Apartamento en arriendo en cra 100 # 28-68, Ciudadela Campestre, Cali - Cód. 804921-16203",
-      "description": "Apartamento en arriendo en cra 100 # 28-68, Ciudadela Campestre, Cali - Cód. 804921-16203",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 2000000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-08-24T08:31:32+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-ciudadela-campestre-cali-3527427"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
       ],
       "source_count": 1
     },
@@ -2191,34 +1575,6 @@
       "source_count": 1
     },
     {
-      "id": "297e1911bfeaa247",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-santa-anita-la-selva-cali-3852045",
-      "title": "Apartamento en arriendo en Cra. 57 #11a-50, Santa Anita, Cali, Valle del Cauca, Colombia, Santa Anita - La Selva, Cali - Cód. 9273-72698",
-      "description": "Apartamento en arriendo en Cra. 57 #11a-50, Santa Anita, Cali, Valle del Cauca, Colombia, Santa Anita - La Selva, Cali - Cód. 9273-72698",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 2900000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-09-02T08:28:44+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-santa-anita-la-selva-cali-3852045"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
       "id": "76dfecbfb35e1791",
       "source": "Yumblin",
       "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-valle-del-lili-sur-1796407",
@@ -2243,90 +1599,6 @@
       ],
       "sources": [
         "Yumblin"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "e99b4291d00aebc1",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-parcelacion-piedra-grande-cali-3851308",
-      "title": "Apartamento en arriendo en Cra. 104 #44-69, Cali, Valle del Cauca, Colombia, Parcelacion Piedra Grande, Cali - Cód. 9273-73339",
-      "description": "Apartamento en arriendo en Cra. 104 #44-69, Cali, Valle del Cauca, Colombia, Parcelacion Piedra Grande, Cali - Cód. 9273-73339",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 3176000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-09-03T10:27:59+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-parcelacion-piedra-grande-cali-3851308"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "57abe8a710e5fb8c",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-santa-isabel-cali-3744087",
-      "title": "Apartamento en arriendo en Cra. 37 #4A Bis -49, Santa Isabel, Cali, Valle del Cauca, Colombia, Santa Isabel, Cali - Cód. 445123-63055",
-      "description": "Apartamento en arriendo en Cra. 37 #4A Bis -49, Santa Isabel, Cali, Valle del Cauca, Colombia, Santa Isabel, Cali - Cód. 445123-63055",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 3700000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-09-02T08:28:44+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-santa-isabel-cali-3744087"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "fb48c89cbdfcfbcf",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-la-alianza-cali-3796947",
-      "title": "Apartamento en arriendo en CARRERA 2D#13 OESTE-65, La Alianza, Cali - Cód. 7215-112212",
-      "description": "Apartamento en arriendo en CARRERA 2D#13 OESTE-65, La Alianza, Cali - Cód. 7215-112212",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 3950000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-08-28T01:32:20+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-la-alianza-cali-3796947"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
       ],
       "source_count": 1
     },
@@ -2401,7 +1673,7 @@
       "area_m2": 123,
       "parking": null,
       "first_seen": "2026-08-24T03:36:47+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
+      "last_seen": "2026-09-03T14:29:02+00:00",
       "stale": false,
       "links": [
         {
@@ -2429,7 +1701,7 @@
       "area_m2": 275,
       "parking": 3,
       "first_seen": "2026-09-03T05:44:52+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
+      "last_seen": "2026-09-03T14:29:02+00:00",
       "stale": false,
       "links": [
         {
@@ -2457,7 +1729,7 @@
       "area_m2": 130,
       "parking": null,
       "first_seen": "2026-09-03T05:44:52+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
+      "last_seen": "2026-09-03T14:29:02+00:00",
       "stale": false,
       "links": [
         {
@@ -2467,34 +1739,6 @@
       ],
       "sources": [
         "FincaRaíz"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "095dbdf96df0bc50",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-parcelaciones-pance-cali-3849219",
-      "title": "Apartamento en arriendo en CALLE 22A # 118-200, Parcelaciones Pance, Cali - Cód. 375288-15062",
-      "description": "Apartamento en arriendo en CALLE 22A # 118-200, Parcelaciones Pance, Cali - Cód. 375288-15062",
-      "property_type": "Apartamento",
-      "zone": "Pance",
-      "macro_zone": "Sur",
-      "price": 6500000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-08-31T06:21:20+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-parcelaciones-pance-cali-3849219"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
       ],
       "source_count": 1
     },
@@ -2513,7 +1757,7 @@
       "area_m2": 170,
       "parking": null,
       "first_seen": "2026-09-02T17:25:15+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
+      "last_seen": "2026-09-03T14:29:02+00:00",
       "stale": false,
       "links": [
         {
@@ -2541,7 +1785,7 @@
       "area_m2": 170,
       "parking": null,
       "first_seen": "2026-09-02T17:25:15+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
+      "last_seen": "2026-09-03T14:29:02+00:00",
       "stale": false,
       "links": [
         {
@@ -2569,7 +1813,7 @@
       "area_m2": 120,
       "parking": null,
       "first_seen": "2026-09-02T17:25:15+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
+      "last_seen": "2026-09-03T14:29:02+00:00",
       "stale": false,
       "links": [
         {
@@ -2625,7 +1869,7 @@
       "area_m2": 233,
       "parking": 3,
       "first_seen": "2026-08-18T05:03:39+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
+      "last_seen": "2026-09-03T14:29:02+00:00",
       "stale": false,
       "links": [
         {
@@ -2681,7 +1925,7 @@
       "area_m2": 189,
       "parking": null,
       "first_seen": "2026-08-22T13:46:45+00:00",
-      "last_seen": "2026-09-03T10:27:59+00:00",
+      "last_seen": "2026-09-03T14:29:02+00:00",
       "stale": false,
       "links": [
         {
@@ -3363,6 +2607,34 @@
       ],
       "sources": [
         "A&C Inmobiliarios"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "97d620125841f496",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-otros-cali-3599498",
+      "title": "Apartamento en arriendo en Calle 72 G #3 N -34, Otros, Cali - Cód. 7183-12650",
+      "description": "Apartamento en arriendo en Calle 72 G #3 N -34, Otros, Cali - Cód. 7183-12650",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 700000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-09-03T10:27:59+00:00",
+      "last_seen": "2026-09-03T10:27:59+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-otros-cali-3599498"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
       ],
       "source_count": 1
     },
@@ -4389,6 +3661,34 @@
       "source_count": 1
     },
     {
+      "id": "89520f4f5f181a12",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-calima-cali-3811040",
+      "title": "Apartamento en arriendo en Calle 66 #7 M -13 APTO 102, Calima, Cali - Cód. 7202-11606",
+      "description": "Apartamento en arriendo en Calle 66 #7 M -13 APTO 102, Calima, Cali - Cód. 7202-11606",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 900000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-09-03T10:27:59+00:00",
+      "last_seen": "2026-09-03T10:27:59+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-calima-cali-3811040"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "a4f0dae5b00bc968",
       "source": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-el-trebol-cali-3832293",
@@ -4549,6 +3849,62 @@
         {
           "source": "Ciencuadras",
           "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-lili-cali-3597459"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "ba9ca7df43541b6a",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-nueva-floresta-del-ict-cali-3736607",
+      "title": "Apartamento en arriendo en CARRERA 26M # 44 - 30 APTO 101, Nueva Floresta Del Ict, Cali - Cód. 7185-13423",
+      "description": "Apartamento en arriendo en CARRERA 26M # 44 - 30 APTO 101, Nueva Floresta Del Ict, Cali - Cód. 7185-13423",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 940000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-08-20T14:20:49+00:00",
+      "last_seen": "2026-09-03T10:27:59+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-nueva-floresta-del-ict-cali-3736607"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "3c70dac68f30b19e",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-el-jardin-cali-3784749",
+      "title": "Apartamento en arriendo en Carrera 33B # 26B - 134 tercer piso El Jardín, El Jardín, Cali - Cód. 182720-12298",
+      "description": "Apartamento en arriendo en Carrera 33B # 26B - 134 tercer piso El Jardín, El Jardín, Cali - Cód. 182720-12298",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 950000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-08-20T23:59:38+00:00",
+      "last_seen": "2026-09-03T10:27:59+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-el-jardin-cali-3784749"
         }
       ],
       "sources": [
@@ -5337,6 +4693,62 @@
       ],
       "sources": [
         "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "d360cb2761ce7e54",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-canaverales-los-samanes-cali-3843335",
+      "title": "Apartamento en arriendo en Carrera 61 #18 16, Cañaverales - Los Samanes, Cali - Cód. 7183-14952",
+      "description": "Apartamento en arriendo en Carrera 61 #18 16, Cañaverales - Los Samanes, Cali - Cód. 7183-14952",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1200000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-08-29T10:21:10+00:00",
+      "last_seen": "2026-09-03T10:27:59+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-canaverales-los-samanes-cali-3843335"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "c1c70047faf6aae3",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3851088",
+      "title": "Apartamento en arriendo en CALLE 60 A # 108 - 104 CR CANARIA APTO 504 TORRE 1, Cali, Cali - Cód. 7777-10293451",
+      "description": "Apartamento en arriendo en CALLE 60 A # 108 - 104 CR CANARIA APTO 504 TORRE 1, Cali, Cali - Cód. 7777-10293451",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1200000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-09-02T08:28:44+00:00",
+      "last_seen": "2026-09-03T10:27:59+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3851088"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
       ],
       "source_count": 1
     },
@@ -6349,6 +5761,34 @@
       "source_count": 1
     },
     {
+      "id": "fb59f8f420532612",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-lili-cali-3851313",
+      "title": "Apartamento en arriendo en Cl. 45 #98B-50, Comuna 17, Cali, Valle del Cauca, Colombia, Lili, Cali - Cód. 9273-73335",
+      "description": "Apartamento en arriendo en Cl. 45 #98B-50, Comuna 17, Cali, Valle del Cauca, Colombia, Lili, Cali - Cód. 9273-73335",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1350000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-09-03T10:27:59+00:00",
+      "last_seen": "2026-09-03T10:27:59+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-lili-cali-3851313"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "99cbee3155a2b334",
       "source": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3602485",
@@ -6537,6 +5977,34 @@
         {
           "source": "Ciencuadras",
           "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-ciudad-2000-cali-3847620"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "a9b73fbe5432246d",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3861932",
+      "title": "Apartamento en arriendo en Calle 60 B #119 -62, Cali, Cali - Cód. 334819-14456",
+      "description": "Apartamento en arriendo en Calle 60 B #119 -62, Cali, Cali - Cód. 334819-14456",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1370000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-09-03T05:44:52+00:00",
+      "last_seen": "2026-09-03T10:27:59+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3861932"
         }
       ],
       "sources": [
@@ -6737,6 +6205,62 @@
       ],
       "sources": [
         "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "017dd2a629d77708",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-alferez-real-cali-3728517",
+      "title": "Apartamento en arriendo en Cra. 75 #3c-1, Las Farallones, Cali, Valle del Cauca, Colombia, Alferez Real, Cali - Cód. 9273-62319",
+      "description": "Apartamento en arriendo en Cra. 75 #3c-1, Las Farallones, Cali, Valle del Cauca, Colombia, Alferez Real, Cali - Cód. 9273-62319",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1400000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-09-03T10:27:59+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-alferez-real-cali-3728517"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "2f96eefa25e307bd",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-conjunto-residencial-turquesa-cali-3839239",
+      "title": "Apartamento en arriendo en Cl 59 #98c, Cali, Valle del Cauca, Colombia, Conjunto Residencial Turquesa, Cali - Cód. 445123-72047",
+      "description": "Apartamento en arriendo en Cl 59 #98c, Cali, Valle del Cauca, Colombia, Conjunto Residencial Turquesa, Cali - Cód. 445123-72047",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1400000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-08-22T09:13:53+00:00",
+      "last_seen": "2026-09-03T10:27:59+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-conjunto-residencial-turquesa-cali-3839239"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
       ],
       "source_count": 1
     },
@@ -7021,6 +6545,34 @@
       "source_count": 1
     },
     {
+      "id": "161572f321d692a9",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-ciudad-real-cali-3810420",
+      "title": "Apartamento en arriendo en Cra. 83a #48 - 24, Comuna 17, Cali, Valle del Cauca, Colombia, Ciudad Real, Cali - Cód. 16860-70963",
+      "description": "Apartamento en arriendo en Cra. 83a #48 - 24, Comuna 17, Cali, Valle del Cauca, Colombia, Ciudad Real, Cali - Cód. 16860-70963",
+      "property_type": "Apartamento",
+      "zone": "Ciudad Real",
+      "macro_zone": "Sur",
+      "price": 1400000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-08-16T20:39:35+00:00",
+      "last_seen": "2026-09-03T10:27:59+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-ciudad-real-cali-3810420"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "e365e722707fa77b",
       "source": "A&C Inmobiliarios",
       "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-san-fernando-cali_4927",
@@ -7129,6 +6681,34 @@
       ],
       "sources": [
         "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "302435ce4c418af0",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-conjunto-residencial-reserva-de-melendez-cali-3247775",
+      "title": "Apartamento en arriendo en Carrera 98 C #58 -72, Conjunto Residencial Reserva De Melendez, Cali - Cód. 183056-1817",
+      "description": "Apartamento en arriendo en Carrera 98 C #58 -72, Conjunto Residencial Reserva De Melendez, Cali - Cód. 183056-1817",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1418000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-09-03T10:27:59+00:00",
+      "last_seen": "2026-09-03T10:27:59+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-conjunto-residencial-reserva-de-melendez-cali-3247775"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
       ],
       "source_count": 1
     },
@@ -7465,6 +7045,62 @@
       ],
       "sources": [
         "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "804bb190da53d6a6",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-conjunto-residencial-reserva-de-melendez-cali-3708313",
+      "title": "Apartamento en arriendo en Carrera 98 No 53 - 181 apto 702 - 1 CJ Senderos de la Pradera, Conjunto Residencial Reserva De Melendez, Cali - Cód. 182720-15130",
+      "description": "Apartamento en arriendo en Carrera 98 No 53 - 181 apto 702 - 1 CJ Senderos de la Pradera, Conjunto Residencial Reserva De Melendez, Cali - Cód. 182720-15130",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1500000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-08-17T08:26:24+00:00",
+      "last_seen": "2026-09-03T10:27:59+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-conjunto-residencial-reserva-de-melendez-cali-3708313"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "385e81d81c9f0abe",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-n-n-cali-3773312",
+      "title": "Apartamento en arriendo en CALLE 51#123-70 apto 804-1, N.N., Cali - Cód. 8430-110053861",
+      "description": "Apartamento en arriendo en CALLE 51#123-70 apto 804-1, N.N., Cali - Cód. 8430-110053861",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1500000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-08-20T19:18:04+00:00",
+      "last_seen": "2026-09-03T10:27:59+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-n-n-cali-3773312"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
       ],
       "source_count": 1
     },
@@ -8141,6 +7777,62 @@
       "source_count": 1
     },
     {
+      "id": "11c4b61d6baae4c1",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-la-alianza-cali-3819316",
+      "title": "Apartamento en arriendo en carrera 101#42-75, La Alianza, Cali - Cód. 7215-112244",
+      "description": "Apartamento en arriendo en carrera 101#42-75, La Alianza, Cali - Cód. 7215-112244",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1600000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-08-21T10:00:11+00:00",
+      "last_seen": "2026-09-03T10:27:59+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-la-alianza-cali-3819316"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "56783aa86b5d4a29",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3818476",
+      "title": "Apartamento en arriendo en CONJUNTO RESIDENCIAL MARGARITAS, Cali, Cali - Cód. 8705-17594",
+      "description": "Apartamento en arriendo en CONJUNTO RESIDENCIAL MARGARITAS, Cali, Cali - Cód. 8705-17594",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1600000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-09-03T10:27:59+00:00",
+      "last_seen": "2026-09-03T10:27:59+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3818476"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "eb97170209231cc3",
       "source": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3847000",
@@ -8701,6 +8393,34 @@
       "source_count": 1
     },
     {
+      "id": "842da3a27da6fa4f",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-lili-cali-3817027",
+      "title": "Apartamento en arriendo en Calle 34 #98 B -35, Lili, Cali - Cód. 280910-1464744",
+      "description": "Apartamento en arriendo en Calle 34 #98 B -35, Lili, Cali - Cód. 280910-1464744",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1700000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-09-01T14:27:46+00:00",
+      "last_seen": "2026-09-03T10:27:59+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-lili-cali-3817027"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "cdc09d0ef79084fe",
       "source": "FincaRaíz",
       "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-panamericano-cali/193730646",
@@ -8785,6 +8505,34 @@
       "source_count": 1
     },
     {
+      "id": "900e15641ed31f38",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-condominio-zafiro-cali-3811954",
+      "title": "Apartamento en arriendo en CALLE 59 # 98 C 114, Condominio Zafiro, Cali - Cód. 334819-14371",
+      "description": "Apartamento en arriendo en CALLE 59 # 98 C 114, Condominio Zafiro, Cali - Cód. 334819-14371",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1720000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-08-23T07:52:05+00:00",
+      "last_seen": "2026-09-03T10:27:59+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-condominio-zafiro-cali-3811954"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "030ce2ba391e0c99",
       "source": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3847769",
@@ -8865,6 +8613,62 @@
       ],
       "sources": [
         "A&C Inmobiliarios"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "601ef7418b1122f4",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-santa-anita-la-selva-cali-3829339",
+      "title": "Apartamento en arriendo en CALLE 12 B # 59 - 31, Santa Anita - La Selva, Cali - Cód. 334819-14389",
+      "description": "Apartamento en arriendo en CALLE 12 B # 59 - 31, Santa Anita - La Selva, Cali - Cód. 334819-14389",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1770000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-08-20T23:59:38+00:00",
+      "last_seen": "2026-09-03T10:27:59+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-santa-anita-la-selva-cali-3829339"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "2d78bbba595eccda",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3840405",
+      "title": "Apartamento en arriendo en CALLE 60 BIS 108 90, Cali, Cali - Cód. 1165043-10285204",
+      "description": "Apartamento en arriendo en CALLE 60 BIS 108 90, Cali, Cali - Cód. 1165043-10285204",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1800000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-09-01T14:27:46+00:00",
+      "last_seen": "2026-09-03T10:27:59+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3840405"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
       ],
       "source_count": 1
     },
@@ -9061,6 +8865,34 @@
       ],
       "sources": [
         "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "f06dcb0dc0ff6cb9",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-lili-cali-3708289",
+      "title": "Apartamento en arriendo en Carrera 95 No 45-22 Piso 2 Calicanto - Valle del lili, Lili, Cali - Cód. 182720-15131",
+      "description": "Apartamento en arriendo en Carrera 95 No 45-22 Piso 2 Calicanto - Valle del lili, Lili, Cali - Cód. 182720-15131",
+      "property_type": "Apartamento",
+      "zone": "Valle del Lili",
+      "macro_zone": "Sur",
+      "price": 1800000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-08-17T08:26:24+00:00",
+      "last_seen": "2026-09-03T10:27:59+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-lili-cali-3708289"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
       ],
       "source_count": 1
     },
@@ -9317,6 +9149,34 @@
       "source_count": 1
     },
     {
+      "id": "216cfc700ee7f41c",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-ciudadela-campestre-cali-3527427",
+      "title": "Apartamento en arriendo en cra 100 # 28-68, Ciudadela Campestre, Cali - Cód. 804921-16203",
+      "description": "Apartamento en arriendo en cra 100 # 28-68, Ciudadela Campestre, Cali - Cód. 804921-16203",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 2000000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-08-24T08:31:32+00:00",
+      "last_seen": "2026-09-03T10:27:59+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-ciudadela-campestre-cali-3527427"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "22d0f1d6cb01a9e5",
       "source": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-sector-patio-bonito-cali-3811466",
@@ -9397,34 +9257,6 @@
       ],
       "sources": [
         "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "b6673aacf185ea9c",
-      "source": "FincaRaíz",
-      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-santa-isabel-cali/193770353",
-      "title": "Destacado Gold $ 2.000.000 Apartamento en Cali, Valle del cauca 2 Habs. 1 Baño 50 m² Apartamento en arriendo en santa isabel, cali Excelente Apartamen",
-      "description": "Destacado Gold $ 2.000.000 Apartamento en Cali, Valle del cauca 2 Habs. 1 Baño 50 m² Apartamento en arriendo en santa isabel, cali Excelente Apartamento Amoblado en Alquiler Barrio Santa Isabel Segundo Piso Garaje para moto Estrato: 5 Consta de: - 2 Habitaciones (todas con televisor y ventilador) - 1 Baño - Sala Comedor - Cocina - Zona de Oficios Algunos de todos sus beneficios: - Lavadora - Microondas - Nevera - Muebles - Vajillas VALOR ALQUILER: $ 2,000.000 SERVICIOS INCLUIDOS + INTERNET MAS INFO: *** - *** Conta",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 2000000,
-      "bedrooms": 2,
-      "bathrooms": 1,
-      "area_m2": 50,
-      "parking": null,
-      "first_seen": "2026-08-19T19:35:51+00:00",
-      "last_seen": "2026-08-20T14:20:49+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "FincaRaíz",
-          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-santa-isabel-cali/193770353"
-        }
-      ],
-      "sources": [
-        "FincaRaíz"
       ],
       "source_count": 1
     },
@@ -9849,34 +9681,6 @@
       "source_count": 1
     },
     {
-      "id": "b221cde116c56240",
-      "source": "FincaRaíz",
-      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-bochalema-cali/194118408",
-      "title": "$ 2.400.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 60 m² Apartamento en arriendo en bochalema, cali Apartamento en Alquiler Amoblado Bar",
-      "description": "$ 2.400.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 60 m² Apartamento en arriendo en bochalema, cali Apartamento en Alquiler Amoblado Barrio Hacienda Kachipay 3 Piso Consta de: - 2 Habitaciones (principal con baño y vestier) - Baños social - Zona de Estudio - Cocina - Sala comedor - Balcón - Zona de oficios NOTA: Amoblado sin lavadora Valor Alquiler: $2.400.000 (fuera de servicios) Contactar",
-      "property_type": "Apartamento",
-      "zone": "Bochalema",
-      "macro_zone": "Sur",
-      "price": 2400000,
-      "bedrooms": 2,
-      "bathrooms": 2,
-      "area_m2": 60,
-      "parking": null,
-      "first_seen": "2026-08-19T19:35:51+00:00",
-      "last_seen": "2026-08-20T14:20:49+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "FincaRaíz",
-          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-bochalema-cali/194118408"
-        }
-      ],
-      "sources": [
-        "FincaRaíz"
-      ],
-      "source_count": 1
-    },
-    {
       "id": "eb8cc094ae6c7d8a",
       "source": "FincaRaíz",
       "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-sur-cali/194125278",
@@ -10269,34 +10073,6 @@
       "source_count": 1
     },
     {
-      "id": "68d67e2cbba1dd06",
-      "source": "FincaRaíz",
-      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-el-ingenio-cali/194024301",
-      "title": "Destacado Black $ 2.650.000 Apartamento en Cali, Valle del cauca 3 Habs. 2 Baños 100 m² Apartamento en arriendo en el ingenio, cali Se alquila excelen",
-      "description": "Destacado Black $ 2.650.000 Apartamento en Cali, Valle del cauca 3 Habs. 2 Baños 100 m² Apartamento en arriendo en el ingenio, cali Se alquila excelente apartamento al sur de Cali, en el barrio ingenio, tercer piso sin ascensor, consta de 100 m2, sala comedor, balcón, cocina semi integral, 3 habitaciones amplias e iluminadas, todas las habitaciones cuentan con closet, la habitación principal cuenta con baño privado con tina, baño social, habitación de servicio con baño, muy buena distribución, parqueadero propio cu",
-      "property_type": "Apartamento",
-      "zone": "El Ingenio",
-      "macro_zone": "Sur",
-      "price": 2650000,
-      "bedrooms": 3,
-      "bathrooms": 2,
-      "area_m2": 100,
-      "parking": null,
-      "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-08-20T14:20:49+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "FincaRaíz",
-          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-el-ingenio-cali/194024301"
-        }
-      ],
-      "sources": [
-        "FincaRaíz"
-      ],
-      "source_count": 1
-    },
-    {
       "id": "90e752e0e76eaffc",
       "source": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-conjunto-residencial-san-gabriel-cali-3844948",
@@ -10433,6 +10209,34 @@
       ],
       "sources": [
         "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "297e1911bfeaa247",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-santa-anita-la-selva-cali-3852045",
+      "title": "Apartamento en arriendo en Cra. 57 #11a-50, Santa Anita, Cali, Valle del Cauca, Colombia, Santa Anita - La Selva, Cali - Cód. 9273-72698",
+      "description": "Apartamento en arriendo en Cra. 57 #11a-50, Santa Anita, Cali, Valle del Cauca, Colombia, Santa Anita - La Selva, Cali - Cód. 9273-72698",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 2900000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-09-02T08:28:44+00:00",
+      "last_seen": "2026-09-03T10:27:59+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-santa-anita-la-selva-cali-3852045"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
       ],
       "source_count": 1
     },
@@ -10661,6 +10465,34 @@
       "source_count": 1
     },
     {
+      "id": "e99b4291d00aebc1",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-parcelacion-piedra-grande-cali-3851308",
+      "title": "Apartamento en arriendo en Cra. 104 #44-69, Cali, Valle del Cauca, Colombia, Parcelacion Piedra Grande, Cali - Cód. 9273-73339",
+      "description": "Apartamento en arriendo en Cra. 104 #44-69, Cali, Valle del Cauca, Colombia, Parcelacion Piedra Grande, Cali - Cód. 9273-73339",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 3176000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-09-03T10:27:59+00:00",
+      "last_seen": "2026-09-03T10:27:59+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-parcelacion-piedra-grande-cali-3851308"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "725c41cb7bbb4d7c",
       "source": "FincaRaíz",
       "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-miraflores/193272230",
@@ -10773,26 +10605,26 @@
       "source_count": 1
     },
     {
-      "id": "a66bb7856a6c37b1",
+      "id": "57abe8a710e5fb8c",
       "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-menga-cali-3827233",
-      "title": "Administración incluida: $3,620,000 Apartamento en arriendo cali, menga 120.0 m2 Habit. 3 Baños 3 Garaje 1",
-      "description": "Administración incluida: $3,620,000 Apartamento en arriendo cali, menga 120.0 m2 Habit. 3 Baños 3 Garaje 1",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-santa-isabel-cali-3744087",
+      "title": "Apartamento en arriendo en Cra. 37 #4A Bis -49, Santa Isabel, Cali, Valle del Cauca, Colombia, Santa Isabel, Cali - Cód. 445123-63055",
+      "description": "Apartamento en arriendo en Cra. 37 #4A Bis -49, Santa Isabel, Cali, Valle del Cauca, Colombia, Santa Isabel, Cali - Cód. 445123-63055",
       "property_type": "Apartamento",
       "zone": "Cali (zona por confirmar)",
       "macro_zone": "Otra zona de Cali",
-      "price": 3620000,
+      "price": 3700000,
       "bedrooms": null,
-      "bathrooms": 3,
-      "area_m2": 120,
-      "parking": 3,
-      "first_seen": "2026-08-19T19:35:51+00:00",
-      "last_seen": "2026-08-20T14:20:49+00:00",
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-09-02T08:28:44+00:00",
+      "last_seen": "2026-09-03T10:27:59+00:00",
       "stale": true,
       "links": [
         {
           "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-menga-cali-3827233"
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-santa-isabel-cali-3744087"
         }
       ],
       "sources": [
@@ -10961,6 +10793,34 @@
         {
           "source": "Ciencuadras",
           "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3442833"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "fb48c89cbdfcfbcf",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-la-alianza-cali-3796947",
+      "title": "Apartamento en arriendo en CARRERA 2D#13 OESTE-65, La Alianza, Cali - Cód. 7215-112212",
+      "description": "Apartamento en arriendo en CARRERA 2D#13 OESTE-65, La Alianza, Cali - Cód. 7215-112212",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 3950000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-08-28T01:32:20+00:00",
+      "last_seen": "2026-09-03T10:27:59+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-la-alianza-cali-3796947"
         }
       ],
       "sources": [
@@ -12145,6 +12005,34 @@
       "source_count": 1
     },
     {
+      "id": "095dbdf96df0bc50",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-parcelaciones-pance-cali-3849219",
+      "title": "Apartamento en arriendo en CALLE 22A # 118-200, Parcelaciones Pance, Cali - Cód. 375288-15062",
+      "description": "Apartamento en arriendo en CALLE 22A # 118-200, Parcelaciones Pance, Cali - Cód. 375288-15062",
+      "property_type": "Apartamento",
+      "zone": "Pance",
+      "macro_zone": "Sur",
+      "price": 6500000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-08-31T06:21:20+00:00",
+      "last_seen": "2026-09-03T10:27:59+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-parcelaciones-pance-cali-3849219"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "c2c568eae4c46f1a",
       "source": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-parcelaciones-pance-cali-3813634",
@@ -12533,34 +12421,6 @@
       ],
       "sources": [
         "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "4c027aca5249ce66",
-      "source": "FincaRaíz",
-      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-la-flora-cali/193073114",
-      "title": "Destacado Gold $ 8.200.000 Apartamento en Cali, Valle del cauca 3 Habs. 3 Baños 160 m² Apartamento en arriendo en la flora, cali Este magnífico aparta",
-      "description": "Destacado Gold $ 8.200.000 Apartamento en Cali, Valle del cauca 3 Habs. 3 Baños 160 m² Apartamento en arriendo en la flora, cali Este magnífico apartamento para alquiler se encuentra ubicado en una zona privilegiada de la ciudad de Colombia. Con un área de terreno de 170.0 y una construcción de 160.0, ofrece amplios espacios para una vida cómoda y llena de comodidades. Su área privada de 160.0 lo convierte en una opción ideal para familias que desean un lugar donde todos puedan disfrutar de su propio espacio. Con 3",
-      "property_type": "Apartamento",
-      "zone": "La Flora",
-      "macro_zone": "Norte",
-      "price": 8200000,
-      "bedrooms": 3,
-      "bathrooms": 3,
-      "area_m2": 160,
-      "parking": 1,
-      "first_seen": "2026-08-19T19:35:51+00:00",
-      "last_seen": "2026-08-20T14:20:49+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "FincaRaíz",
-          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-la-flora-cali/193073114"
-        }
-      ],
-      "sources": [
-        "FincaRaíz"
       ],
       "source_count": 1
     },
