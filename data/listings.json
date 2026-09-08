@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": 4,
-    "updated_at": "2026-09-08T14:29:48+00:00",
+    "updated_at": "2026-09-08T15:30:05+00:00",
     "price_policy": "no_fixed_cap",
     "total": 441,
     "source_count": 12,
@@ -68,13 +68,11 @@
         "tier": "secondary",
         "cadence_hours": 8,
         "automated": true,
-        "ok": false,
+        "ok": true,
         "found": 0,
-        "errors": [
-          "https://arriendo.com/co/apartamentos/cali/: ReadTimeout"
-        ],
-        "last_checked": "2026-09-08T06:33:04+00:00",
-        "skipped": true,
+        "errors": [],
+        "last_checked": "2026-09-08T15:30:05+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://arriendo.com/co/apartamentos/cali/"
         ]
@@ -89,8 +87,8 @@
         "errors": [
           "https://www.unisa.com.co/inmuebles/g/arriendo/t/apartamentos/c/cali/: HTTPError"
         ],
-        "last_checked": "2026-09-08T06:33:04+00:00",
-        "skipped": true,
+        "last_checked": "2026-09-08T15:30:05+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://www.unisa.com.co/inmuebles/g/arriendo/t/apartamentos/c/cali/"
         ]
@@ -103,8 +101,8 @@
         "ok": true,
         "found": 0,
         "errors": [],
-        "last_checked": "2026-09-08T06:33:04+00:00",
-        "skipped": true,
+        "last_checked": "2026-09-08T15:30:05+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://bienco.com.co/inmuebles/arriendo"
         ]
@@ -159,8 +157,8 @@
         "ok": true,
         "found": 0,
         "errors": [],
-        "last_checked": "2026-09-08T06:33:04+00:00",
-        "skipped": true,
+        "last_checked": "2026-09-08T15:30:05+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://www.nuroa.com.co/arriendo/apartamento-cali"
         ]
@@ -175,8 +173,8 @@
         "errors": [
           "https://www.yumblin.com/co/clasificados/galeria/colombia/valle-del-cauca/cali/arriendo/apartamentos: HTTPError"
         ],
-        "last_checked": "2026-09-08T06:33:04+00:00",
-        "skipped": true,
+        "last_checked": "2026-09-08T15:30:05+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://www.yumblin.com/co/clasificados/galeria/colombia/valle-del-cauca/cali/arriendo/apartamentos"
         ]
