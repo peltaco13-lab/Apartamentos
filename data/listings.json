@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": 4,
-    "updated_at": "2026-09-12T14:26:24+00:00",
+    "updated_at": "2026-09-12T15:25:17+00:00",
     "price_policy": "no_fixed_cap",
-    "total": 463,
+    "total": 487,
     "source_count": 12,
     "automated_source_count": 10,
     "sources": [
@@ -71,8 +71,8 @@
         "ok": true,
         "found": 0,
         "errors": [],
-        "last_checked": "2026-09-12T06:30:34+00:00",
-        "skipped": true,
+        "last_checked": "2026-09-12T15:25:17+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://arriendo.com/co/apartamentos/cali/"
         ]
@@ -87,8 +87,8 @@
         "errors": [
           "https://www.unisa.com.co/inmuebles/g/arriendo/t/apartamentos/c/cali/: HTTPError"
         ],
-        "last_checked": "2026-09-12T06:30:34+00:00",
-        "skipped": true,
+        "last_checked": "2026-09-12T15:25:17+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://www.unisa.com.co/inmuebles/g/arriendo/t/apartamentos/c/cali/"
         ]
@@ -101,8 +101,8 @@
         "ok": true,
         "found": 0,
         "errors": [],
-        "last_checked": "2026-09-12T06:30:34+00:00",
-        "skipped": true,
+        "last_checked": "2026-09-12T15:25:17+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://bienco.com.co/inmuebles/arriendo"
         ]
@@ -115,8 +115,8 @@
         "ok": true,
         "found": 18,
         "errors": [],
-        "last_checked": "2026-09-12T02:26:52+00:00",
-        "skipped": true,
+        "last_checked": "2026-09-12T15:25:17+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://www.aycinmobiliarios.com/busqueda/pagina/1/gestion/arriendo"
         ]
@@ -129,8 +129,8 @@
         "ok": true,
         "found": 0,
         "errors": [],
-        "last_checked": "2026-09-12T02:26:52+00:00",
-        "skipped": true,
+        "last_checked": "2026-09-12T15:25:17+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://www.metroredinmobiliariacali.com.co/"
         ]
@@ -157,8 +157,8 @@
         "ok": true,
         "found": 0,
         "errors": [],
-        "last_checked": "2026-09-12T06:30:34+00:00",
-        "skipped": true,
+        "last_checked": "2026-09-12T15:25:17+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://www.nuroa.com.co/arriendo/apartamento-cali"
         ]
@@ -168,13 +168,11 @@
         "tier": "secondary",
         "cadence_hours": 8,
         "automated": true,
-        "ok": false,
-        "found": 0,
-        "errors": [
-          "https://www.yumblin.com/co/clasificados/galeria/colombia/valle-del-cauca/cali/arriendo/apartamentos: HTTPError"
-        ],
-        "last_checked": "2026-09-12T06:30:34+00:00",
-        "skipped": true,
+        "ok": true,
+        "found": 24,
+        "errors": [],
+        "last_checked": "2026-09-12T15:25:17+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://www.yumblin.com/co/clasificados/galeria/colombia/valle-del-cauca/cali/arriendo/apartamentos"
         ]
@@ -182,6 +180,34 @@
     ]
   },
   "listings": [
+    {
+      "id": "a414d5e5a92332b9",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-en-villa-fatima-cali-2124762",
+      "title": "Apartamento en Arriendo en Villa Fatima, Cali",
+      "description": "Apartamento en Arriendo en Villa Fatima, Cali Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 62 m² fullscreen 62 m² cubiertos straighten Gastos comunes: COP $ 266.000 Apt Nuevo en estilo industrial 2 habitaciones y 2 baños. El apt mide 62 mt2, 2ndo piso con ascensor. El conjunto tiene piscina, gimnasio, juego para niños. Requisitos: No estar reportados, tener ingresos 3 veces el valor de la renta, y un trabajo estable. Dirección: Calle 57 # 123-32 Nota: al apt se le están ha",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 266000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_m2": 62,
+      "parking": null,
+      "first_seen": "2026-09-12T15:25:17+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-en-villa-fatima-cali-2124762"
+        }
+      ],
+      "sources": [
+        "Yumblin"
+      ],
+      "source_count": 1
+    },
     {
       "id": "60424ef94acd522d",
       "source": "A&C Inmobiliarios",
@@ -197,7 +223,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-17T10:52:22+00:00",
-      "last_seen": "2026-09-12T02:26:52+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
       "stale": false,
       "links": [
         {
@@ -225,7 +251,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-17T10:52:22+00:00",
-      "last_seen": "2026-09-12T02:26:52+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
       "stale": false,
       "links": [
         {
@@ -253,7 +279,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-17T10:52:22+00:00",
-      "last_seen": "2026-09-12T02:26:52+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
       "stale": false,
       "links": [
         {
@@ -281,7 +307,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-17T10:52:22+00:00",
-      "last_seen": "2026-09-12T02:26:52+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
       "stale": false,
       "links": [
         {
@@ -309,7 +335,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-17T10:52:22+00:00",
-      "last_seen": "2026-09-12T02:26:52+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
       "stale": false,
       "links": [
         {
@@ -337,7 +363,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-17T10:52:22+00:00",
-      "last_seen": "2026-09-12T02:26:52+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
       "stale": false,
       "links": [
         {
@@ -365,7 +391,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-17T10:52:22+00:00",
-      "last_seen": "2026-09-12T02:26:52+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
       "stale": false,
       "links": [
         {
@@ -393,7 +419,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-17T10:52:22+00:00",
-      "last_seen": "2026-09-12T02:26:52+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
       "stale": false,
       "links": [
         {
@@ -421,7 +447,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-17T10:52:22+00:00",
-      "last_seen": "2026-09-12T02:26:52+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
       "stale": false,
       "links": [
         {
@@ -449,7 +475,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-17T10:52:22+00:00",
-      "last_seen": "2026-09-12T02:26:52+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
       "stale": false,
       "links": [
         {
@@ -477,7 +503,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-21T08:09:16+00:00",
-      "last_seen": "2026-09-12T02:26:52+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
       "stale": false,
       "links": [
         {
@@ -505,7 +531,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-17T10:52:22+00:00",
-      "last_seen": "2026-09-12T02:26:52+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
       "stale": false,
       "links": [
         {
@@ -533,7 +559,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-17T10:52:22+00:00",
-      "last_seen": "2026-09-12T02:26:52+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
       "stale": false,
       "links": [
         {
@@ -561,7 +587,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-17T10:52:22+00:00",
-      "last_seen": "2026-09-12T02:26:52+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
       "stale": false,
       "links": [
         {
@@ -589,7 +615,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-17T10:52:22+00:00",
-      "last_seen": "2026-09-12T02:26:52+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
       "stale": false,
       "links": [
         {
@@ -608,6 +634,34 @@
       "source_count": 2
     },
     {
+      "id": "213fc1e09de51330",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-champagnat-sur-607098",
+      "title": "Apartamento en arriendo Champagnat, Sur",
+      "description": "COP $ 700.000 Apartamento en arriendo Champagnat, Sur Champagnat, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 1 habitación bed 1 baño shower 28 m² fullscreen COMODO Y CENTRAL APARTAESTUDIO CON 1 HABITACIÓN, BAÑO CON DUCHA, COCINETA, ZONA DE OFICIOS O LAVANDERIA, PARQUEADERO PARA UNA MOTOCICLETA. Ver anuncio",
+      "property_type": "Apartaestudio",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 700000,
+      "bedrooms": null,
+      "bathrooms": 1,
+      "area_m2": 28,
+      "parking": null,
+      "first_seen": "2026-09-12T15:25:17+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-champagnat-sur-607098"
+        }
+      ],
+      "sources": [
+        "Yumblin"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "90316d9b222faff2",
       "source": "A&C Inmobiliarios",
       "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-el-diamante-cali_2320",
@@ -622,7 +676,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-17T10:52:22+00:00",
-      "last_seen": "2026-09-12T02:26:52+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
       "stale": false,
       "links": [
         {
@@ -632,6 +686,34 @@
       ],
       "sources": [
         "A&C Inmobiliarios"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "4deb7aeab4bdc132",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-34-16-99-comuna-8-cali-valle-del-cauca-colombia-606959",
+      "title": "Apartamento en arriendo Calle 34 # 16-99, Comuna 8, Cali, Valle Del Cauca, Colombia",
+      "description": "COP $ 700.000 Apartamento en arriendo Calle 34 # 16-99, Comuna 8, Cali, Valle Del Cauca, Colombia Calle 34 # 16-99, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 1 baño shower 50 m² fullscreen ¡TU NUEVO HOGAR AL MEJOR PRECIO! Apto en Atanasio Girardot Calle 34 No. 16-99, Apto 301. Código: 2331 Si buscas economía, comodidad y una ubicación estratégica al oriente de Cali, este apartamento en el barrio Atanasio Girardot es la oportunidad que estabas esperando. Ideal para parejas o familias p",
+      "property_type": "Apartamento",
+      "zone": "Este (barrio por confirmar)",
+      "macro_zone": "Este",
+      "price": 700000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "area_m2": 50,
+      "parking": null,
+      "first_seen": "2026-09-12T15:25:17+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-34-16-99-comuna-8-cali-valle-del-cauca-colombia-606959"
+        }
+      ],
+      "sources": [
+        "Yumblin"
       ],
       "source_count": 1
     },
@@ -650,7 +732,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-17T10:52:22+00:00",
-      "last_seen": "2026-09-12T02:26:52+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
       "stale": false,
       "links": [
         {
@@ -660,34 +742,6 @@
       ],
       "sources": [
         "A&C Inmobiliarios"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "d916ccc917283a48",
-      "source": "Yumblin",
-      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-alfonso-lopez-i-ii-iii-oriente-83428",
-      "title": "Apartamento en arriendo Alfonso López I, Ii, Iii, Oriente",
-      "description": "COP $ 720.000 Apartamento en arriendo Alfonso López I, Ii, Iii, Oriente Alfonso López I, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 1 baño shower 65 m² fullscreen Naranjo Inmobiliaria Ltda., arrienda apartamento en Alfonzo lopez carrera 7T Núm. 73-34 apto 201, a 20 minutos del aeropuerto. cerca a centros comerciales, clínicas, estaciones del Mio. Cuenta con excelente distribución ventilación e iluminación natural. Consta de sala comedor, 2 habitaciones, 1 baño, zona de oficios, cocina ",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 720000,
-      "bedrooms": 2,
-      "bathrooms": 1,
-      "area_m2": 65,
-      "parking": null,
-      "first_seen": "2026-09-10T03:28:12+00:00",
-      "last_seen": "2026-09-10T03:28:12+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Yumblin",
-          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-alfonso-lopez-i-ii-iii-oriente-83428"
-        }
-      ],
-      "sources": [
-        "Yumblin"
       ],
       "source_count": 1
     },
@@ -734,7 +788,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-17T23:56:59+00:00",
-      "last_seen": "2026-09-12T02:26:52+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
       "stale": false,
       "links": [
         {
@@ -777,8 +831,8 @@
     },
     {
       "id": "2c910aefb4ddacff",
-      "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/casa-en-arriendo-la-casona-cali_3399",
+      "source": "FincaRaíz",
+      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-terron-colorado-cali/193280891",
       "title": "Apartamento en arriendo San Juan Bosco, Comuna 3",
       "description": "COP $ 800.000 Apartamento en arriendo San Juan Bosco, Comuna 3 San Juan Bosco, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 50 m² fullscreen CÓDIGO 125445 Bienco arrienda apartamento en tercer piso sin ascensor ubicado en el barrio Atanasio Girardot. Cuenta con sala comedor, cocina tradicional, 2 habitaciones con closet la principal con baño privado,patio interno, baño auxiliar, área de oficios en patio semi cubierto lo cual permite ingreso de luz y ventilación para el inm",
       "property_type": "Apartamento",
@@ -842,6 +896,34 @@
       "source_count": 1
     },
     {
+      "id": "c8b5e5218a210d04",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-carrera-29b-el-jardin-comuna-11-cali-ciudad-cali-sur-valle-del-cauca-rap-pacifico-760013-colombia-607133",
+      "title": "Apartamento en arriendo Carrera 29b, El Jardín, Comuna 11, Cali Ciudad, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760013, Colombia",
+      "description": "COP $ 850.000 Apartamento en arriendo Carrera 29b, El Jardín, Comuna 11, Cali Ciudad, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760013, Colombia Carrera 29b, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 1 habitación bed 1 baño shower 27 m² fullscreen SE ARRIENDA APARTAESTUDIO 2 PISO EN EL BARRIO EL JARDÍN Práctico, cómodo y con excelente ubicación. Si buscas un espacio funcional para vivir, ¡este puede ser para ti! ️ Habitación independiente Zona de cocina y oficios ️ Parqueadero comunitario para 1 motocic",
+      "property_type": "Apartaestudio",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 850000,
+      "bedrooms": null,
+      "bathrooms": 1,
+      "area_m2": 27,
+      "parking": null,
+      "first_seen": "2026-09-12T15:25:17+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-carrera-29b-el-jardin-comuna-11-cali-ciudad-cali-sur-valle-del-cauca-rap-pacifico-760013-colombia-607133"
+        }
+      ],
+      "sources": [
+        "Yumblin"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "a2ea4e8f9bbebf1f",
       "source": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-ciudad-cordoba-cali-3821250",
@@ -898,26 +980,26 @@
       "source_count": 1
     },
     {
-      "id": "d683c433f7c7d528",
+      "id": "4990b94e449d218b",
       "source": "Yumblin",
-      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-70-ulpiano-lloreda-comuna-13-cali-ciudad-cali-sur-valle-del-cauca-rap-pacifico-760011-colombia-81971",
-      "title": "Apartamento en arriendo Calle 70, Ulpiano Lloreda, Comuna 13, Cali Ciudad, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760011, Colombia",
-      "description": "COP $ 900.000 Apartamento en arriendo Calle 70, Ulpiano Lloreda, Comuna 13, Cali Ciudad, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760011, Colombia Calle 70, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 1 baño shower 42 m² fullscreen APARTAMENTO EN ALQUILER CALI AL ORIENTE ULPIANO LLOREDA, Apartamento en segundo nivel, con un área de 42 m², cuenta con dos habitaciones con closet, sala comedor, baño social, cocina sencilla, zona de oficios y patio. Bien ubicado, cerca de la Avenida Simón ",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-republica-de-israel-oriente-607192",
+      "title": "Apartamento en arriendo República De Israel, Oriente",
+      "description": "COP $ 920.000 Apartamento en arriendo República De Israel, Oriente República de Israel, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 62 m² fullscreen Naranjo Ltda. arrienda apartamento Calle 41 45-01 Apto 201. Republica de Israel. Cerca a estaciones del MIO, centros comerciales, supermercados, clínicas y zonas de comidas. Consta de sala comedor, 2 habitaciones, 2 baños ,cocina con red de gas natural, zona de oficios, 1 balcón, pisos en cerámica. servicios públicos incluido",
       "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 900000,
+      "zone": "República de Israel",
+      "macro_zone": "Este",
+      "price": 920000,
       "bedrooms": 2,
-      "bathrooms": 1,
-      "area_m2": 42,
+      "bathrooms": 2,
+      "area_m2": 62,
       "parking": null,
-      "first_seen": "2026-09-10T03:28:12+00:00",
-      "last_seen": "2026-09-10T03:28:12+00:00",
+      "first_seen": "2026-09-12T15:25:17+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
       "stale": false,
       "links": [
         {
           "source": "Yumblin",
-          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-70-ulpiano-lloreda-comuna-13-cali-ciudad-cali-sur-valle-del-cauca-rap-pacifico-760011-colombia-81971"
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-republica-de-israel-oriente-607192"
         }
       ],
       "sources": [
@@ -954,26 +1036,26 @@
       "source_count": 1
     },
     {
-      "id": "7250dd6b87f6d082",
+      "id": "4449167d48008588",
       "source": "Yumblin",
-      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-los-alcazares-i-oriente-82553",
-      "title": "Apartamento en arriendo Los Alcázares I, Oriente",
-      "description": "COP $ 1.000.000 Apartamento en arriendo Los Alcázares I, Oriente Los Alcázares I, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 3 habitaciones bed 2 baños shower 50 m² fullscreen WEB 127877 Se alquila apartamento moderno y remodelado en cuarto piso, ubicado en el barrio Los Alcázares, al norte de Cali. Cuenta con 3 alcobas, 2 baños, sala-comedor, cocina semi integral con gabinetes superiores e inferiores, y zona de oficios. Ubicado en calle vehicular, cerca de panaderías, fruvers, carnicerías y comercio en ",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-menga-norte-606835",
+      "title": "Apartamento en arriendo Menga, Norte",
+      "description": "Apartamento en arriendo Menga, Norte Menga, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 1 baño shower 60 m² fullscreen Se alquila apto en Menga a 4 minutos de la Av 6 para ESTRENAR área 60 mts tienen sala comedor cocina 2 habitaciones con closet 1 baño parqueadero valor $1.000.000",
       "property_type": "Apartamento",
-      "zone": "Norte (barrio por confirmar)",
-      "macro_zone": "Norte",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
       "price": 1000000,
-      "bedrooms": 3,
-      "bathrooms": 2,
-      "area_m2": 50,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "area_m2": 60,
       "parking": null,
-      "first_seen": "2026-09-10T03:28:12+00:00",
-      "last_seen": "2026-09-10T03:28:12+00:00",
+      "first_seen": "2026-09-12T15:25:17+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
       "stale": false,
       "links": [
         {
           "source": "Yumblin",
-          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-los-alcazares-i-oriente-82553"
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-menga-norte-606835"
         }
       ],
       "sources": [
@@ -1094,34 +1176,6 @@
       "source_count": 1
     },
     {
-      "id": "b8312dcd46f2e06a",
-      "source": "Yumblin",
-      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-villa-colombia-oriente-82035",
-      "title": "Apartamento en arriendo Villa Colombia, Oriente",
-      "description": "COP $ 1.100.000 Apartamento en arriendo Villa Colombia, Oriente Villa Colombia, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 3 habitaciones bed 2 baños shower 60 m² fullscreen Web 128026 Se alquila quinto piso sin ascensor en el conjunto Samanes seis ubicado en Brisas De Los Alamos, el apartamento consta de sala comedor, zona de oficios, cocina semi integral, gabinetes inferiores y superiores en buen estado, baño social, tiene tres alcobas, dos de ellas tienen closet tipo vitrialambre y la principal tiene ",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 1100000,
-      "bedrooms": 3,
-      "bathrooms": 2,
-      "area_m2": 60,
-      "parking": null,
-      "first_seen": "2026-09-10T03:28:12+00:00",
-      "last_seen": "2026-09-10T03:28:12+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Yumblin",
-          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-villa-colombia-oriente-82035"
-        }
-      ],
-      "sources": [
-        "Yumblin"
-      ],
-      "source_count": 1
-    },
-    {
       "id": "dac254468b50eb53",
       "source": "FincaRaíz",
       "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-ciudad-pacifica-cali/194126478",
@@ -1146,6 +1200,62 @@
       ],
       "sources": [
         "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "8f8db049d1dee2c8",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-en-las-ceibas-cali-2044968",
+      "title": "Apartamento en Arriendo en Las ceibas, Cali",
+      "description": "COP $ 1.130.000 Apartamento en Arriendo en Las ceibas, Cali Cali, Valle del Cauca, Colombia Apartamentos Arriendo 3 habitaciones bed 1 baño shower 75 m² fullscreen 75 m² cubiertos straighten Las Ceibas. Apartamento en alquiler en segundo piso, remodelado Cuenta con 3 alcobas, La principal con closet y baño, baño de alcobas sala comedor amplia, cocina sencilla, estudio, zona de oficios y parqueadero para moto. Servicios independientes LC Ver anuncio",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1130000,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "area_m2": 75,
+      "parking": null,
+      "first_seen": "2026-09-12T15:25:17+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-en-las-ceibas-cali-2044968"
+        }
+      ],
+      "sources": [
+        "Yumblin"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "fff1a8ffe62a15af",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-2100847",
+      "title": "Apartamento en arriendo",
+      "description": "COP $ 1.200.000 Apartamento en arriendo Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 55 m² fullscreen 55 m² cubiertos straighten Web 84931 – Se alquila acogedor apartamento segundo piso en el barrio El Sena, ubicado en un sector estratégico de la ciudad, cerca del Centro Comercial Único, el SENA de Salomia, universidades, estaciones de servicio, parques recreativos y amplias zonas verdes. Su excelente ubicación permite fácil acceso a importantes vías de movilidad y diferen",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1200000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_m2": 55,
+      "parking": null,
+      "first_seen": "2026-09-12T15:25:17+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-2100847"
+        }
+      ],
+      "sources": [
+        "Yumblin"
       ],
       "source_count": 1
     },
@@ -1239,34 +1349,6 @@
       "source_count": 1
     },
     {
-      "id": "5de4d74e9fa87a2d",
-      "source": "Yumblin",
-      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-60-norte-3bn-109-urbanizacion-la-flora-cali-valle-del-cauca-colombia-82948",
-      "title": "Apartamento en arriendo Calle 60 Norte #3bn-109, Urbanización La Flora, Cali, Valle Del Cauca, Colombia",
-      "description": "Apartamento en arriendo Calle 60 Norte #3bn-109, Urbanización La Flora, Cali, Valle Del Cauca, Colombia Calle 60 norte #3bn-109, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 80 m² fullscreen ¡Vivamos en el norte! Alquilo hermoso y acogedor apartamento en Rincón de la Flora (Calle 60 Nte # 3BN-95, Apto 300 - Cód. 539). Ubicación estratégica y tranquila, cerca de vías principales, centros comerciales, supermercados y colegios. Perfecto para parejas que buscan comodidad y exc",
-      "property_type": "Apartamento",
-      "zone": "La Flora",
-      "macro_zone": "Norte",
-      "price": 1200000,
-      "bedrooms": 2,
-      "bathrooms": 2,
-      "area_m2": 80,
-      "parking": null,
-      "first_seen": "2026-09-10T03:28:12+00:00",
-      "last_seen": "2026-09-10T03:28:12+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Yumblin",
-          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-60-norte-3bn-109-urbanizacion-la-flora-cali-valle-del-cauca-colombia-82948"
-        }
-      ],
-      "sources": [
-        "Yumblin"
-      ],
-      "source_count": 1
-    },
-    {
       "id": "98efedd4dd1435ff",
       "source": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-parcelaciones-pance-cali-3872886",
@@ -1295,26 +1377,26 @@
       "source_count": 1
     },
     {
-      "id": "6ccb519782163ce6",
+      "id": "fed86ca6be51a4ec",
       "source": "Yumblin",
-      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-valle-del-lili-sur-81216",
-      "title": "Apartamento en arriendo Valle Del Lili, Sur",
-      "description": "COP $ 1.300.000 Apartamento en arriendo Valle Del Lili, Sur Valle del Lili, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 3 habitaciones bed 2 baños shower 60 m² fullscreen Arrendamos hermoso apartamento para estrenar en un doceavo piso con ascensor y espectacular vista en el conjunto residencial Sahara en Valle del Lili al sur de Cali. El apartamento de aprox 60 m2 cuenta con tres habitaciones con closet, principal con vestier y baño privado, baño social, sala-comedor con balcón, cocina abierta tipo americ",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-carrera-99a-lili-comuna-17-cali-ciudad-cali-sur-valle-del-cauca-rap-pacifico-760030-colombia-607000",
+      "title": "Apartamento en arriendo Carrera 99a, Lili, Comuna 17, Cali Ciudad, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760030, Colombia",
+      "description": "COP $ 1.250.000 Apartamento en arriendo Carrera 99a, Lili, Comuna 17, Cali Ciudad, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760030, Colombia Carrera 99a, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 50 m² fullscreen Apartamento en Renta en Valle del Lili – Unidad Bosque Real, Ubicado en el segundo piso de la exclusiva Unidad Bosque Real, este apartamento es la opción ideal para quienes buscan confort y tranquilidad. Con una hermosa vista hacia la zona verde, disfrutarás d",
       "property_type": "Apartamento",
       "zone": "Valle del Lili",
       "macro_zone": "Sur",
-      "price": 1300000,
-      "bedrooms": 3,
+      "price": 1250000,
+      "bedrooms": 2,
       "bathrooms": 2,
-      "area_m2": 60,
+      "area_m2": 50,
       "parking": null,
-      "first_seen": "2026-09-10T03:28:12+00:00",
-      "last_seen": "2026-09-10T03:28:12+00:00",
+      "first_seen": "2026-09-12T15:25:17+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
       "stale": false,
       "links": [
         {
           "source": "Yumblin",
-          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-valle-del-lili-sur-81216"
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-carrera-99a-lili-comuna-17-cali-ciudad-cali-sur-valle-del-cauca-rap-pacifico-760030-colombia-607000"
         }
       ],
       "sources": [
@@ -1323,26 +1405,26 @@
       "source_count": 1
     },
     {
-      "id": "0a36c753d4f9180a",
+      "id": "8cd1429790d7d285",
       "source": "Yumblin",
-      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-valle-del-lili-sur-81038",
-      "title": "Apartamento en arriendo Valle Del Lili, Sur",
-      "description": "COP $ 1.300.000 Apartamento en arriendo Valle Del Lili, Sur Valle del Lili, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 3 habitaciones bed 2 baños shower 60 m² fullscreen Arrendamos hermoso apartamento para estrenar en un sexto piso con ascensor y espectacular vista en el conjunto residencial Sahara en Valle del Lili al sur de Cali. El apartamento de aprox 60 m2 cuenta con tres habitaciones con closet, principal con vestier y baño privado, baño social, sala-comedor con balcón, cocina abierta tipo american",
-      "property_type": "Apartamento",
-      "zone": "Valle del Lili",
-      "macro_zone": "Sur",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartaestudio-en-arriendo-en-san-fernando-viejo-cali-2069454",
+      "title": "Apartaestudio en Arriendo en San fernando viejo, Cali",
+      "description": "COP $ 1.300.000 Apartaestudio en Arriendo en San fernando viejo, Cali Cali, Valle del Cauca, Colombia Apartamentos Arriendo 1 habitación bed 1 baño shower 47 m² fullscreen 47 m² cubiertos straighten Aparatestudio tercer piso sin ascensor , moderno consta de habitación con closet y baño, sala comedor, cocina con mesón, servicios incluidos agua ,luz gas, máximo 2 personas edificio con terraza ,ducha y baño . Ver anuncio",
+      "property_type": "Apartaestudio",
+      "zone": "San Fernando",
+      "macro_zone": "Centro",
       "price": 1300000,
-      "bedrooms": 3,
-      "bathrooms": 2,
-      "area_m2": 60,
+      "bedrooms": null,
+      "bathrooms": 1,
+      "area_m2": 47,
       "parking": null,
-      "first_seen": "2026-09-10T03:28:12+00:00",
-      "last_seen": "2026-09-10T03:28:12+00:00",
+      "first_seen": "2026-09-12T15:25:17+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
       "stale": false,
       "links": [
         {
           "source": "Yumblin",
-          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-valle-del-lili-sur-81038"
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartaestudio-en-arriendo-en-san-fernando-viejo-cali-2069454"
         }
       ],
       "sources": [
@@ -1375,34 +1457,6 @@
       ],
       "sources": [
         "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "a00ea16080f0d076",
-      "source": "Yumblin",
-      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-51-el-hormiguero-cali-sur-valle-del-cauca-rap-pacifico-720001-colombia-151083",
-      "title": "Apartamento en arriendo Calle 51, El Hormiguero, Cali, Sur, Valle Del Cauca, Rap Pacífico, 720001, Colombia",
-      "description": "COP $ 1.350.000 Apartamento en arriendo Calle 51, El Hormiguero, Cali, Sur, Valle Del Cauca, Rap Pacífico, 720001, Colombia Calle 51, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 3 habitaciones bed 2 baños shower 60 m² fullscreen Apartamento en alquiler al sur de la ciudad de cali, barrio bochalema, 60 metros, para estrenar, septimo nivel, tres habitaciones, todas con closet, principal con baño, privado, sala comedor, baño social, balcon, cocina integral, zona de oficio, balcon, ascensor, piscina para adul",
-      "property_type": "Apartamento",
-      "zone": "Bochalema",
-      "macro_zone": "Sur",
-      "price": 1350000,
-      "bedrooms": 3,
-      "bathrooms": 2,
-      "area_m2": 60,
-      "parking": null,
-      "first_seen": "2026-09-10T03:28:12+00:00",
-      "last_seen": "2026-09-10T03:28:12+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Yumblin",
-          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-51-el-hormiguero-cali-sur-valle-del-cauca-rap-pacifico-720001-colombia-151083"
-        }
-      ],
-      "sources": [
-        "Yumblin"
       ],
       "source_count": 1
     },
@@ -1575,6 +1629,62 @@
       "source_count": 1
     },
     {
+      "id": "f857a61e32aa9818",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-parcelaciones-pance-sur-607075",
+      "title": "Apartamento en arriendo Parcelaciones Pance, Sur",
+      "description": "COP $ 1.420.000 Apartamento en arriendo Parcelaciones Pance, Sur Parcelaciones Pance, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 3 habitaciones bed 2 baños shower 65 m² fullscreen Gespron Inmobiliaria ofrece en alquiler hermoso apartamento para estrenar ubicado en el Conjunto Residencial Tierra Linda Planicie, un espacio moderno, cómodo y funcional, ideal para quienes buscan tranquilidad y excelentes zonas sociales. El inmueble cuenta con amplia sala-comedor que se conecta con un agradable balcón, cocina",
+      "property_type": "Apartamento",
+      "zone": "Pance",
+      "macro_zone": "Sur",
+      "price": 1420000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_m2": 65,
+      "parking": null,
+      "first_seen": "2026-09-12T15:25:17+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-parcelaciones-pance-sur-607075"
+        }
+      ],
+      "sources": [
+        "Yumblin"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "916a6b20108a689b",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-parcelaciones-pance-sur-607234",
+      "title": "Apartamento en arriendo Parcelaciones Pance, Sur",
+      "description": "COP $ 1.420.000 Apartamento en arriendo Parcelaciones Pance, Sur Parcelaciones Pance, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 3 habitaciones bed 2 baños shower 65 m² fullscreen Gespron alquila hermoso apartamento al sur de la ciudad, Ubicado en el barrio ciudad pacifica, Conjunto residencial Ventura I, El apartamento consta de sala - comedor amplios y aireado, cuenta con un balcon amplio vista al interior del conjunto, el apartamento cuenta con dos habitaciones, una con closet, principal con vestier y",
+      "property_type": "Apartamento",
+      "zone": "Pance",
+      "macro_zone": "Sur",
+      "price": 1420000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_m2": 65,
+      "parking": null,
+      "first_seen": "2026-09-12T15:25:17+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-parcelaciones-pance-sur-607234"
+        }
+      ],
+      "sources": [
+        "Yumblin"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "989aa0a1b702efe1",
       "source": "FincaRaíz",
       "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-las-delicias-cali/194186941",
@@ -1631,62 +1741,6 @@
       "source_count": 1
     },
     {
-      "id": "54583acb38b411ec",
-      "source": "Yumblin",
-      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-el-caney-sur-1547803",
-      "title": "Apartamento en arriendo El Caney, Sur",
-      "description": "COP $ 1.450.000 Apartamento en arriendo El Caney, Sur El Caney, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 52 m² fullscreen CODIGO WEB. 127868..Se alquila hermoso apartamento en 5° piso, ubicado en el barrio El Caney, al sur de Cali. Un espacio amplio, fresco y con excelente iluminación natural gracias a su gran ventanal en la sala-comedor, que permite una agradable ventilación y un ambiente confortable durante todo el día. El apartamento cuenta con una amplia sala-comed",
-      "property_type": "Apartamento",
-      "zone": "Caney",
-      "macro_zone": "Sur",
-      "price": 1450000,
-      "bedrooms": 2,
-      "bathrooms": 2,
-      "area_m2": 52,
-      "parking": null,
-      "first_seen": "2026-09-10T03:28:12+00:00",
-      "last_seen": "2026-09-10T03:28:12+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Yumblin",
-          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-el-caney-sur-1547803"
-        }
-      ],
-      "sources": [
-        "Yumblin"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "1c39a46d9956215d",
-      "source": "Yumblin",
-      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-45-ciudad-pacifica-el-hormiguero-cali-sur-valle-del-cauca-rap-pacifico-720001-colombia-83426",
-      "title": "Apartamento en arriendo Calle 45, Ciudad Pacífica, El Hormiguero, Cali, Sur, Valle Del Cauca, Rap Pacífico, 720001, Colombia",
-      "description": "COP $ 1.450.000 Apartamento en arriendo Calle 45, Ciudad Pacífica, El Hormiguero, Cali, Sur, Valle Del Cauca, Rap Pacífico, 720001, Colombia Calle 45, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 55 m² fullscreen Alquiler apartamento Nuevo, Moderno, bien ubicado y acogedor, este apartamento está en el conjunto residencial Coral en Ciudad Pacifica, sector ubicado estratégicamente cerca a universidades y colegios del sur de Cali. Cuenta con balcón, cocina integral, patio de ",
-      "property_type": "Apartamento",
-      "zone": "Ciudad Pacífica",
-      "macro_zone": "Sur",
-      "price": 1450000,
-      "bedrooms": 2,
-      "bathrooms": 2,
-      "area_m2": 55,
-      "parking": null,
-      "first_seen": "2026-09-10T03:28:12+00:00",
-      "last_seen": "2026-09-10T03:28:12+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Yumblin",
-          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-45-ciudad-pacifica-el-hormiguero-cali-sur-valle-del-cauca-rap-pacifico-720001-colombia-83426"
-        }
-      ],
-      "sources": [
-        "Yumblin"
-      ],
-      "source_count": 1
-    },
-    {
       "id": "45d3517de197dd17",
       "source": "FincaRaíz",
       "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-el-recuerdo-cali/194219477",
@@ -1725,82 +1779,54 @@
       "source_count": 3
     },
     {
-      "id": "ff9261aa5a9f2c9a",
+      "id": "dadfcf8743ea8163",
       "source": "Yumblin",
-      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-60a-el-hormiguero-cali-sur-valle-del-cauca-rap-pacifico-760007-colombia-78972",
-      "title": "Apartamento en arriendo Calle 60a, El Hormiguero, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760007, Colombia",
-      "description": "COP $ 1.500.000 Apartamento en arriendo Calle 60a, El Hormiguero, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760007, Colombia Calle 60a, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 63 m² fullscreen Te presentamos un encantador apartamento de 2 habitaciones, el equilibrio perfecto entre confort y estilo. Este hogar ofrece la habitacion principal con baño privado y un elegante walking closet, proporcionando un espacio personal amplio y cómodo. La segunda habitación es ideal ",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 1500000,
-      "bedrooms": 2,
-      "bathrooms": 2,
-      "area_m2": 63,
-      "parking": null,
-      "first_seen": "2026-09-10T03:28:12+00:00",
-      "last_seen": "2026-09-10T03:28:12+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Yumblin",
-          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-60a-el-hormiguero-cali-sur-valle-del-cauca-rap-pacifico-760007-colombia-78972"
-        }
-      ],
-      "sources": [
-        "Yumblin"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "13a9bec4209c56cf",
-      "source": "Yumblin",
-      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-59-el-hormiguero-cali-sur-valle-del-cauca-rap-pacifico-760007-colombia-1427904",
-      "title": "Apartamento en arriendo Calle 59, El Hormiguero, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760007, Colombia",
-      "description": "COP $ 1.500.000 Apartamento en arriendo Calle 59, El Hormiguero, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760007, Colombia Calle 59, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 58 m² fullscreen APARTAMENTO EN ALQUILER AL SUR DE CALI CIUDAD MELÉNDEZ CR SEPIA, 58 M2, décimo piso con vista al interior de la unidad, consta de sala comedor, estudio, cocina integral, zona de oficios, dos habitaciones con closets, baño social y baño privado, la unidad cuenta con parqueadero com",
-      "property_type": "Apartamento",
-      "zone": "Ciudad Meléndez",
-      "macro_zone": "Sur",
-      "price": 1500000,
-      "bedrooms": 2,
-      "bathrooms": 2,
-      "area_m2": 58,
-      "parking": null,
-      "first_seen": "2026-09-10T03:28:12+00:00",
-      "last_seen": "2026-09-10T03:28:12+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Yumblin",
-          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-59-el-hormiguero-cali-sur-valle-del-cauca-rap-pacifico-760007-colombia-1427904"
-        }
-      ],
-      "sources": [
-        "Yumblin"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "fd565f678bca043c",
-      "source": "Yumblin",
-      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-conjunto-residencial-cobalto-carrera-101b-cali-valle-del-cauca-colombia-901807",
-      "title": "Apartamento en arriendo Conjunto Residencial Cobalto, Carrera 101b, Cali, Valle Del Cauca, Colombia",
-      "description": "COP $ 1.500.000 Apartamento en arriendo Conjunto Residencial Cobalto, Carrera 101b, Cali, Valle Del Cauca, Colombia Conjunto residencial cobalto, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 65 m² fullscreen ¡Vive en Valle del Lili! Disfruta de un apartamento fresco y moderno en el CR Cobalto (Apto 1106-3), piso alto con vista panorámica desde el balcón. Ubicado en la Cra. 101B 53 12 (Cód. 2405), en el corazón del sur de Cali, cerca de las mejores universidades, centros co",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-melendez-sur-606996",
+      "title": "Apartamento en arriendo Meléndez, Sur",
+      "description": "COP $ 1.500.000 Apartamento en arriendo Meléndez, Sur Meléndez, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 60 m² fullscreen Web : 112343 Excelente apartamento en alquiler, piso 5 con ascensor y escalera de emergencia, ubicado en conjunto residencial al sur de Cali, barrio Valle del Lili. Consta de 2 alcobas una con closet, principal con Vestier y baño privado, sala comedor, balcón con vidrio corredizo que brinda hermosa vista al exterior y completa iluminación natural, c",
       "property_type": "Apartamento",
       "zone": "Valle del Lili",
       "macro_zone": "Sur",
       "price": 1500000,
       "bedrooms": 2,
       "bathrooms": 2,
-      "area_m2": 65,
+      "area_m2": 60,
       "parking": null,
-      "first_seen": "2026-09-10T03:28:12+00:00",
-      "last_seen": "2026-09-10T03:28:12+00:00",
+      "first_seen": "2026-09-12T15:25:17+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
       "stale": false,
       "links": [
         {
           "source": "Yumblin",
-          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-conjunto-residencial-cobalto-carrera-101b-cali-valle-del-cauca-colombia-901807"
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-melendez-sur-606996"
+        }
+      ],
+      "sources": [
+        "Yumblin"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "f4c5d035a27dc380",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-navarro-cali-sur-valle-del-cauca-rap-pacifico-760026-colombia-606786",
+      "title": "Apartamento en arriendo Navarro, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760026, Colombia",
+      "description": "COP $ 1.550.000 Apartamento en arriendo Navarro, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760026, Colombia Navarro, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 60 m² fullscreen PARA ESTRENAR- Apartamento en alquiler, ubicado en Valle del Lili. Situado en un sexto piso con ascensor, diseñado para ofrecer comodidad y modernidad. Con dos acogedoras habitaciones y dos baños, este apartamento es ideal para parejas o pequeñas familias que buscan un espacio funcional y agradabl",
+      "property_type": "Apartamento",
+      "zone": "Valle del Lili",
+      "macro_zone": "Sur",
+      "price": 1550000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_m2": 60,
+      "parking": null,
+      "first_seen": "2026-09-12T15:25:17+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-navarro-cali-sur-valle-del-cauca-rap-pacifico-760026-colombia-606786"
         }
       ],
       "sources": [
@@ -1837,82 +1863,26 @@
       "source_count": 1
     },
     {
-      "id": "a1d7021d88028143",
+      "id": "3d3f65c7fe5e77e6",
       "source": "Yumblin",
-      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-valle-del-lili-sur-645884",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-valle-del-lili-sur-606770",
       "title": "Apartamento en arriendo Valle Del Lili, Sur",
-      "description": "COP $ 1.600.000 Apartamento en arriendo Valle Del Lili, Sur Valle del Lili, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 71 m² fullscreen En el corazón del dinámico barrio Valle del Lili en Cali, se encuentra un moderno apartamento que representa una excelente opción para quienes buscan un espacio funcional y accesible. Con una superficie de 71 m², este inmueble, construido en 2020, se destaca por su diseño contemporáneo y su adecuada distribución, ideal para maximizar cad",
+      "description": "COP $ 1.650.000 Apartamento en arriendo Valle Del Lili, Sur Valle del Lili, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 60 m² fullscreen WEB: 128060 SE ALQUILA HERMOSO APARTAMENTO , al sur de la ciudad, fácil acceso, excelente ubicación, ciudad Meléndez, ascensor, escaleras de emergencia, conjunto residencial sepia 2, consta de parqueadero comunitario, sala comedor , balcón, cocina integral, muebles de almacenamiento, extractor de olores, estufa , horno, 2 habitaciones ,u",
       "property_type": "Apartamento",
-      "zone": "Valle del Lili",
+      "zone": "Ciudad Meléndez",
       "macro_zone": "Sur",
-      "price": 1600000,
+      "price": 1650000,
       "bedrooms": 2,
       "bathrooms": 2,
-      "area_m2": 71,
+      "area_m2": 60,
       "parking": null,
-      "first_seen": "2026-09-10T03:28:12+00:00",
-      "last_seen": "2026-09-10T03:28:12+00:00",
+      "first_seen": "2026-09-12T15:25:17+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
       "stale": false,
       "links": [
         {
           "source": "Yumblin",
-          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-valle-del-lili-sur-645884"
-        }
-      ],
-      "sources": [
-        "Yumblin"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "29bd2a2af1831d99",
-      "source": "Yumblin",
-      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-parcelaciones-pance-sur-83245",
-      "title": "Apartamento en arriendo Parcelaciones Pance, Sur",
-      "description": "COP $ 1.620.000 Apartamento en arriendo Parcelaciones Pance, Sur Parcelaciones Pance, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 1 habitación bed 1 baño shower 40 m² fullscreen Gespron Inmobiliaria alquila hermoso aparta estudio para estrenar en Conjunto Residencial Arbo PANCE, el conjunto cuenta con ascensor, consta de un espacio amplio e iluminado, habitación principal con un closet, con mueble para televisión, baño completo con divisiones en vidrio templado , cocina integral con muebles superior e inf",
-      "property_type": "Apartamento",
-      "zone": "Pance",
-      "macro_zone": "Sur",
-      "price": 1620000,
-      "bedrooms": null,
-      "bathrooms": 1,
-      "area_m2": 40,
-      "parking": null,
-      "first_seen": "2026-09-10T03:28:12+00:00",
-      "last_seen": "2026-09-10T03:28:12+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Yumblin",
-          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-parcelaciones-pance-sur-83245"
-        }
-      ],
-      "sources": [
-        "Yumblin"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "14e327761c414363",
-      "source": "Yumblin",
-      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-parcelaciones-pance-sur-82055",
-      "title": "Apartamento en arriendo Parcelaciones Pance, Sur",
-      "description": "COP $ 1.620.000 Apartamento en arriendo Parcelaciones Pance, Sur Parcelaciones Pance, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 1 habitación bed 1 baño shower 40 m² fullscreen Gespron Inmobiliaria alquila hermoso aparta estudio para estrenar en Conjunto Residencial Arbo PANCE, el conjunto cuenta con ascensor, consta de un espacio amplio e iluminado, habitación principal con un closet, con mueble para televisión, baño completo con divisiones en vidrio templado , cocina integral con muebles superior e inf",
-      "property_type": "Apartamento",
-      "zone": "Pance",
-      "macro_zone": "Sur",
-      "price": 1620000,
-      "bedrooms": null,
-      "bathrooms": 1,
-      "area_m2": 40,
-      "parking": null,
-      "first_seen": "2026-09-10T03:28:12+00:00",
-      "last_seen": "2026-09-10T03:28:12+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Yumblin",
-          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-parcelaciones-pance-sur-82055"
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-valle-del-lili-sur-606770"
         }
       ],
       "sources": [
@@ -1945,6 +1915,34 @@
       ],
       "sources": [
         "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "4403ffed7dae7a49",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-ciudad-jardin-sur-607179",
+      "title": "Apartamento en arriendo Ciudad Jardín, Sur",
+      "description": "COP $ 1.750.000 Apartamento en arriendo Ciudad Jardín, Sur Ciudad Jardín, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 3 habitaciones bed 2 baños shower 78 m² fullscreen CODIGO WEB. 127868..Se alquila hermoso apartamento en 5° piso, ubicado en el barrio El Valle del Lili, al sur de Cali. Un espacio amplio, fresco y con excelente iluminación natural gracias a su gran ventanal en la sala-comedor, que permite una agradable ventilación y un ambiente confortable durante todo el día. El apartamento cuenta con un",
+      "property_type": "Apartamento",
+      "zone": "Valle del Lili",
+      "macro_zone": "Sur",
+      "price": 1750000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_m2": 78,
+      "parking": null,
+      "first_seen": "2026-09-12T15:25:17+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-ciudad-jardin-sur-607179"
+        }
+      ],
+      "sources": [
+        "Yumblin"
       ],
       "source_count": 1
     },
@@ -2001,34 +1999,6 @@
       ],
       "sources": [
         "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "4a9fe254e4d27251",
-      "source": "Yumblin",
-      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-4-el-refugio-comuna-19-cali-ciudad-cali-sur-valle-del-cauca-rap-pacifico-760035-colombia-80660",
-      "title": "Apartamento en arriendo Calle 4, El Refugio, Comuna 19, Cali Ciudad, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760035, Colombia",
-      "description": "COP $ 1.800.000 Apartamento en arriendo Calle 4, El Refugio, Comuna 19, Cali Ciudad, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760035, Colombia Calle 4, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 1 habitación bed 1 baño shower 32 m² fullscreen APARTAMENTO EN ALQUILER CALI AL SUR REFUGIO CR MIRO LIVING, 7° piso, 32 metros, para estrenar, con excelentes acabados. Cuenta con una habitación con clóset y mueble, con baño privado, sala, cocina integral, zona de oficio aparte, y parqueadero comunitario.La unida",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 1800000,
-      "bedrooms": null,
-      "bathrooms": 1,
-      "area_m2": 32,
-      "parking": null,
-      "first_seen": "2026-09-10T03:28:12+00:00",
-      "last_seen": "2026-09-10T03:28:12+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Yumblin",
-          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-4-el-refugio-comuna-19-cali-ciudad-cali-sur-valle-del-cauca-rap-pacifico-760035-colombia-80660"
-        }
-      ],
-      "sources": [
-        "Yumblin"
       ],
       "source_count": 1
     },
@@ -2173,34 +2143,6 @@
       "source_count": 1
     },
     {
-      "id": "5bd46f3b7c12c61c",
-      "source": "Yumblin",
-      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-valle-del-lili-sur-77997",
-      "title": "Apartamento en arriendo Valle Del Lili, Sur",
-      "description": "COP $ 2.100.000 Apartamento en arriendo Valle Del Lili, Sur Valle del Lili, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 54 m² fullscreen CÓDIGO WEB 127865 Si buscas un sector tranquilo, este lindo apto es para ti. Bienco ALQUILA apartamento nuevo para estrenar al sur de Cali barrio Kachipay piso 6 con ascensor en el encontrarás todas las comodidades que buscas, cuenta con espacios muy bien distribuidos. El inmueble cuenta con 2 habitaciones con closet en madera, principal",
-      "property_type": "Apartamento",
-      "zone": "Cachipay / Kachipay",
-      "macro_zone": "Sur",
-      "price": 2100000,
-      "bedrooms": 2,
-      "bathrooms": 2,
-      "area_m2": 54,
-      "parking": null,
-      "first_seen": "2026-09-10T03:28:12+00:00",
-      "last_seen": "2026-09-10T03:28:12+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Yumblin",
-          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-valle-del-lili-sur-77997"
-        }
-      ],
-      "sources": [
-        "Yumblin"
-      ],
-      "source_count": 1
-    },
-    {
       "id": "550e7180b833be52",
       "source": "FincaRaíz",
       "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-la-selva-cali/194135293",
@@ -2285,26 +2227,54 @@
       "source_count": 1
     },
     {
-      "id": "e1173e9901aa1ef0",
+      "id": "6ed8877d001f2386",
       "source": "Yumblin",
-      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-carrera-4-oeste-bellavista-comuna-19-cali-ciudad-cali-sur-valle-del-cauca-rap-pacifico-760101-colombia-151188",
-      "title": "Apartamento en arriendo Carrera 4 Oeste, Bellavista, Comuna 19, Cali Ciudad, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760101, Colombia",
-      "description": "COP $ 2.500.000 Apartamento en arriendo Carrera 4 Oeste, Bellavista, Comuna 19, Cali Ciudad, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760101, Colombia Carrera 4 oeste, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 52 m² fullscreen Descubre este moderno apartamento en el exclusivo conjunto Torres de Altair, ubicado en el vibrante oeste de Cali. Con solo dos años de antigüedad, esta propiedad se presenta como una opción ideal para quienes buscan calidad y confort. El apartam",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-parcelaciones-pance-sur-607121",
+      "title": "Apartamento en arriendo Parcelaciones Pance, Sur",
+      "description": "COP $ 2.200.000 Apartamento en arriendo Parcelaciones Pance, Sur Parcelaciones Pance, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 3 habitaciones bed 2 baños shower 68 m² fullscreen COD WED:128033 Se alquila amplio y moderno apartamento ubicado en quinto piso con ascensor, en conjunto residencial tierra linda de la pradera portería 1 y excelente ubicación. El inmueble cuenta con tres habitaciones, todas con closet; la habitación principal dispone de Vestier y baño privado. Además, cuenta con baño social, a",
       "property_type": "Apartamento",
-      "zone": "Bellavista",
-      "macro_zone": "Oeste",
-      "price": 2500000,
-      "bedrooms": 2,
+      "zone": "Pance",
+      "macro_zone": "Sur",
+      "price": 2200000,
+      "bedrooms": 3,
       "bathrooms": 2,
-      "area_m2": 52,
+      "area_m2": 68,
       "parking": null,
-      "first_seen": "2026-09-10T03:28:12+00:00",
-      "last_seen": "2026-09-10T03:28:12+00:00",
+      "first_seen": "2026-09-12T15:25:17+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
       "stale": false,
       "links": [
         {
           "source": "Yumblin",
-          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-carrera-4-oeste-bellavista-comuna-19-cali-ciudad-cali-sur-valle-del-cauca-rap-pacifico-760101-colombia-151188"
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-parcelaciones-pance-sur-607121"
+        }
+      ],
+      "sources": [
+        "Yumblin"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "6ced75a91b4fb7d4",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-en-la-flora-cali-595386",
+      "title": "Apartamento en Arriendo en La flora, Cali",
+      "description": "COP $ 2.300.000 Apartamento en Arriendo en La flora, Cali Cali, Valle del Cauca, Colombia Apartamentos Arriendo 3 habitaciones bed 2 baños shower 1 cochera drive_eta 75 m² fullscreen 75 m² cubiertos straighten SANTA MARÍA DE LOS VIENTOS – LA FLORA Apartamento de 75 m² con excelente distribución y espacios amplios. Cuenta con 3 alcobas, la principal con vestier, 2 baños, cocina integral, amplio balcón, zona de ropas independiente, estar de TV, garaje propio y ascensor. Se destaca por ser un apartamento fresco, silen",
+      "property_type": "Apartamento",
+      "zone": "La Flora",
+      "macro_zone": "Norte",
+      "price": 2300000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_m2": 75,
+      "parking": null,
+      "first_seen": "2026-09-12T15:25:17+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-en-la-flora-cali-595386"
         }
       ],
       "sources": [
@@ -2397,82 +2367,82 @@
       "source_count": 1
     },
     {
-      "id": "3fc5a9d64080c674",
+      "id": "dc4543aae84f911a",
       "source": "Yumblin",
-      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-carrera-100-lili-comuna-17-cali-ciudad-cali-sur-valle-del-cauca-rap-pacifico-760026-colombia-81618",
-      "title": "Apartamento en arriendo Carrera 100, Lili, Comuna 17, Cali Ciudad, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760026, Colombia",
-      "description": "COP $ 2.500.000 Apartamento en arriendo Carrera 100, Lili, Comuna 17, Cali Ciudad, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760026, Colombia Carrera 100, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 72 m² fullscreen Descubra este encantador apartamento en arriendo, ubicado en el prestigioso Conjunto Madeira, en el sector de Valle del Lili, Cali. Con 72 m² de área construida, este moderno inmueble en el noveno piso ofrece un ambiente acogedor y funcional, ideal para disfru",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-valle-del-lili-sur-606961",
+      "title": "Apartamento en arriendo Valle Del Lili, Sur",
+      "description": "COP $ 2.600.000 Apartamento en arriendo Valle Del Lili, Sur Valle del Lili, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 3 habitaciones bed 3 baños shower 83 m² fullscreen EXCELENTE APTO EN VALLE DEL LILI, CUENTA CON 3 HABITACIONES CON CLOSETS, LA ALCOBA PRINCIPAL CON BAÑO Y VESTIER, SALA COMEDOR CON BALCÓN AMPLIO, SALA DE ESTAR CON MUEBLES EN MADERA, COCINA INTEGRAL TIPO AMERICANA CON FULL ACABADOS, ZONA DE ROPAS, CALENTADOR, PARQUEADERO PRIVADO EN PLATAFORMA. LA UNIDAD CUENTA CON PISCINA, SALÓN SOCIAL, Z",
       "property_type": "Apartamento",
       "zone": "Valle del Lili",
       "macro_zone": "Sur",
-      "price": 2500000,
+      "price": 2600000,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_m2": 83,
+      "parking": null,
+      "first_seen": "2026-09-12T15:25:17+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-valle-del-lili-sur-606961"
+        }
+      ],
+      "sources": [
+        "Yumblin"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "3c3717f4e8743d5d",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartaestudio-en-arriendo-en-bellavista-cali-2051495",
+      "title": "Apartaestudio en Arriendo en Bellavista, Cali",
+      "description": "COP $ 2.800.000 Apartaestudio en Arriendo en Bellavista, Cali Cali, Valle del Cauca, Colombia Apartamentos Arriendo 1 habitación bed 1 baño shower 1 cochera drive_eta 53 m² fullscreen 53 m² cubiertos straighten Descubre la comodidad de este hermoso y acogedor apartaestudio ubicado en el exclusivo sector de El Peñon en el Oeste de Cali, cerca a zona gastronómica y zona comercial, cerca al rio.Con 53 M2, cuenta con una habitación con baño privado, cocina abierta, espacio para sala y comedor, ventana al piso con vista",
+      "property_type": "Apartaestudio",
+      "zone": "Bellavista",
+      "macro_zone": "Oeste",
+      "price": 2800000,
+      "bedrooms": null,
+      "bathrooms": 1,
+      "area_m2": 53,
+      "parking": null,
+      "first_seen": "2026-09-12T15:25:17+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartaestudio-en-arriendo-en-bellavista-cali-2051495"
+        }
+      ],
+      "sources": [
+        "Yumblin"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "100d8f92619640a8",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-conjunto-residencial-dalia-calle-60b-villa-fatima-cali-valle-del-cauca-colombia-606879",
+      "title": "Apartamento en arriendo Conjunto Residencial Dalia, Calle 60b, Villa Fatima, Cali, Valle Del Cauca, Colombia",
+      "description": "COP $ 3.500.000 Apartamento en arriendo Conjunto Residencial Dalia, Calle 60b, Villa Fatima, Cali, Valle Del Cauca, Colombia Conjunto residencial dalia, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 60 m² fullscreen Buscas un espacio moderno, cómodo y con acabados de lujo? Este apartamento tiene todo lo que necesitas para disfrutar de un hogar funcional y acogedor. 💙 | 2.º piso 📐 60 m² 🛏️ 2 habitaciones 📚 Estudio 🌿 Balcón 🧺 Cuarto de ropa 🚿 Baño auxiliar 🛏️ Habitación princ",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 3500000,
       "bedrooms": 2,
       "bathrooms": 2,
-      "area_m2": 72,
+      "area_m2": 60,
       "parking": null,
-      "first_seen": "2026-09-10T03:28:12+00:00",
-      "last_seen": "2026-09-10T03:28:12+00:00",
+      "first_seen": "2026-09-12T15:25:17+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
       "stale": false,
       "links": [
         {
           "source": "Yumblin",
-          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-carrera-100-lili-comuna-17-cali-ciudad-cali-sur-valle-del-cauca-rap-pacifico-760026-colombia-81618"
-        }
-      ],
-      "sources": [
-        "Yumblin"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "ab46ed9c46105729",
-      "source": "Yumblin",
-      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-conjunto-residencial-santa-clara-carrera-97-comuna-17-cali-valle-del-cauca-colombia-81234",
-      "title": "Apartamento en arriendo Conjunto Residencial Santa Clara, Carrera 97, Comuna 17, Cali, Valle Del Cauca, Colombia",
-      "description": "Apartamento en arriendo Conjunto Residencial Santa Clara, Carrera 97, Comuna 17, Cali, Valle Del Cauca, Colombia Conjunto residencial santa clara, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 3 habitaciones bed 2 baños shower 75 m² fullscreen SE ARRIENDA APARTAMENTO EN SANTA CLARA, VALLE DEL LILI, CALI EN $2.500.000 CON ADMINISTRACIÓN INCLUIDA!! Apartamento nuevo para estrenar, se encuentra en un primer piso, tiene 75m2, consta de 3 habitaciones, la habitación principal cuenta con vestier, baño y aire acon",
-      "property_type": "Apartamento",
-      "zone": "Valle del Lili",
-      "macro_zone": "Sur",
-      "price": 2500000,
-      "bedrooms": 3,
-      "bathrooms": 2,
-      "area_m2": 75,
-      "parking": null,
-      "first_seen": "2026-09-10T03:28:12+00:00",
-      "last_seen": "2026-09-10T03:28:12+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Yumblin",
-          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-conjunto-residencial-santa-clara-carrera-97-comuna-17-cali-valle-del-cauca-colombia-81234"
-        }
-      ],
-      "sources": [
-        "Yumblin"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "5a426c489ce2a1dc",
-      "source": "Yumblin",
-      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-el-ingenio-sur-80576",
-      "title": "Apartamento en arriendo El Ingenio, Sur",
-      "description": "COP $ 3.000.000 Apartamento en arriendo El Ingenio, Sur El Ingenio, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 3 habitaciones bed 2 baños shower 110 m² fullscreen COD WEB: 127999 Se ARRIENDA amplio apartamento Amoblado al sur de Cali, ubicado en el barrio Ingenio II, edificio CATALUÑA, en un segundo piso sin ascensor. El inmueble ofrece una amplia sala-comedor con excelente iluminación natural, que brinda una buena vista y muy buena ventilación. Dispone de una cocina integral, con cajones de almacenamien",
-      "property_type": "Apartamento",
-      "zone": "El Ingenio",
-      "macro_zone": "Sur",
-      "price": 3000000,
-      "bedrooms": 3,
-      "bathrooms": 2,
-      "area_m2": 110,
-      "parking": null,
-      "first_seen": "2026-09-10T03:28:12+00:00",
-      "last_seen": "2026-09-10T03:28:12+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Yumblin",
-          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-el-ingenio-sur-80576"
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-conjunto-residencial-dalia-calle-60b-villa-fatima-cali-valle-del-cauca-colombia-606879"
         }
       ],
       "sources": [
@@ -2505,6 +2475,34 @@
       ],
       "sources": [
         "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "46aed2e5f7e65b94",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-en-el-penon-cali-2124773",
+      "title": "Apartamento en Arriendo en El peñon, Cali",
+      "description": "COP $ 3.700.000 Apartamento en Arriendo en El peñon, Cali Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 110 m² fullscreen 110 m² cubiertos straighten Magna inmuebles renta apartamento amoblado dos alcobas dos baños patio y balcon no tiene garaje servicios incluidos edificio inteligente administración incluida citas solo WhatsApp Ver anuncio",
+      "property_type": "Apartamento",
+      "zone": "El Peñón",
+      "macro_zone": "Oeste",
+      "price": 3700000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_m2": 110,
+      "parking": null,
+      "first_seen": "2026-09-12T15:25:17+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-en-el-penon-cali-2124773"
+        }
+      ],
+      "sources": [
+        "Yumblin"
       ],
       "source_count": 1
     },
@@ -2561,34 +2559,6 @@
       ],
       "sources": [
         "FincaRaíz"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "601f566af988fe7d",
-      "source": "Yumblin",
-      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-arboledas-norte-80667",
-      "title": "Apartamento en arriendo Arboledas, Norte",
-      "description": "COP $ 5.000.000 Apartamento en arriendo Arboledas, Norte Arboledas, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 160 m² fullscreen Buen apartamento, remodelado, ubicado en el oeste de Cali, barrio Arboleda, tercer piso, estrato cinco, área: 160mts2. Consta de sala comedor, dos habitaciones, dos baños, un parqueadero, cocina integral tipo americano, balcón, baño social, zona de lavandería. En edificio, con portería y conserje en el día, puerta a control remoto, el canon inc",
-      "property_type": "Apartamento",
-      "zone": "Arboledas",
-      "macro_zone": "Oeste",
-      "price": 5000000,
-      "bedrooms": 2,
-      "bathrooms": 2,
-      "area_m2": 160,
-      "parking": null,
-      "first_seen": "2026-09-10T03:28:12+00:00",
-      "last_seen": "2026-09-10T03:28:12+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Yumblin",
-          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-arboledas-norte-80667"
-        }
-      ],
-      "sources": [
-        "Yumblin"
       ],
       "source_count": 1
     },
@@ -2678,6 +2648,34 @@
       ],
       "sources": [
         "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "ec354a7284f55edc",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-8-oeste-tejares-cristales-comuna-19-cali-ciudad-cali-sur-valle-del-cauca-rap-pacifico-760043-colombia-606752",
+      "title": "Apartamento en arriendo Calle 8 Oeste, Tejares - Cristales, Comuna 19, Cali Ciudad, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760043, Colombia",
+      "description": "COP $ 5.500.000 Apartamento en arriendo Calle 8 Oeste, Tejares - Cristales, Comuna 19, Cali Ciudad, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760043, Colombia Calle 8 oeste, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 3 habitaciones bed 4 baños shower 127 m² fullscreen Moderno apartamento en el sector de Cristales, con un área privada de 127 m² que combina confort y estilo. Este acogedor inmueble cuenta con tres habitaciones amplias, ideales para el descanso, y cuatro baños que ofrecen privacidad y comodi",
+      "property_type": "Apartamento",
+      "zone": "Cristales",
+      "macro_zone": "Oeste",
+      "price": 5500000,
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "area_m2": 127,
+      "parking": null,
+      "first_seen": "2026-09-12T15:25:17+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-8-oeste-tejares-cristales-comuna-19-cali-ciudad-cali-sur-valle-del-cauca-rap-pacifico-760043-colombia-606752"
+        }
+      ],
+      "sources": [
+        "Yumblin"
       ],
       "source_count": 1
     },
@@ -2818,6 +2816,34 @@
       ],
       "sources": [
         "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "f2b5932f98f271b2",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartaestudio-en-arriendo-en-pance-cali-596770",
+      "title": "Apartaestudio en Arriendo en Pance, Cali",
+      "description": "Apartaestudio en Arriendo en Pance, Cali Descubra este encantador apartaestudio amoblado en arriendo, ubicado en la exclusiva zona de Pance, Cali. Con un área privada de 50 m², este inmueble ...",
+      "property_type": "Apartaestudio",
+      "zone": "Pance",
+      "macro_zone": "Sur",
+      "price": 295000000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": 50,
+      "parking": null,
+      "first_seen": "2026-09-12T15:25:17+00:00",
+      "last_seen": "2026-09-12T15:25:17+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartaestudio-en-arriendo-en-pance-cali-596770"
+        }
+      ],
+      "sources": [
+        "Yumblin"
       ],
       "source_count": 1
     },
@@ -3126,6 +3152,34 @@
       ],
       "sources": [
         "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "d916ccc917283a48",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-alfonso-lopez-i-ii-iii-oriente-83428",
+      "title": "Apartamento en arriendo Alfonso López I, Ii, Iii, Oriente",
+      "description": "COP $ 720.000 Apartamento en arriendo Alfonso López I, Ii, Iii, Oriente Alfonso López I, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 1 baño shower 65 m² fullscreen Naranjo Inmobiliaria Ltda., arrienda apartamento en Alfonzo lopez carrera 7T Núm. 73-34 apto 201, a 20 minutos del aeropuerto. cerca a centros comerciales, clínicas, estaciones del Mio. Cuenta con excelente distribución ventilación e iluminación natural. Consta de sala comedor, 2 habitaciones, 1 baño, zona de oficios, cocina ",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 720000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "area_m2": 65,
+      "parking": null,
+      "first_seen": "2026-09-10T03:28:12+00:00",
+      "last_seen": "2026-09-10T03:28:12+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-alfonso-lopez-i-ii-iii-oriente-83428"
+        }
+      ],
+      "sources": [
+        "Yumblin"
       ],
       "source_count": 1
     },
@@ -4115,6 +4169,34 @@
       "source_count": 1
     },
     {
+      "id": "d683c433f7c7d528",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-70-ulpiano-lloreda-comuna-13-cali-ciudad-cali-sur-valle-del-cauca-rap-pacifico-760011-colombia-81971",
+      "title": "Apartamento en arriendo Calle 70, Ulpiano Lloreda, Comuna 13, Cali Ciudad, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760011, Colombia",
+      "description": "COP $ 900.000 Apartamento en arriendo Calle 70, Ulpiano Lloreda, Comuna 13, Cali Ciudad, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760011, Colombia Calle 70, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 1 baño shower 42 m² fullscreen APARTAMENTO EN ALQUILER CALI AL ORIENTE ULPIANO LLOREDA, Apartamento en segundo nivel, con un área de 42 m², cuenta con dos habitaciones con closet, sala comedor, baño social, cocina sencilla, zona de oficios y patio. Bien ubicado, cerca de la Avenida Simón ",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 900000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "area_m2": 42,
+      "parking": null,
+      "first_seen": "2026-09-10T03:28:12+00:00",
+      "last_seen": "2026-09-10T03:28:12+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-70-ulpiano-lloreda-comuna-13-cali-ciudad-cali-sur-valle-del-cauca-rap-pacifico-760011-colombia-81971"
+        }
+      ],
+      "sources": [
+        "Yumblin"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "67f80f6039f43ade",
       "source": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3629433",
@@ -4647,6 +4729,34 @@
       "source_count": 1
     },
     {
+      "id": "7250dd6b87f6d082",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-los-alcazares-i-oriente-82553",
+      "title": "Apartamento en arriendo Los Alcázares I, Oriente",
+      "description": "COP $ 1.000.000 Apartamento en arriendo Los Alcázares I, Oriente Los Alcázares I, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 3 habitaciones bed 2 baños shower 50 m² fullscreen WEB 127877 Se alquila apartamento moderno y remodelado en cuarto piso, ubicado en el barrio Los Alcázares, al norte de Cali. Cuenta con 3 alcobas, 2 baños, sala-comedor, cocina semi integral con gabinetes superiores e inferiores, y zona de oficios. Ubicado en calle vehicular, cerca de panaderías, fruvers, carnicerías y comercio en ",
+      "property_type": "Apartamento",
+      "zone": "Norte (barrio por confirmar)",
+      "macro_zone": "Norte",
+      "price": 1000000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_m2": 50,
+      "parking": null,
+      "first_seen": "2026-09-10T03:28:12+00:00",
+      "last_seen": "2026-09-10T03:28:12+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-los-alcazares-i-oriente-82553"
+        }
+      ],
+      "sources": [
+        "Yumblin"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "600e3d9a41212166",
       "source": "Yumblin",
       "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-oeste-cali-1773103",
@@ -4783,6 +4893,34 @@
       ],
       "sources": [
         "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "b8312dcd46f2e06a",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-villa-colombia-oriente-82035",
+      "title": "Apartamento en arriendo Villa Colombia, Oriente",
+      "description": "COP $ 1.100.000 Apartamento en arriendo Villa Colombia, Oriente Villa Colombia, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 3 habitaciones bed 2 baños shower 60 m² fullscreen Web 128026 Se alquila quinto piso sin ascensor en el conjunto Samanes seis ubicado en Brisas De Los Alamos, el apartamento consta de sala comedor, zona de oficios, cocina semi integral, gabinetes inferiores y superiores en buen estado, baño social, tiene tres alcobas, dos de ellas tienen closet tipo vitrialambre y la principal tiene ",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1100000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_m2": 60,
+      "parking": null,
+      "first_seen": "2026-09-10T03:28:12+00:00",
+      "last_seen": "2026-09-10T03:28:12+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-villa-colombia-oriente-82035"
+        }
+      ],
+      "sources": [
+        "Yumblin"
       ],
       "source_count": 1
     },
@@ -5640,6 +5778,34 @@
       "source_count": 1
     },
     {
+      "id": "5de4d74e9fa87a2d",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-60-norte-3bn-109-urbanizacion-la-flora-cali-valle-del-cauca-colombia-82948",
+      "title": "Apartamento en arriendo Calle 60 Norte #3bn-109, Urbanización La Flora, Cali, Valle Del Cauca, Colombia",
+      "description": "Apartamento en arriendo Calle 60 Norte #3bn-109, Urbanización La Flora, Cali, Valle Del Cauca, Colombia Calle 60 norte #3bn-109, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 80 m² fullscreen ¡Vivamos en el norte! Alquilo hermoso y acogedor apartamento en Rincón de la Flora (Calle 60 Nte # 3BN-95, Apto 300 - Cód. 539). Ubicación estratégica y tranquila, cerca de vías principales, centros comerciales, supermercados y colegios. Perfecto para parejas que buscan comodidad y exc",
+      "property_type": "Apartamento",
+      "zone": "La Flora",
+      "macro_zone": "Norte",
+      "price": 1200000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_m2": 80,
+      "parking": null,
+      "first_seen": "2026-09-10T03:28:12+00:00",
+      "last_seen": "2026-09-10T03:28:12+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-60-norte-3bn-109-urbanizacion-la-flora-cali-valle-del-cauca-colombia-82948"
+        }
+      ],
+      "sources": [
+        "Yumblin"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "e9249517ca7b6d2c",
       "source": "A&C Inmobiliarios",
       "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-miraflores-cali_4858",
@@ -6200,6 +6366,62 @@
       "source_count": 1
     },
     {
+      "id": "6ccb519782163ce6",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-valle-del-lili-sur-81216",
+      "title": "Apartamento en arriendo Valle Del Lili, Sur",
+      "description": "COP $ 1.300.000 Apartamento en arriendo Valle Del Lili, Sur Valle del Lili, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 3 habitaciones bed 2 baños shower 60 m² fullscreen Arrendamos hermoso apartamento para estrenar en un doceavo piso con ascensor y espectacular vista en el conjunto residencial Sahara en Valle del Lili al sur de Cali. El apartamento de aprox 60 m2 cuenta con tres habitaciones con closet, principal con vestier y baño privado, baño social, sala-comedor con balcón, cocina abierta tipo americ",
+      "property_type": "Apartamento",
+      "zone": "Valle del Lili",
+      "macro_zone": "Sur",
+      "price": 1300000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_m2": 60,
+      "parking": null,
+      "first_seen": "2026-09-10T03:28:12+00:00",
+      "last_seen": "2026-09-10T03:28:12+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-valle-del-lili-sur-81216"
+        }
+      ],
+      "sources": [
+        "Yumblin"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "0a36c753d4f9180a",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-valle-del-lili-sur-81038",
+      "title": "Apartamento en arriendo Valle Del Lili, Sur",
+      "description": "COP $ 1.300.000 Apartamento en arriendo Valle Del Lili, Sur Valle del Lili, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 3 habitaciones bed 2 baños shower 60 m² fullscreen Arrendamos hermoso apartamento para estrenar en un sexto piso con ascensor y espectacular vista en el conjunto residencial Sahara en Valle del Lili al sur de Cali. El apartamento de aprox 60 m2 cuenta con tres habitaciones con closet, principal con vestier y baño privado, baño social, sala-comedor con balcón, cocina abierta tipo american",
+      "property_type": "Apartamento",
+      "zone": "Valle del Lili",
+      "macro_zone": "Sur",
+      "price": 1300000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_m2": 60,
+      "parking": null,
+      "first_seen": "2026-09-10T03:28:12+00:00",
+      "last_seen": "2026-09-10T03:28:12+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-valle-del-lili-sur-81038"
+        }
+      ],
+      "sources": [
+        "Yumblin"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "881c8bdb112df490",
       "source": "Yumblin",
       "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-carrera-101-lili-comuna-17-cali-ciudad-cali-sur-valle-del-cauca-rap-pacifico-760030-colombia-1487752",
@@ -6252,6 +6474,34 @@
       ],
       "sources": [
         "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "a00ea16080f0d076",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-51-el-hormiguero-cali-sur-valle-del-cauca-rap-pacifico-720001-colombia-151083",
+      "title": "Apartamento en arriendo Calle 51, El Hormiguero, Cali, Sur, Valle Del Cauca, Rap Pacífico, 720001, Colombia",
+      "description": "COP $ 1.350.000 Apartamento en arriendo Calle 51, El Hormiguero, Cali, Sur, Valle Del Cauca, Rap Pacífico, 720001, Colombia Calle 51, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 3 habitaciones bed 2 baños shower 60 m² fullscreen Apartamento en alquiler al sur de la ciudad de cali, barrio bochalema, 60 metros, para estrenar, septimo nivel, tres habitaciones, todas con closet, principal con baño, privado, sala comedor, baño social, balcon, cocina integral, zona de oficio, balcon, ascensor, piscina para adul",
+      "property_type": "Apartamento",
+      "zone": "Bochalema",
+      "macro_zone": "Sur",
+      "price": 1350000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_m2": 60,
+      "parking": null,
+      "first_seen": "2026-09-10T03:28:12+00:00",
+      "last_seen": "2026-09-10T03:28:12+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-51-el-hormiguero-cali-sur-valle-del-cauca-rap-pacifico-720001-colombia-151083"
+        }
+      ],
+      "sources": [
+        "Yumblin"
       ],
       "source_count": 1
     },
@@ -7274,6 +7524,62 @@
       "source_count": 1
     },
     {
+      "id": "54583acb38b411ec",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-el-caney-sur-1547803",
+      "title": "Apartamento en arriendo El Caney, Sur",
+      "description": "COP $ 1.450.000 Apartamento en arriendo El Caney, Sur El Caney, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 52 m² fullscreen CODIGO WEB. 127868..Se alquila hermoso apartamento en 5° piso, ubicado en el barrio El Caney, al sur de Cali. Un espacio amplio, fresco y con excelente iluminación natural gracias a su gran ventanal en la sala-comedor, que permite una agradable ventilación y un ambiente confortable durante todo el día. El apartamento cuenta con una amplia sala-comed",
+      "property_type": "Apartamento",
+      "zone": "Caney",
+      "macro_zone": "Sur",
+      "price": 1450000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_m2": 52,
+      "parking": null,
+      "first_seen": "2026-09-10T03:28:12+00:00",
+      "last_seen": "2026-09-10T03:28:12+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-el-caney-sur-1547803"
+        }
+      ],
+      "sources": [
+        "Yumblin"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "1c39a46d9956215d",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-45-ciudad-pacifica-el-hormiguero-cali-sur-valle-del-cauca-rap-pacifico-720001-colombia-83426",
+      "title": "Apartamento en arriendo Calle 45, Ciudad Pacífica, El Hormiguero, Cali, Sur, Valle Del Cauca, Rap Pacífico, 720001, Colombia",
+      "description": "COP $ 1.450.000 Apartamento en arriendo Calle 45, Ciudad Pacífica, El Hormiguero, Cali, Sur, Valle Del Cauca, Rap Pacífico, 720001, Colombia Calle 45, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 55 m² fullscreen Alquiler apartamento Nuevo, Moderno, bien ubicado y acogedor, este apartamento está en el conjunto residencial Coral en Ciudad Pacifica, sector ubicado estratégicamente cerca a universidades y colegios del sur de Cali. Cuenta con balcón, cocina integral, patio de ",
+      "property_type": "Apartamento",
+      "zone": "Ciudad Pacífica",
+      "macro_zone": "Sur",
+      "price": 1450000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_m2": 55,
+      "parking": null,
+      "first_seen": "2026-09-10T03:28:12+00:00",
+      "last_seen": "2026-09-10T03:28:12+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-45-ciudad-pacifica-el-hormiguero-cali-sur-valle-del-cauca-rap-pacifico-720001-colombia-83426"
+        }
+      ],
+      "sources": [
+        "Yumblin"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "d329824ba3845d2d",
       "source": "FincaRaíz",
       "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-valle-del-lili-cali/194172254",
@@ -7498,6 +7804,34 @@
       "source_count": 1
     },
     {
+      "id": "ff9261aa5a9f2c9a",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-60a-el-hormiguero-cali-sur-valle-del-cauca-rap-pacifico-760007-colombia-78972",
+      "title": "Apartamento en arriendo Calle 60a, El Hormiguero, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760007, Colombia",
+      "description": "COP $ 1.500.000 Apartamento en arriendo Calle 60a, El Hormiguero, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760007, Colombia Calle 60a, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 63 m² fullscreen Te presentamos un encantador apartamento de 2 habitaciones, el equilibrio perfecto entre confort y estilo. Este hogar ofrece la habitacion principal con baño privado y un elegante walking closet, proporcionando un espacio personal amplio y cómodo. La segunda habitación es ideal ",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1500000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_m2": 63,
+      "parking": null,
+      "first_seen": "2026-09-10T03:28:12+00:00",
+      "last_seen": "2026-09-10T03:28:12+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-60a-el-hormiguero-cali-sur-valle-del-cauca-rap-pacifico-760007-colombia-78972"
+        }
+      ],
+      "sources": [
+        "Yumblin"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "59dd24881eb74ae5",
       "source": "FincaRaíz",
       "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-ciudad-2000-cali/194198045",
@@ -7694,6 +8028,34 @@
       "source_count": 1
     },
     {
+      "id": "13a9bec4209c56cf",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-59-el-hormiguero-cali-sur-valle-del-cauca-rap-pacifico-760007-colombia-1427904",
+      "title": "Apartamento en arriendo Calle 59, El Hormiguero, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760007, Colombia",
+      "description": "COP $ 1.500.000 Apartamento en arriendo Calle 59, El Hormiguero, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760007, Colombia Calle 59, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 58 m² fullscreen APARTAMENTO EN ALQUILER AL SUR DE CALI CIUDAD MELÉNDEZ CR SEPIA, 58 M2, décimo piso con vista al interior de la unidad, consta de sala comedor, estudio, cocina integral, zona de oficios, dos habitaciones con closets, baño social y baño privado, la unidad cuenta con parqueadero com",
+      "property_type": "Apartamento",
+      "zone": "Ciudad Meléndez",
+      "macro_zone": "Sur",
+      "price": 1500000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_m2": 58,
+      "parking": null,
+      "first_seen": "2026-09-10T03:28:12+00:00",
+      "last_seen": "2026-09-10T03:28:12+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-59-el-hormiguero-cali-sur-valle-del-cauca-rap-pacifico-760007-colombia-1427904"
+        }
+      ],
+      "sources": [
+        "Yumblin"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "7d588edb4adf03b0",
       "source": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-lili-cali-3865016",
@@ -7830,6 +8192,34 @@
       ],
       "sources": [
         "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "fd565f678bca043c",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-conjunto-residencial-cobalto-carrera-101b-cali-valle-del-cauca-colombia-901807",
+      "title": "Apartamento en arriendo Conjunto Residencial Cobalto, Carrera 101b, Cali, Valle Del Cauca, Colombia",
+      "description": "COP $ 1.500.000 Apartamento en arriendo Conjunto Residencial Cobalto, Carrera 101b, Cali, Valle Del Cauca, Colombia Conjunto residencial cobalto, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 65 m² fullscreen ¡Vive en Valle del Lili! Disfruta de un apartamento fresco y moderno en el CR Cobalto (Apto 1106-3), piso alto con vista panorámica desde el balcón. Ubicado en la Cra. 101B 53 12 (Cód. 2405), en el corazón del sur de Cali, cerca de las mejores universidades, centros co",
+      "property_type": "Apartamento",
+      "zone": "Valle del Lili",
+      "macro_zone": "Sur",
+      "price": 1500000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_m2": 65,
+      "parking": null,
+      "first_seen": "2026-09-10T03:28:12+00:00",
+      "last_seen": "2026-09-10T03:28:12+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-conjunto-residencial-cobalto-carrera-101b-cali-valle-del-cauca-colombia-901807"
+        }
+      ],
+      "sources": [
+        "Yumblin"
       ],
       "source_count": 1
     },
@@ -8422,6 +8812,34 @@
       "source_count": 1
     },
     {
+      "id": "a1d7021d88028143",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-valle-del-lili-sur-645884",
+      "title": "Apartamento en arriendo Valle Del Lili, Sur",
+      "description": "COP $ 1.600.000 Apartamento en arriendo Valle Del Lili, Sur Valle del Lili, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 71 m² fullscreen En el corazón del dinámico barrio Valle del Lili en Cali, se encuentra un moderno apartamento que representa una excelente opción para quienes buscan un espacio funcional y accesible. Con una superficie de 71 m², este inmueble, construido en 2020, se destaca por su diseño contemporáneo y su adecuada distribución, ideal para maximizar cad",
+      "property_type": "Apartamento",
+      "zone": "Valle del Lili",
+      "macro_zone": "Sur",
+      "price": 1600000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_m2": 71,
+      "parking": null,
+      "first_seen": "2026-09-10T03:28:12+00:00",
+      "last_seen": "2026-09-10T03:28:12+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-valle-del-lili-sur-645884"
+        }
+      ],
+      "sources": [
+        "Yumblin"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "dd44bef849b7e7be",
       "source": "Yumblin",
       "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calipso-oriente-548066",
@@ -8442,6 +8860,62 @@
         {
           "source": "Yumblin",
           "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calipso-oriente-548066"
+        }
+      ],
+      "sources": [
+        "Yumblin"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "29bd2a2af1831d99",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-parcelaciones-pance-sur-83245",
+      "title": "Apartamento en arriendo Parcelaciones Pance, Sur",
+      "description": "COP $ 1.620.000 Apartamento en arriendo Parcelaciones Pance, Sur Parcelaciones Pance, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 1 habitación bed 1 baño shower 40 m² fullscreen Gespron Inmobiliaria alquila hermoso aparta estudio para estrenar en Conjunto Residencial Arbo PANCE, el conjunto cuenta con ascensor, consta de un espacio amplio e iluminado, habitación principal con un closet, con mueble para televisión, baño completo con divisiones en vidrio templado , cocina integral con muebles superior e inf",
+      "property_type": "Apartamento",
+      "zone": "Pance",
+      "macro_zone": "Sur",
+      "price": 1620000,
+      "bedrooms": null,
+      "bathrooms": 1,
+      "area_m2": 40,
+      "parking": null,
+      "first_seen": "2026-09-10T03:28:12+00:00",
+      "last_seen": "2026-09-10T03:28:12+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-parcelaciones-pance-sur-83245"
+        }
+      ],
+      "sources": [
+        "Yumblin"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "14e327761c414363",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-parcelaciones-pance-sur-82055",
+      "title": "Apartamento en arriendo Parcelaciones Pance, Sur",
+      "description": "COP $ 1.620.000 Apartamento en arriendo Parcelaciones Pance, Sur Parcelaciones Pance, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 1 habitación bed 1 baño shower 40 m² fullscreen Gespron Inmobiliaria alquila hermoso aparta estudio para estrenar en Conjunto Residencial Arbo PANCE, el conjunto cuenta con ascensor, consta de un espacio amplio e iluminado, habitación principal con un closet, con mueble para televisión, baño completo con divisiones en vidrio templado , cocina integral con muebles superior e inf",
+      "property_type": "Apartamento",
+      "zone": "Pance",
+      "macro_zone": "Sur",
+      "price": 1620000,
+      "bedrooms": null,
+      "bathrooms": 1,
+      "area_m2": 40,
+      "parking": null,
+      "first_seen": "2026-09-10T03:28:12+00:00",
+      "last_seen": "2026-09-10T03:28:12+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-parcelaciones-pance-sur-82055"
         }
       ],
       "sources": [
@@ -8922,6 +9396,34 @@
       ],
       "sources": [
         "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "4a9fe254e4d27251",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-4-el-refugio-comuna-19-cali-ciudad-cali-sur-valle-del-cauca-rap-pacifico-760035-colombia-80660",
+      "title": "Apartamento en arriendo Calle 4, El Refugio, Comuna 19, Cali Ciudad, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760035, Colombia",
+      "description": "COP $ 1.800.000 Apartamento en arriendo Calle 4, El Refugio, Comuna 19, Cali Ciudad, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760035, Colombia Calle 4, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 1 habitación bed 1 baño shower 32 m² fullscreen APARTAMENTO EN ALQUILER CALI AL SUR REFUGIO CR MIRO LIVING, 7° piso, 32 metros, para estrenar, con excelentes acabados. Cuenta con una habitación con clóset y mueble, con baño privado, sala, cocina integral, zona de oficio aparte, y parqueadero comunitario.La unida",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1800000,
+      "bedrooms": null,
+      "bathrooms": 1,
+      "area_m2": 32,
+      "parking": null,
+      "first_seen": "2026-09-10T03:28:12+00:00",
+      "last_seen": "2026-09-10T03:28:12+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-calle-4-el-refugio-comuna-19-cali-ciudad-cali-sur-valle-del-cauca-rap-pacifico-760035-colombia-80660"
+        }
+      ],
+      "sources": [
+        "Yumblin"
       ],
       "source_count": 1
     },
@@ -9710,6 +10212,34 @@
       "source_count": 1
     },
     {
+      "id": "5bd46f3b7c12c61c",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-valle-del-lili-sur-77997",
+      "title": "Apartamento en arriendo Valle Del Lili, Sur",
+      "description": "COP $ 2.100.000 Apartamento en arriendo Valle Del Lili, Sur Valle del Lili, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 54 m² fullscreen CÓDIGO WEB 127865 Si buscas un sector tranquilo, este lindo apto es para ti. Bienco ALQUILA apartamento nuevo para estrenar al sur de Cali barrio Kachipay piso 6 con ascensor en el encontrarás todas las comodidades que buscas, cuenta con espacios muy bien distribuidos. El inmueble cuenta con 2 habitaciones con closet en madera, principal",
+      "property_type": "Apartamento",
+      "zone": "Cachipay / Kachipay",
+      "macro_zone": "Sur",
+      "price": 2100000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_m2": 54,
+      "parking": null,
+      "first_seen": "2026-09-10T03:28:12+00:00",
+      "last_seen": "2026-09-10T03:28:12+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-valle-del-lili-sur-77997"
+        }
+      ],
+      "sources": [
+        "Yumblin"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "46eff2b224bb1f91",
       "source": "FincaRaíz",
       "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-mayapan-las-vegas-cali/194204454",
@@ -10102,6 +10632,34 @@
       "source_count": 1
     },
     {
+      "id": "e1173e9901aa1ef0",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-carrera-4-oeste-bellavista-comuna-19-cali-ciudad-cali-sur-valle-del-cauca-rap-pacifico-760101-colombia-151188",
+      "title": "Apartamento en arriendo Carrera 4 Oeste, Bellavista, Comuna 19, Cali Ciudad, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760101, Colombia",
+      "description": "COP $ 2.500.000 Apartamento en arriendo Carrera 4 Oeste, Bellavista, Comuna 19, Cali Ciudad, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760101, Colombia Carrera 4 oeste, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 52 m² fullscreen Descubre este moderno apartamento en el exclusivo conjunto Torres de Altair, ubicado en el vibrante oeste de Cali. Con solo dos años de antigüedad, esta propiedad se presenta como una opción ideal para quienes buscan calidad y confort. El apartam",
+      "property_type": "Apartamento",
+      "zone": "Bellavista",
+      "macro_zone": "Oeste",
+      "price": 2500000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_m2": 52,
+      "parking": null,
+      "first_seen": "2026-09-10T03:28:12+00:00",
+      "last_seen": "2026-09-10T03:28:12+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-carrera-4-oeste-bellavista-comuna-19-cali-ciudad-cali-sur-valle-del-cauca-rap-pacifico-760101-colombia-151188"
+        }
+      ],
+      "sources": [
+        "Yumblin"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "f52f8418412d2603",
       "source": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3859099",
@@ -10210,6 +10768,62 @@
       ],
       "sources": [
         "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "3fc5a9d64080c674",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-carrera-100-lili-comuna-17-cali-ciudad-cali-sur-valle-del-cauca-rap-pacifico-760026-colombia-81618",
+      "title": "Apartamento en arriendo Carrera 100, Lili, Comuna 17, Cali Ciudad, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760026, Colombia",
+      "description": "COP $ 2.500.000 Apartamento en arriendo Carrera 100, Lili, Comuna 17, Cali Ciudad, Cali, Sur, Valle Del Cauca, Rap Pacífico, 760026, Colombia Carrera 100, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 72 m² fullscreen Descubra este encantador apartamento en arriendo, ubicado en el prestigioso Conjunto Madeira, en el sector de Valle del Lili, Cali. Con 72 m² de área construida, este moderno inmueble en el noveno piso ofrece un ambiente acogedor y funcional, ideal para disfru",
+      "property_type": "Apartamento",
+      "zone": "Valle del Lili",
+      "macro_zone": "Sur",
+      "price": 2500000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_m2": 72,
+      "parking": null,
+      "first_seen": "2026-09-10T03:28:12+00:00",
+      "last_seen": "2026-09-10T03:28:12+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-carrera-100-lili-comuna-17-cali-ciudad-cali-sur-valle-del-cauca-rap-pacifico-760026-colombia-81618"
+        }
+      ],
+      "sources": [
+        "Yumblin"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "ab46ed9c46105729",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-conjunto-residencial-santa-clara-carrera-97-comuna-17-cali-valle-del-cauca-colombia-81234",
+      "title": "Apartamento en arriendo Conjunto Residencial Santa Clara, Carrera 97, Comuna 17, Cali, Valle Del Cauca, Colombia",
+      "description": "Apartamento en arriendo Conjunto Residencial Santa Clara, Carrera 97, Comuna 17, Cali, Valle Del Cauca, Colombia Conjunto residencial santa clara, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 3 habitaciones bed 2 baños shower 75 m² fullscreen SE ARRIENDA APARTAMENTO EN SANTA CLARA, VALLE DEL LILI, CALI EN $2.500.000 CON ADMINISTRACIÓN INCLUIDA!! Apartamento nuevo para estrenar, se encuentra en un primer piso, tiene 75m2, consta de 3 habitaciones, la habitación principal cuenta con vestier, baño y aire acon",
+      "property_type": "Apartamento",
+      "zone": "Valle del Lili",
+      "macro_zone": "Sur",
+      "price": 2500000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_m2": 75,
+      "parking": null,
+      "first_seen": "2026-09-10T03:28:12+00:00",
+      "last_seen": "2026-09-10T03:28:12+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-conjunto-residencial-santa-clara-carrera-97-comuna-17-cali-valle-del-cauca-colombia-81234"
+        }
+      ],
+      "sources": [
+        "Yumblin"
       ],
       "source_count": 1
     },
@@ -10630,6 +11244,34 @@
       ],
       "sources": [
         "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "5a426c489ce2a1dc",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-el-ingenio-sur-80576",
+      "title": "Apartamento en arriendo El Ingenio, Sur",
+      "description": "COP $ 3.000.000 Apartamento en arriendo El Ingenio, Sur El Ingenio, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 3 habitaciones bed 2 baños shower 110 m² fullscreen COD WEB: 127999 Se ARRIENDA amplio apartamento Amoblado al sur de Cali, ubicado en el barrio Ingenio II, edificio CATALUÑA, en un segundo piso sin ascensor. El inmueble ofrece una amplia sala-comedor con excelente iluminación natural, que brinda una buena vista y muy buena ventilación. Dispone de una cocina integral, con cajones de almacenamien",
+      "property_type": "Apartamento",
+      "zone": "El Ingenio",
+      "macro_zone": "Sur",
+      "price": 3000000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_m2": 110,
+      "parking": null,
+      "first_seen": "2026-09-10T03:28:12+00:00",
+      "last_seen": "2026-09-10T03:28:12+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-el-ingenio-sur-80576"
+        }
+      ],
+      "sources": [
+        "Yumblin"
       ],
       "source_count": 1
     },
@@ -11526,6 +12168,34 @@
       ],
       "sources": [
         "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "601f566af988fe7d",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-arboledas-norte-80667",
+      "title": "Apartamento en arriendo Arboledas, Norte",
+      "description": "COP $ 5.000.000 Apartamento en arriendo Arboledas, Norte Arboledas, Cali, Valle del Cauca, Colombia Apartamentos Arriendo 2 habitaciones bed 2 baños shower 160 m² fullscreen Buen apartamento, remodelado, ubicado en el oeste de Cali, barrio Arboleda, tercer piso, estrato cinco, área: 160mts2. Consta de sala comedor, dos habitaciones, dos baños, un parqueadero, cocina integral tipo americano, balcón, baño social, zona de lavandería. En edificio, con portería y conserje en el día, puerta a control remoto, el canon inc",
+      "property_type": "Apartamento",
+      "zone": "Arboledas",
+      "macro_zone": "Oeste",
+      "price": 5000000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_m2": 160,
+      "parking": null,
+      "first_seen": "2026-09-10T03:28:12+00:00",
+      "last_seen": "2026-09-10T03:28:12+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Yumblin",
+          "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-arboledas-norte-80667"
+        }
+      ],
+      "sources": [
+        "Yumblin"
       ],
       "source_count": 1
     },
