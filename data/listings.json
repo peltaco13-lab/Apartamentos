@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": 4,
-    "updated_at": "2026-09-14T08:29:56+00:00",
+    "updated_at": "2026-09-14T09:29:41+00:00",
     "price_policy": "no_fixed_cap",
-    "total": 510,
+    "total": 509,
     "source_count": 12,
     "automated_source_count": 10,
     "sources": [
@@ -16,7 +16,7 @@
         "found": 21,
         "errors": [],
         "last_checked": "2026-09-14T08:29:56+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://www.fincaraiz.com.co/arriendo/apartamentos/cali/valle-del-cauca"
         ]
@@ -30,7 +30,7 @@
         "found": 27,
         "errors": [],
         "last_checked": "2026-09-14T08:29:56+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://www.ciencuadras.com/arriendo/cali/cali/apartamento"
         ]
@@ -44,7 +44,7 @@
         "found": 0,
         "errors": [],
         "last_checked": "2026-09-14T08:29:56+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://listado.mercadolibre.com.co/apartamentos-en-arriendo-cali"
         ]
@@ -7743,43 +7743,6 @@
       "source_count": 1
     },
     {
-      "id": "1d135613dfdaad95",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3602485",
-      "title": "Administración incluida: $1,440,000 Apartamento en arriendo cali, sector transito municipal 59.02 m2 Habit. 2 Baños 2 Garaje 0",
-      "description": "Administración incluida: $1,440,000 Apartamento en arriendo cali, sector transito municipal 59.02 m2 Habit. 2 Baños 2 Garaje 0",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 1440000,
-      "bedrooms": null,
-      "bathrooms": 2,
-      "area_m2": 59.02,
-      "parking": 2,
-      "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-09-11T05:26:22+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "FincaRaíz",
-          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-cali/194138231"
-        },
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3602485"
-        },
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-sector-transito-municipal-cali-3778879"
-        }
-      ],
-      "sources": [
-        "Ciencuadras",
-        "FincaRaíz"
-      ],
-      "source_count": 2
-    },
-    {
       "id": "22def71b15c3588e",
       "source": "FincaRaíz",
       "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-aguacatal-cali/194152245",
@@ -7905,19 +7868,32 @@
       "bathrooms": 2,
       "area_m2": 59,
       "parking": 2,
-      "first_seen": "2026-09-10T06:33:48+00:00",
+      "first_seen": "2026-08-16T20:39:35+00:00",
       "last_seen": "2026-09-11T05:26:22+00:00",
       "stale": true,
       "links": [
+        {
+          "source": "FincaRaíz",
+          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-cali/194138231"
+        },
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3602485"
+        },
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-sector-transito-municipal-cali-3778879"
+        },
         {
           "source": "Ciencuadras",
           "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-conjunto-residencial-aguaclara-cali-3843022"
         }
       ],
       "sources": [
-        "Ciencuadras"
+        "Ciencuadras",
+        "FincaRaíz"
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
       "id": "120a1a25f57cbbbb",
