@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": 4,
-    "updated_at": "2026-09-15T16:27:49+00:00",
+    "updated_at": "2026-09-15T17:24:59+00:00",
     "price_policy": "no_fixed_cap",
-    "total": 522,
+    "total": 524,
     "source_count": 12,
     "automated_source_count": 10,
     "sources": [
@@ -16,7 +16,7 @@
         "found": 21,
         "errors": [],
         "last_checked": "2026-09-15T16:27:49+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://www.fincaraiz.com.co/arriendo/apartamentos/cali/valle-del-cauca"
         ]
@@ -30,7 +30,7 @@
         "found": 27,
         "errors": [],
         "last_checked": "2026-09-15T16:27:49+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://www.ciencuadras.com/arriendo/cali/cali/apartamento"
         ]
@@ -44,7 +44,7 @@
         "found": 0,
         "errors": [],
         "last_checked": "2026-09-15T16:27:49+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://listado.mercadolibre.com.co/apartamentos-en-arriendo-cali"
         ]
@@ -113,10 +113,10 @@
         "cadence_hours": 12,
         "automated": true,
         "ok": true,
-        "found": 17,
+        "found": 20,
         "errors": [],
-        "last_checked": "2026-09-15T04:29:22+00:00",
-        "skipped": true,
+        "last_checked": "2026-09-15T17:24:59+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://www.aycinmobiliarios.com/busqueda/pagina/1/gestion/arriendo"
         ]
@@ -129,8 +129,8 @@
         "ok": true,
         "found": 0,
         "errors": [],
-        "last_checked": "2026-09-15T04:29:22+00:00",
-        "skipped": true,
+        "last_checked": "2026-09-15T17:24:59+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://www.metroredinmobiliariacali.com.co/"
         ]
@@ -183,138 +183,26 @@
   },
   "listings": [
     {
-      "id": "60424ef94acd522d",
+      "id": "bc40949b55f5e8e8",
       "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/local-en-arriendo-libertadores-cali_3696",
-      "title": "Local En Arriendo - Libertadores, Cali",
-      "description": "$350.000 Local en Libertadores en Arriendo 3696 Cali , Libertadores ¡Descubre la oportunidad perfecta para tu negocio en el barrio Libertadores! Este local en arriendo ofrece saloncito con baño, brindando el espacio ideal para establecer una papelería, fotocopiadora. Su estratégica ubicación frente al reconocido colegio La Normal Superior Farallones de Cali garantiza una alta visibilidad y un flujo constante de potenciales clientes. Además, con el transporte público cercano, tus clientes tendrán un fácil acceso a t",
-      "property_type": "Apartamento",
+      "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-fonaviemcali-cali_3940",
+      "title": "Apartaestudio En Arriendo - Fonaviemcali, Cali",
+      "description": "$500.000 Apartaestudio en Fonaviemcali en Arriendo 3940 Cali , Fonaviemcali ¿Buscas un apartaestudio práctico, económico y con los servicios incluidos? Esta es una excelente oportunidad para vivir en el barrio Fonaviemcali, un sector con fácil acceso a todo lo que necesitas. En alquiler, este acogedor apartaestudio, es la opción ideal para quienes buscan un espacio práctico y funcional. Situado en un tercer piso con acceso por escaleras, este espacio de dos ambientes que te brindan la comodidad. Cuenta con baño soc",
+      "property_type": "Apartaestudio",
       "zone": "Cali (zona por confirmar)",
       "macro_zone": "Otra zona de Cali",
-      "price": 350000,
+      "price": 500000,
       "bedrooms": null,
       "bathrooms": null,
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-17T10:52:22+00:00",
-      "last_seen": "2026-09-15T04:29:22+00:00",
+      "last_seen": "2026-09-15T17:24:59+00:00",
       "stale": false,
       "links": [
         {
           "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/local-en-arriendo-libertadores-cali_3696"
-        }
-      ],
-      "sources": [
-        "A&C Inmobiliarios"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "24067645a0b91363",
-      "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-el-vallado-cali_4075",
-      "title": "Apartamento En Arriendo - El Vallado, Cali",
-      "description": "$590.000 Apartamento en El Vallado en Arriendo 4075 Cali , El Vallado Si estás buscando un apartamento amplio y funcional para compartir en familia, esta es una excelente oportunidad. En el barrio el Vallado, ubicado en tercer piso, este inmueble ofrece una distribución cómoda y espacios bien iluminados. Al ingresar, te recibe una amplia sala comedor, baño social, cocina sencilla, dispone de tres habitaciones, la principal dispone de closet. Además, cuenta con una zona de oficios independiente, equipada con lavader",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 590000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-08-17T10:52:22+00:00",
-      "last_seen": "2026-09-15T04:29:22+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-el-vallado-cali_4075"
-        }
-      ],
-      "sources": [
-        "A&C Inmobiliarios"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "2ce4a1c50ee98a3f",
-      "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/casa-en-arriendo-samanes-e-los-angeles-candelaria_4822",
-      "title": "Casa En Arriendo - Samanes E Los Angeles, Candelaria",
-      "description": "$600.000 Casa en Samanes e los Angeles en Arriendo 4822 Candelaria , Samanes e los Angeles Encuentra el hogar que estás buscando en Samanes de Los Ángeles, Candelaria, un sector residencial tranquilo, en constante crecimiento y perfecto para quienes desean disfrutar de comodidad y un ambiente familiar. Esta casa en alquiler ofrece una distribución práctica, ideal para el día a día. Cuenta con una amplia sala comedor, cocina sencilla, baño social y tres habitaciones. Además, dispone de un patio con zona de oficios, ",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 600000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-08-17T10:52:22+00:00",
-      "last_seen": "2026-09-15T04:29:22+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/casa-en-arriendo-samanes-e-los-angeles-candelaria_4822"
-        }
-      ],
-      "sources": [
-        "A&C Inmobiliarios"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "344653d6de2e8bab",
-      "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-ulpiano-lloreda-cali_1075",
-      "title": "Apartamento En Arriendo - Ulpiano Lloreda, Cali",
-      "description": "$620.000 Apartamento en Ulpiano Lloreda en Arriendo 1075 Cali , Ulpiano Lloreda ¡Tu próximo hogar en el barrio Ulpiano Lloreda te espera! Este acogedor y economico apartamento en alquiler, ubicado en un segundo piso interno, te ofrece la comodidad y funcionalidad que necesitas para tu estilo de vida. Al ingresar, serás recibido por una amplia sala-comedor, ideal para relajarte y compartir momentos en familia o con amigos. La cocina sencilla, cuenta con dos habitaciones, ambas equipadas con closet. baño social. Adem",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 620000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-08-17T10:52:22+00:00",
-      "last_seen": "2026-09-15T04:29:22+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-ulpiano-lloreda-cali_1075"
-        }
-      ],
-      "sources": [
-        "A&C Inmobiliarios"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "50945d2f10a6f10c",
-      "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-san-luis-cali_2247",
-      "title": "Apartamento En Arriendo - San Luis, Cali",
-      "description": "$670.000 Apartamento en San Luis en Arriendo 2247 Cali , San Luis Descubre el hogar que siempre soñaste en el encantador barrio de San Luis. Este apartamento en el tercer piso te da la bienvenida con una amplia sala-comedor que inspira calidez y convivencia, mientras su cocina compacta y funcional está diseñada para que cada momento culinario sea especial. Las dos habitaciones de buen tamaño, ofrecen espacios perfectos para mantener todo en orden, y los pisos de cerámica aportan un toque moderno y práctico. Baño so",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 670000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-08-17T10:52:22+00:00",
-      "last_seen": "2026-09-15T04:29:22+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-san-luis-cali_2247"
+          "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-fonaviemcali-cali_3940"
         }
       ],
       "sources": [
@@ -324,8 +212,8 @@
     },
     {
       "id": "bf0bd143f7fde402",
-      "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-belalcazar-cali_1710",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/arriendo-apartaestudio-ciudad-modelo-cali.-635139",
       "title": "Arriendo apartaestudio ciudad modelo Cali.",
       "description": "COP $ 680.000 Arriendo apartaestudio ciudad modelo Cali. Cali, Valle del Cauca, Colombia Apartamentos Arriendo Apartaestudio 1 baño shower 30 m² cubiertos straighten Arriendo apartaestudios en edificio Ciudad Modelo, distribuidos en sala comedor, alcoba. Baño, cocina zona de oficios. Incluye servicios. Ver anuncio",
       "property_type": "Apartaestudio",
@@ -337,7 +225,7 @@
       "area_m2": 30,
       "parking": null,
       "first_seen": "2026-08-17T10:52:22+00:00",
-      "last_seen": "2026-09-14T03:31:41+00:00",
+      "last_seen": "2026-09-15T17:24:59+00:00",
       "stale": false,
       "links": [
         {
@@ -385,8 +273,8 @@
     },
     {
       "id": "17a93a794c5e5a9c",
-      "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-benjamin-herrera-cali_3477",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-benjamin-herrera-cali-3815098",
       "title": "Apartamento En Arriendo - Benjamin Herrera, Cali",
       "description": "$700.000 Apartamento en Benjamin Herrera en Arriendo 3477 Cali , Benjamin Herrera Si estás buscando un apartamento funcional, cómodo y con una excelente ubicación, esta opción en el barrio Benjamín Herrera puede ser el hogar que estabas esperando. Su distribución práctica y su cercanía a una amplia zona comercial lo convierten en una excelente alternativa para quienes desean vivir con todo al alcance de la mano. Ubicado en primer piso, el apartamento cuenta con una amplia sala comedor, baño social, cocina sencilla,",
       "property_type": "Apartamento",
@@ -415,6 +303,118 @@
         "Ciencuadras"
       ],
       "source_count": 2
+    },
+    {
+      "id": "90316d9b222faff2",
+      "source": "A&C Inmobiliarios",
+      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-el-diamante-cali_2320",
+      "title": "Apartamento En Arriendo - El Diamante, Cali",
+      "description": "$700.000 Apartamento en El Diamante en Arriendo 2320 Cali , El Diamante Ubicada en el barrio El Diamante, en el oriente de Cali, esta acogedor apartamento en alquiler te ofrece un espacio funcional y bien ubicado para tu comodidad. Al ingresar, te recibe una sala comedor con buena iluminación natural, baño social, cocineta sencilla es práctica y funcional, dos habitaciones, diseñadas para ofrecer descanso y tranquilidad, zona de oficios incluye un lavadero de ropa y punto para lavadora, además de un patio que añade",
+      "property_type": "Apartamento",
+      "zone": "Este (barrio por confirmar)",
+      "macro_zone": "Este",
+      "price": 700000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-08-17T10:52:22+00:00",
+      "last_seen": "2026-09-15T17:24:59+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "A&C Inmobiliarios",
+          "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-el-diamante-cali_2320"
+        }
+      ],
+      "sources": [
+        "A&C Inmobiliarios"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "5efca957f6394041",
+      "source": "A&C Inmobiliarios",
+      "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-guayaquil-cali_2383",
+      "title": "Apartaestudio En Arriendo - Guayaquil, Cali",
+      "description": "$770.000 Apartaestudio en Guayaquil en Arriendo 2383 Cali , Guayaquil ¿Has estado buscando un aparta estudio cerca a la zona centro de Cali aun no lo has encontrado ? Ven, que tenemos el indicado para tus necesidades. Te ofrecemos aparta estudio ubicado en el barrio Guayaquil, Segundo piso. Con cercanía a zona comercial de la que se caracteriza el sector, se encuentra a dos cuadras del supermercado Olímpica y a pocas cuadras del colegio Antonio José Camacho, encontrarás también restaurantes, almacenes, bombas de ga",
+      "property_type": "Apartaestudio",
+      "zone": "Centro (barrio por confirmar)",
+      "macro_zone": "Centro",
+      "price": 770000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-09-04T19:22:14+00:00",
+      "last_seen": "2026-09-15T17:24:59+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "A&C Inmobiliarios",
+          "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-guayaquil-cali_2383"
+        }
+      ],
+      "sources": [
+        "A&C Inmobiliarios"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "7b287803c1b06521",
+      "source": "A&C Inmobiliarios",
+      "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-guayaquil-cali_2392",
+      "title": "Apartaestudio En Arriendo - Guayaquil, Cali",
+      "description": "Propiedad destacada $790.000 Apartaestudio en Guayaquil en Arriendo 2392 Cali , Guayaquil ¡Tu espacio ideal en el corazón de Cali! Te presentamos un acogedor apartaestudio en el barrio Guayaquil, ubicado en el primer piso del Edificio Satori. Este inmueble de dos ambientes cuenta con sala-comedor bien iluminada, ideal para crear un ambiente acogedor. La cocina tipo americana es sencilla y funcional, perfecta para tus comidas diarias. Además, incluye un baño social práctico y una zona de oficios con lavadero, todo c",
+      "property_type": "Apartaestudio",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 790000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-09-04T19:22:14+00:00",
+      "last_seen": "2026-09-15T17:24:59+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "A&C Inmobiliarios",
+          "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-guayaquil-cali_2392"
+        }
+      ],
+      "sources": [
+        "A&C Inmobiliarios"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "3a2404ad70b02978",
+      "source": "A&C Inmobiliarios",
+      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-villa-del-sur-cali_2413",
+      "title": "Apartamento En Arriendo - Villa Del Sur, Cali",
+      "description": "Propiedad destacada $790.000 Apartamento en Villa del Sur en Arriendo 2413 Cali , Villa del Sur ¿Buscas un espacio ideal para vivir en el oriente de Cali junto a tu familia? Te presentamos una excelente opción en el barrio Villa del Sur, perfecta para quienes desean comodidad y una ubicación estratégica. Cuenta con una amplia sala comedor, baño social, cocina sencilla, dos habitaciones con clóset y una zona de oficios con lavadero de ropa, brindando funcionalidad en cada espacio. Los servicios de energía y agua son",
+      "property_type": "Apartamento",
+      "zone": "Este (barrio por confirmar)",
+      "macro_zone": "Este",
+      "price": 790000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-08-20T05:06:43+00:00",
+      "last_seen": "2026-09-15T17:24:59+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "A&C Inmobiliarios",
+          "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-villa-del-sur-cali_2413"
+        }
+      ],
+      "sources": [
+        "A&C Inmobiliarios"
+      ],
+      "source_count": 1
     },
     {
       "id": "36ad2bc5e1863a27",
@@ -543,12 +543,40 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-09-07T09:29:40+00:00",
-      "last_seen": "2026-09-15T04:29:22+00:00",
+      "last_seen": "2026-09-15T17:24:59+00:00",
       "stale": false,
       "links": [
         {
           "source": "A&C Inmobiliarios",
           "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendoventa-chiminangos-2-etapa-cali_4480"
+        }
+      ],
+      "sources": [
+        "A&C Inmobiliarios"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "c66453bdf05a9168",
+      "source": "A&C Inmobiliarios",
+      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-villa-del-sur-cali_2406",
+      "title": "Apartamento En Arriendo - Villa Del Sur, Cali",
+      "description": "$850.000 Apartamento en Villa del Sur en Arriendo 2406 Cali , Villa del Sur ¿Estás buscando un apartamento en un sector tranquilo, bien ubicado y con parqueadero para una moto? ¡Este es para ti! Situado en el barrio Villa del Sur, este apartamento en el segundo piso te ofrece un ambiente acogedor y práctico para tu día a día. Al ingresar, encontrarás una amplia sala comedor, baño social, cocina sencilla, con tres habitaciones, todas con su respectivo closet, además, la zona de oficios, equipada con lavadero de ropa",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 850000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-09-11T00:34:02+00:00",
+      "last_seen": "2026-09-15T17:24:59+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "A&C Inmobiliarios",
+          "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-villa-del-sur-cali_2406"
         }
       ],
       "sources": [
@@ -571,7 +599,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-20T05:06:43+00:00",
-      "last_seen": "2026-09-15T04:29:22+00:00",
+      "last_seen": "2026-09-15T17:24:59+00:00",
       "stale": false,
       "links": [
         {
@@ -585,26 +613,26 @@
       "source_count": 1
     },
     {
-      "id": "e6664eec05e1c9fc",
+      "id": "1a7d6f70fc320f87",
       "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-urbanizacion-la-flora-cali_3628",
-      "title": "Apartaestudio En Arriendo - Urbanización La Flora, Cali",
-      "description": "$880.000 Apartaestudio en Urbanización La Flora en Arriendo 3628 Cali , Urbanización La Flora ¡Tu nuevo hogar te espera en La Flora! Tranquilidad, comodidad y una ubicación inmejorable Este encantador apartaestudio, es ideal para quienes buscan un espacio cómodo y sereno donde disfrutar el día a día. Perfecto para personas solteras que desean un lugar que combine funcionalidad y tranquilidad. Al ingresar, serás recibido por un amplio espacio donde podrás disfrutar de cocina, lavadero de ropa, el baño social, el apa",
-      "property_type": "Apartaestudio",
-      "zone": "Chipichape",
-      "macro_zone": "Norte",
-      "price": 880000,
+      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-nueva-floresta-cali_862",
+      "title": "Apartamento En Arriendo - Nueva Floresta, Cali",
+      "description": "Propiedad destacada $890.000 Apartamento en Nueva Floresta en Arriendo 862 Cali , Nueva Floresta Si estás en búsqueda de un espacio funcional, con excelente ubicación y a un precio accesible, este apartamento en el barrio Nueva Floresta, en segundo piso ubicado es una opción que vale la pena considerar. Al ingresar, te recibe una sala comedor, baño social, cocina sencilla, dos habitaciones de buen tamaño, la zona de oficios, con lavadero de ropa y punto para lavadora, lo que facilita las labores del hogar. Está sit",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 890000,
       "bedrooms": null,
       "bathrooms": null,
       "area_m2": null,
       "parking": null,
-      "first_seen": "2026-09-03T17:26:26+00:00",
-      "last_seen": "2026-09-15T04:29:22+00:00",
+      "first_seen": "2026-08-25T16:18:22+00:00",
+      "last_seen": "2026-09-15T17:24:59+00:00",
       "stale": false,
       "links": [
         {
           "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-urbanizacion-la-flora-cali_3628"
+          "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-nueva-floresta-cali_862"
         }
       ],
       "sources": [
@@ -627,12 +655,40 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-19T15:52:02+00:00",
-      "last_seen": "2026-09-15T04:29:22+00:00",
+      "last_seen": "2026-09-15T17:24:59+00:00",
       "stale": false,
       "links": [
         {
           "source": "A&C Inmobiliarios",
           "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-encanto-del-valle-cali_4823"
+        }
+      ],
+      "sources": [
+        "A&C Inmobiliarios"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "8e3a92b869c6acb3",
+      "source": "A&C Inmobiliarios",
+      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-el-jardin-cali_4173",
+      "title": "Apartamento En Arriendo - El Jardín, Cali",
+      "description": "$950.000 Apartamento en El Jardín en Arriendo 4173 Cali , El Jardín Este encantador y bonito apartamento en alquiler, situado en el barrio El Jardín, de Cali, ofrece comodidad y estilo. Ubicado en primer piso. La sala comedor amplia , baño social y cocina semi integral tipo americano, forman un núcleo acogedor, dos habitaciones con su respectivo closet, la zona de oficios, con lavadero de ropa y espacio para lavadora. Este apartamento tiene sus pisos en cerámica lo que lo hace agradable como tambien facil de asear ",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 950000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-09-03T05:08:48+00:00",
+      "last_seen": "2026-09-15T17:24:59+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "A&C Inmobiliarios",
+          "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-el-jardin-cali_4173"
         }
       ],
       "sources": [
@@ -669,34 +725,6 @@
       "source_count": 1
     },
     {
-      "id": "27a79ccfd15f45e3",
-      "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-el-jardin-cali_2951",
-      "title": "Apartamento En Arriendo - El Jardín, Cali",
-      "description": "$950.000 Apartamento en El Jardín en Arriendo 2951 Cali , El Jardín ¿Buscas un apartamento cómodo y bien ubicado para tu familia? Tenemos esta excelente opción en alquiler en el barrio El Jardín, un sector residencial que ofrece tranquilidad y fácil acceso a todo lo que necesitas. Este inmueble se encuentra en un segundo piso y cuenta con una acogedora sala comedor, dos baños, cocina sencilla, tres habitaciones, todas con closet, que te ofrecen privacidad y organización. También cuenta con zona de oficios, equipada",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 950000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-09-15T04:29:22+00:00",
-      "last_seen": "2026-09-15T04:29:22+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-el-jardin-cali_2951"
-        }
-      ],
-      "sources": [
-        "A&C Inmobiliarios"
-      ],
-      "source_count": 1
-    },
-    {
       "id": "01bd2bf628cce5d2",
       "source": "FincaRaíz",
       "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-el-jardin-cali/194222297",
@@ -721,34 +749,6 @@
       ],
       "sources": [
         "FincaRaíz"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "d2db95b7d13fe359",
-      "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/local-en-arriendo-granada-cali_4088",
-      "title": "Local En Arriendo - Granada, Cali",
-      "description": "$1.000.000 Local en Granada en Arriendo 4088 Cali , Granada Si estás buscando un local comercial con excelente visibilidad y ubicación estratégica, esta es la oportunidad ideal para ti. Ubicado en el reconocido barrio Granada, de cali, uno de los sectores más comerciales y de mayor flujo vehicular. Este local en primer piso ofrece un amplio salón con vista directa a la calle, ideal para captar la atención de los transeúntes. Además, cuenta con baño, adaptable perfectamente a negocios comerciales, oficinas , agencia",
-      "property_type": "Apartamento",
-      "zone": "Granada",
-      "macro_zone": "Norte",
-      "price": 1000000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-08-20T05:06:43+00:00",
-      "last_seen": "2026-09-15T04:29:22+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/local-en-arriendo-granada-cali_4088"
-        }
-      ],
-      "sources": [
-        "A&C Inmobiliarios"
       ],
       "source_count": 1
     },
@@ -837,26 +837,26 @@
       "source_count": 1
     },
     {
-      "id": "6960b1043d91f20a",
+      "id": "722827b12c16b6f3",
       "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-urbanizacion-la-base-cali_4866",
-      "title": "Apartamento En Arriendo - Urbanización La Base, Cali",
-      "description": "$1.050.000 Apartamento en Urbanización La Base en Arriendo 4866 Cali , Urbanización La Base Disfruta de un espacio cómodo y funcional en un entorno tranquilo con este apartamento en alquiler ubicado en el barrio La Nueva Base. Situado en un tercer piso, el inmueble cuenta con una distribución práctica que incluye sala comedor, baño social, cocina sencilla y tres habitaciones. Además, dispone de zona de oficios con lavadero de ropa y punto para lavadora, facilitando las tareas del hogar y optimizando los espacios. L",
-      "property_type": "Apartamento",
+      "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-el-gran-limonar-cali_4111",
+      "title": "Apartaestudio En Arriendo - El Gran Limonar, Cali",
+      "description": "$1.100.000 Apartaestudio en El Gran Limonar en Arriendo 4111 Cali , El Gran Limonar ¿Buscas un apartaestudio elegante y funcional en una ubicación privilegiada de Cali? Este espacio es perfecto para ti. En segundo piso, este apartaestudio de dos ambientes ha sido diseñado pensando en tu comodidad. Al entrar, serás recibido por una sala-comedor amplia e iluminada, cocina integral que combina diseño y funcionalidad, la habitación, con un práctico closet, además, cuenta con un baño social y una zona de oficios con lav",
+      "property_type": "Apartaestudio",
       "zone": "Cali (zona por confirmar)",
       "macro_zone": "Otra zona de Cali",
-      "price": 1050000,
+      "price": 1100000,
       "bedrooms": null,
       "bathrooms": null,
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-19T15:52:02+00:00",
-      "last_seen": "2026-09-15T04:29:22+00:00",
+      "last_seen": "2026-09-15T17:24:59+00:00",
       "stale": false,
       "links": [
         {
           "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-urbanizacion-la-base-cali_4866"
+          "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-el-gran-limonar-cali_4111"
         }
       ],
       "sources": [
@@ -949,62 +949,6 @@
       "source_count": 1
     },
     {
-      "id": "722827b12c16b6f3",
-      "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-el-gran-limonar-cali_4111",
-      "title": "Apartaestudio En Arriendo - El Gran Limonar, Cali",
-      "description": "$1.100.000 Apartaestudio en El Gran Limonar en Arriendo 4111 Cali , El Gran Limonar ¿Buscas un apartaestudio elegante y funcional en una ubicación privilegiada de Cali? Este espacio es perfecto para ti. En segundo piso, este apartaestudio de dos ambientes ha sido diseñado pensando en tu comodidad. Al entrar, serás recibido por una sala-comedor amplia e iluminada, cocina integral que combina diseño y funcionalidad, la habitación, con un práctico closet, además, cuenta con un baño social y una zona de oficios con lav",
-      "property_type": "Apartaestudio",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 1100000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-08-19T15:52:02+00:00",
-      "last_seen": "2026-09-15T04:29:22+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-el-gran-limonar-cali_4111"
-        }
-      ],
-      "sources": [
-        "A&C Inmobiliarios"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "a31a84fd7c05a8e7",
-      "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-urbanizacion-la-base-cali_4865",
-      "title": "Apartamento En Arriendo - Urbanización La Base, Cali",
-      "description": "$1.100.000 Apartamento en Urbanización La Base en Arriendo 4865 Cali , Urbanización La Base Disfruta de un espacio cómodo y funcional en un entorno tranquilo con este apartamento en alquiler ubicado en el barrio La Nueva Base. Situado en segundo piso, el inmueble cuenta con una distribución práctica que incluye sala comedor, baño social, cocina sencilla y tres habitaciones. Además, dispone de zona de oficios con lavadero de ropa y punto para lavadora, facilitando las tareas del hogar y optimizando los espacios. Los",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 1100000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-09-03T05:08:48+00:00",
-      "last_seen": "2026-09-15T04:29:22+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-urbanizacion-la-base-cali_4865"
-        }
-      ],
-      "sources": [
-        "A&C Inmobiliarios"
-      ],
-      "source_count": 1
-    },
-    {
       "id": "71b4168933699978",
       "source": "FincaRaíz",
       "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-granada/193475936",
@@ -1075,7 +1019,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-25T16:18:22+00:00",
-      "last_seen": "2026-09-15T04:29:22+00:00",
+      "last_seen": "2026-09-15T17:24:59+00:00",
       "stale": false,
       "links": [
         {
@@ -1118,8 +1062,8 @@
     },
     {
       "id": "ee2c45da45edd997",
-      "source": "Yumblin",
-      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-en-villa-fatima-cali-620651",
+      "source": "FincaRaíz",
+      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-villa-fatima-cali/194247106",
       "title": "Esencial $ 1.150.000 + $ 153.900 admin Apartamento en Cali, Valle del cauca 3 Habs. 2 Baños 64 m² Apartamento en arriendo en villa fatima, cali Se alq",
       "description": "Esencial $ 1.150.000 + $ 153.900 admin Apartamento en Cali, Valle del cauca 3 Habs. 2 Baños 64 m² Apartamento en arriendo en villa fatima, cali Se alquila lindo Apartamento nuevo ? 3 piso ? 3 habitaciones ? 2 baños Zona de oficios, Balcon, Ascensor, Parqueadero comunitario Ubicado enTierra linda dellago (ciudad pacífica) cerca a icesi y jardín plaza a una cuadra de la Avenida Bicentenario * Visita con cita previaWhatsApp *** * Proceso de arrendamiento con póliza de sura asumida por el propietario y estudio de docum",
       "property_type": "Apartamento",
@@ -1275,62 +1219,6 @@
       "source_count": 2
     },
     {
-      "id": "b63a470ec49ffae9",
-      "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-san-judas-cali_4863",
-      "title": "Apartamento En Arriendo - San Judas, Cali",
-      "description": "$1.200.000 Apartamento en San Judas en Arriendo 4863 Cali , San Judas Una excelente opción para vivir con comodidad y buena ubicación. Este apartamento en alquiler está ubicado en el barrio San Judas, en segundo piso, ideal para quienes buscan un espacio amplio y funcional en un sector dinámico de la ciudad. El inmueble cuenta con una amplia sala comedor, baño social, cocina, dos habitaciones, además, dispone de zona de oficios con lavadero de ropa y conexión para lavadora. Los servicios están incluidos en el valor",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 1200000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-09-03T05:08:48+00:00",
-      "last_seen": "2026-09-15T04:29:22+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-san-judas-cali_4863"
-        }
-      ],
-      "sources": [
-        "A&C Inmobiliarios"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "e9249517ca7b6d2c",
-      "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-miraflores-cali_4858",
-      "title": "Apartaestudio En Arriendo - Miraflores, Cali",
-      "description": "$1.200.000 Apartaestudio en Miraflores en Arriendo 4858 Cali , Miraflores Si buscas un espacio práctico, bien ubicado y con todo incluido, estos apartaestudios en alquiler son una excelente opción para ti. Ubicados en el barrio Miraflores, un sector tradicional y con excelente conectividad. Se encuentran en segundo piso y cuentan con sala comedor, cocina semi integral, baño social y una habitación con clóset, ofreciendo un ambiente cómodo y bien aprovechado para tu día a día. Uno de sus mayores beneficios es que lo",
-      "property_type": "Apartaestudio",
-      "zone": "Miraflores",
-      "macro_zone": "Oeste",
-      "price": 1200000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-09-03T05:08:48+00:00",
-      "last_seen": "2026-09-15T04:29:22+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-miraflores-cali_4858"
-        }
-      ],
-      "sources": [
-        "A&C Inmobiliarios"
-      ],
-      "source_count": 1
-    },
-    {
       "id": "98efedd4dd1435ff",
       "source": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-parcelaciones-pance-cali-3872886",
@@ -1359,6 +1247,34 @@
       "source_count": 1
     },
     {
+      "id": "688fc68338d4e64b",
+      "source": "A&C Inmobiliarios",
+      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-aguacatal-cali_4095",
+      "title": "Apartamento En Arriendo - Aguacatal, Cali",
+      "description": "$1.250.000 Apartamento en Aguacatal en Arriendo 4095 Cali , Aguacatal Si buscas un apartamento amplio, fresco y rodeado de tranquilidad, esta opción en el barrio Aguacatal puede ser el hogar que estás buscando. Ubicado en un octavo piso, cuenta con sala comedor con acceso a balcón, ideal para disfrutar de la ventilación, cocina integral tipo americana, baño social, dos habitaciones, ambas con clóset. Además una zona de oficios con lavadero de ropa y punto para lavadora. Cuenta con parqueadero comunal. El conjunto o",
+      "property_type": "Apartamento",
+      "zone": "Aguacatal",
+      "macro_zone": "Oeste",
+      "price": 1250000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-09-15T17:24:59+00:00",
+      "last_seen": "2026-09-15T17:24:59+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "A&C Inmobiliarios",
+          "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-aguacatal-cali_4095"
+        }
+      ],
+      "sources": [
+        "A&C Inmobiliarios"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "a17b35339ae8e37b",
       "source": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-conjunto-residencial-granate-cali-3743342",
@@ -1383,6 +1299,62 @@
       ],
       "sources": [
         "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "52d9af09632b484b",
+      "source": "A&C Inmobiliarios",
+      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-caney-cali_1978",
+      "title": "Apartamento En Arriendo - Caney, Cali",
+      "description": "$1.250.000 Apartamento en Caney en Arriendo 1978 Cali , Caney Te presentamos este amplio y acogedor apartamento en alquiler, en el barrio El Caney, en cali reconocido por su tranquilidad, conectividad y cercanía a todo lo que necesitas. El apartamento se encuentra en un tercer piso y se caracteriza por ser iluminado y con excelente distribución. Consta de una sala comedor amplia, baño social, cocina semi integral, dos habitaciones con clóset, la principal con baño privado, y se complementa con zona de oficios con l",
+      "property_type": "Apartamento",
+      "zone": "Caney",
+      "macro_zone": "Sur",
+      "price": 1250000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-09-15T17:24:59+00:00",
+      "last_seen": "2026-09-15T17:24:59+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "A&C Inmobiliarios",
+          "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-caney-cali_1978"
+        }
+      ],
+      "sources": [
+        "A&C Inmobiliarios"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "e740662010c09239",
+      "source": "A&C Inmobiliarios",
+      "url": "https://aycinmobiliarios.com/inmueble/consultorio-en-arriendo-urbanizacion-tequendama-cali_2692",
+      "title": "Consultorio En Arriendo - Urbanización Tequendama, Cali",
+      "description": "Propiedad destacada $1.300.000 Consultorio en Urbanización Tequendama en Arriendo 2692 Cali , Urbanización Tequendama Oportunidad de oficina en una excelente ubicación. En el reconocido barrio Nueva Tequendama, te presentamos esta oficina en alquiler, en segundo piso, ideal para profesionales del sector salud o actividades administrativas. Este espacio es perfecto para consultorios, oficinas médicas, psicológicas, odontológicas, venta de dotación medica o servicios afines. Ubicado frente al emblemático Edificio de ",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1300000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-09-14T16:28:17+00:00",
+      "last_seen": "2026-09-15T17:24:59+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "A&C Inmobiliarios",
+          "url": "https://aycinmobiliarios.com/inmueble/consultorio-en-arriendo-urbanizacion-tequendama-cali_2692"
+        }
+      ],
+      "sources": [
+        "A&C Inmobiliarios"
       ],
       "source_count": 1
     },
@@ -1457,7 +1429,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-09-12T15:25:17+00:00",
-      "last_seen": "2026-09-14T16:28:17+00:00",
+      "last_seen": "2026-09-15T17:24:59+00:00",
       "stale": false,
       "links": [
         {
@@ -1612,6 +1584,62 @@
       ],
       "sources": [
         "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "e365e722707fa77b",
+      "source": "A&C Inmobiliarios",
+      "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-san-fernando-cali_4927",
+      "title": "Apartaestudio En Arriendo - San Fernando, Cali",
+      "description": "$1.400.000 Apartaestudio en San Fernando en Arriendo 4927 Cali , San Fernando Este acogedor apartaestudio en alquiler, en el barrio San Fernando, ubicado en segundo piso es una excelente opción para quienes buscan buena ubicación y un entorno tranquilo. El inmueble consta de sala comedor iluminada, alcoba con closet, baño y cocineta semi integral. Está completamente amoblado, equipado con aire acondicionado, nevera, cama doble, sofá y escritorio, lo que te ofrece practicidad. Con la gran ventaja de tener incluidos ",
+      "property_type": "Apartaestudio",
+      "zone": "San Fernando",
+      "macro_zone": "Centro",
+      "price": 1400000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-09-14T16:28:17+00:00",
+      "last_seen": "2026-09-15T17:24:59+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "A&C Inmobiliarios",
+          "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-san-fernando-cali_4927"
+        }
+      ],
+      "sources": [
+        "A&C Inmobiliarios"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "84e56316c7e512a0",
+      "source": "A&C Inmobiliarios",
+      "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-san-fernando-cali_4928",
+      "title": "Apartaestudio En Arriendo - San Fernando, Cali",
+      "description": "$1.400.000 Apartaestudio en San Fernando en Arriendo 4928 Cali , San Fernando Este acogedor apartaestudio en alquiler, en San Fernando, ubicado en tercer piso es una excelente opción para quienes buscan buena ubicación y un entorno tranquilo. El inmueble consta de sala comedor iluminada, alcoba con closet, baño y cocineta semi integral. Está completamente amoblado, equipado con aire acondicionado, nevera, cama doble, sofá, escritorio, lavadora, lo que te ofrece practicidad. Con la gran ventaja de tener incluidos lo",
+      "property_type": "Apartaestudio",
+      "zone": "San Fernando",
+      "macro_zone": "Centro",
+      "price": 1400000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-09-14T16:28:17+00:00",
+      "last_seen": "2026-09-15T17:24:59+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "A&C Inmobiliarios",
+          "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-san-fernando-cali_4928"
+        }
+      ],
+      "sources": [
+        "A&C Inmobiliarios"
       ],
       "source_count": 1
     },
@@ -2807,6 +2835,34 @@
       "source_count": 1
     },
     {
+      "id": "60424ef94acd522d",
+      "source": "A&C Inmobiliarios",
+      "url": "https://aycinmobiliarios.com/inmueble/local-en-arriendo-libertadores-cali_3696",
+      "title": "Local En Arriendo - Libertadores, Cali",
+      "description": "$350.000 Local en Libertadores en Arriendo 3696 Cali , Libertadores ¡Descubre la oportunidad perfecta para tu negocio en el barrio Libertadores! Este local en arriendo ofrece saloncito con baño, brindando el espacio ideal para establecer una papelería, fotocopiadora. Su estratégica ubicación frente al reconocido colegio La Normal Superior Farallones de Cali garantiza una alta visibilidad y un flujo constante de potenciales clientes. Además, con el transporte público cercano, tus clientes tendrán un fácil acceso a t",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 350000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-08-17T10:52:22+00:00",
+      "last_seen": "2026-09-15T04:29:22+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "A&C Inmobiliarios",
+          "url": "https://aycinmobiliarios.com/inmueble/local-en-arriendo-libertadores-cali_3696"
+        }
+      ],
+      "sources": [
+        "A&C Inmobiliarios"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "60cb050ef46ad93d",
       "source": "A&C Inmobiliarios",
       "url": "https://aycinmobiliarios.com/inmueble/local-en-arriendo-san-luis-cali_1222",
@@ -2891,34 +2947,6 @@
       "source_count": 1
     },
     {
-      "id": "bc40949b55f5e8e8",
-      "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-fonaviemcali-cali_3940",
-      "title": "Apartaestudio En Arriendo - Fonaviemcali, Cali",
-      "description": "$500.000 Apartaestudio en Fonaviemcali en Arriendo 3940 Cali , Fonaviemcali ¿Buscas un apartaestudio práctico, económico y con los servicios incluidos? Esta es una excelente oportunidad para vivir en el barrio Fonaviemcali, un sector con fácil acceso a todo lo que necesitas. En alquiler, este acogedor apartaestudio, es la opción ideal para quienes buscan un espacio práctico y funcional. Situado en un tercer piso con acceso por escaleras, este espacio de dos ambientes que te brindan la comodidad. Cuenta con baño soc",
-      "property_type": "Apartaestudio",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 500000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-08-17T10:52:22+00:00",
-      "last_seen": "2026-09-14T03:31:41+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-fonaviemcali-cali_3940"
-        }
-      ],
-      "sources": [
-        "A&C Inmobiliarios"
-      ],
-      "source_count": 1
-    },
-    {
       "id": "5b0843bb4458bdac",
       "source": "Yumblin",
       "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-diagonal-45-pueblo-joven-comuna-20-cali-ciudad-cali-sur-valle-del-cauca-rap-pacifico-760040-colombia-548062",
@@ -2975,6 +3003,62 @@
       "source_count": 1
     },
     {
+      "id": "24067645a0b91363",
+      "source": "A&C Inmobiliarios",
+      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-el-vallado-cali_4075",
+      "title": "Apartamento En Arriendo - El Vallado, Cali",
+      "description": "$590.000 Apartamento en El Vallado en Arriendo 4075 Cali , El Vallado Si estás buscando un apartamento amplio y funcional para compartir en familia, esta es una excelente oportunidad. En el barrio el Vallado, ubicado en tercer piso, este inmueble ofrece una distribución cómoda y espacios bien iluminados. Al ingresar, te recibe una amplia sala comedor, baño social, cocina sencilla, dispone de tres habitaciones, la principal dispone de closet. Además, cuenta con una zona de oficios independiente, equipada con lavader",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 590000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-08-17T10:52:22+00:00",
+      "last_seen": "2026-09-15T04:29:22+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "A&C Inmobiliarios",
+          "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-el-vallado-cali_4075"
+        }
+      ],
+      "sources": [
+        "A&C Inmobiliarios"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "2ce4a1c50ee98a3f",
+      "source": "A&C Inmobiliarios",
+      "url": "https://aycinmobiliarios.com/inmueble/casa-en-arriendo-samanes-e-los-angeles-candelaria_4822",
+      "title": "Casa En Arriendo - Samanes E Los Angeles, Candelaria",
+      "description": "$600.000 Casa en Samanes e los Angeles en Arriendo 4822 Candelaria , Samanes e los Angeles Encuentra el hogar que estás buscando en Samanes de Los Ángeles, Candelaria, un sector residencial tranquilo, en constante crecimiento y perfecto para quienes desean disfrutar de comodidad y un ambiente familiar. Esta casa en alquiler ofrece una distribución práctica, ideal para el día a día. Cuenta con una amplia sala comedor, cocina sencilla, baño social y tres habitaciones. Además, dispone de un patio con zona de oficios, ",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 600000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-08-17T10:52:22+00:00",
+      "last_seen": "2026-09-15T04:29:22+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "A&C Inmobiliarios",
+          "url": "https://aycinmobiliarios.com/inmueble/casa-en-arriendo-samanes-e-los-angeles-candelaria_4822"
+        }
+      ],
+      "sources": [
+        "A&C Inmobiliarios"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "f7f315b7a49e03a2",
       "source": "A&C Inmobiliarios",
       "url": "https://aycinmobiliarios.com/inmueble/oficina-en-arriendoventa-san-fernando-cali_4361",
@@ -3023,6 +3107,34 @@
         {
           "source": "A&C Inmobiliarios",
           "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-versalles-cali_936"
+        }
+      ],
+      "sources": [
+        "A&C Inmobiliarios"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "344653d6de2e8bab",
+      "source": "A&C Inmobiliarios",
+      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-ulpiano-lloreda-cali_1075",
+      "title": "Apartamento En Arriendo - Ulpiano Lloreda, Cali",
+      "description": "$620.000 Apartamento en Ulpiano Lloreda en Arriendo 1075 Cali , Ulpiano Lloreda ¡Tu próximo hogar en el barrio Ulpiano Lloreda te espera! Este acogedor y economico apartamento en alquiler, ubicado en un segundo piso interno, te ofrece la comodidad y funcionalidad que necesitas para tu estilo de vida. Al ingresar, serás recibido por una amplia sala-comedor, ideal para relajarte y compartir momentos en familia o con amigos. La cocina sencilla, cuenta con dos habitaciones, ambas equipadas con closet. baño social. Adem",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 620000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-08-17T10:52:22+00:00",
+      "last_seen": "2026-09-15T04:29:22+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "A&C Inmobiliarios",
+          "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-ulpiano-lloreda-cali_1075"
         }
       ],
       "sources": [
@@ -3139,6 +3251,34 @@
       ],
       "sources": [
         "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "50945d2f10a6f10c",
+      "source": "A&C Inmobiliarios",
+      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-san-luis-cali_2247",
+      "title": "Apartamento En Arriendo - San Luis, Cali",
+      "description": "$670.000 Apartamento en San Luis en Arriendo 2247 Cali , San Luis Descubre el hogar que siempre soñaste en el encantador barrio de San Luis. Este apartamento en el tercer piso te da la bienvenida con una amplia sala-comedor que inspira calidez y convivencia, mientras su cocina compacta y funcional está diseñada para que cada momento culinario sea especial. Las dos habitaciones de buen tamaño, ofrecen espacios perfectos para mantener todo en orden, y los pisos de cerámica aportan un toque moderno y práctico. Baño so",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 670000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-08-17T10:52:22+00:00",
+      "last_seen": "2026-09-15T04:29:22+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "A&C Inmobiliarios",
+          "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-san-luis-cali_2247"
+        }
+      ],
+      "sources": [
+        "A&C Inmobiliarios"
       ],
       "source_count": 1
     },
@@ -3363,34 +3503,6 @@
       ],
       "sources": [
         "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "90316d9b222faff2",
-      "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-el-diamante-cali_2320",
-      "title": "Apartamento En Arriendo - El Diamante, Cali",
-      "description": "$700.000 Apartamento en El Diamante en Arriendo 2320 Cali , El Diamante Ubicada en el barrio El Diamante, en el oriente de Cali, esta acogedor apartamento en alquiler te ofrece un espacio funcional y bien ubicado para tu comodidad. Al ingresar, te recibe una sala comedor con buena iluminación natural, baño social, cocineta sencilla es práctica y funcional, dos habitaciones, diseñadas para ofrecer descanso y tranquilidad, zona de oficios incluye un lavadero de ropa y punto para lavadora, además de un patio que añade",
-      "property_type": "Apartamento",
-      "zone": "Este (barrio por confirmar)",
-      "macro_zone": "Este",
-      "price": 700000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-08-17T10:52:22+00:00",
-      "last_seen": "2026-09-14T03:31:41+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-el-diamante-cali_2320"
-        }
-      ],
-      "sources": [
-        "A&C Inmobiliarios"
       ],
       "source_count": 1
     },
@@ -3703,62 +3815,6 @@
       "source_count": 1
     },
     {
-      "id": "5efca957f6394041",
-      "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-guayaquil-cali_2383",
-      "title": "Apartaestudio En Arriendo - Guayaquil, Cali",
-      "description": "$770.000 Apartaestudio en Guayaquil en Arriendo 2383 Cali , Guayaquil ¿Has estado buscando un aparta estudio cerca a la zona centro de Cali aun no lo has encontrado ? Ven, que tenemos el indicado para tus necesidades. Te ofrecemos aparta estudio ubicado en el barrio Guayaquil, Segundo piso. Con cercanía a zona comercial de la que se caracteriza el sector, se encuentra a dos cuadras del supermercado Olímpica y a pocas cuadras del colegio Antonio José Camacho, encontrarás también restaurantes, almacenes, bombas de ga",
-      "property_type": "Apartaestudio",
-      "zone": "Centro (barrio por confirmar)",
-      "macro_zone": "Centro",
-      "price": 770000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-09-04T19:22:14+00:00",
-      "last_seen": "2026-09-11T00:34:02+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-guayaquil-cali_2383"
-        }
-      ],
-      "sources": [
-        "A&C Inmobiliarios"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "7b287803c1b06521",
-      "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-guayaquil-cali_2392",
-      "title": "Apartaestudio En Arriendo - Guayaquil, Cali",
-      "description": "Propiedad destacada $790.000 Apartaestudio en Guayaquil en Arriendo 2392 Cali , Guayaquil ¡Tu espacio ideal en el corazón de Cali! Te presentamos un acogedor apartaestudio en el barrio Guayaquil, ubicado en el primer piso del Edificio Satori. Este inmueble de dos ambientes cuenta con sala-comedor bien iluminada, ideal para crear un ambiente acogedor. La cocina tipo americana es sencilla y funcional, perfecta para tus comidas diarias. Además, incluye un baño social práctico y una zona de oficios con lavadero, todo c",
-      "property_type": "Apartaestudio",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 790000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-09-04T19:22:14+00:00",
-      "last_seen": "2026-09-14T16:28:17+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-guayaquil-cali_2392"
-        }
-      ],
-      "sources": [
-        "A&C Inmobiliarios"
-      ],
-      "source_count": 1
-    },
-    {
       "id": "74acddb32b452863",
       "source": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-villa-del-sur-cali-3703466",
@@ -3783,34 +3839,6 @@
       ],
       "sources": [
         "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "3a2404ad70b02978",
-      "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-villa-del-sur-cali_2413",
-      "title": "Apartamento En Arriendo - Villa Del Sur, Cali",
-      "description": "Propiedad destacada $790.000 Apartamento en Villa del Sur en Arriendo 2413 Cali , Villa del Sur ¿Buscas un espacio ideal para vivir en el oriente de Cali junto a tu familia? Te presentamos una excelente opción en el barrio Villa del Sur, perfecta para quienes desean comodidad y una ubicación estratégica. Cuenta con una amplia sala comedor, baño social, cocina sencilla, dos habitaciones con clóset y una zona de oficios con lavadero de ropa, brindando funcionalidad en cada espacio. Los servicios de energía y agua son",
-      "property_type": "Apartamento",
-      "zone": "Este (barrio por confirmar)",
-      "macro_zone": "Este",
-      "price": 790000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-08-20T05:06:43+00:00",
-      "last_seen": "2026-09-14T16:28:17+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-villa-del-sur-cali_2413"
-        }
-      ],
-      "sources": [
-        "A&C Inmobiliarios"
       ],
       "source_count": 1
     },
@@ -4222,34 +4250,6 @@
       "source_count": 1
     },
     {
-      "id": "c66453bdf05a9168",
-      "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-villa-del-sur-cali_2406",
-      "title": "Apartamento En Arriendo - Villa Del Sur, Cali",
-      "description": "$850.000 Apartamento en Villa del Sur en Arriendo 2406 Cali , Villa del Sur ¿Estás buscando un apartamento en un sector tranquilo, bien ubicado y con parqueadero para una moto? ¡Este es para ti! Situado en el barrio Villa del Sur, este apartamento en el segundo piso te ofrece un ambiente acogedor y práctico para tu día a día. Al ingresar, encontrarás una amplia sala comedor, baño social, cocina sencilla, con tres habitaciones, todas con su respectivo closet, además, la zona de oficios, equipada con lavadero de ropa",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 850000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-09-11T00:34:02+00:00",
-      "last_seen": "2026-09-11T00:34:02+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-villa-del-sur-cali_2406"
-        }
-      ],
-      "sources": [
-        "A&C Inmobiliarios"
-      ],
-      "source_count": 1
-    },
-    {
       "id": "bb336789d09486d4",
       "source": "A&C Inmobiliarios",
       "url": "https://aycinmobiliarios.com/inmueble/local-en-arriendo-el-diamante-cali_1402",
@@ -4390,6 +4390,34 @@
       "source_count": 1
     },
     {
+      "id": "e6664eec05e1c9fc",
+      "source": "A&C Inmobiliarios",
+      "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-urbanizacion-la-flora-cali_3628",
+      "title": "Apartaestudio En Arriendo - Urbanización La Flora, Cali",
+      "description": "$880.000 Apartaestudio en Urbanización La Flora en Arriendo 3628 Cali , Urbanización La Flora ¡Tu nuevo hogar te espera en La Flora! Tranquilidad, comodidad y una ubicación inmejorable Este encantador apartaestudio, es ideal para quienes buscan un espacio cómodo y sereno donde disfrutar el día a día. Perfecto para personas solteras que desean un lugar que combine funcionalidad y tranquilidad. Al ingresar, serás recibido por un amplio espacio donde podrás disfrutar de cocina, lavadero de ropa, el baño social, el apa",
+      "property_type": "Apartaestudio",
+      "zone": "Chipichape",
+      "macro_zone": "Norte",
+      "price": 880000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-09-03T17:26:26+00:00",
+      "last_seen": "2026-09-15T04:29:22+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "A&C Inmobiliarios",
+          "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-urbanizacion-la-flora-cali_3628"
+        }
+      ],
+      "sources": [
+        "A&C Inmobiliarios"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "448f46598b6c5af1",
       "source": "A&C Inmobiliarios",
       "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-la-flora-cali_3635",
@@ -4410,34 +4438,6 @@
         {
           "source": "A&C Inmobiliarios",
           "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-la-flora-cali_3635"
-        }
-      ],
-      "sources": [
-        "A&C Inmobiliarios"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "1a7d6f70fc320f87",
-      "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-nueva-floresta-cali_862",
-      "title": "Apartamento En Arriendo - Nueva Floresta, Cali",
-      "description": "Propiedad destacada $890.000 Apartamento en Nueva Floresta en Arriendo 862 Cali , Nueva Floresta Si estás en búsqueda de un espacio funcional, con excelente ubicación y a un precio accesible, este apartamento en el barrio Nueva Floresta, en segundo piso ubicado es una opción que vale la pena considerar. Al ingresar, te recibe una sala comedor, baño social, cocina sencilla, dos habitaciones de buen tamaño, la zona de oficios, con lavadero de ropa y punto para lavadora, lo que facilita las labores del hogar. Está sit",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 890000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-08-25T16:18:22+00:00",
-      "last_seen": "2026-09-14T16:28:17+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-nueva-floresta-cali_862"
         }
       ],
       "sources": [
@@ -4782,11 +4782,11 @@
       "source_count": 1
     },
     {
-      "id": "8e3a92b869c6acb3",
+      "id": "27a79ccfd15f45e3",
       "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-el-jardin-cali_4173",
+      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-el-jardin-cali_2951",
       "title": "Apartamento En Arriendo - El Jardín, Cali",
-      "description": "$950.000 Apartamento en El Jardín en Arriendo 4173 Cali , El Jardín Este encantador y bonito apartamento en alquiler, situado en el barrio El Jardín, de Cali, ofrece comodidad y estilo. Ubicado en primer piso. La sala comedor amplia , baño social y cocina semi integral tipo americano, forman un núcleo acogedor, dos habitaciones con su respectivo closet, la zona de oficios, con lavadero de ropa y espacio para lavadora. Este apartamento tiene sus pisos en cerámica lo que lo hace agradable como tambien facil de asear ",
+      "description": "$950.000 Apartamento en El Jardín en Arriendo 2951 Cali , El Jardín ¿Buscas un apartamento cómodo y bien ubicado para tu familia? Tenemos esta excelente opción en alquiler en el barrio El Jardín, un sector residencial que ofrece tranquilidad y fácil acceso a todo lo que necesitas. Este inmueble se encuentra en un segundo piso y cuenta con una acogedora sala comedor, dos baños, cocina sencilla, tres habitaciones, todas con closet, que te ofrecen privacidad y organización. También cuenta con zona de oficios, equipada",
       "property_type": "Apartamento",
       "zone": "Cali (zona por confirmar)",
       "macro_zone": "Otra zona de Cali",
@@ -4795,13 +4795,13 @@
       "bathrooms": null,
       "area_m2": null,
       "parking": null,
-      "first_seen": "2026-09-03T05:08:48+00:00",
-      "last_seen": "2026-09-14T16:28:17+00:00",
+      "first_seen": "2026-09-15T04:29:22+00:00",
+      "last_seen": "2026-09-15T04:29:22+00:00",
       "stale": true,
       "links": [
         {
           "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-el-jardin-cali_4173"
+          "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-el-jardin-cali_2951"
         }
       ],
       "sources": [
@@ -5062,6 +5062,34 @@
       "source_count": 1
     },
     {
+      "id": "d2db95b7d13fe359",
+      "source": "A&C Inmobiliarios",
+      "url": "https://aycinmobiliarios.com/inmueble/local-en-arriendo-granada-cali_4088",
+      "title": "Local En Arriendo - Granada, Cali",
+      "description": "$1.000.000 Local en Granada en Arriendo 4088 Cali , Granada Si estás buscando un local comercial con excelente visibilidad y ubicación estratégica, esta es la oportunidad ideal para ti. Ubicado en el reconocido barrio Granada, de cali, uno de los sectores más comerciales y de mayor flujo vehicular. Este local en primer piso ofrece un amplio salón con vista directa a la calle, ideal para captar la atención de los transeúntes. Además, cuenta con baño, adaptable perfectamente a negocios comerciales, oficinas , agencia",
+      "property_type": "Apartamento",
+      "zone": "Granada",
+      "macro_zone": "Norte",
+      "price": 1000000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-08-20T05:06:43+00:00",
+      "last_seen": "2026-09-15T04:29:22+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "A&C Inmobiliarios",
+          "url": "https://aycinmobiliarios.com/inmueble/local-en-arriendo-granada-cali_4088"
+        }
+      ],
+      "sources": [
+        "A&C Inmobiliarios"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "7250dd6b87f6d082",
       "source": "Yumblin",
       "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-los-alcazares-i-oriente-82553",
@@ -5174,6 +5202,34 @@
       "source_count": 1
     },
     {
+      "id": "6960b1043d91f20a",
+      "source": "A&C Inmobiliarios",
+      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-urbanizacion-la-base-cali_4866",
+      "title": "Apartamento En Arriendo - Urbanización La Base, Cali",
+      "description": "$1.050.000 Apartamento en Urbanización La Base en Arriendo 4866 Cali , Urbanización La Base Disfruta de un espacio cómodo y funcional en un entorno tranquilo con este apartamento en alquiler ubicado en el barrio La Nueva Base. Situado en un tercer piso, el inmueble cuenta con una distribución práctica que incluye sala comedor, baño social, cocina sencilla y tres habitaciones. Además, dispone de zona de oficios con lavadero de ropa y punto para lavadora, facilitando las tareas del hogar y optimizando los espacios. L",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1050000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-08-19T15:52:02+00:00",
+      "last_seen": "2026-09-15T04:29:22+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "A&C Inmobiliarios",
+          "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-urbanizacion-la-base-cali_4866"
+        }
+      ],
+      "sources": [
+        "A&C Inmobiliarios"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "8234e92d0460601f",
       "source": "FincaRaíz",
       "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-brisas-de-los-alamos-yumbo/194217997",
@@ -5282,6 +5338,34 @@
       ],
       "sources": [
         "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "a31a84fd7c05a8e7",
+      "source": "A&C Inmobiliarios",
+      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-urbanizacion-la-base-cali_4865",
+      "title": "Apartamento En Arriendo - Urbanización La Base, Cali",
+      "description": "$1.100.000 Apartamento en Urbanización La Base en Arriendo 4865 Cali , Urbanización La Base Disfruta de un espacio cómodo y funcional en un entorno tranquilo con este apartamento en alquiler ubicado en el barrio La Nueva Base. Situado en segundo piso, el inmueble cuenta con una distribución práctica que incluye sala comedor, baño social, cocina sencilla y tres habitaciones. Además, dispone de zona de oficios con lavadero de ropa y punto para lavadora, facilitando las tareas del hogar y optimizando los espacios. Los",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1100000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-09-03T05:08:48+00:00",
+      "last_seen": "2026-09-15T04:29:22+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "A&C Inmobiliarios",
+          "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-urbanizacion-la-base-cali_4865"
+        }
+      ],
+      "sources": [
+        "A&C Inmobiliarios"
       ],
       "source_count": 1
     },
@@ -5762,6 +5846,34 @@
       "source_count": 1
     },
     {
+      "id": "b63a470ec49ffae9",
+      "source": "A&C Inmobiliarios",
+      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-san-judas-cali_4863",
+      "title": "Apartamento En Arriendo - San Judas, Cali",
+      "description": "$1.200.000 Apartamento en San Judas en Arriendo 4863 Cali , San Judas Una excelente opción para vivir con comodidad y buena ubicación. Este apartamento en alquiler está ubicado en el barrio San Judas, en segundo piso, ideal para quienes buscan un espacio amplio y funcional en un sector dinámico de la ciudad. El inmueble cuenta con una amplia sala comedor, baño social, cocina, dos habitaciones, además, dispone de zona de oficios con lavadero de ropa y conexión para lavadora. Los servicios están incluidos en el valor",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1200000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-09-03T05:08:48+00:00",
+      "last_seen": "2026-09-15T04:29:22+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "A&C Inmobiliarios",
+          "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-san-judas-cali_4863"
+        }
+      ],
+      "sources": [
+        "A&C Inmobiliarios"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "fff1a8ffe62a15af",
       "source": "Yumblin",
       "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-2100847",
@@ -6103,6 +6215,34 @@
       "source_count": 1
     },
     {
+      "id": "e9249517ca7b6d2c",
+      "source": "A&C Inmobiliarios",
+      "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-miraflores-cali_4858",
+      "title": "Apartaestudio En Arriendo - Miraflores, Cali",
+      "description": "$1.200.000 Apartaestudio en Miraflores en Arriendo 4858 Cali , Miraflores Si buscas un espacio práctico, bien ubicado y con todo incluido, estos apartaestudios en alquiler son una excelente opción para ti. Ubicados en el barrio Miraflores, un sector tradicional y con excelente conectividad. Se encuentran en segundo piso y cuentan con sala comedor, cocina semi integral, baño social y una habitación con clóset, ofreciendo un ambiente cómodo y bien aprovechado para tu día a día. Uno de sus mayores beneficios es que lo",
+      "property_type": "Apartaestudio",
+      "zone": "Miraflores",
+      "macro_zone": "Oeste",
+      "price": 1200000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": null,
+      "parking": null,
+      "first_seen": "2026-09-03T05:08:48+00:00",
+      "last_seen": "2026-09-15T04:29:22+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "A&C Inmobiliarios",
+          "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-miraflores-cali_4858"
+        }
+      ],
+      "sources": [
+        "A&C Inmobiliarios"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "5a429ce082d0adb1",
       "source": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-parcelaciones-pance-cali-3714170",
@@ -6407,34 +6547,6 @@
       ],
       "sources": [
         "FincaRaíz"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "e740662010c09239",
-      "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/consultorio-en-arriendo-urbanizacion-tequendama-cali_2692",
-      "title": "Consultorio En Arriendo - Urbanización Tequendama, Cali",
-      "description": "Propiedad destacada $1.300.000 Consultorio en Urbanización Tequendama en Arriendo 2692 Cali , Urbanización Tequendama Oportunidad de oficina en una excelente ubicación. En el reconocido barrio Nueva Tequendama, te presentamos esta oficina en alquiler, en segundo piso, ideal para profesionales del sector salud o actividades administrativas. Este espacio es perfecto para consultorios, oficinas médicas, psicológicas, odontológicas, venta de dotación medica o servicios afines. Ubicado frente al emblemático Edificio de ",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 1300000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-09-14T16:28:17+00:00",
-      "last_seen": "2026-09-14T16:28:17+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/consultorio-en-arriendo-urbanizacion-tequendama-cali_2692"
-        }
-      ],
-      "sources": [
-        "A&C Inmobiliarios"
       ],
       "source_count": 1
     },
@@ -7700,62 +7812,6 @@
       ],
       "sources": [
         "FincaRaíz"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "e365e722707fa77b",
-      "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-san-fernando-cali_4927",
-      "title": "Apartaestudio En Arriendo - San Fernando, Cali",
-      "description": "$1.400.000 Apartaestudio en San Fernando en Arriendo 4927 Cali , San Fernando Este acogedor apartaestudio en alquiler, en el barrio San Fernando, ubicado en segundo piso es una excelente opción para quienes buscan buena ubicación y un entorno tranquilo. El inmueble consta de sala comedor iluminada, alcoba con closet, baño y cocineta semi integral. Está completamente amoblado, equipado con aire acondicionado, nevera, cama doble, sofá y escritorio, lo que te ofrece practicidad. Con la gran ventaja de tener incluidos ",
-      "property_type": "Apartaestudio",
-      "zone": "San Fernando",
-      "macro_zone": "Centro",
-      "price": 1400000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-09-14T16:28:17+00:00",
-      "last_seen": "2026-09-14T16:28:17+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-san-fernando-cali_4927"
-        }
-      ],
-      "sources": [
-        "A&C Inmobiliarios"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "84e56316c7e512a0",
-      "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-san-fernando-cali_4928",
-      "title": "Apartaestudio En Arriendo - San Fernando, Cali",
-      "description": "$1.400.000 Apartaestudio en San Fernando en Arriendo 4928 Cali , San Fernando Este acogedor apartaestudio en alquiler, en San Fernando, ubicado en tercer piso es una excelente opción para quienes buscan buena ubicación y un entorno tranquilo. El inmueble consta de sala comedor iluminada, alcoba con closet, baño y cocineta semi integral. Está completamente amoblado, equipado con aire acondicionado, nevera, cama doble, sofá, escritorio, lavadora, lo que te ofrece practicidad. Con la gran ventaja de tener incluidos lo",
-      "property_type": "Apartaestudio",
-      "zone": "San Fernando",
-      "macro_zone": "Centro",
-      "price": 1400000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-09-14T16:28:17+00:00",
-      "last_seen": "2026-09-14T16:28:17+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-san-fernando-cali_4928"
-        }
-      ],
-      "sources": [
-        "A&C Inmobiliarios"
       ],
       "source_count": 1
     },
