@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": 4,
-    "updated_at": "2026-09-17T17:00:05+00:00",
+    "updated_at": "2026-09-17T20:20:12+00:00",
     "price_policy": "no_fixed_cap",
-    "total": 504,
+    "total": 497,
     "source_count": 12,
     "automated_source_count": 10,
     "sources": [
@@ -16,7 +16,7 @@
         "found": 21,
         "errors": [],
         "last_checked": "2026-09-17T17:00:05+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://www.fincaraiz.com.co/arriendo/apartamentos/cali/valle-del-cauca"
         ]
@@ -30,7 +30,7 @@
         "found": 26,
         "errors": [],
         "last_checked": "2026-09-17T17:00:05+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://www.ciencuadras.com/arriendo/cali/cali/apartamento"
         ]
@@ -44,7 +44,7 @@
         "found": 0,
         "errors": [],
         "last_checked": "2026-09-17T17:00:05+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://listado.mercadolibre.com.co/apartamentos-en-arriendo-cali"
         ]
@@ -72,7 +72,7 @@
         "found": 0,
         "errors": [],
         "last_checked": "2026-09-17T17:00:05+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://arriendo.com/co/apartamentos/cali/"
         ]
@@ -88,7 +88,7 @@
           "https://www.unisa.com.co/inmuebles/g/arriendo/t/apartamentos/c/cali/: HTTPError"
         ],
         "last_checked": "2026-09-17T17:00:05+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://www.unisa.com.co/inmuebles/g/arriendo/t/apartamentos/c/cali/"
         ]
@@ -102,7 +102,7 @@
         "found": 0,
         "errors": [],
         "last_checked": "2026-09-17T17:00:05+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://bienco.com.co/inmuebles/arriendo"
         ]
@@ -158,7 +158,7 @@
         "found": 0,
         "errors": [],
         "last_checked": "2026-09-17T17:00:05+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://www.nuroa.com.co/arriendo/apartamento-cali"
         ]
@@ -174,7 +174,7 @@
           "https://www.yumblin.com/co/clasificados/galeria/colombia/valle-del-cauca/cali/arriendo/apartamentos: HTTPError"
         ],
         "last_checked": "2026-09-17T17:00:05+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://www.yumblin.com/co/clasificados/galeria/colombia/valle-del-cauca/cali/arriendo/apartamentos"
         ]
@@ -1062,8 +1062,8 @@
     },
     {
       "id": "ee2c45da45edd997",
-      "source": "Yumblin",
-      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-en-villa-fatima-cali-620651",
+      "source": "FincaRaíz",
+      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-villa-fatima-cali/194247106",
       "title": "Esencial $ 1.150.000 + $ 153.900 admin Apartamento en Cali, Valle del cauca 3 Habs. 2 Baños 64 m² Apartamento en arriendo en villa fatima, cali Se alq",
       "description": "Esencial $ 1.150.000 + $ 153.900 admin Apartamento en Cali, Valle del cauca 3 Habs. 2 Baños 64 m² Apartamento en arriendo en villa fatima, cali Se alquila lindo Apartamento nuevo ? 3 piso ? 3 habitaciones ? 2 baños Zona de oficios, Balcon, Ascensor, Parqueadero comunitario Ubicado enTierra linda dellago (ciudad pacífica) cerca a icesi y jardín plaza a una cuadra de la Avenida Bicentenario * Visita con cita previaWhatsApp *** * Proceso de arrendamiento con póliza de sura asumida por el propietario y estudio de docum",
       "property_type": "Apartamento",
@@ -1328,12 +1328,17 @@
         {
           "source": "Ciencuadras",
           "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3879029"
+        },
+        {
+          "source": "FincaRaíz",
+          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-cali/194138231"
         }
       ],
       "sources": [
-        "Ciencuadras"
+        "Ciencuadras",
+        "FincaRaíz"
       ],
-      "source_count": 1
+      "source_count": 2
     },
     {
       "id": "93905f1a30a0b19b",
@@ -1468,17 +1473,12 @@
         {
           "source": "Ciencuadras",
           "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3875314"
-        },
-        {
-          "source": "FincaRaíz",
-          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-cali/194138231"
         }
       ],
       "sources": [
-        "Ciencuadras",
-        "FincaRaíz"
+        "Ciencuadras"
       ],
-      "source_count": 2
+      "source_count": 1
     },
     {
       "id": "f857a61e32aa9818",
@@ -3573,62 +3573,6 @@
       "source_count": 1
     },
     {
-      "id": "5a3c47e10af62c62",
-      "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-caldas-cali_1567",
-      "title": "Apartamento En Arriendo - Caldas, Cali",
-      "description": "$800.000 Apartamento en Caldas en Arriendo 1567 Cali , Caldas ¡Tu nuevo hogar te espera en el corazón del barrio Caldas! Descubre un lugar diseñado para que vivas cómodamente y con todo a tu alcance. Este acogedor apartamento en 3er. piso combina funcionalidad y comodidad, ideal para crear momentos inolvidables. Características que te encantarán: Dos habitaciones con closet perfectas para el descanso y la organización. Sala-comedor amplia, baño social, cocina sencilla, lista para darle sabor a tus días. Zona de ofi",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 800000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-09-03T17:26:26+00:00",
-      "last_seen": "2026-09-03T17:26:26+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-caldas-cali_1567"
-        }
-      ],
-      "sources": [
-        "A&C Inmobiliarios"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "b154802bd0e8d497",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-sector-transito-municipal-cali-3663773",
-      "title": "Administración incluida: $800,000 Apartamento en arriendo cali, sector transito municipal 36.0 m2 Habit. 2 Baños 1 Garaje 0",
-      "description": "Administración incluida: $800,000 Apartamento en arriendo cali, sector transito municipal 36.0 m2 Habit. 2 Baños 1 Garaje 0",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 800000,
-      "bedrooms": null,
-      "bathrooms": 2,
-      "area_m2": 36,
-      "parking": 1,
-      "first_seen": "2026-08-22T09:13:53+00:00",
-      "last_seen": "2026-09-03T18:30:20+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-sector-transito-municipal-cali-3663773"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
       "id": "70ab9bb35db8d1dc",
       "source": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-el-pondaje-cali-3802453",
@@ -4217,34 +4161,6 @@
       "source_count": 1
     },
     {
-      "id": "8b416b6200c1a657",
-      "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-villa-gorgona-candelaria_4947",
-      "title": "Apartamento En Arriendo - Villa Gorgona, Candelaria",
-      "description": "$900.000 Apartamento en Villa Gorgona en Arriendo 4947 Candelaria , Villa Gorgona Estrena apartamento y disfruta de un espacio moderno, cómodo y funcional en Villagorgona, un sector de gran crecimiento y excelente proyección. Este apartamento en alquiler es ideal para quienes buscan tranquilidad, buenos acabados y ubicación estratégica. Ubicado en un cuarto piso, el inmueble ofrece sala comedor con excelente iluminación natural, cocina semi integral, dos baños y dos habitaciones. Además, cuenta con zona de oficios ",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 900000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-08-20T05:06:43+00:00",
-      "last_seen": "2026-09-03T17:26:26+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-villa-gorgona-candelaria_4947"
-        }
-      ],
-      "sources": [
-        "A&C Inmobiliarios"
-      ],
-      "source_count": 1
-    },
-    {
       "id": "89520f4f5f181a12",
       "source": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-calima-cali-3811040",
@@ -4269,34 +4185,6 @@
       ],
       "sources": [
         "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "3bb8feff97303623",
-      "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-calicanto-cali_2542",
-      "title": "Apartamento En Arriendo - Calicanto, Cali",
-      "description": "$900.000 Apartamento en Calicanto en Arriendo 2542 Cali , Calicanto ¿Estás buscando un apartamento amplio al sur de Cali? ¡Este es para ti! En el barrio Calicanto. El inmueble está en un segundo piso, consta de balcon, sala comedor, baño social, cocina semintegral, dos habitaciones, cada una con su respectivo closet, tiene su zona de oficios con lavadero de ropa y punto para lavadora. sus pisos son en ceramica. Los servicios públicos son independientes. Está ubicado a poca distancia de la Av. Simon Bolivar, en sus ",
-      "property_type": "Apartamento",
-      "zone": "Sur (barrio por confirmar)",
-      "macro_zone": "Sur",
-      "price": 900000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-09-03T17:26:26+00:00",
-      "last_seen": "2026-09-03T17:26:26+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-calicanto-cali_2542"
-        }
-      ],
-      "sources": [
-        "A&C Inmobiliarios"
       ],
       "source_count": 1
     },
@@ -5253,34 +5141,6 @@
       "source_count": 1
     },
     {
-      "id": "bf9181ae9562e97b",
-      "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-brisas-de-los-alamos-cali_2798",
-      "title": "Apartamento En Arriendo - Brisas De Los Alamos, Cali",
-      "description": "$1.100.000 Apartamento en Brisas de los Alamos en Arriendo 2798 Cali , Brisas de los Alamos Vive en el norte de Cali con comodidad, tranquilidad y todo lo que necesitas al alcance de tu mano. Este apartamento en alquiler, ubicado en el barrio Brisas de los Álamos, es una excelente opción para quienes buscan un espacio funcional. Ubicado en un segundo piso, cuenta con sala comedor, cocina sencilla, dos habitaciones con clóset, baño y zona de oficios con lavadero de ropa y punto para lavadora. Uno de sus grandes bene",
-      "property_type": "Apartamento",
-      "zone": "Norte (barrio por confirmar)",
-      "macro_zone": "Norte",
-      "price": 1100000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-09-03T17:26:26+00:00",
-      "last_seen": "2026-09-03T17:26:26+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/apartamento-en-arriendo-brisas-de-los-alamos-cali_2798"
-        }
-      ],
-      "sources": [
-        "A&C Inmobiliarios"
-      ],
-      "source_count": 1
-    },
-    {
       "id": "2f558de1b238643f",
       "source": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-alfonso-lopez-i-etapa-cali-3874549",
@@ -5417,34 +5277,6 @@
       ],
       "sources": [
         "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "248e7bede7ce2111",
-      "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-cuarto-de-legua-cali_3985",
-      "title": "Apartaestudio En Arriendo - Cuarto De Legua, Cali",
-      "description": "$1.150.000 Apartaestudio en Cuarto de Legua en Arriendo 3985 Cali , Cuarto de Legua Este encantador apartaestudio, ubicado en el tranquilo y residencial barrio Cuarto de Legua, ofrece un espacio funcional ideal para quienes buscan un hogar práctico y bien ubicado. Situado en el segundo piso, el apartaestudio se compone de dos ambientes bien definidos: una sala-comedor que se integra con una cocineta sencilla y una habitación privada, junto a un baño funcional. El inmueble incluye parqueadero exclusivo para una moto",
-      "property_type": "Apartaestudio",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 1150000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-08-25T16:18:22+00:00",
-      "last_seen": "2026-09-03T17:26:26+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-cuarto-de-legua-cali_3985"
-        }
-      ],
-      "sources": [
-        "A&C Inmobiliarios"
       ],
       "source_count": 1
     },
@@ -10641,34 +10473,6 @@
         {
           "source": "FincaRaíz",
           "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-mayapan-las-vegas-cali/194204454"
-        }
-      ],
-      "sources": [
-        "FincaRaíz"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "09e450ec2d0ca321",
-      "source": "FincaRaíz",
-      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-mayapan-las-vegas-sur-cali/194204454",
-      "title": "Destacado Black $ 2.100.000 Apartamento en Cali, Valle del cauca 3 Habs. 3 Baños 97 m² Apartamento en arriendo en mayapan las vegas, sur, cali Descubr",
-      "description": "Destacado Black $ 2.100.000 Apartamento en Cali, Valle del cauca 3 Habs. 3 Baños 97 m² Apartamento en arriendo en mayapan las vegas, sur, cali Descubra este moderno apartamento en arriendo, ideal para quienes buscan un estilo de vida contemporáneo y funcional. Con amplios espacios luminosos, este inmueble se presenta en un estado impecable y ofrece un diseño interior que maximiza la comodidad y la luz natural. El corazón de este apartamento es su sala de estar diáfana que integra una práctica cocineta con barra est",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 2100000,
-      "bedrooms": 3,
-      "bathrooms": 3,
-      "area_m2": 97,
-      "parking": 1,
-      "first_seen": "2026-09-03T18:30:20+00:00",
-      "last_seen": "2026-09-03T18:30:20+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "FincaRaíz",
-          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-mayapan-las-vegas-sur-cali/194204454"
         }
       ],
       "sources": [
