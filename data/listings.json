@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": 4,
-    "updated_at": "2026-09-21T23:16:41+00:00",
+    "updated_at": "2026-09-22T01:38:02+00:00",
     "price_policy": "no_fixed_cap",
-    "total": 475,
+    "total": 486,
     "source_count": 12,
     "automated_source_count": 10,
     "sources": [
@@ -15,8 +15,8 @@
         "ok": true,
         "found": 21,
         "errors": [],
-        "last_checked": "2026-09-21T19:28:02+00:00",
-        "skipped": true,
+        "last_checked": "2026-09-22T01:38:02+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://www.fincaraiz.com.co/arriendo/apartamentos/cali/valle-del-cauca"
         ]
@@ -27,10 +27,10 @@
         "cadence_hours": 4,
         "automated": true,
         "ok": true,
-        "found": 29,
+        "found": 26,
         "errors": [],
-        "last_checked": "2026-09-21T19:28:02+00:00",
-        "skipped": true,
+        "last_checked": "2026-09-22T01:38:02+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://www.ciencuadras.com/arriendo/cali/cali/apartamento"
         ]
@@ -43,8 +43,8 @@
         "ok": true,
         "found": 0,
         "errors": [],
-        "last_checked": "2026-09-21T19:28:02+00:00",
-        "skipped": true,
+        "last_checked": "2026-09-22T01:38:02+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://listado.mercadolibre.com.co/apartamentos-en-arriendo-cali"
         ]
@@ -72,7 +72,7 @@
         "found": 0,
         "errors": [],
         "last_checked": "2026-09-21T23:16:41+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://arriendo.com/co/apartamentos/cali/"
         ]
@@ -88,7 +88,7 @@
           "https://www.unisa.com.co/inmuebles/g/arriendo/t/apartamentos/c/cali/: HTTPError"
         ],
         "last_checked": "2026-09-21T23:16:41+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://www.unisa.com.co/inmuebles/g/arriendo/t/apartamentos/c/cali/"
         ]
@@ -102,7 +102,7 @@
         "found": 0,
         "errors": [],
         "last_checked": "2026-09-21T23:16:41+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://bienco.com.co/inmuebles/arriendo"
         ]
@@ -158,7 +158,7 @@
         "found": 0,
         "errors": [],
         "last_checked": "2026-09-21T23:16:41+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://www.nuroa.com.co/arriendo/apartamento-cali"
         ]
@@ -174,7 +174,7 @@
           "https://www.yumblin.com/co/clasificados/galeria/colombia/valle-del-cauca/cali/arriendo/apartamentos: HTTPError"
         ],
         "last_checked": "2026-09-21T23:16:41+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://www.yumblin.com/co/clasificados/galeria/colombia/valle-del-cauca/cali/arriendo/apartamentos"
         ]
@@ -566,7 +566,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-09-06T14:25:19+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -622,7 +622,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-09-21T14:09:26+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -660,6 +660,34 @@
       ],
       "sources": [
         "A&C Inmobiliarios"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "073863c7caf83602",
+      "source": "FincaRaíz",
+      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-cali/194288389",
+      "title": "Esencial $ 750.000 Apartamento en Cali, Valle del cauca 2 Habs. 1 Baño 55 m² Apartamento en arriendo en cali El alquiler del apartamento es $750.000.",
+      "description": "Esencial $ 750.000 Apartamento en Cali, Valle del cauca 2 Habs. 1 Baño 55 m² Apartamento en arriendo en cali El alquiler del apartamento es $750.000. * El apartamento es para una persona sola o una pareja con un hijo. * Se encuentra a una cuadra del alimentador del Mio. * Esta en el 4 piso * Dos habitaciones una con closet. * Baño y zona de aseo * Cocina con gabinete y gas. * Los servicios son por aparte. * Barrio Prados del Sur * Carrera 79 #1b1-12. Requisitos para arrendar: • Carta laboral del arrendador • Fiador",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 750000,
+      "bedrooms": null,
+      "bathrooms": 1,
+      "area_m2": 55,
+      "parking": null,
+      "first_seen": "2026-09-22T01:38:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "FincaRaíz",
+          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-cali/194288389"
+        }
+      ],
+      "sources": [
+        "FincaRaíz"
       ],
       "source_count": 1
     },
@@ -730,6 +758,34 @@
       "source_count": 1
     },
     {
+      "id": "a704af9de7999e8f",
+      "source": "FincaRaíz",
+      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-chapinero-cali/8104004",
+      "title": "$ 800.000 Apartamento en Cali, Valle del cauca 2 Habs. 1 Baño 55 m² Apartamento en arriendo en chapinero, cali Se alquilan apartamento en 3er piso, ub",
+      "description": "$ 800.000 Apartamento en Cali, Valle del cauca 2 Habs. 1 Baño 55 m² Apartamento en arriendo en chapinero, cali Se alquilan apartamento en 3er piso, ubicado en el barrio chapinero consta de sala comedor, 2 alcobas, baño, cocina integral, zona de oficios, antejardín enrejado, el precio incluye los servicios públicos agua, energía y gas natural. No cuenta con parqueadero. Excelente ubicación cerca de parques, colegios y estaciones del mío. Contactar",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 800000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "area_m2": 55,
+      "parking": null,
+      "first_seen": "2026-09-22T01:38:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "FincaRaíz",
+          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-chapinero-cali/8104004"
+        }
+      ],
+      "sources": [
+        "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "8bf5d2fb721d94b4",
       "source": "Yumblin",
       "url": "https://www.yumblin.com/co/clasificados/detalle/apartaestudio-en-arriendo-en-junin-cali-170488",
@@ -754,6 +810,34 @@
       ],
       "sources": [
         "Yumblin"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "282e339102f49b33",
+      "source": "FincaRaíz",
+      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-los-alcazares-cali/193669958",
+      "title": "$ 800.000 Apartamento en Cali, Valle del cauca 3 Habs. 1 Baño 57 m² Apartamento en arriendo en los alcazares, cali Alquilo apartamento 5º piso en el b",
+      "description": "$ 800.000 Apartamento en Cali, Valle del cauca 3 Habs. 1 Baño 57 m² Apartamento en arriendo en los alcazares, cali Alquilo apartamento 5º piso en el barrio Los Alcázares, al norte de Cali, Consta de: 3 habitaciones con closet, 1 baño, sala comedor, cocina sencilla y zona de oficios, no tiene parqueadero. Se encuentra ubicado a una cuadra de la estación terminal paso del comercio. Contactar",
+      "property_type": "Apartamento",
+      "zone": "Norte (barrio por confirmar)",
+      "macro_zone": "Norte",
+      "price": 800000,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "area_m2": 57,
+      "parking": null,
+      "first_seen": "2026-09-22T01:38:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "FincaRaíz",
+          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-los-alcazares-cali/193669958"
+        }
+      ],
+      "sources": [
+        "FincaRaíz"
       ],
       "source_count": 1
     },
@@ -828,7 +912,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-09-18T21:41:39+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -838,34 +922,6 @@
       ],
       "sources": [
         "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "01bd2bf628cce5d2",
-      "source": "FincaRaíz",
-      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-el-jardin-cali/194222297",
-      "title": "Destacado Black $ 1.000.000 Apartamento en Cali, Valle del cauca 2 Habs. 1 Baño 70 m² Apartamento en arriendo en el jardin, cali Se alquila apartament",
-      "description": "Destacado Black $ 1.000.000 Apartamento en Cali, Valle del cauca 2 Habs. 1 Baño 70 m² Apartamento en arriendo en el jardin, cali Se alquila apartamento en Cali, ubicado en el barrio El Jardín. Esta vivienda está en el primer piso de una casa Bifamiliar y cuenta con un parqueadero para 2 motos. El apartamento ofrece dos habitaciones amplias y luminosas, acompañadas de un baño completo. Además, cuenta con una acogedora sala-comedor, una cocina sencilla equipada con gas natural y zona de aseo independiente. Los servic",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 1000000,
-      "bedrooms": null,
-      "bathrooms": 1,
-      "area_m2": 70,
-      "parking": null,
-      "first_seen": "2026-09-09T03:27:53+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "FincaRaíz",
-          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-el-jardin-cali/194222297"
-        }
-      ],
-      "sources": [
-        "FincaRaíz"
       ],
       "source_count": 1
     },
@@ -884,7 +940,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-09-18T21:41:39+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -982,34 +1038,6 @@
       "source_count": 1
     },
     {
-      "id": "15bc83d21bed5d75",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartaestudio-en-arriendo-en-guillermo-valencia-cali-3672219",
-      "title": "Administración incluida: $1,050,000 Apartaestudio en arriendo cali, comuna 4, guillermo valencia 45.0 m2 Habit. 1 Baños 1 Garaje 1",
-      "description": "Administración incluida: $1,050,000 Apartaestudio en arriendo cali, comuna 4, guillermo valencia 45.0 m2 Habit. 1 Baños 1 Garaje 1",
-      "property_type": "Apartaestudio",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 1050000,
-      "bedrooms": null,
-      "bathrooms": 1,
-      "area_m2": 45,
-      "parking": 1,
-      "first_seen": "2026-09-21T19:28:02+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartaestudio-en-arriendo-en-guillermo-valencia-cali-3672219"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
       "id": "ece62582a3ef6829",
       "source": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3841836",
@@ -1024,7 +1052,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-09-07T17:26:10+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -1052,7 +1080,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-09-15T16:27:49+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -1108,7 +1136,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-09-18T21:41:39+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -1123,8 +1151,8 @@
     },
     {
       "id": "ee2c45da45edd997",
-      "source": "FincaRaíz",
-      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-villa-fatima-cali/194247106",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-en-villa-fatima-cali-620651",
       "title": "Esencial $ 1.150.000 + $ 153.900 admin Apartamento en Cali, Valle del cauca 3 Habs. 2 Baños 64 m² Apartamento en arriendo en villa fatima, cali Se alq",
       "description": "Esencial $ 1.150.000 + $ 153.900 admin Apartamento en Cali, Valle del cauca 3 Habs. 2 Baños 64 m² Apartamento en arriendo en villa fatima, cali Se alquila lindo Apartamento nuevo ? 3 piso ? 3 habitaciones ? 2 baños Zona de oficios, Balcon, Ascensor, Parqueadero comunitario Ubicado enTierra linda dellago (ciudad pacífica) cerca a icesi y jardín plaza a una cuadra de la Avenida Bicentenario * Visita con cita previaWhatsApp *** * Proceso de arrendamiento con póliza de sura asumida por el propietario y estudio de docum",
       "property_type": "Apartamento",
@@ -1225,7 +1253,7 @@
       "area_m2": 55,
       "parking": null,
       "first_seen": "2026-09-14T21:26:55+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -1253,7 +1281,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-09-21T14:09:26+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -1281,7 +1309,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-09-17T06:08:49+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -1309,7 +1337,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-09-21T14:09:26+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -1337,7 +1365,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-09-21T14:09:26+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -1351,26 +1379,54 @@
       "source_count": 1
     },
     {
-      "id": "10d412b04d577ddd",
+      "id": "b6610527bc1a0305",
       "source": "FincaRaíz",
-      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-san-pascual-cali/193936979",
-      "title": "Oportunidad $ 1.300.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 40 m² Apartamento en arriendo en san pascual, cali A estrenar. Cerca al n",
-      "description": "Oportunidad $ 1.300.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 40 m² Apartamento en arriendo en san pascual, cali A estrenar. Cerca al nuevo bunker de la fiscalia. En el centro de cali. Piso 8. 2 habitaciones, próximamente la principal con closet. Tiene 2 baños. Sala comedor. 3 ascensores. Top rooftop con jacuzzi y zonas de asados. Gym. Lavanderia piso 1. Contactar",
+      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-cachipay-cali/194114956",
+      "title": "$ 1.250.000 Apartamento en Cali, Valle del cauca 2 Habs. 1 Baño 65 m² Apartamento en arriendo en cachipay, cali Apartamento en alquiler – Cachipay, su",
+      "description": "$ 1.250.000 Apartamento en Cali, Valle del cauca 2 Habs. 1 Baño 65 m² Apartamento en arriendo en cachipay, cali Apartamento en alquiler – Cachipay, sur de Cali Se renta apartamento ubicado al sur de Cali, barrio Cachipay, en la CR El Zorzal, apartamento 101, torre 3, sobre la Calle 55 #121A-119. Cuenta con un área construida de 65 m² y un canon mensual de $1.400.000, no incluye servicios públicos. El inmueble dispone de sala-comedor, cocina integral, 2 habitaciones, baño, zona de oficios y un patio amplio. Cuenta c",
       "property_type": "Apartamento",
-      "zone": "Centro (barrio por confirmar)",
-      "macro_zone": "Centro",
-      "price": 1300000,
+      "zone": "Cachipay / Kachipay",
+      "macro_zone": "Sur",
+      "price": 1250000,
       "bedrooms": 2,
-      "bathrooms": 2,
-      "area_m2": 40,
+      "bathrooms": 1,
+      "area_m2": 65,
       "parking": null,
-      "first_seen": "2026-09-21T06:21:27+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "first_seen": "2026-09-22T01:38:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
           "source": "FincaRaíz",
-          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-san-pascual-cali/193936979"
+          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-cachipay-cali/194114956"
+        }
+      ],
+      "sources": [
+        "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "1063f8d9bf701a86",
+      "source": "FincaRaíz",
+      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-conjunto-residencial-ventura-i-cali/193977078",
+      "title": "$ 1.250.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 65 m² Apartamento en arriendo en conjunto residencial ventura i, cali Se alquila apar",
+      "description": "$ 1.250.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 65 m² Apartamento en arriendo en conjunto residencial ventura i, cali Se alquila apartamento piso 3 en el Conjunto Residencial Ventura 1 en Ciudad Pacifica, el apartamento consta de 2 habitaciones la principal con baño, vestier y conexión para aire acondicionado, la otra con clóset, estudio, baño de alcoba, sala comedor, balcón amplio, cocina semi integral, zona de Oficios con lavadero, parqueaderos comunitarios. La Unidad cuenta Lobby, Salón social, ",
+      "property_type": "Apartamento",
+      "zone": "Ciudad Pacífica",
+      "macro_zone": "Sur",
+      "price": 1250000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_m2": 65,
+      "parking": null,
+      "first_seen": "2026-09-22T01:38:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "FincaRaíz",
+          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-conjunto-residencial-ventura-i-cali/193977078"
         }
       ],
       "sources": [
@@ -1412,6 +1468,34 @@
       "source_count": 2
     },
     {
+      "id": "ad1321a25ece5b2d",
+      "source": "FincaRaíz",
+      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-valle-del-lili-cali/194203961",
+      "title": "$ 1.320.000 Apartamento en Cali, Valle del cauca 2 Habs. 1 Baño 60 m² Apartamento en arriendo en valle del lili, cali Se alquila apartamento en primer",
+      "description": "$ 1.320.000 Apartamento en Cali, Valle del cauca 2 Habs. 1 Baño 60 m² Apartamento en arriendo en valle del lili, cali Se alquila apartamento en primer piso en el sur de Cali, en el Conjunto Residencial Calicanto II, el cual consta de 2 habitaciones con closet, 1 baño, sala comedor, cocina integral, zona de oficios y parqueadero comunitario. Contactar",
+      "property_type": "Apartamento",
+      "zone": "Valle del Lili",
+      "macro_zone": "Sur",
+      "price": 1320000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "area_m2": 60,
+      "parking": null,
+      "first_seen": "2026-09-22T01:38:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "FincaRaíz",
+          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-valle-del-lili-cali/194203961"
+        }
+      ],
+      "sources": [
+        "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "493d0124fd187a3c",
       "source": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-torres-de-confandi-cali-3883746",
@@ -1426,7 +1510,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-09-19T18:01:55+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -1524,6 +1608,34 @@
       "source_count": 1
     },
     {
+      "id": "b571cab263587cbc",
+      "source": "FincaRaíz",
+      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-las-vegas-de-comfandi-cali/194114980",
+      "title": "$ 1.400.000 Apartamento en Cali, Valle del cauca 3 Habs. 2 Baños 65 m² Apartamento en arriendo en las vegas de comfandi, cali se renta apartamento al",
+      "description": "$ 1.400.000 Apartamento en Cali, Valle del cauca 3 Habs. 2 Baños 65 m² Apartamento en arriendo en las vegas de comfandi, cali se renta apartamento al sur de cali B/ vegas de comfandi CR jardines de las Vegas. apto 404 TJ carrera 85D#54-60.apto con 3 habitaciones la principal con baño. cocina integral. baño auxiliar. sona de oficios. balcón panorámico. esta cerca a tiendas del sector. cerca al cc jardin plaza. bombas de gasolina. excelentes vías de ingreso el canon de arrendamiento no incluye servicios Contactar",
+      "property_type": "Apartamento",
+      "zone": "Sur (barrio por confirmar)",
+      "macro_zone": "Sur",
+      "price": 1400000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_m2": 65,
+      "parking": null,
+      "first_seen": "2026-09-22T01:38:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "FincaRaíz",
+          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-las-vegas-de-comfandi-cali/194114980"
+        }
+      ],
+      "sources": [
+        "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "f857a61e32aa9818",
       "source": "Yumblin",
       "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-parcelaciones-pance-sur-607075",
@@ -1580,62 +1692,6 @@
       "source_count": 1
     },
     {
-      "id": "7f6e47cd45fbff54",
-      "source": "FincaRaíz",
-      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-bochalema-cali/194287847",
-      "title": "$ 1.450.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 60 m² Apartamento en arriendo en bochalema, cali Alquilo apartamento en Bochalema, su",
-      "description": "$ 1.450.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 60 m² Apartamento en arriendo en bochalema, cali Alquilo apartamento en Bochalema, sur de Cali área 60m² , excelente ventilación e iluminación natural, ubicado en un 3° piso sin ascensor, parqueaderos comunitario, sala comedor, 2 habitaciones, la principal con baño privado, cocina integral, balcón, zona de oficios, baño social, seguridad 24/7, piscinas, zona infantil, salón social Habitaciones 2 Closets Baños 2 Parqueadero comunitario Seguridad 24/7 C",
-      "property_type": "Apartamento",
-      "zone": "Bochalema",
-      "macro_zone": "Sur",
-      "price": 1450000,
-      "bedrooms": 2,
-      "bathrooms": 2,
-      "area_m2": 60,
-      "parking": 2,
-      "first_seen": "2026-09-21T19:28:02+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "FincaRaíz",
-          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-bochalema-cali/194287847"
-        }
-      ],
-      "sources": [
-        "FincaRaíz"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "c81d5e61e42c4c54",
-      "source": "FincaRaíz",
-      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-ciudad-pacifica-cali/194255405",
-      "title": "Esencial $ 1.450.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 57 m² Apartamento en arriendo en ciudad pacífica, cali ¡APARTAMENTO EN ARRIE",
-      "description": "Esencial $ 1.450.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 57 m² Apartamento en arriendo en ciudad pacífica, cali ¡APARTAMENTO EN ARRIENDO – CIUDAD PACÍFICA! CONJUNTO RESIDENCIAL CORAL – Piso 4 con ascensor Cómodo apartamento ubicado en el sur de Cali, cerca de universidades, colegios, supermercados y centros comerciales. Características: • 1 Habitación principal con zona de estudio y 1 Habitación sencilla, ambas con clóset • 2 baños • Sala-comedor con balcón • Cocina integral abierta con barra ameri",
-      "property_type": "Apartamento",
-      "zone": "Ciudad Pacífica",
-      "macro_zone": "Sur",
-      "price": 1450000,
-      "bedrooms": null,
-      "bathrooms": 2,
-      "area_m2": 57,
-      "parking": null,
-      "first_seen": "2026-09-15T16:27:49+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "FincaRaíz",
-          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-ciudad-pacifica-cali/194255405"
-        }
-      ],
-      "sources": [
-        "FincaRaíz"
-      ],
-      "source_count": 1
-    },
-    {
       "id": "890c2d6ae32d3805",
       "source": "Yumblin",
       "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-carrera-96-magenta-el-hormiguero-cali-sur-valle-del-cauca-rap-pacifico-760007-colombia-655266",
@@ -1660,62 +1716,6 @@
       ],
       "sources": [
         "Yumblin"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "ebf8d565ffb83c01",
-      "source": "FincaRaíz",
-      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-bochalema-cali/194277451",
-      "title": "$ 1.500.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 52 m² Apartamento en arriendo en bochalema, cali Se arrienda hermoso apartamento para",
-      "description": "$ 1.500.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 52 m² Apartamento en arriendo en bochalema, cali Se arrienda hermoso apartamento para estrenar, con diseño moderno, acabados y una distribución pensada para brindar confort y funcionalidad. cuenta con dos habitaciones, principal con baño,un baño social,sala y comedor, conectada a un balcón, dispone de una zona de oficios, lo que mejora la organización y comodidad del espacio. cuenta con zonas comunes como Gimnasio, juegos infantiles, piscina para adul",
-      "property_type": "Apartamento",
-      "zone": "Bochalema",
-      "macro_zone": "Sur",
-      "price": 1500000,
-      "bedrooms": null,
-      "bathrooms": 2,
-      "area_m2": 52,
-      "parking": null,
-      "first_seen": "2026-09-21T19:28:02+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "FincaRaíz",
-          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-bochalema-cali/194277451"
-        }
-      ],
-      "sources": [
-        "FincaRaíz"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "16bdf57383dbe0ce",
-      "source": "FincaRaíz",
-      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-bochalema-cali/194283392",
-      "title": "Esencial $ 1.500.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 60 m² Apartamento en arriendo en bochalema, cali ALQUILO HERMOSO APARTAMENTO",
-      "description": "Esencial $ 1.500.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 60 m² Apartamento en arriendo en bochalema, cali ALQUILO HERMOSO APARTAMENTO UNIDAD REMANSOS DEL LILI 3 PISO CON ASCENSOR MUY VENTILADO E ILUMINADO, ZONA ARBOLIZADA ,CERCA DE CENTROS COMERCIALES, COLEGIOS Y UNIVERSIDADES CONSTA DE DOS HABITACIONES LA PRINCIPAL TIENE BAÑO PRIVADO Y VESTIER. ALCOBA AUXILIAR BAÑO AUXILIAR, AMPLIO ESTUDIO .COCINA INTEGRAL. ZONA DE OFICIOS BALCON. LA UNIDAD CUENTA CON PISCINAS PARA ADULTOS Y NIÑOS SALÓN SOCIAL. HA",
-      "property_type": "Apartamento",
-      "zone": "Bochalema",
-      "macro_zone": "Sur",
-      "price": 1500000,
-      "bedrooms": null,
-      "bathrooms": 2,
-      "area_m2": 60,
-      "parking": null,
-      "first_seen": "2026-09-20T22:26:42+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "FincaRaíz",
-          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-bochalema-cali/194283392"
-        }
-      ],
-      "sources": [
-        "FincaRaíz"
       ],
       "source_count": 1
     },
@@ -1748,6 +1748,34 @@
       "source_count": 1
     },
     {
+      "id": "4796289e1aaa13cd",
+      "source": "FincaRaíz",
+      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-primero-de-mayo-cali/194230754",
+      "title": "Destacado Black $ 1.600.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 50 m² Apartamento en arriendo en primero de mayo, cali Código web 128",
+      "description": "Destacado Black $ 1.600.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 50 m² Apartamento en arriendo en primero de mayo, cali Código web 128007 Acogedor apartamento ubicado en el barrio Primero de Mayo, cuarto piso sin ascensor, ideal para quienes buscan comodidad y una excelente ubicación. Cuenta con 2 alcobas, la principal con baño privado, baño auxiliar, amplia sala-comedor con excelente iluminación, cocina semi-integral, zona de oficios y espacios bien distribuidos. Además, dispone de un espacio de an",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1600000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_m2": 50,
+      "parking": null,
+      "first_seen": "2026-09-22T01:38:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "FincaRaíz",
+          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-primero-de-mayo-cali/194230754"
+        }
+      ],
+      "sources": [
+        "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "e22fb93409e7249d",
       "source": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3784648",
@@ -1762,7 +1790,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-09-21T14:09:26+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -1790,7 +1818,7 @@
       "area_m2": 60,
       "parking": null,
       "first_seen": "2026-09-12T15:25:17+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -1810,8 +1838,8 @@
     },
     {
       "id": "90269c8e6a32ea2c",
-      "source": "FincaRaíz",
-      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-valle-del-lili-cali/194287049",
+      "source": "Yumblin",
+      "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-valle-del-lili-sur-645884",
       "title": "$ 1.650.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 70 m² Apartamento en arriendo en valle del lili, cali se alquila excelente apartament",
       "description": "$ 1.650.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 70 m² Apartamento en arriendo en valle del lili, cali se alquila excelente apartamento en unidad cerrada, decimo piso con ascensor, buena vista, para estrenar, iluminado ventilado, consta de: sala comedor ampla, balcon, zona de oficios, star tv, 2 alcobas con closet, principal con baño y vestier, baño social, parqueadero, comunitario, zonas sociales, piscina para adultos y niños, zona de juegos, salon social, vigilancia privada, cerca de colegios, uni",
       "property_type": "Apartamento",
@@ -1856,7 +1884,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-09-21T14:09:26+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -1884,7 +1912,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-09-21T19:28:02+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -1922,34 +1950,6 @@
       ],
       "sources": [
         "Yumblin"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "fd2944e1f0e39816",
-      "source": "FincaRaíz",
-      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-santa-barbara-cali/194238004",
-      "title": "$ 1.750.000 Apartamento en Cali, Valle del cauca 3 Habs. 2 Baños 65 m² Apartamento en arriendo en santa barbara, cali Alquilo apartamento en el Norte",
-      "description": "$ 1.750.000 Apartamento en Cali, Valle del cauca 3 Habs. 2 Baños 65 m² Apartamento en arriendo en santa barbara, cali Alquilo apartamento en el Norte de Cali barrio Santa Barbara, área 63m² , excelente ventilación e iluminación natural, ubicado en un 12° piso con ascensor, parqueaderos comunitarios, sala comedor, 3 habitaciones con closets, la principal con baño privado, cocina integral, balcón, zona de oficios, baño social, seguridad 24/7, piscinas, zona infantil, salón social, calentador a gas Habitaciones 3 Clos",
-      "property_type": "Apartamento",
-      "zone": "Norte (barrio por confirmar)",
-      "macro_zone": "Norte",
-      "price": 1750000,
-      "bedrooms": 3,
-      "bathrooms": 2,
-      "area_m2": 65,
-      "parking": 2,
-      "first_seen": "2026-09-21T19:28:02+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "FincaRaíz",
-          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-santa-barbara-cali/194238004"
-        }
-      ],
-      "sources": [
-        "FincaRaíz"
       ],
       "source_count": 1
     },
@@ -1996,7 +1996,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-09-21T14:09:26+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -2024,7 +2024,7 @@
       "area_m2": 65,
       "parking": null,
       "first_seen": "2026-09-19T23:06:08+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -2094,26 +2094,26 @@
       "source_count": 1
     },
     {
-      "id": "38d0dcecb05decb9",
+      "id": "e1c2809b6c7af261",
       "source": "FincaRaíz",
-      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-bochalema-cali/194223958",
-      "title": "Destacado Black $ 2.100.000 Apartamento en Cali, Valle del cauca 3 Habs. 2 Baños 70 m² Apartamento en arriendo en bochalema, cali Gran oportunidad de",
-      "description": "Destacado Black $ 2.100.000 Apartamento en Cali, Valle del cauca 3 Habs. 2 Baños 70 m² Apartamento en arriendo en bochalema, cali Gran oportunidad de alquiler de excelente apartamento amoblado con muy buenos acabados en piso 9 del Conjunto Residencia k108 Nogal el Roble, un sector tranquilo, fresco, seguro y muy exclusivo al sur de la ciudad. Apartamento en el cual encontraremos amplios y acogedores espacios en sala-comedor con gran ventanal que nos conduce al balcón donde disfrutaras de buena brisa y hermosa vista",
+      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-ciudad-pacifica-cali/194238855",
+      "title": "Destacado Black $ 2.200.000 Apartamento en Cali, Valle del cauca 3 Habs. 2 Baños 68 m² Apartamento en arriendo en ciudad pacífica, cali COD WED:128033",
+      "description": "Destacado Black $ 2.200.000 Apartamento en Cali, Valle del cauca 3 Habs. 2 Baños 68 m² Apartamento en arriendo en ciudad pacífica, cali COD WED:128033 Se alquila amplio y moderno apartamento ubicado en quinto piso con ascensor, en conjunto residencial tierra linda de la pradera portería 1 y excelente ubicación. El inmueble cuenta con tres habitaciones, todas con closet; la habitación principal dispone de Vestier y baño privado. Además, cuenta con baño social, amplia sala-comedor con excelente iluminación natural y ",
       "property_type": "Apartamento",
-      "zone": "Bochalema",
+      "zone": "Ciudad Pacífica",
       "macro_zone": "Sur",
-      "price": 2100000,
+      "price": 2200000,
       "bedrooms": null,
       "bathrooms": 2,
-      "area_m2": 70,
+      "area_m2": 68,
       "parking": null,
-      "first_seen": "2026-09-21T14:09:26+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "first_seen": "2026-09-22T01:38:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
           "source": "FincaRaíz",
-          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-bochalema-cali/194223958"
+          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-ciudad-pacifica-cali/194238855"
         }
       ],
       "sources": [
@@ -2136,7 +2136,7 @@
       "area_m2": 70,
       "parking": null,
       "first_seen": "2026-09-15T23:31:49+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -2164,7 +2164,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-09-15T23:31:49+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -2192,7 +2192,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-09-12T08:26:36+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -2220,40 +2220,12 @@
       "area_m2": 70,
       "parking": null,
       "first_seen": "2026-09-15T01:29:40+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
           "source": "FincaRaíz",
           "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-cachipay-cali/194242391"
-        }
-      ],
-      "sources": [
-        "FincaRaíz"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "469c06862a388acb",
-      "source": "FincaRaíz",
-      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-pance-cali/194285638",
-      "title": "Esencial $ 2.950.000 Apartamento en Cali, Valle del cauca 1 Hab 1 Baño 30 m² Apartamento en arriendo en pance, cali Aparta estudio tipo Loft Coliving",
-      "description": "Esencial $ 2.950.000 Apartamento en Cali, Valle del cauca 1 Hab 1 Baño 30 m² Apartamento en arriendo en pance, cali Aparta estudio tipo Loft Coliving al sur de la ciudad en el barrio Pance de Cali; Unidad dotada de Gimnasio y Coworking con Wifi Gratuito y parqueadero comunal para Vehículos o Motos, el parqueadero cuenta con 2 estaciones de Carga para vehículos eléctricos; Acceso por Ascensor y Escalera en Piso 2 y Citófono. Apartamento diseñado con hermosos acabados en madera y pensado para el máximo de confort; La",
-      "property_type": "Apartamento",
-      "zone": "Pance",
-      "macro_zone": "Sur",
-      "price": 2950000,
-      "bedrooms": 1,
-      "bathrooms": 1,
-      "area_m2": 30,
-      "parking": null,
-      "first_seen": "2026-09-21T06:21:27+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "FincaRaíz",
-          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-pance-cali/194285638"
         }
       ],
       "sources": [
@@ -2276,7 +2248,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-09-21T19:28:02+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -2286,6 +2258,62 @@
       ],
       "sources": [
         "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "8774dd4b9bd9984c",
+      "source": "FincaRaíz",
+      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-el-ingenio-cali/194223123",
+      "title": "Destacado Black $ 3.000.000 Apartamento en Cali, Valle del cauca 3 Habs. 2 Baños 110 m² Apartamento en arriendo en el ingenio, cali COD WEB: 127999 Se",
+      "description": "Destacado Black $ 3.000.000 Apartamento en Cali, Valle del cauca 3 Habs. 2 Baños 110 m² Apartamento en arriendo en el ingenio, cali COD WEB: 127999 Se ARRIENDA amplio apartamento Amoblado al sur de Cali, ubicado en el barrio Ingenio II, edificio CATALUÑA, en un segundo piso sin ascensor. El inmueble ofrece una amplia sala-comedor con excelente iluminación natural, que brinda una buena vista y muy buena ventilación. Dispone de una cocina integral, con cajones de almacenamiento. Cuenta además con baño y ducha, zona d",
+      "property_type": "Apartamento",
+      "zone": "El Ingenio",
+      "macro_zone": "Sur",
+      "price": 3000000,
+      "bedrooms": null,
+      "bathrooms": 2,
+      "area_m2": 110,
+      "parking": null,
+      "first_seen": "2026-09-22T01:38:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "FincaRaíz",
+          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-el-ingenio-cali/194223123"
+        }
+      ],
+      "sources": [
+        "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "ea9a8e13fe03be73",
+      "source": "FincaRaíz",
+      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-valle-del-lili-cali/194078757",
+      "title": "Destacado Gold $ 3.000.000 Apartamento en Cali, Valle del cauca 3 Habs. 2 Baños 90 m² Apartamento en arriendo en valle del lili, cali Se alquila hermo",
+      "description": "Destacado Gold $ 3.000.000 Apartamento en Cali, Valle del cauca 3 Habs. 2 Baños 90 m² Apartamento en arriendo en valle del lili, cali Se alquila hermoso, amplio e iluminado apartamento, en un piso 18 en conjunto residencial Bikal, en valle del lili. El apartamento con un area de 90mt2, cuenta con tres habitaciones, dos baños, amplia sala y comedor con balcon, cocina integral abierta tipo americano, zona de ropas, parqueadero propio y cubierto. El conjunto cuenta con hermosas y amplias zonas comunes, piscina, GYM y ",
+      "property_type": "Apartamento",
+      "zone": "Valle del Lili",
+      "macro_zone": "Sur",
+      "price": 3000000,
+      "bedrooms": null,
+      "bathrooms": 2,
+      "area_m2": 90,
+      "parking": null,
+      "first_seen": "2026-09-22T01:38:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "FincaRaíz",
+          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-valle-del-lili-cali/194078757"
+        }
+      ],
+      "sources": [
+        "FincaRaíz"
       ],
       "source_count": 1
     },
@@ -2304,96 +2332,12 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-09-09T17:27:07+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
           "source": "Ciencuadras",
           "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-area-libre-parque-del-amor-cali-3868618"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "aaa15e59a9156c83",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartaestudio-en-arriendo-en-los-balsos-no-1-medellin-3808023",
-      "title": "Administración incluida: $3,750,000 Apartaestudio en arriendo medellín, el poblado, los balsos no.1 70.0 m2 Habit. 1 Baños 2 Garaje 1",
-      "description": "Administración incluida: $3,750,000 Apartaestudio en arriendo medellín, el poblado, los balsos no.1 70.0 m2 Habit. 1 Baños 2 Garaje 1",
-      "property_type": "Apartaestudio",
-      "zone": "El Poblado",
-      "macro_zone": "Este",
-      "price": 3750000,
-      "bedrooms": null,
-      "bathrooms": 1,
-      "area_m2": 70,
-      "parking": 2,
-      "first_seen": "2026-09-21T19:28:02+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartaestudio-en-arriendo-en-los-balsos-no-1-medellin-3808023"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "2d08d08d54f9bc1e",
-      "source": "FincaRaíz",
-      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-pance-cali/194224534",
-      "title": "Destacado Black $ 3.900.000 Apartamento en Cali, Valle del cauca 1 Hab 2 Baños 65 m² Apartamento en arriendo en pance, cali Hermoso y moderno apartame",
-      "description": "Destacado Black $ 3.900.000 Apartamento en Cali, Valle del cauca 1 Hab 2 Baños 65 m² Apartamento en arriendo en pance, cali Hermoso y moderno apartamento en cuidad jardín . Vista a los farallones de Cali. Área 65 mts! Cuenta con Habitación principal con Baño y vestier ; baño social, zona de oficios , cocina abierta, dos parqueaderos y depósito ! Hermoso balcón ! La habitación principal está dotada con Aire acondicionado Black out y screen eléctrico. Contactar",
-      "property_type": "Apartamento",
-      "zone": "Pance",
-      "macro_zone": "Sur",
-      "price": 3900000,
-      "bedrooms": 1,
-      "bathrooms": 2,
-      "area_m2": 65,
-      "parking": null,
-      "first_seen": "2026-09-09T03:27:53+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "FincaRaíz",
-          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-pance-cali/194224534"
-        }
-      ],
-      "sources": [
-        "FincaRaíz"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "0bbea7ea6c48ac23",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartaestudio-en-arriendo-en-la-florida-medellin-3857576",
-      "title": "Administración incluida: $4,000,000 Apartaestudio en arriendo medellín, el poblado, la florida 50.0 m2 Habit. 1 Baños 1 Garaje 1",
-      "description": "Administración incluida: $4,000,000 Apartaestudio en arriendo medellín, el poblado, la florida 50.0 m2 Habit. 1 Baños 1 Garaje 1",
-      "property_type": "Apartaestudio",
-      "zone": "El Poblado",
-      "macro_zone": "Este",
-      "price": 4000000,
-      "bedrooms": null,
-      "bathrooms": 1,
-      "area_m2": 50,
-      "parking": 1,
-      "first_seen": "2026-09-21T19:28:02+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartaestudio-en-arriendo-en-la-florida-medellin-3857576"
         }
       ],
       "sources": [
@@ -2416,7 +2360,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-09-21T14:09:26+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -2444,7 +2388,7 @@
       "area_m2": 277,
       "parking": null,
       "first_seen": "2026-08-31T06:21:20+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -2505,7 +2449,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-09-21T14:09:26+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -2533,7 +2477,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-09-10T02:28:10+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -2550,8 +2494,8 @@
       "id": "41a73e817d419bc3",
       "source": "FincaRaíz",
       "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-bellavista-cali/194195049",
-      "title": "$ 5.500.000 Apartamento en Cali, Valle del cauca 4 Habs. 3 Baños 140 m² Apartamento en arriendo en bellavista, cali APARTAMENTO EN ARRIENDO BARRIO BEL",
-      "description": "$ 5.500.000 Apartamento en Cali, Valle del cauca 4 Habs. 3 Baños 140 m² Apartamento en arriendo en bellavista, cali APARTAMENTO EN ARRIENDO BARRIO BELLAVISTA ZONA OESTE DE LA CIUDAD Te presentamos este moderno y amplio apartamento PENTHOUSE DUPLEX en uno de los barrios más deseados de Cali. Ubicado en la zona mas fresca y ventilada del Oeste, este apartamento de 4 alcobas, de las cuales 3 quedan en el 1er nivel, y la principal en el 2do nivel con terraza, baño privado y walking closet. Una de las alcobas auxiliares",
+      "title": "Destacado Gold $ 5.500.000 Apartamento en Cali, Valle del cauca 4 Habs. 3 Baños 140 m² Apartamento en arriendo en bellavista, cali APARTAMENTO EN ARRI",
+      "description": "Destacado Gold $ 5.500.000 Apartamento en Cali, Valle del cauca 4 Habs. 3 Baños 140 m² Apartamento en arriendo en bellavista, cali APARTAMENTO EN ARRIENDO BARRIO BELLAVISTA ZONA OESTE DE LA CIUDAD Te presentamos este moderno y amplio apartamento PENTHOUSE DUPLEX en uno de los barrios más deseados de Cali. Ubicado en la zona mas fresca y ventilada del Oeste, este apartamento de 4 alcobas, de las cuales 3 quedan en el 1er nivel, y la principal en el 2do nivel con terraza, baño privado y walking closet. Una de las alc",
       "property_type": "Apartamento",
       "zone": "Bellavista",
       "macro_zone": "Oeste",
@@ -2561,7 +2505,7 @@
       "area_m2": 140,
       "parking": null,
       "first_seen": "2026-09-14T03:31:41+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -2589,7 +2533,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-09-21T14:09:26+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -2617,7 +2561,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-09-07T07:29:07+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -2627,6 +2571,34 @@
       ],
       "sources": [
         "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "64041364a8bf562c",
+      "source": "FincaRaíz",
+      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-pance-cali/194219257",
+      "title": "Destacado Black $ 6.200.000 Apartamento en Cali, Valle del cauca 3 Habs. 4 Baños 200 m² Apartamento en arriendo en pance, cali WEB: 82283 SE ALQUILA H",
+      "description": "Destacado Black $ 6.200.000 Apartamento en Cali, Valle del cauca 3 Habs. 4 Baños 200 m² Apartamento en arriendo en pance, cali WEB: 82283 SE ALQUILA HERMOSO APARTAMENTO, fácil acceso, excelente ubicación, Amplio apto en condominio, sector exclusivo de Cali, Pance, con ascensor, escaleras de emergencia, buena iluminación y ventilación natural, sala-comedor , balcón grande, baño social, cocina integral tipo americana con microondas y lava loza, mesones en mármol blanco, extractor de olores, muebles de almacenamiento,",
+      "property_type": "Apartamento",
+      "zone": "Pance",
+      "macro_zone": "Sur",
+      "price": 6200000,
+      "bedrooms": null,
+      "bathrooms": 4,
+      "area_m2": 200,
+      "parking": 4,
+      "first_seen": "2026-09-17T06:08:49+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "FincaRaíz",
+          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-pance-cali/194219257"
+        }
+      ],
+      "sources": [
+        "FincaRaíz"
       ],
       "source_count": 1
     },
@@ -2645,7 +2617,7 @@
       "area_m2": null,
       "parking": null,
       "first_seen": "2026-08-31T06:21:20+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -2673,7 +2645,7 @@
       "area_m2": 138,
       "parking": 3,
       "first_seen": "2026-09-20T06:18:15+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
@@ -2701,40 +2673,12 @@
       "area_m2": 220,
       "parking": 2,
       "first_seen": "2026-09-14T03:31:41+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-22T01:38:02+00:00",
       "stale": false,
       "links": [
         {
           "source": "FincaRaíz",
           "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-aguacatal-cali/194199119"
-        }
-      ],
-      "sources": [
-        "FincaRaíz"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "779ff88b0a15ac1c",
-      "source": "FincaRaíz",
-      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-arboledas-cali/193467319",
-      "title": "$ 11.000.000 Apartamento en Cali, Valle del cauca 3 Habs. 4 Baños 250 m² Apartamento en arriendo en arboledas, cali APARTAMENTO EN ARRIENDO BARRIO ARB",
-      "description": "$ 11.000.000 Apartamento en Cali, Valle del cauca 3 Habs. 4 Baños 250 m² Apartamento en arriendo en arboledas, cali APARTAMENTO EN ARRIENDO BARRIO ARBOLEDAS ZONA OESTE DE CALI Bienvenidos a este amplio y acogedor apartamento ubicado en el exclusivo sector de Arboledas. Con una generosa área de 250 M2 construidos mas 50 M2 de terraza con una exuberante vista al oeste. Es un 1er piso dúplex con ambiente de ser un piso alto por la topografía de la edificación. Cuenta con 3 amplias alcobas, ppal con walking closet, bañ",
-      "property_type": "Apartamento",
-      "zone": "Arboledas",
-      "macro_zone": "Oeste",
-      "price": 11000000,
-      "bedrooms": null,
-      "bathrooms": 4,
-      "area_m2": 250,
-      "parking": 2,
-      "first_seen": "2026-09-21T06:21:27+00:00",
-      "last_seen": "2026-09-21T19:28:02+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "FincaRaíz",
-          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-arboledas-cali/193467319"
         }
       ],
       "sources": [
@@ -4461,6 +4405,34 @@
       "source_count": 1
     },
     {
+      "id": "01bd2bf628cce5d2",
+      "source": "FincaRaíz",
+      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-el-jardin-cali/194222297",
+      "title": "Destacado Black $ 1.000.000 Apartamento en Cali, Valle del cauca 2 Habs. 1 Baño 70 m² Apartamento en arriendo en el jardin, cali Se alquila apartament",
+      "description": "Destacado Black $ 1.000.000 Apartamento en Cali, Valle del cauca 2 Habs. 1 Baño 70 m² Apartamento en arriendo en el jardin, cali Se alquila apartamento en Cali, ubicado en el barrio El Jardín. Esta vivienda está en el primer piso de una casa Bifamiliar y cuenta con un parqueadero para 2 motos. El apartamento ofrece dos habitaciones amplias y luminosas, acompañadas de un baño completo. Además, cuenta con una acogedora sala-comedor, una cocina sencilla equipada con gas natural y zona de aseo independiente. Los servic",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1000000,
+      "bedrooms": null,
+      "bathrooms": 1,
+      "area_m2": 70,
+      "parking": null,
+      "first_seen": "2026-09-09T03:27:53+00:00",
+      "last_seen": "2026-09-21T19:28:02+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "FincaRaíz",
+          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-el-jardin-cali/194222297"
+        }
+      ],
+      "sources": [
+        "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "9b41f6e3174e367c",
       "source": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cali-cali-3865713",
@@ -4677,6 +4649,34 @@
         {
           "source": "Ciencuadras",
           "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-alfonso-lopez-i-etapa-cali-3860432"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "15bc83d21bed5d75",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartaestudio-en-arriendo-en-guillermo-valencia-cali-3672219",
+      "title": "Administración incluida: $1,050,000 Apartaestudio en arriendo cali, comuna 4, guillermo valencia 45.0 m2 Habit. 1 Baños 1 Garaje 1",
+      "description": "Administración incluida: $1,050,000 Apartaestudio en arriendo cali, comuna 4, guillermo valencia 45.0 m2 Habit. 1 Baños 1 Garaje 1",
+      "property_type": "Apartaestudio",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 1050000,
+      "bedrooms": null,
+      "bathrooms": 1,
+      "area_m2": 45,
+      "parking": 1,
+      "first_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-21T19:28:02+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartaestudio-en-arriendo-en-guillermo-valencia-cali-3672219"
         }
       ],
       "sources": [
@@ -6299,6 +6299,34 @@
       "source_count": 1
     },
     {
+      "id": "10d412b04d577ddd",
+      "source": "FincaRaíz",
+      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-san-pascual-cali/193936979",
+      "title": "Oportunidad $ 1.300.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 40 m² Apartamento en arriendo en san pascual, cali A estrenar. Cerca al n",
+      "description": "Oportunidad $ 1.300.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 40 m² Apartamento en arriendo en san pascual, cali A estrenar. Cerca al nuevo bunker de la fiscalia. En el centro de cali. Piso 8. 2 habitaciones, próximamente la principal con closet. Tiene 2 baños. Sala comedor. 3 ascensores. Top rooftop con jacuzzi y zonas de asados. Gym. Lavanderia piso 1. Contactar",
+      "property_type": "Apartamento",
+      "zone": "Centro (barrio por confirmar)",
+      "macro_zone": "Centro",
+      "price": 1300000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_m2": 40,
+      "parking": null,
+      "first_seen": "2026-09-21T06:21:27+00:00",
+      "last_seen": "2026-09-21T19:28:02+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "FincaRaíz",
+          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-san-pascual-cali/193936979"
+        }
+      ],
+      "sources": [
+        "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "5603346d614175ec",
       "source": "FincaRaíz",
       "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-tierralinda-cali/194054264",
@@ -7508,6 +7536,34 @@
       "source_count": 1
     },
     {
+      "id": "7f6e47cd45fbff54",
+      "source": "FincaRaíz",
+      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-bochalema-cali/194287847",
+      "title": "$ 1.450.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 60 m² Apartamento en arriendo en bochalema, cali Alquilo apartamento en Bochalema, su",
+      "description": "$ 1.450.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 60 m² Apartamento en arriendo en bochalema, cali Alquilo apartamento en Bochalema, sur de Cali área 60m² , excelente ventilación e iluminación natural, ubicado en un 3° piso sin ascensor, parqueaderos comunitario, sala comedor, 2 habitaciones, la principal con baño privado, cocina integral, balcón, zona de oficios, baño social, seguridad 24/7, piscinas, zona infantil, salón social Habitaciones 2 Closets Baños 2 Parqueadero comunitario Seguridad 24/7 C",
+      "property_type": "Apartamento",
+      "zone": "Bochalema",
+      "macro_zone": "Sur",
+      "price": 1450000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_m2": 60,
+      "parking": 2,
+      "first_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-21T19:28:02+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "FincaRaíz",
+          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-bochalema-cali/194287847"
+        }
+      ],
+      "sources": [
+        "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "0f92e226e3db385d",
       "source": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-cuarto-de-legua-guadalupe-cali-3803198",
@@ -7588,6 +7644,34 @@
       ],
       "sources": [
         "Yumblin"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "c81d5e61e42c4c54",
+      "source": "FincaRaíz",
+      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-ciudad-pacifica-cali/194255405",
+      "title": "Esencial $ 1.450.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 57 m² Apartamento en arriendo en ciudad pacífica, cali ¡APARTAMENTO EN ARRIE",
+      "description": "Esencial $ 1.450.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 57 m² Apartamento en arriendo en ciudad pacífica, cali ¡APARTAMENTO EN ARRIENDO – CIUDAD PACÍFICA! CONJUNTO RESIDENCIAL CORAL – Piso 4 con ascensor Cómodo apartamento ubicado en el sur de Cali, cerca de universidades, colegios, supermercados y centros comerciales. Características: • 1 Habitación principal con zona de estudio y 1 Habitación sencilla, ambas con clóset • 2 baños • Sala-comedor con balcón • Cocina integral abierta con barra ameri",
+      "property_type": "Apartamento",
+      "zone": "Ciudad Pacífica",
+      "macro_zone": "Sur",
+      "price": 1450000,
+      "bedrooms": null,
+      "bathrooms": 2,
+      "area_m2": 57,
+      "parking": null,
+      "first_seen": "2026-09-15T16:27:49+00:00",
+      "last_seen": "2026-09-21T19:28:02+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "FincaRaíz",
+          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-ciudad-pacifica-cali/194255405"
+        }
+      ],
+      "sources": [
+        "FincaRaíz"
       ],
       "source_count": 1
     },
@@ -7785,6 +7869,62 @@
         {
           "source": "FincaRaíz",
           "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-santa-rosa-cali/193631226"
+        }
+      ],
+      "sources": [
+        "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "ebf8d565ffb83c01",
+      "source": "FincaRaíz",
+      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-bochalema-cali/194277451",
+      "title": "$ 1.500.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 52 m² Apartamento en arriendo en bochalema, cali Se arrienda hermoso apartamento para",
+      "description": "$ 1.500.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 52 m² Apartamento en arriendo en bochalema, cali Se arrienda hermoso apartamento para estrenar, con diseño moderno, acabados y una distribución pensada para brindar confort y funcionalidad. cuenta con dos habitaciones, principal con baño,un baño social,sala y comedor, conectada a un balcón, dispone de una zona de oficios, lo que mejora la organización y comodidad del espacio. cuenta con zonas comunes como Gimnasio, juegos infantiles, piscina para adul",
+      "property_type": "Apartamento",
+      "zone": "Bochalema",
+      "macro_zone": "Sur",
+      "price": 1500000,
+      "bedrooms": null,
+      "bathrooms": 2,
+      "area_m2": 52,
+      "parking": null,
+      "first_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-21T19:28:02+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "FincaRaíz",
+          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-bochalema-cali/194277451"
+        }
+      ],
+      "sources": [
+        "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "16bdf57383dbe0ce",
+      "source": "FincaRaíz",
+      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-bochalema-cali/194283392",
+      "title": "Esencial $ 1.500.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 60 m² Apartamento en arriendo en bochalema, cali ALQUILO HERMOSO APARTAMENTO",
+      "description": "Esencial $ 1.500.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 60 m² Apartamento en arriendo en bochalema, cali ALQUILO HERMOSO APARTAMENTO UNIDAD REMANSOS DEL LILI 3 PISO CON ASCENSOR MUY VENTILADO E ILUMINADO, ZONA ARBOLIZADA ,CERCA DE CENTROS COMERCIALES, COLEGIOS Y UNIVERSIDADES CONSTA DE DOS HABITACIONES LA PRINCIPAL TIENE BAÑO PRIVADO Y VESTIER. ALCOBA AUXILIAR BAÑO AUXILIAR, AMPLIO ESTUDIO .COCINA INTEGRAL. ZONA DE OFICIOS BALCON. LA UNIDAD CUENTA CON PISCINAS PARA ADULTOS Y NIÑOS SALÓN SOCIAL. HA",
+      "property_type": "Apartamento",
+      "zone": "Bochalema",
+      "macro_zone": "Sur",
+      "price": 1500000,
+      "bedrooms": null,
+      "bathrooms": 2,
+      "area_m2": 60,
+      "parking": null,
+      "first_seen": "2026-09-20T22:26:42+00:00",
+      "last_seen": "2026-09-21T19:28:02+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "FincaRaíz",
+          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-bochalema-cali/194283392"
         }
       ],
       "sources": [
@@ -9175,6 +9315,34 @@
       "source_count": 1
     },
     {
+      "id": "fd2944e1f0e39816",
+      "source": "FincaRaíz",
+      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-santa-barbara-cali/194238004",
+      "title": "$ 1.750.000 Apartamento en Cali, Valle del cauca 3 Habs. 2 Baños 65 m² Apartamento en arriendo en santa barbara, cali Alquilo apartamento en el Norte",
+      "description": "$ 1.750.000 Apartamento en Cali, Valle del cauca 3 Habs. 2 Baños 65 m² Apartamento en arriendo en santa barbara, cali Alquilo apartamento en el Norte de Cali barrio Santa Barbara, área 63m² , excelente ventilación e iluminación natural, ubicado en un 12° piso con ascensor, parqueaderos comunitarios, sala comedor, 3 habitaciones con closets, la principal con baño privado, cocina integral, balcón, zona de oficios, baño social, seguridad 24/7, piscinas, zona infantil, salón social, calentador a gas Habitaciones 3 Clos",
+      "property_type": "Apartamento",
+      "zone": "Norte (barrio por confirmar)",
+      "macro_zone": "Norte",
+      "price": 1750000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_m2": 65,
+      "parking": 2,
+      "first_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-21T19:28:02+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "FincaRaíz",
+          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-santa-barbara-cali/194238004"
+        }
+      ],
+      "sources": [
+        "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "4403ffed7dae7a49",
       "source": "Yumblin",
       "url": "https://www.yumblin.com/co/clasificados/detalle/apartamento-en-arriendo-ciudad-jardin-sur-607179",
@@ -9867,6 +10035,34 @@
         {
           "source": "FincaRaíz",
           "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-zona-oeste-cali/194254132"
+        }
+      ],
+      "sources": [
+        "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "38d0dcecb05decb9",
+      "source": "FincaRaíz",
+      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-bochalema-cali/194223958",
+      "title": "Destacado Black $ 2.100.000 Apartamento en Cali, Valle del cauca 3 Habs. 2 Baños 70 m² Apartamento en arriendo en bochalema, cali Gran oportunidad de",
+      "description": "Destacado Black $ 2.100.000 Apartamento en Cali, Valle del cauca 3 Habs. 2 Baños 70 m² Apartamento en arriendo en bochalema, cali Gran oportunidad de alquiler de excelente apartamento amoblado con muy buenos acabados en piso 9 del Conjunto Residencia k108 Nogal el Roble, un sector tranquilo, fresco, seguro y muy exclusivo al sur de la ciudad. Apartamento en el cual encontraremos amplios y acogedores espacios en sala-comedor con gran ventanal que nos conduce al balcón donde disfrutaras de buena brisa y hermosa vista",
+      "property_type": "Apartamento",
+      "zone": "Bochalema",
+      "macro_zone": "Sur",
+      "price": 2100000,
+      "bedrooms": null,
+      "bathrooms": 2,
+      "area_m2": 70,
+      "parking": null,
+      "first_seen": "2026-09-21T14:09:26+00:00",
+      "last_seen": "2026-09-21T19:28:02+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "FincaRaíz",
+          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-bochalema-cali/194223958"
         }
       ],
       "sources": [
@@ -10860,6 +11056,34 @@
       "source_count": 1
     },
     {
+      "id": "469c06862a388acb",
+      "source": "FincaRaíz",
+      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-pance-cali/194285638",
+      "title": "Esencial $ 2.950.000 Apartamento en Cali, Valle del cauca 1 Hab 1 Baño 30 m² Apartamento en arriendo en pance, cali Aparta estudio tipo Loft Coliving",
+      "description": "Esencial $ 2.950.000 Apartamento en Cali, Valle del cauca 1 Hab 1 Baño 30 m² Apartamento en arriendo en pance, cali Aparta estudio tipo Loft Coliving al sur de la ciudad en el barrio Pance de Cali; Unidad dotada de Gimnasio y Coworking con Wifi Gratuito y parqueadero comunal para Vehículos o Motos, el parqueadero cuenta con 2 estaciones de Carga para vehículos eléctricos; Acceso por Ascensor y Escalera en Piso 2 y Citófono. Apartamento diseñado con hermosos acabados en madera y pensado para el máximo de confort; La",
+      "property_type": "Apartamento",
+      "zone": "Pance",
+      "macro_zone": "Sur",
+      "price": 2950000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "area_m2": 30,
+      "parking": null,
+      "first_seen": "2026-09-21T06:21:27+00:00",
+      "last_seen": "2026-09-21T19:28:02+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "FincaRaíz",
+          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-pance-cali/194285638"
+        }
+      ],
+      "sources": [
+        "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "6ddd2d7c9c0edc50",
       "source": "FincaRaíz",
       "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-pance-cali/194236817",
@@ -11112,6 +11336,34 @@
       "source_count": 1
     },
     {
+      "id": "aaa15e59a9156c83",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartaestudio-en-arriendo-en-los-balsos-no-1-medellin-3808023",
+      "title": "Administración incluida: $3,750,000 Apartaestudio en arriendo medellín, el poblado, los balsos no.1 70.0 m2 Habit. 1 Baños 2 Garaje 1",
+      "description": "Administración incluida: $3,750,000 Apartaestudio en arriendo medellín, el poblado, los balsos no.1 70.0 m2 Habit. 1 Baños 2 Garaje 1",
+      "property_type": "Apartaestudio",
+      "zone": "El Poblado",
+      "macro_zone": "Este",
+      "price": 3750000,
+      "bedrooms": null,
+      "bathrooms": 1,
+      "area_m2": 70,
+      "parking": 2,
+      "first_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-21T19:28:02+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartaestudio-en-arriendo-en-los-balsos-no-1-medellin-3808023"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "3a9f2176fe6d18ef",
       "source": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-arboledas-cali-3818526",
@@ -11164,6 +11416,62 @@
       ],
       "sources": [
         "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "2d08d08d54f9bc1e",
+      "source": "FincaRaíz",
+      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-pance-cali/194224534",
+      "title": "Destacado Black $ 3.900.000 Apartamento en Cali, Valle del cauca 1 Hab 2 Baños 65 m² Apartamento en arriendo en pance, cali Hermoso y moderno apartame",
+      "description": "Destacado Black $ 3.900.000 Apartamento en Cali, Valle del cauca 1 Hab 2 Baños 65 m² Apartamento en arriendo en pance, cali Hermoso y moderno apartamento en cuidad jardín . Vista a los farallones de Cali. Área 65 mts! Cuenta con Habitación principal con Baño y vestier ; baño social, zona de oficios , cocina abierta, dos parqueaderos y depósito ! Hermoso balcón ! La habitación principal está dotada con Aire acondicionado Black out y screen eléctrico. Contactar",
+      "property_type": "Apartamento",
+      "zone": "Pance",
+      "macro_zone": "Sur",
+      "price": 3900000,
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "area_m2": 65,
+      "parking": null,
+      "first_seen": "2026-09-09T03:27:53+00:00",
+      "last_seen": "2026-09-21T19:28:02+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "FincaRaíz",
+          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-pance-cali/194224534"
+        }
+      ],
+      "sources": [
+        "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "0bbea7ea6c48ac23",
+      "source": "Ciencuadras",
+      "url": "https://www.ciencuadras.com/inmueble/apartaestudio-en-arriendo-en-la-florida-medellin-3857576",
+      "title": "Administración incluida: $4,000,000 Apartaestudio en arriendo medellín, el poblado, la florida 50.0 m2 Habit. 1 Baños 1 Garaje 1",
+      "description": "Administración incluida: $4,000,000 Apartaestudio en arriendo medellín, el poblado, la florida 50.0 m2 Habit. 1 Baños 1 Garaje 1",
+      "property_type": "Apartaestudio",
+      "zone": "El Poblado",
+      "macro_zone": "Este",
+      "price": 4000000,
+      "bedrooms": null,
+      "bathrooms": 1,
+      "area_m2": 50,
+      "parking": 1,
+      "first_seen": "2026-09-21T19:28:02+00:00",
+      "last_seen": "2026-09-21T19:28:02+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "Ciencuadras",
+          "url": "https://www.ciencuadras.com/inmueble/apartaestudio-en-arriendo-en-la-florida-medellin-3857576"
+        }
+      ],
+      "sources": [
+        "Ciencuadras"
       ],
       "source_count": 1
     },
@@ -12405,34 +12713,6 @@
       "source_count": 1
     },
     {
-      "id": "64041364a8bf562c",
-      "source": "FincaRaíz",
-      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-pance-cali/194219257",
-      "title": "Destacado Black $ 6.200.000 Apartamento en Cali, Valle del cauca 3 Habs. 4 Baños 200 m² Apartamento en arriendo en pance, cali WEB: 82283 SE ALQUILA H",
-      "description": "Destacado Black $ 6.200.000 Apartamento en Cali, Valle del cauca 3 Habs. 4 Baños 200 m² Apartamento en arriendo en pance, cali WEB: 82283 SE ALQUILA HERMOSO APARTAMENTO, fácil acceso, excelente ubicación, Amplio apto en condominio, sector exclusivo de Cali, Pance, con ascensor, escaleras de emergencia, buena iluminación y ventilación natural, sala-comedor , balcón grande, baño social, cocina integral tipo americana con microondas y lava loza, mesones en mármol blanco, extractor de olores, muebles de almacenamiento,",
-      "property_type": "Apartamento",
-      "zone": "Pance",
-      "macro_zone": "Sur",
-      "price": 6200000,
-      "bedrooms": null,
-      "bathrooms": 4,
-      "area_m2": 200,
-      "parking": 4,
-      "first_seen": "2026-09-17T06:08:49+00:00",
-      "last_seen": "2026-09-21T14:09:26+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "FincaRaíz",
-          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-pance-cali/194219257"
-        }
-      ],
-      "sources": [
-        "FincaRaíz"
-      ],
-      "source_count": 1
-    },
-    {
       "id": "d76b3a65eb49af50",
       "source": "FincaRaíz",
       "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-valle-del-lili-cali/192851192",
@@ -13297,6 +13577,34 @@
       ],
       "sources": [
         "Ciencuadras"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "779ff88b0a15ac1c",
+      "source": "FincaRaíz",
+      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-arboledas-cali/193467319",
+      "title": "$ 11.000.000 Apartamento en Cali, Valle del cauca 3 Habs. 4 Baños 250 m² Apartamento en arriendo en arboledas, cali APARTAMENTO EN ARRIENDO BARRIO ARB",
+      "description": "$ 11.000.000 Apartamento en Cali, Valle del cauca 3 Habs. 4 Baños 250 m² Apartamento en arriendo en arboledas, cali APARTAMENTO EN ARRIENDO BARRIO ARBOLEDAS ZONA OESTE DE CALI Bienvenidos a este amplio y acogedor apartamento ubicado en el exclusivo sector de Arboledas. Con una generosa área de 250 M2 construidos mas 50 M2 de terraza con una exuberante vista al oeste. Es un 1er piso dúplex con ambiente de ser un piso alto por la topografía de la edificación. Cuenta con 3 amplias alcobas, ppal con walking closet, bañ",
+      "property_type": "Apartamento",
+      "zone": "Arboledas",
+      "macro_zone": "Oeste",
+      "price": 11000000,
+      "bedrooms": null,
+      "bathrooms": 4,
+      "area_m2": 250,
+      "parking": 2,
+      "first_seen": "2026-09-21T06:21:27+00:00",
+      "last_seen": "2026-09-21T19:28:02+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "FincaRaíz",
+          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-arboledas-cali/193467319"
+        }
+      ],
+      "sources": [
+        "FincaRaíz"
       ],
       "source_count": 1
     },
