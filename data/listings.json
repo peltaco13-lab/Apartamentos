@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": 4,
-    "updated_at": "2026-09-25T07:49:19+00:00",
+    "updated_at": "2026-09-25T13:48:01+00:00",
     "price_policy": "no_fixed_cap",
-    "total": 519,
+    "total": 514,
     "source_count": 12,
     "automated_source_count": 10,
     "sources": [
@@ -15,7 +15,7 @@
         "ok": true,
         "found": 21,
         "errors": [],
-        "last_checked": "2026-09-25T07:49:19+00:00",
+        "last_checked": "2026-09-25T13:48:01+00:00",
         "skipped": false,
         "manual_urls": [
           "https://www.fincaraiz.com.co/arriendo/apartamentos/cali/valle-del-cauca"
@@ -29,7 +29,7 @@
         "ok": true,
         "found": 20,
         "errors": [],
-        "last_checked": "2026-09-25T07:49:19+00:00",
+        "last_checked": "2026-09-25T13:48:01+00:00",
         "skipped": false,
         "manual_urls": [
           "https://www.ciencuadras.com/arriendo/cali/cali/apartamento"
@@ -43,7 +43,7 @@
         "ok": true,
         "found": 0,
         "errors": [],
-        "last_checked": "2026-09-25T07:49:19+00:00",
+        "last_checked": "2026-09-25T13:48:01+00:00",
         "skipped": false,
         "manual_urls": [
           "https://listado.mercadolibre.com.co/apartamentos-en-arriendo-cali"
@@ -71,8 +71,8 @@
         "ok": true,
         "found": 0,
         "errors": [],
-        "last_checked": "2026-09-25T01:31:08+00:00",
-        "skipped": true,
+        "last_checked": "2026-09-25T13:48:01+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://arriendo.com/co/apartamentos/cali/"
         ]
@@ -87,8 +87,8 @@
         "errors": [
           "https://www.unisa.com.co/inmuebles/g/arriendo/t/apartamentos/c/cali/: HTTPError"
         ],
-        "last_checked": "2026-09-25T01:31:08+00:00",
-        "skipped": true,
+        "last_checked": "2026-09-25T13:48:01+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://www.unisa.com.co/inmuebles/g/arriendo/t/apartamentos/c/cali/"
         ]
@@ -101,8 +101,8 @@
         "ok": true,
         "found": 0,
         "errors": [],
-        "last_checked": "2026-09-25T01:31:08+00:00",
-        "skipped": true,
+        "last_checked": "2026-09-25T13:48:01+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://bienco.com.co/inmuebles/arriendo"
         ]
@@ -116,7 +116,7 @@
         "found": 16,
         "errors": [],
         "last_checked": "2026-09-25T07:49:19+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://www.aycinmobiliarios.com/busqueda/pagina/1/gestion/arriendo"
         ]
@@ -130,7 +130,7 @@
         "found": 0,
         "errors": [],
         "last_checked": "2026-09-25T07:49:19+00:00",
-        "skipped": false,
+        "skipped": true,
         "manual_urls": [
           "https://www.metroredinmobiliariacali.com.co/"
         ]
@@ -157,8 +157,8 @@
         "ok": true,
         "found": 0,
         "errors": [],
-        "last_checked": "2026-09-25T01:31:08+00:00",
-        "skipped": true,
+        "last_checked": "2026-09-25T13:48:01+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://www.nuroa.com.co/arriendo/apartamento-cali"
         ]
@@ -168,11 +168,13 @@
         "tier": "secondary",
         "cadence_hours": 8,
         "automated": true,
-        "ok": true,
-        "found": 24,
-        "errors": [],
-        "last_checked": "2026-09-25T01:31:08+00:00",
-        "skipped": true,
+        "ok": false,
+        "found": 0,
+        "errors": [
+          "https://www.yumblin.com/co/clasificados/galeria/colombia/valle-del-cauca/cali/arriendo/apartamentos: HTTPError"
+        ],
+        "last_checked": "2026-09-25T13:48:01+00:00",
+        "skipped": false,
         "manual_urls": [
           "https://www.yumblin.com/co/clasificados/galeria/colombia/valle-del-cauca/cali/arriendo/apartamentos"
         ]
@@ -266,8 +268,8 @@
     },
     {
       "id": "d1b8bc1ca8c81770",
-      "source": "Yumblin",
-      "url": "https://www.yumblin.com/co/clasificados/detalle/arrendo-apartaestudios-con-promocion-cali-973319",
+      "source": "A&C Inmobiliarios",
+      "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-fonaviemcali-cali_3940",
       "title": "Arrendó Apartaestudios con Promoción, Cali",
       "description": "COP $ 550.000 Arrendó Apartaestudios con Promoción, Cali Cali, Valle del Cauca, Colombia Apartamentos Arriendo 1 habitación bed 45 m² cubiertos straighten *Apartaestudio de Ensueño en Arriendo* *Promoción Irresistible:* - ¡Primer mes gratis! No dejes pasar esta oportunidad única de vivir en un lugar perfecto sin costo adicional. *Características de Ensueño:* - 1 alcoba amplia con closet para un descanso perfecto - Baño completo para tu comodidad y relajación - Zona de oficios con lavadero para tus necesidades diari",
       "property_type": "Apartaestudio",
@@ -368,7 +370,7 @@
       "area_m2": 58,
       "parking": 1,
       "first_seen": "2026-09-25T01:31:08+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -550,34 +552,6 @@
       "source_count": 1
     },
     {
-      "id": "f4e37bbc89c4b88c",
-      "source": "A&C Inmobiliarios",
-      "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-ciudad-modelo-cali_4030",
-      "title": "Apartaestudio En Arriendo - Ciudad Modelo, Cali",
-      "description": "$680.000 Apartaestudio en Ciudad Modelo en Arriendo 4030 Cali , Ciudad Modelo ¡Bienvenido a la comodidad que buscas en Ciudad Modelo! Servicios incluidos y todo lo que necesitas a tu alcance Este acogedor apartaestudio de dos ambientes, en segundo piso, es el lugar perfecto para quienes valoran la tranquilidad y la funcionalidad en su vida diaria, ofrece un espacio íntimo donde puedes disfrutar de tu privacidad. Cocina equipada con estufa, baño y la habitación principal que brinda confort y descanso. Además, contar",
-      "property_type": "Apartaestudio",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 680000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-08-17T10:52:22+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-ciudad-modelo-cali_4030"
-        }
-      ],
-      "sources": [
-        "A&C Inmobiliarios"
-      ],
-      "source_count": 1
-    },
-    {
       "id": "2c46e8b06e66be5e",
       "source": "Yumblin",
       "url": "https://www.yumblin.com/co/clasificados/detalle/se-arriendo-aparta-estudio-cali-1198012",
@@ -597,7 +571,7 @@
       "links": [
         {
           "source": "A&C Inmobiliarios",
-          "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-belalcazar-cali_1710"
+          "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-ciudad-modelo-cali_4030"
         },
         {
           "source": "Yumblin",
@@ -613,6 +587,34 @@
         "Yumblin"
       ],
       "source_count": 2
+    },
+    {
+      "id": "2c46e8b06e66be5e",
+      "source": "A&C Inmobiliarios",
+      "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-belalcazar-cali_1710",
+      "title": "Se arriendo aparta estudio, Cali",
+      "description": "COP $ 700.000 Se arriendo aparta estudio, Cali Cali, Valle del Cauca, Colombia Apartamentos Arriendo 40 m² cubiertos straighten Incluyen:* • Un solo ambiente • Baño privado • Clóset • Terraza con zona de lavandería • Servicios incluidos: agua, energía, Internet parabólica gas y cocina integral cuenta con parqueadero para una moto Ubicación. 44 #5-9, COMUNA 4, Cali, Valle del Cauca Números de contacto *Requisitos:* • Carta laboral • Referencia personal • Copia de cédula ampliada Ver anuncio",
+      "property_type": "Apartamento",
+      "zone": "Cali (zona por confirmar)",
+      "macro_zone": "Otra zona de Cali",
+      "price": 700000,
+      "bedrooms": null,
+      "bathrooms": null,
+      "area_m2": 40,
+      "parking": null,
+      "first_seen": "2026-08-17T10:52:22+00:00",
+      "last_seen": "2026-09-25T07:49:19+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "A&C Inmobiliarios",
+          "url": "https://aycinmobiliarios.com/inmueble/apartaestudio-en-arriendo-belalcazar-cali_1710"
+        }
+      ],
+      "sources": [
+        "A&C Inmobiliarios"
+      ],
+      "source_count": 1
     },
     {
       "id": "90316d9b222faff2",
@@ -685,7 +687,7 @@
       "area_m2": 63,
       "parking": null,
       "first_seen": "2026-09-24T15:06:48+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -806,7 +808,7 @@
       "area_m2": 39,
       "parking": 1,
       "first_seen": "2026-09-25T07:49:19+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -923,7 +925,7 @@
       "area_m2": 83,
       "parking": 1,
       "first_seen": "2026-09-25T07:49:19+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -951,7 +953,7 @@
       "area_m2": 45,
       "parking": null,
       "first_seen": "2026-08-24T23:55:25+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -1007,7 +1009,7 @@
       "area_m2": 59,
       "parking": null,
       "first_seen": "2026-08-28T21:55:09+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -1160,7 +1162,7 @@
       "area_m2": 60,
       "parking": 2,
       "first_seen": "2026-09-25T07:49:19+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -1216,7 +1218,7 @@
       "area_m2": 60,
       "parking": null,
       "first_seen": "2026-09-20T22:26:42+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -1244,7 +1246,7 @@
       "area_m2": 70,
       "parking": 2,
       "first_seen": "2026-09-14T08:29:56+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -1272,7 +1274,7 @@
       "area_m2": 70,
       "parking": 2,
       "first_seen": "2026-09-25T07:49:19+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -1328,7 +1330,7 @@
       "area_m2": 54.2,
       "parking": 2,
       "first_seen": "2026-08-21T10:00:11+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -1449,7 +1451,7 @@
       "area_m2": 60,
       "parking": null,
       "first_seen": "2026-09-12T15:25:17+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -1482,7 +1484,7 @@
       "area_m2": 80,
       "parking": null,
       "first_seen": "2026-08-29T19:21:12+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -1510,7 +1512,7 @@
       "area_m2": 62,
       "parking": null,
       "first_seen": "2026-09-23T23:42:30+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -1566,7 +1568,7 @@
       "area_m2": 115,
       "parking": null,
       "first_seen": "2026-09-24T19:10:40+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -1594,7 +1596,7 @@
       "area_m2": 65,
       "parking": null,
       "first_seen": "2026-09-24T19:10:40+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -1650,7 +1652,7 @@
       "area_m2": 80,
       "parking": 3,
       "first_seen": "2026-09-24T10:01:47+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -1720,6 +1722,34 @@
       "source_count": 1
     },
     {
+      "id": "96bacfe710e0d4dc",
+      "source": "FincaRaíz",
+      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-cachipay-cali/194242391",
+      "title": "Destacado Black $ 2.800.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 70 m² Apartamento en arriendo en cachipay, cali Apartamento amoblado",
+      "description": "Destacado Black $ 2.800.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 70 m² Apartamento en arriendo en cachipay, cali Apartamento amoblado en alquiler – Unidad AZALEA , Cachipay Vive con comodidad, tranquilidad y todo lo que necesitas en un solo lugar. Te presentamos este espectacular apartamento totalmente amoblado, ubicado en el décimo piso de la primera torre de la Unidad Baikal, un conjunto residencial prácticamente nuevo, con excelentes espacios para disfrutar en familia y una ubicación estratégica.",
+      "property_type": "Apartamento",
+      "zone": "Cachipay / Kachipay",
+      "macro_zone": "Sur",
+      "price": 2800000,
+      "bedrooms": null,
+      "bathrooms": 2,
+      "area_m2": 70,
+      "parking": null,
+      "first_seen": "2026-09-15T01:29:40+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
+      "stale": false,
+      "links": [
+        {
+          "source": "FincaRaíz",
+          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-cachipay-cali/194242391"
+        }
+      ],
+      "sources": [
+        "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "469c06862a388acb",
       "source": "FincaRaíz",
       "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-pance-cali/194285638",
@@ -1734,7 +1764,7 @@
       "area_m2": 30,
       "parking": null,
       "first_seen": "2026-09-21T06:21:27+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -1790,7 +1820,7 @@
       "area_m2": 99,
       "parking": null,
       "first_seen": "2026-09-25T07:49:19+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -1818,7 +1848,7 @@
       "area_m2": 87,
       "parking": null,
       "first_seen": "2026-09-24T19:10:40+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -1874,7 +1904,7 @@
       "area_m2": 69,
       "parking": null,
       "first_seen": "2026-09-24T15:06:48+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -1902,7 +1932,7 @@
       "area_m2": 65,
       "parking": null,
       "first_seen": "2026-09-09T03:27:53+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -1930,7 +1960,7 @@
       "area_m2": 100,
       "parking": 2,
       "first_seen": "2026-09-16T09:57:18+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -1958,7 +1988,7 @@
       "area_m2": 130,
       "parking": null,
       "first_seen": "2026-09-23T16:59:42+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -1986,7 +2016,7 @@
       "area_m2": 150,
       "parking": null,
       "first_seen": "2026-09-24T19:10:40+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -2014,7 +2044,7 @@
       "area_m2": 76,
       "parking": 2,
       "first_seen": "2026-09-15T23:31:49+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -2042,7 +2072,7 @@
       "area_m2": 199.33,
       "parking": 3,
       "first_seen": "2026-09-02T08:28:44+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -2070,7 +2100,7 @@
       "area_m2": 199.33,
       "parking": 3,
       "first_seen": "2026-09-15T23:31:49+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -2098,7 +2128,7 @@
       "area_m2": 183.5,
       "parking": 3,
       "first_seen": "2026-09-16T09:57:18+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -2154,7 +2184,7 @@
       "area_m2": 158,
       "parking": 2,
       "first_seen": "2026-09-15T06:35:00+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -2182,7 +2212,7 @@
       "area_m2": 200,
       "parking": 4,
       "first_seen": "2026-09-17T06:08:49+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -2210,7 +2240,7 @@
       "area_m2": 233,
       "parking": 3,
       "first_seen": "2026-09-17T23:33:31+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -2238,7 +2268,7 @@
       "area_m2": 237.45,
       "parking": 4,
       "first_seen": "2026-09-16T09:57:18+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -2266,7 +2296,7 @@
       "area_m2": 500,
       "parking": 2,
       "first_seen": "2026-08-31T06:21:20+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -2294,7 +2324,7 @@
       "area_m2": 149.8,
       "parking": 5,
       "first_seen": "2026-09-15T23:31:49+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -2322,7 +2352,7 @@
       "area_m2": 245,
       "parking": 4,
       "first_seen": "2026-09-16T09:57:18+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -2350,7 +2380,7 @@
       "area_m2": 43,
       "parking": null,
       "first_seen": "2026-08-16T20:39:35+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -2378,7 +2408,7 @@
       "area_m2": 300,
       "parking": 3,
       "first_seen": "2026-09-16T09:57:18+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -2406,7 +2436,7 @@
       "area_m2": 228,
       "parking": 4,
       "first_seen": "2026-09-15T23:31:49+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -2416,34 +2446,6 @@
       ],
       "sources": [
         "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "779ff88b0a15ac1c",
-      "source": "FincaRaíz",
-      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-arboledas-cali/193467319",
-      "title": "$ 11.000.000 Apartamento en Cali, Valle del cauca 3 Habs. 4 Baños 250 m² Apartamento en arriendo en arboledas, cali APARTAMENTO EN ARRIENDO BARRIO ARB",
-      "description": "$ 11.000.000 Apartamento en Cali, Valle del cauca 3 Habs. 4 Baños 250 m² Apartamento en arriendo en arboledas, cali APARTAMENTO EN ARRIENDO BARRIO ARBOLEDAS ZONA OESTE DE CALI Bienvenidos a este amplio y acogedor apartamento ubicado en el exclusivo sector de Arboledas. Con una generosa área de 250 M2 construidos mas 50 M2 de terraza con una exuberante vista al oeste. Es un 1er piso dúplex con ambiente de ser un piso alto por la topografía de la edificación. Cuenta con 3 amplias alcobas, ppal con walking closet, bañ",
-      "property_type": "Apartamento",
-      "zone": "Arboledas",
-      "macro_zone": "Oeste",
-      "price": 11000000,
-      "bedrooms": null,
-      "bathrooms": 4,
-      "area_m2": 250,
-      "parking": 2,
-      "first_seen": "2026-09-21T06:21:27+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
-      "stale": false,
-      "links": [
-        {
-          "source": "FincaRaíz",
-          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-arboledas-cali/193467319"
-        }
-      ],
-      "sources": [
-        "FincaRaíz"
       ],
       "source_count": 1
     },
@@ -2462,7 +2464,7 @@
       "area_m2": 306,
       "parking": 5,
       "first_seen": "2026-09-16T09:57:18+00:00",
-      "last_seen": "2026-09-25T07:49:19+00:00",
+      "last_seen": "2026-09-25T13:48:01+00:00",
       "stale": false,
       "links": [
         {
@@ -2897,34 +2899,6 @@
       ],
       "sources": [
         "Yumblin"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "56a64b5aa42e8acf",
-      "source": "FincaRaíz",
-      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-la-independencia-cali/194162284",
-      "title": "Destacado Gold $ 700.000 Apartamento en Cali, Valle del cauca 2 Habs. 1 Baño 42 m² Apartamento en arriendo en la independencia, cali APARTAMENTO EN AL",
-      "description": "Destacado Gold $ 700.000 Apartamento en Cali, Valle del cauca 2 Habs. 1 Baño 42 m² Apartamento en arriendo en la independencia, cali APARTAMENTO EN ALQUILER BARRIO INDEPENDENCIA Tercer piso Características del inmueble: - 2 habitaciones - 1 baño - Sala - comedor - Cocina - Zona de oficios VALOR DE ALQUILER: $700.000 Contactar",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 700000,
-      "bedrooms": 2,
-      "bathrooms": 1,
-      "area_m2": 42,
-      "parking": null,
-      "first_seen": "2026-08-25T21:14:09+00:00",
-      "last_seen": "2026-09-11T13:28:25+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "FincaRaíz",
-          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-la-independencia-cali/194162284"
-        }
-      ],
-      "sources": [
-        "FincaRaíz"
       ],
       "source_count": 1
     },
@@ -11822,34 +11796,6 @@
       "source_count": 1
     },
     {
-      "id": "96bacfe710e0d4dc",
-      "source": "FincaRaíz",
-      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-cachipay-cali/194242391",
-      "title": "Destacado Black $ 2.800.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 70 m² Apartamento en arriendo en cachipay, cali Apartamento amoblado",
-      "description": "Destacado Black $ 2.800.000 Apartamento en Cali, Valle del cauca 2 Habs. 2 Baños 70 m² Apartamento en arriendo en cachipay, cali Apartamento amoblado en alquiler – Unidad AZALEA , Cachipay Vive con comodidad, tranquilidad y todo lo que necesitas en un solo lugar. Te presentamos este espectacular apartamento totalmente amoblado, ubicado en el décimo piso de la primera torre de la Unidad Baikal, un conjunto residencial prácticamente nuevo, con excelentes espacios para disfrutar en familia y una ubicación estratégica.",
-      "property_type": "Apartamento",
-      "zone": "Cachipay / Kachipay",
-      "macro_zone": "Sur",
-      "price": 2800000,
-      "bedrooms": null,
-      "bathrooms": 2,
-      "area_m2": 70,
-      "parking": null,
-      "first_seen": "2026-09-15T01:29:40+00:00",
-      "last_seen": "2026-09-25T01:31:08+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "FincaRaíz",
-          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-cachipay-cali/194242391"
-        }
-      ],
-      "sources": [
-        "FincaRaíz"
-      ],
-      "source_count": 1
-    },
-    {
       "id": "655e52c8674d073d",
       "source": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-conjunto-residencial-punta-del-este-cali-3880153",
@@ -12042,34 +11988,6 @@
       ],
       "sources": [
         "Ciencuadras"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "6ddd2d7c9c0edc50",
-      "source": "FincaRaíz",
-      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-pance-cali/194236817",
-      "title": "Esencial $ 2.950.000 Apartamento en Cali, Valle del cauca 1 Hab 1 Baño 60 m² Apartamento en arriendo en pance, cali Hermoso Apto AMOBLADO ; muy ilumin",
-      "description": "Esencial $ 2.950.000 Apartamento en Cali, Valle del cauca 1 Hab 1 Baño 60 m² Apartamento en arriendo en pance, cali Hermoso Apto AMOBLADO ; muy iluminado último piso . Cuenta con aire acondicionado , blackouts . Cerca de supermercados , universidades , restaurantes entre otros. Contactar",
-      "property_type": "Apartamento",
-      "zone": "Pance",
-      "macro_zone": "Sur",
-      "price": 2950000,
-      "bedrooms": 1,
-      "bathrooms": 1,
-      "area_m2": 60,
-      "parking": null,
-      "first_seen": "2026-09-10T20:25:45+00:00",
-      "last_seen": "2026-09-11T13:28:25+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "FincaRaíz",
-          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-pance-cali/194236817"
-        }
-      ],
-      "sources": [
-        "FincaRaíz"
       ],
       "source_count": 1
     },
@@ -13484,62 +13402,6 @@
       "source_count": 1
     },
     {
-      "id": "29b0619cbd1f8ac6",
-      "source": "FincaRaíz",
-      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-el-peñon-cali/194161986",
-      "title": "Apartamento en Arriendo en El peñon, Cali",
-      "description": "$ 5.800.000 Apartamento en Cali, Valle del cauca 2 Habs. 4 Baños 170 m² Apartamento en arriendo en el peñon, cali Apartamento Duplex en Alquiler El Peñón - Hermoso, acogedor y remodelado, este apto duplex de 170m2 se encuentra ubciado en una de las zonas más privilegiadas, seguras y tranquilas para vivir en el Oeste de la ciudad - Cuenta con sala comedor amplia, sala TV, hermosa cocina, cuarto y baño del servicio - En el nivel superior cuenta con 2 alcobas de muy buen tamaño con su baño privado y vestier - Edificio",
-      "property_type": "Apartamento",
-      "zone": "El Peñón",
-      "macro_zone": "Oeste",
-      "price": 5800000,
-      "bedrooms": 2,
-      "bathrooms": 4,
-      "area_m2": 170,
-      "parking": null,
-      "first_seen": "2026-08-25T21:14:09+00:00",
-      "last_seen": "2026-09-11T13:28:25+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "FincaRaíz",
-          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-el-peñon-cali/194161986"
-        }
-      ],
-      "sources": [
-        "FincaRaíz"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "e1b49dc0e678baf1",
-      "source": "FincaRaíz",
-      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-el-pe%C3%B1on-cali/194161986",
-      "title": "Remodelado $ 5.800.000 Apartamento en Cali, Valle del cauca 2 Habs. 4 Baños 170 m² Apartamento en arriendo en el peñon, cali Apartamento Duplex en Alq",
-      "description": "Remodelado $ 5.800.000 Apartamento en Cali, Valle del cauca 2 Habs. 4 Baños 170 m² Apartamento en arriendo en el peñon, cali Apartamento Duplex en Alquiler El Peñón - Hermoso, acogedor y remodelado, este apto duplex de 170m2 se encuentra ubciado en una de las zonas más privilegiadas, seguras y tranquilas para vivir en el Oeste de la ciudad - Cuenta con sala comedor amplia, sala TV, hermosa cocina, cuarto y baño del servicio - En el nivel superior cuenta con 2 alcobas de muy buen tamaño con su baño privado y vestier",
-      "property_type": "Apartamento",
-      "zone": "El Peñón",
-      "macro_zone": "Oeste",
-      "price": 5800000,
-      "bedrooms": 2,
-      "bathrooms": 4,
-      "area_m2": 170,
-      "parking": null,
-      "first_seen": "2026-08-25T21:14:09+00:00",
-      "last_seen": "2026-09-11T13:28:25+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "FincaRaíz",
-          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-el-pe%C3%B1on-cali/194161986"
-        }
-      ],
-      "sources": [
-        "FincaRaíz"
-      ],
-      "source_count": 1
-    },
-    {
       "id": "615b9899fdd16f95",
       "source": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-parcelaciones-pance-cali-3846825",
@@ -14464,6 +14326,34 @@
       "source_count": 1
     },
     {
+      "id": "779ff88b0a15ac1c",
+      "source": "FincaRaíz",
+      "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-arboledas-cali/193467319",
+      "title": "$ 11.000.000 Apartamento en Cali, Valle del cauca 3 Habs. 4 Baños 250 m² Apartamento en arriendo en arboledas, cali APARTAMENTO EN ARRIENDO BARRIO ARB",
+      "description": "$ 11.000.000 Apartamento en Cali, Valle del cauca 3 Habs. 4 Baños 250 m² Apartamento en arriendo en arboledas, cali APARTAMENTO EN ARRIENDO BARRIO ARBOLEDAS ZONA OESTE DE CALI Bienvenidos a este amplio y acogedor apartamento ubicado en el exclusivo sector de Arboledas. Con una generosa área de 250 M2 construidos mas 50 M2 de terraza con una exuberante vista al oeste. Es un 1er piso dúplex con ambiente de ser un piso alto por la topografía de la edificación. Cuenta con 3 amplias alcobas, ppal con walking closet, bañ",
+      "property_type": "Apartamento",
+      "zone": "Arboledas",
+      "macro_zone": "Oeste",
+      "price": 11000000,
+      "bedrooms": null,
+      "bathrooms": 4,
+      "area_m2": 250,
+      "parking": 2,
+      "first_seen": "2026-09-21T06:21:27+00:00",
+      "last_seen": "2026-09-25T07:49:19+00:00",
+      "stale": true,
+      "links": [
+        {
+          "source": "FincaRaíz",
+          "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-arboledas-cali/193467319"
+        }
+      ],
+      "sources": [
+        "FincaRaíz"
+      ],
+      "source_count": 1
+    },
+    {
       "id": "267bc839f1cea2a9",
       "source": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-arboledas-cali-3591122",
@@ -14628,34 +14518,6 @@
       ],
       "sources": [
         "FincaRaíz"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": "756d253311673c0f",
-      "source": "Ciencuadras",
-      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-br-normandia-cali-3863285",
-      "title": "Apartamento en arriendo en FF53+QG Cali, Valle del Cauca, Colombia, BR NORMANDÍA, Cali - Cód. 9273-76334",
-      "description": "Apartamento en arriendo en FF53+QG Cali, Valle del Cauca, Colombia, BR NORMANDÍA, Cali - Cód. 9273-76334",
-      "property_type": "Apartamento",
-      "zone": "Cali (zona por confirmar)",
-      "macro_zone": "Otra zona de Cali",
-      "price": 15150000,
-      "bedrooms": null,
-      "bathrooms": null,
-      "area_m2": null,
-      "parking": null,
-      "first_seen": "2026-09-10T06:33:48+00:00",
-      "last_seen": "2026-09-11T09:27:34+00:00",
-      "stale": true,
-      "links": [
-        {
-          "source": "Ciencuadras",
-          "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-br-normandia-cali-3863285"
-        }
-      ],
-      "sources": [
-        "Ciencuadras"
       ],
       "source_count": 1
     },
